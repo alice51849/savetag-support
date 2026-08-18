@@ -1,0 +1,68 @@
+{
+ "sk": {
+  "nav": "Podmienky používania",
+  "t": {
+   "title": "Podmienky používania SaveTag",
+   "eyebrow": "Podmienky",
+   "h1": "Podmienky používania",
+   "lead": "SaveTag je aplikácia s jednorazovou kúpou, ktorú robí jeden vývojár. Tieto podmienky hovoria, čo s aplikáciou smiete, ako funguje nákup a čo môžeme a nemôžeme sľúbiť. Zrozumiteľne a bez drobného písma.",
+   "upd": "Naposledy aktualizované",
+   "sec": [
+    ["Prijatie podmienok", "Stiahnutím alebo používaním SaveTag tieto podmienky prijímate. Ak s nimi nesúhlasíte, prestaňte aplikáciu používať a odstráňte ju. Zmluva je medzi vami a vývojárom SaveTag; Apple nie je jej stranou, hoci na stiahnutie a platbu sa vzťahujú vlastné podmienky App Store od Apple."],
+    ["Rozsah licencie", "Získavate osobnú, nevýhradnú licenciu na používanie SaveTag na zariadeniach Apple, ktoré vlastníte alebo spravujete, za rovnakých podmienok ako v Licenčnej zmluve Apple s koncovým používateľom licencovanej aplikácie, ktorú tieto podmienky dopĺňajú. Aplikáciu nesmiete ďalej predávať, prenajímať, poskytovať sublicencie ani šíriť, ani ju kopírovať, upravovať či spätne analyzovať nad rámec toho, čo zákon výslovne dovoľuje."],
+    ["Nákup a obnovenie", "SaveTag Pro je jednorazový, nespotrebovateľný nákup v aplikácii — nikdy nejde o predplatné a nič sa neúčtuje opakovane. Platí cena, ktorú zobrazuje App Store vo vašej krajine, a platbu spracúva Apple. Pro je súčasťou Rodinného zdieľania a dá sa bezplatne obnoviť na ktoromkoľvek zariadení prihlásenom k rovnakému účtu Apple. Vrátenie peňazí rieši Apple podľa svojich pravidiel; sami ho vyplatiť nevieme, ale napíšte, čo sa pokazilo, a pomôžeme, ako sa dá."],
+    ["Váš uložený obsah", "Vaše odkazy, poznámky, značky a nastavenia patria vám a zostávajú v úložisku zariadenia. Nemáme server, ktorý by mal kópiu, takže vám nič ani neobnovíme: vlastná záloha — export do Markdownu alebo šifrovaná záloha zariadenia — je vašou zodpovednosťou. Ukladajte len obsah, na ktorý máte právo, a rešpektujte podmienky stránok, z ktorých ukladáte."],
+    ["Aplikácia sa poskytuje tak, ako je", "SaveTag sa poskytuje tak, ako je, bez záruky, že bude bez chýb alebo vždy dostupný. Náhľady odkazov závisia od uložených webov a od vašej siete, preto niektoré stránky náhľad nevytvoria. V rozsahu, ktorý zákon dovoľuje, vývojár nezodpovedá za nepriamu ani následnú škodu vrátane straty údajov či času. Spotrebiteľské práva, ktorých sa nemožno vzdať, zostávajú zachované."],
+    ["Zmeny a ukončenie", "Aplikácia aj podmienky sa môžu s vývojom SaveTag meniť; platné znenie je vždy na tejto stránke pod dátumom vyššie. Pokračovanie v používaní po zmene znamená prijatie nového znenia. Zmluvu môžete kedykoľvek ukončiť odstránením SaveTag a závažné porušenie podmienok ukončí vašu licenciu. Odstránenie aplikácie samo osebe nie je vrátenie peňazí, to sa riadi pravidlami Apple."],
+    ["Rozhodné právo a kontakt", "Podmienky sa riadia právom Taiwanu a na spory sú príslušné súdy Taiwanu, čím nie je dotknutá ochrana spotrebiteľa vo vašej krajine. Otázky píšte v akomkoľvek jazyku na hourstag.app@gmail.com."]
+   ],
+   "cT": "Otázky k podmienkam?",
+   "cL": "Píšte v akomkoľvek jazyku. Vývojár SaveTag číta a odpovedá na každú správu sám a rád vysvetlí ktorúkoľvek časť tejto stránky bežnými slovami.",
+   "cB": "Napísať vývojárovi"
+  }
+ },
+ "hr": {
+  "nav": "Uvjeti korištenja",
+  "t": {
+   "title": "Uvjeti korištenja aplikacije SaveTag",
+   "eyebrow": "Uvjeti",
+   "h1": "Uvjeti korištenja",
+   "lead": "SaveTag je aplikacija s jednokratnom kupnjom koju radi jedan razvijatelj. Ovi uvjeti govore što smijete s aplikacijom, kako funkcionira kupnja i što možemo, a što ne možemo obećati. Jednostavnim jezikom, bez sitnih slova.",
+   "upd": "Zadnje ažuriranje",
+   "sec": [
+    ["Prihvaćanje uvjeta", "Preuzimanjem ili korištenjem aplikacije SaveTag prihvaćate ove uvjete. Ako se s njima ne slažete, prestanite je koristiti i izbrišite je. Ugovor je između vas i razvijatelja aplikacije SaveTag; Apple nije njegova strana, premda se na preuzimanje i plaćanje primjenjuju Appleovi uvjeti App Storea."],
+    ["Opseg licencije", "Dobivate osobnu, neisključivu licenciju za korištenje aplikacije SaveTag na Apple uređajima koje posjedujete ili kojima upravljate, pod istim uvjetima kao u Appleovu Ugovoru o licenciji s krajnjim korisnikom licencirane aplikacije, koji ovi uvjeti dopunjuju. Aplikaciju ne smijete preprodavati, iznajmljivati, dalje licencirati ni distribuirati, niti je kopirati, mijenjati ili obrnuto inženjerirati izvan onoga što zakon izričito dopušta."],
+    ["Kupnja i vraćanje kupnje", "SaveTag Pro jednokratna je, nepotrošna kupnja unutar aplikacije — nikada nije pretplata i nema ponavljajućih naplata. Vrijedi cijena koju App Store prikazuje u vašoj zemlji, a plaćanje obavlja Apple. Pro je uključen u Obiteljsko dijeljenje i može se besplatno vratiti na svakom uređaju prijavljenom na isti Apple račun. Povrate rješava Apple prema svojim pravilima; mi ih ne možemo izdati, ali javite što je pošlo po zlu i pomoći ćemo koliko možemo."],
+    ["Vaš spremljeni sadržaj", "Vaše poveznice, bilješke, oznake i postavke pripadaju vama i ostaju u pohrani na uređaju. Nemamo poslužitelj koji čuva kopiju, što znači i da vam ništa ne možemo vratiti: vlastita sigurnosna kopija — Markdown izvoz ili šifrirana kopija uređaja — vaša je odgovornost. Spremajte samo sadržaj koji smijete spremiti i poštujte uvjete stranica s kojih spremate."],
+    ["Aplikacija se pruža takva kakva jest", "SaveTag se pruža takav kakav jest, bez jamstva da će biti bez grešaka ili uvijek dostupan. Pregledi poveznica ovise o spremljenim stranicama i vašoj mreži pa neke stranice neće dati pregled. U mjeri u kojoj zakon dopušta, razvijatelj ne odgovara za neizravnu ili posljedičnu štetu, uključujući gubitak podataka ili vremena. Prava potrošača kojih se nije moguće odreći ostaju netaknuta."],
+    ["Izmjene i prestanak", "Aplikacija i uvjeti mogu se mijenjati kako se SaveTag razvija; važeća je verzija uvijek na ovoj stranici, ispod datuma gore. Nastavak korištenja nakon izmjene znači prihvaćanje nove verzije. Ugovor možete prekinuti u svakom trenutku brisanjem aplikacije, a teška povreda uvjeta prekida vašu licenciju. Brisanje aplikacije samo po sebi nije povrat novca — za to vrijede Appleova pravila."],
+    ["Mjerodavno pravo i kontakt", "Na ove se uvjete primjenjuje pravo Tajvana, a nadležni su sudovi Tajvana, bez utjecaja na zaštitu potrošača koju imate u zemlji u kojoj živite. Pitanja pišite na bilo kojem jeziku na hourstag.app@gmail.com."]
+   ],
+   "cT": "Pitanja o uvjetima?",
+   "cL": "Pišite na bilo kojem jeziku. Razvijatelj aplikacije SaveTag sam čita i odgovara na svaku poruku i rado će objasniti bilo koji dio ove stranice jednostavnim riječima.",
+   "cB": "Pošalji e-poštu razvijatelju"
+  }
+ },
+ "hu": {
+  "nav": "Felhasználási feltételek",
+  "t": {
+   "title": "A SaveTag felhasználási feltételei",
+   "eyebrow": "Feltételek",
+   "h1": "Felhasználási feltételek",
+   "lead": "A SaveTag egyszeri vásárlással megvehető alkalmazás, amelyet egyetlen fejlesztő készít. Ezek a feltételek elmondják, mit tehetsz az alkalmazással, hogyan működik a vásárlás, és mit tudunk, illetve mit nem tudunk ígérni. Közérthetően, apró betűk nélkül.",
+   "upd": "Utolsó frissítés",
+   "sec": [
+    ["A feltételek elfogadása", "A SaveTag letöltésével vagy használatával elfogadod ezeket a feltételeket. Ha nem értesz egyet, hagyd abba a használatot és töröld az alkalmazást. A megállapodás közted és a SaveTag fejlesztője között jön létre; az Apple nem szerződő fél, a letöltésre és a fizetésre azonban az Apple saját App Store-feltételei vonatkoznak."],
+    ["A licenc terjedelme", "Személyes, nem kizárólagos licencet kapsz arra, hogy a SaveTaget a birtokodban lévő vagy általad kezelt Apple-eszközökön használd, ugyanazokkal a feltételekkel, mint az Apple licencelt alkalmazásokra vonatkozó végfelhasználói licencszerződésében, amelyet ezek a feltételek egészítenek ki. Az alkalmazást nem adhatod tovább, nem adhatod bérbe, nem allicencelheted és nem terjesztheted, továbbá a törvény által kifejezetten megengedetten túl nem másolhatod, módosíthatod vagy fejtheted vissza."],
+    ["Vásárlás és visszaállítás", "A SaveTag Pro egyszeri, nem fogyó alkalmazáson belüli vásárlás — soha nem előfizetés, és nincs ismétlődő díj. Az az ár érvényes, amelyet az App Store az országodban mutat, a fizetést pedig az Apple bonyolítja. A Pro része a Családi megosztásnak, és ingyen visszaállítható minden olyan eszközön, amely ugyanazzal az Apple-fiókkal van bejelentkezve. A visszatérítést az Apple intézi a saját szabályzata szerint; mi nem tudunk visszatéríteni, de írd meg, mi történt, és segítünk, amiben tudunk."],
+    ["A mentett tartalmad", "A linkjeid, jegyzeteid, címkéid és beállításaid a tiéd, és az eszköz tárhelyén maradnak. Nincs olyan kiszolgálónk, amely másolatot őrizne, ezért nem is tudunk semmit visszaállítani helyetted: a saját biztonsági mentés — a Markdown-exportálás vagy egy titkosított eszközmentés — a te felelősséged. Csak olyan tartalmat ments, amelyre jogosult vagy, és tartsd tiszteletben a forrásoldalak feltételeit."],
+    ["Az alkalmazás adott állapotában érhető el", "A SaveTag adott állapotában érhető el, arra nincs szavatosság, hogy hibamentes vagy mindig elérhető lesz. A link-előnézetek a mentett oldalaktól és a hálózatodtól függenek, ezért egyes oldalakhoz nem készül előnézet. A törvény engedte mértékben a fejlesztő nem felel a közvetett vagy következményes károkért, ideértve az adatvesztést vagy az időveszteséget. Az el nem hárítható fogyasztói jogokat ez nem érinti."],
+    ["Változások és megszűnés", "Az alkalmazás és a feltételek a SaveTag fejlődésével változhatnak; a hatályos változat mindig ezen az oldalon, a fenti dátum alatt található. Ha a módosítás után is használod az alkalmazást, elfogadod a frissített feltételeket. A megállapodást bármikor megszüntetheted a SaveTag törlésével, a feltételek súlyos megsértése pedig megszünteti a licencedet. Az alkalmazás törlése önmagában nem visszatérítés — arra az Apple szabályzata vonatkozik."],
+    ["Irányadó jog és kapcsolat", "A feltételekre Tajvan joga irányadó, a jogviták Tajvan bíróságai elé tartoznak, ez azonban nem érinti a lakóhelyed szerinti fogyasztóvédelmi jogaidat. Kérdéseidet bármilyen nyelven várjuk a hourstag.app@gmail.com címen."]
+   ],
+   "cT": "Kérdésed van a feltételekről?",
+   "cL": "Írj bármilyen nyelven. A SaveTag fejlesztője minden üzenetet maga olvas el és válaszol meg, és szívesen elmagyarázza az oldal bármely pontját egyszerű szavakkal.",
+   "cB": "Írás a fejlesztőnek"
+  }
+ }
+}

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Build the SaveTag support site.
 
-Merges src/locales/*.json into two fully self-contained pages:
+Merges src/locales/*.json and src/terms/*.json into three fully
+self-contained pages:
   index.html   -> support + FAQ
   privacy.html -> privacy policy
+  terms.html   -> terms of use
 
 Each page carries inline CSS, inline JS and only the locale strings that page
 needs. No external requests of any kind are emitted.
@@ -34,11 +36,14 @@ LOCALES = [
 PENDING = []
 RTL = {"ar-SA", "he", "ur-PK"}
 SITE = "https://alice51849.github.io/savetag-support/"
-UPDATED = "2026-08-18"
+UPDATED = "2026-08-19"
 SHARED = ("n", "l", "tag", "nav", "lang", "foot")
 FAQ_COUNT = 9
 SEC_COUNT = 9
 CHIP_COUNT = 6
+TERMS_COUNT = 7
+# page key -> output file. "s" support, "p" privacy, "t" terms of use.
+PAGES = (("s", "index.html"), ("p", "privacy.html"), ("t", "terms.html"))
 
 
 def expand(entry):
@@ -47,7 +52,33 @@ def expand(entry):
     entry["s"]["meta"] = summary
     entry["p"]["meta"] = summary
     entry["p"]["lead"] = summary
+    # the terms page describes itself, so its meta is its own lead
+    entry["t"]["meta"] = entry["t"]["lead"]
     return entry
+
+
+def load_terms(data):
+    """Fold src/terms/*.json in: the third nav label and the "t" page block.
+
+    Terms live in their own files so the support and privacy wording never has
+    to be touched to add a legal page, but they merge into the same locale row
+    the renderer already ships.
+    """
+    seen = set()
+    for f in sorted((SRC / "terms").glob("part-*.json")):
+        chunk = json.loads(f.read_text(encoding="utf-8"))
+        for code, value in chunk.items():
+            if code in seen:
+                sys.exit(f"duplicate terms locale {code} in {f.name}")
+            seen.add(code)
+            if code not in data:
+                sys.exit(f"terms for unknown locale {code} in {f.name}")
+            data[code]["t"] = value["t"]
+            data[code]["nav"] = list(data[code]["nav"]) + [value["nav"]]
+    absent = [c for c in LOCALES if c not in seen]
+    if absent:
+        sys.exit(f"missing terms locales: {', '.join(absent)}")
+    return data
 
 
 def load_locales():
@@ -57,7 +88,10 @@ def load_locales():
         for code, value in chunk.items():
             if code in data:
                 sys.exit(f"duplicate locale {code} in {f.name}")
-            data[code] = expand(value)
+            data[code] = value
+    load_terms(data)
+    for code in list(data):
+        expand(data[code])
     missing = [c for c in LOCALES if c not in data]
     extra = [c for c in data if c not in LOCALES]
     if missing:
@@ -97,7 +131,10 @@ def fallback(entry, page):
         parts.append("</div>")
     else:
         extra = f'<p class="updated">{esc(block["upd"])} {UPDATED}</p>'
-        parts = [f'<section class="card vow"><strong>{esc(block["vow"])}</strong></section>']
+        parts = []
+        if block.get("vow"):
+            parts.append(
+                f'<section class="card vow"><strong>{esc(block["vow"])}</strong></section>')
         for head, text in block["sec"]:
             parts.append(f'<section class="card policy"><h3>{esc(head)}</h3>'
                          f'<p>{esc(text)}</p></section>')
@@ -118,7 +155,7 @@ def build():
     tpl = (SRC / "page.tpl.html").read_text(encoding="utf-8")
     base = data["en-US"]
 
-    for page, filename in (("s", "index.html"), ("p", "privacy.html")):
+    for page, filename in PAGES:
         block = base[page]
         extra, body = fallback(base, page)
         payload = json.dumps(slim(data, page), ensure_ascii=False,

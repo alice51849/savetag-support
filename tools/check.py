@@ -2,18 +2,22 @@
 """Validate the SaveTag support site. Prints PASS or exits non-zero.
 
 Checks:
- 1. every one of the 50 shipped locales has complete support + privacy content,
-    with the same number of chips, FAQ entries and policy sections as English,
+ 1. every one of the 50 shipped locales has complete support, privacy and terms
+    content, with the same number of chips, FAQ entries, policy sections and
+    terms sections as English,
  2. every FAQ / policy entry is a non-empty [heading, body] pair, and no locale
     other than the English variants is a copy of the English text,
- 3. both built pages embed every shipped locale in the switcher payload,
+ 3. all three built pages embed every shipped locale in the switcher payload,
  4. the only public contact address anywhere in the repo is
     hourstag.app@gmail.com (the private mail domains are banned outright),
  5. the website itself references no external host and no tracker,
  6. the honesty contract: the site claims only what the app does — on-device
     NaturalLanguage tagging (never cloud or generative AI), a 5-save free tier,
     a one-time purchase that is never a subscription, on-device link-preview
-    fetching disclosed rather than denied.
+    fetching disclosed rather than denied,
+ 7. the terms of use hold the same promise in every language: each locale states
+    in its own words that Pro is not a subscription, and no locale quotes a
+    price, so the page can never contradict what the App Store charges.
 """
 import json
 import pathlib
@@ -27,6 +31,7 @@ from build import (  # noqa: E402
     LOCALES,
     SEC_COUNT,
     SHARED,
+    TERMS_COUNT,
     load_locales,
 )
 
@@ -35,8 +40,40 @@ APP_ROOT = ROOT.parent / "48_SaveTag"
 MAIL = "hourstag.app@gmail.com"
 # built from parts so this file never contains the banned literal itself
 BANNED = ("@" + "hotmail.com", "@" + "outlook.com")
-PAGES = ("index.html", "privacy.html")
+PAGES = ("index.html", "privacy.html", "terms.html")
 ENGLISH = {"en-US", "en-GB", "en-AU", "en-CA"}
+# The purchase section of the terms must deny a subscription in the locale's own
+# words: (the word for "subscription", the negation that has to sit beside it).
+# Written out per locale so a translation can never quietly drop the denial.
+NOSUB = {
+    "en-US": ("subscription", "never"), "en-GB": ("subscription", "never"),
+    "en-AU": ("subscription", "never"), "en-CA": ("subscription", "never"),
+    "zh-Hant": ("訂閱", "絕不是"), "zh-Hans": ("订阅", "绝不是"),
+    "ja": ("サブスクリプション", "ではありません"), "ko": ("구독", "아니"),
+    "de-DE": ("Abonnement", "kein"), "fr-FR": ("abonnement", "jamais"),
+    "fr-CA": ("abonnement", "jamais"), "es-ES": ("suscripción", "nunca"),
+    "es-MX": ("suscripción", "nunca"), "it": ("abbonamento", "non è mai"),
+    "pt-BR": ("assinatura", "nunca"), "pt-PT": ("subscrição", "nunca"),
+    "nl-NL": ("abonnement", "nooit"), "sv": ("prenumeration", "aldrig"),
+    "da": ("abonnement", "aldrig"), "fi": ("tilaus", "ei ole koskaan"),
+    "no": ("abonnement", "aldri"), "ru": ("подписка", "никогда"),
+    "pl": ("subskrypcja", "nigdy"), "tr": ("abonelik", "asla"),
+    "cs": ("předplatné", "nikdy"), "sk": ("predplatné", "nikdy"),
+    "hr": ("pretplata", "nikada"), "hu": ("előfizetés", "soha"),
+    "ro": ("abonament", "niciodată"), "uk": ("підписка", "ніколи"),
+    "el": ("συνδρομή", "ποτέ"), "ca": ("subscripció", "mai"),
+    "sl-SI": ("naročnin", "nikoli"), "ar-SA": ("اشتراك", "ليست"),
+    "he": ("מנוי", "לעולם לא"), "hi": ("सदस्यता", "कभी"),
+    "th": ("สมัครสมาชิก", "ไม่ใช่"), "vi": ("đăng ký", "không bao giờ"),
+    "id": ("langganan", "tidak pernah"), "ms": ("langganan", "bukan"),
+    "ur-PK": ("سبسکرپشن", "کبھی"), "bn-BD": ("সাবস্ক্রিপশন", "কখনও"),
+    "gu-IN": ("સબ્સ્ક્રિપ્શન", "ક્યારેય"), "kn-IN": ("ಚಂದಾದಾರಿಕೆ", "ಎಂದಿಗೂ"),
+    "ml-IN": ("സബ്‌സ്‌ക്രിപ്ഷൻ", "ഒരിക്കലും"), "mr-IN": ("सदस्यता", "कधीही"),
+    "or-IN": ("ସବସ୍କ୍ରିପସନ", "କେବେ ବି"), "pa-IN": ("ਸਬਸਕ੍ਰਿਪਸ਼ਨ", "ਕਦੇ ਵੀ"),
+    "ta-IN": ("சந்தா", "ஒருபோதும்"), "te-IN": ("సబ్‌స్క్రిప్షన్", "ఎప్పుడూ"),
+}
+# A price belongs to the App Store, never to this page.
+MONEY = ("$", "€", "£", "¥", "₩", "₹", "₺", "₫", "₪", "฿", "NT")
 FAIL = []
 
 
@@ -52,22 +89,28 @@ def check_content():
         for key in SHARED:
             if not t.get(key):
                 bad(f"{code}: missing shared key {key}")
-        if len(t.get("nav", [])) != 2:
-            bad(f"{code}: nav must hold two labels")
-        s, p = t.get("s", {}), t.get("p", {})
+        if len(t.get("nav", [])) != 3:
+            bad(f"{code}: nav must hold three labels")
+        s, p, u = t.get("s", {}), t.get("p", {}), t.get("t", {})
         for key in ("title", "meta", "eyebrow", "h1", "lead", "faqT", "cT", "cL", "cB"):
             if not s.get(key):
                 bad(f"{code}: support block missing {key}")
         for key in ("title", "meta", "eyebrow", "h1", "lead", "upd", "vow", "cT", "cL", "cB"):
             if not p.get(key):
                 bad(f"{code}: privacy block missing {key}")
+        for key in ("title", "meta", "eyebrow", "h1", "lead", "upd", "cT", "cL", "cB"):
+            if not u.get(key):
+                bad(f"{code}: terms block missing {key}")
         if len(s.get("chips", [])) != CHIP_COUNT:
             bad(f"{code}: needs exactly {CHIP_COUNT} chips")
         if len(s.get("faq", [])) != FAQ_COUNT:
             bad(f"{code}: needs exactly {FAQ_COUNT} FAQ entries")
         if len(p.get("sec", [])) != SEC_COUNT:
             bad(f"{code}: needs exactly {SEC_COUNT} policy sections")
-        for label, rows in (("faq", s.get("faq", [])), ("sec", p.get("sec", []))):
+        if len(u.get("sec", [])) != TERMS_COUNT:
+            bad(f"{code}: needs exactly {TERMS_COUNT} terms sections")
+        for label, rows in (("faq", s.get("faq", [])), ("sec", p.get("sec", [])),
+                            ("terms", u.get("sec", []))):
             for i, row in enumerate(rows, 1):
                 if len(row) != 2 or not row[0].strip() or not row[1].strip():
                     bad(f"{code}: {label} entry {i} is not a filled pair")
@@ -78,10 +121,32 @@ def check_content():
                 bad(f"{code}: privacy promise is copied from English")
             if s.get("faq", [["", ""]])[0][1] == en["s"]["faq"][0][1]:
                 bad(f"{code}: first FAQ answer is copied from English")
+            if u.get("sec", [["", ""]])[0][1] == en["t"]["sec"][0][1]:
+                bad(f"{code}: first terms section is copied from English")
         # the free tier and the purchase model must be stated in every locale
         pro = " ".join(a for _, a in s.get("faq", []))
         if "5" not in pro:
             bad(f"{code}: the free tier of 5 saves is not stated")
+        check_terms_promise(code, u)
+
+
+def check_terms_promise(code, block):
+    """Terms must deny a subscription in this language, and quote no price."""
+    rows = block.get("sec", [])
+    body = " ".join(head + " " + text for head, text in rows)
+    word, negation = NOSUB[code]
+    hit = body.lower().find(word.lower())
+    if hit < 0:
+        bad(f"{code}: terms never mention the purchase model ({word})")
+    else:
+        window = body.lower()[max(0, hit - 70):hit + len(word) + 70]
+        if negation.lower() not in window:
+            bad(f"{code}: terms must state that Pro is not a subscription")
+    money = " ".join([body, block.get("lead", ""), block.get("title", "")])
+    if any(sym in money for sym in MONEY) or re.search(r"\d", body):
+        bad(f"{code}: terms quote a price or a figure — the App Store owns that")
+    if MAIL not in body:
+        bad(f"{code}: terms do not give the contact address")
 
 
 def check_pages():
@@ -140,6 +205,8 @@ def check_honesty():
         "share sheet", "clipboard", "naturallanguage", "on your device",
         "one-time purchase", "family sharing", "markdown", "restore purchase",
         "no account", "latest 5 saves", "rediscover", "widget", "siri",
+        # terms anchors: the licence, the refund route and the forum for disputes
+        "non-consumable", "taiwan", "apple's policy", "as it is",
     ]
     for phrase in must:
         if phrase not in joined:
@@ -151,6 +218,7 @@ def check_honesty():
         "military-grade", "encrypted cloud", "guaranteed",
         "no. 1", "best app", "no network requests", "never connects",
         "nothing ever leaves your device",
+        "lifetime", "forever", "own it for life", "we will refund",
     ]
     for phrase in forbidden:
         if phrase in joined:

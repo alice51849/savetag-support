@@ -1,0 +1,68 @@
+{
+ "ms": {
+  "nav": "Terma Penggunaan",
+  "t": {
+   "title": "Terma Penggunaan SaveTag",
+   "eyebrow": "Terma",
+   "h1": "Terma Penggunaan",
+   "lead": "SaveTag ialah aplikasi belian sekali sahaja yang dibina oleh seorang pembangun. Terma ini menerangkan apa yang boleh anda lakukan dengan aplikasi ini, bagaimana pembelian berfungsi, serta apa yang boleh dan tidak boleh kami janjikan. Bahasa mudah, tiada cetakan halus.",
+   "upd": "Kemas kini terakhir",
+   "sec": [
+    ["Menerima terma ini", "Dengan memuat turun atau menggunakan SaveTag, anda bersetuju dengan terma ini. Jika tidak bersetuju, sila berhenti menggunakannya dan padamkan aplikasi. Perjanjian ini adalah antara anda dan pembangun SaveTag; Apple bukan pihak kepadanya, walaupun terma App Store Apple terpakai bagi muat turun dan pembayaran anda."],
+    ["Skop lesen", "Anda menerima lesen peribadi dan bukan eksklusif untuk menggunakan SaveTag pada peranti Apple yang anda miliki atau kawal, atas syarat yang sama seperti Perjanjian Lesen Pengguna Akhir Aplikasi Berlesen Apple, yang dilengkapkan oleh terma ini. Anda tidak boleh menjual semula, menyewakan, memberi sublesen atau mengedarkan aplikasi ini, dan tidak boleh menyalin, mengubah suai atau melakukan kejuruteraan balikan melebihi apa yang dibenarkan undang-undang secara nyata."],
+    ["Pembelian dan pemulihan", "SaveTag Pro ialah pembelian dalam aplikasi sekali sahaja dan tidak boleh habis digunakan — ia bukan langganan dan tiada caj berulang. Harga yang terpakai ialah harga yang dipaparkan App Store di negara anda, dan Apple yang menguruskan pembayaran. Pro termasuk dalam Perkongsian Keluarga dan boleh dipulihkan tanpa kos pada mana-mana peranti yang log masuk dengan Akaun Apple yang sama. Bayaran balik diuruskan oleh Apple mengikut dasarnya; kami tidak boleh mengeluarkannya sendiri, tetapi beritahu kami apa yang berlaku dan kami akan bantu sedaya upaya."],
+    ["Kandungan yang anda simpan", "Pautan, nota, tag dan tetapan anda adalah milik anda dan kekal dalam storan peranti. Kami tiada pelayan yang menyimpan salinannya, jadi kami juga tidak dapat memulihkan apa-apa untuk anda: menyimpan sandaran sendiri — eksport Markdown atau sandaran peranti yang disulitkan — ialah tanggungjawab anda. Simpan hanya kandungan yang anda berhak simpan, dan hormati terma laman yang anda simpan daripadanya."],
+    ["Aplikasi diberikan sebagaimana adanya", "SaveTag diberikan sebagaimana adanya, tanpa jaminan bebas kecacatan atau sentiasa tersedia. Pratonton pautan bergantung pada laman yang anda simpan dan pada rangkaian anda, jadi sesetengah halaman tidak akan menghasilkan pratonton. Setakat yang dibenarkan undang-undang, pembangun tidak bertanggungjawab atas kerugian tidak langsung atau berbangkit, termasuk kehilangan data atau masa. Hak pengguna yang tidak boleh dilepaskan kekal terpelihara."],
+    ["Perubahan dan penamatan", "Aplikasi dan terma ini boleh berubah apabila SaveTag berkembang; versi berkuat kuasa sentiasa berada di halaman ini, di bawah tarikh di atas. Terus menggunakan aplikasi selepas perubahan bermakna anda menerima terma yang dikemas kini. Anda boleh menamatkan perjanjian ini pada bila-bila masa dengan memadam SaveTag, dan pelanggaran serius menamatkan lesen anda. Memadam aplikasi bukan bermakna bayaran balik, kerana itu mengikut dasar Apple."],
+    ["Undang-undang terpakai dan hubungan", "Terma ini tertakluk kepada undang-undang Taiwan dan mahkamah Taiwan mempunyai bidang kuasa, tanpa menghilangkan perlindungan pengguna di tempat anda tinggal. Sebarang soalan dialu-alukan dalam apa jua bahasa di hourstag.app@gmail.com."]
+   ],
+   "cT": "Ada soalan tentang terma ini?",
+   "cL": "Tulis dalam apa jua bahasa. Pembangun SaveTag membaca dan membalas setiap mesej sendiri, dan sedia menerangkan mana-mana bahagian halaman ini dengan perkataan mudah.",
+   "cB": "E-mel pembangun"
+  }
+ },
+ "ur-PK": {
+  "nav": "شرائطِ استعمال",
+  "t": {
+   "title": "SaveTag کی شرائطِ استعمال",
+   "eyebrow": "شرائط",
+   "h1": "شرائطِ استعمال",
+   "lead": "‏SaveTag ایک بار کی خریداری والی ایپ ہے جسے ایک ہی ڈویلپر بناتا ہے۔ یہ شرائط بتاتی ہیں کہ آپ ایپ کے ساتھ کیا کر سکتے ہیں، خریداری کیسے کام کرتی ہے، اور ہم کیا وعدہ کر سکتے ہیں اور کیا نہیں۔ سادہ زبان میں، بغیر کسی چھپی شرط کے۔",
+   "upd": "آخری تازہ کاری",
+   "sec": [
+    ["شرائط کی قبولیت", "‏SaveTag ڈاؤن لوڈ یا استعمال کرنے سے آپ ان شرائط سے اتفاق کرتے ہیں۔ اگر اتفاق نہ ہو تو ایپ استعمال کرنا بند کر دیں اور اسے حذف کر دیں۔ یہ معاہدہ آپ کے اور SaveTag کے ڈویلپر کے درمیان ہے؛ Apple اس کی فریق نہیں، البتہ آپ کے ڈاؤن لوڈ اور ادائیگی پر Apple کی اپنی App Store شرائط لاگو ہوتی ہیں۔"],
+    ["لائسنس کا دائرہ", "آپ کو اپنی ملکیت یا اپنے زیرِ انتظام Apple آلات پر SaveTag استعمال کرنے کا ذاتی اور غیر خصوصی لائسنس ملتا ہے، انہی شرائط پر جو Apple کے لائسنس یافتہ ایپلیکیشن اینڈ یوزر لائسنس معاہدے میں ہیں، اور یہ شرائط اسی کی تکمیل کرتی ہیں۔ ایپ کو دوبارہ فروخت کرنا، کرائے پر دینا، ذیلی لائسنس دینا یا تقسیم کرنا منع ہے، اور قانون جتنی صراحت سے اجازت دے اس سے آگے اس کی نقل، تبدیلی یا ریورس انجینئرنگ بھی منع ہے۔"],
+    ["خریداری اور بحالی", "‏SaveTag Pro ایپ کے اندر ایک بار کی، غیر صرف ہونے والی خریداری ہے — یہ کبھی سبسکرپشن نہیں اور کوئی بار بار کی وصولی نہیں ہوتی۔ لاگو قیمت وہی ہے جو آپ کے ملک کے App Store میں دکھائی دیتی ہے، اور ادائیگی Apple سنبھالتا ہے۔ ‏Pro فیملی شیئرنگ میں شامل ہے اور اسی Apple اکاؤنٹ سے سائن اِن کسی بھی آلے پر مفت بحال کیا جا سکتا ہے۔ رقم کی واپسی Apple اپنی پالیسی کے مطابق کرتا ہے؛ ہم خود واپسی نہیں کر سکتے، مگر ہمیں لکھیں کہ کیا مسئلہ ہوا اور ہم حتی الوسع مدد کریں گے۔"],
+    ["آپ کا محفوظ کردہ مواد", "آپ کے لنکس، نوٹس، ٹیگز اور ترتیبات آپ کی ملکیت ہیں اور آلے ہی کے اسٹوریج میں رہتے ہیں۔ ہمارے پاس کوئی سرور نہیں جو ان کی نقل رکھے، یعنی ہم آپ کے لیے کچھ بحال بھی نہیں کر سکتے: اپنا بیک اپ رکھنا — Markdown برآمد یا آلے کا مرموز بیک اپ — آپ کی ذمہ داری ہے۔ صرف وہی مواد محفوظ کریں جس کا آپ کو حق ہے، اور جن سائٹس سے محفوظ کرتے ہیں ان کی شرائط کا احترام کریں۔"],
+    ["ایپ جوں کی توں فراہم کی جاتی ہے", "‏SaveTag جوں کی توں فراہم کی جاتی ہے، اس ضمانت کے بغیر کہ وہ نقائص سے پاک یا ہمیشہ دستیاب ہوگی۔ لنک کے پیش منظر ان سائٹس اور آپ کے نیٹ ورک پر منحصر ہیں، اس لیے کچھ صفحات کا پیش منظر نہیں بنے گا۔ قانون کی اجازت کی حد تک ڈویلپر بالواسطہ یا ضمنی نقصان کا ذمہ دار نہیں، بشمول ڈیٹا یا وقت کا ضیاع۔ صارف کے وہ حقوق جو چھوڑے نہیں جا سکتے، برقرار رہتے ہیں۔"],
+    ["تبدیلیاں اور اختتام", "‏SaveTag کی ترقی کے ساتھ ایپ اور یہ شرائط بدل سکتی ہیں؛ نافذ نسخہ ہمیشہ اسی صفحے پر، اوپر دی گئی تاریخ کے نیچے رہتا ہے۔ تبدیلی کے بعد استعمال جاری رکھنا اپ ڈیٹ شدہ شرائط کی قبولیت ہے۔ آپ SaveTag حذف کر کے جب چاہیں یہ معاہدہ ختم کر سکتے ہیں، اور شرائط کی سنگین خلاف ورزی آپ کا لائسنس ختم کر دیتی ہے۔ ایپ حذف کرنا بذاتِ خود رقم کی واپسی نہیں، اس کے لیے Apple کی پالیسی لاگو ہے۔"],
+    ["نافذ قانون اور رابطہ", "یہ شرائط تائیوان کے قانون کے تابع ہیں اور تنازعات کے لیے تائیوان کی عدالتیں مجاز ہیں، اس سے آپ کے ملک کے صارف تحفظات کم نہیں ہوتے۔ شرائط سے متعلق سوالات کسی بھی زبان میں hourstag.app@gmail.com پر بھیجیں۔"]
+   ],
+   "cT": "شرائط کے بارے میں سوال؟",
+   "cL": "کسی بھی زبان میں لکھیں۔ SaveTag کا ڈویلپر ہر پیغام خود پڑھتا اور جواب دیتا ہے، اور اس صفحے کی کوئی بھی بات سادہ الفاظ میں سمجھا دے گا۔",
+   "cB": "ڈویلپر کو ای میل کریں"
+  }
+ },
+ "bn-BD": {
+  "nav": "ব্যবহারের শর্তাবলি",
+  "t": {
+   "title": "SaveTag-এর ব্যবহারের শর্তাবলি",
+   "eyebrow": "শর্তাবলি",
+   "h1": "ব্যবহারের শর্তাবলি",
+   "lead": "SaveTag একবার কিনে নেওয়ার অ্যাপ, যা একজন ডেভেলপার বানান। এই শর্তাবলি বলে দেয় অ্যাপটি দিয়ে আপনি কী করতে পারেন, কেনাকাটা কীভাবে কাজ করে, আর আমরা কী কথা দিতে পারি আর কী পারি না। সহজ ভাষায়, কোনো ছোট হরফের ফাঁদ ছাড়াই।",
+   "upd": "সর্বশেষ হালনাগাদ",
+   "sec": [
+    ["শর্ত মেনে নেওয়া", "SaveTag ডাউনলোড বা ব্যবহার করলেই আপনি এই শর্তাবলিতে সম্মত হচ্ছেন। সম্মত না হলে অ্যাপটি ব্যবহার বন্ধ করে মুছে ফেলুন। এই চুক্তি আপনার আর SaveTag-এর ডেভেলপারের মধ্যে; Apple এর পক্ষ নয়, তবে ডাউনলোড ও পরিশোধের ক্ষেত্রে Apple-এর নিজস্ব App Store শর্ত প্রযোজ্য।"],
+    ["লাইসেন্সের পরিধি", "আপনার মালিকানাধীন বা নিয়ন্ত্রণাধীন Apple ডিভাইসে SaveTag ব্যবহারের জন্য আপনি একটি ব্যক্তিগত, অ-একচেটিয়া লাইসেন্স পান, ঠিক সেই শর্তে যা Apple-এর লাইসেন্সপ্রাপ্ত অ্যাপ্লিকেশন এন্ড ইউজার লাইসেন্স চুক্তিতে আছে এবং এই শর্তাবলি তারই পরিপূরক। অ্যাপটি পুনর্বিক্রয়, ভাড়া, উপ-লাইসেন্স বা বিতরণ করা যাবে না, আর আইন যতটুকু স্পষ্টভাবে অনুমতি দেয় তার বাইরে অনুলিপি, পরিবর্তন বা রিভার্স ইঞ্জিনিয়ারিংও করা যাবে না।"],
+    ["কেনা ও পুনরুদ্ধার", "SaveTag Pro অ্যাপের ভেতরে একবারের, অ-ভোগযোগ্য কেনাকাটা — এটি কখনও সাবস্ক্রিপশন নয় এবং কোনো বারবার চার্জ নেই। আপনার দেশের App Store-এ যে দাম দেখায় সেটিই প্রযোজ্য, আর পরিশোধ সামলায় Apple। Pro ফ্যামিলি শেয়ারিংয়ে অন্তর্ভুক্ত এবং একই Apple অ্যাকাউন্টে সাইন ইন করা যেকোনো ডিভাইসে বিনামূল্যে পুনরুদ্ধার করা যায়। অর্থ ফেরত Apple তার নীতিমালা অনুযায়ী দেয়; আমরা নিজে ফেরত দিতে পারি না, তবে কী সমস্যা হয়েছে লিখে জানান, যতটা পারি সাহায্য করব।"],
+    ["আপনার সংরক্ষিত কনটেন্ট", "আপনার লিংক, নোট, ট্যাগ ও সেটিংস আপনারই এবং ডিভাইসের ভেতরের স্টোরেজেই থাকে। কোনো সার্ভারে আমাদের কাছে এর অনুলিপি নেই, তাই আমরা আপনার হয়ে কিছু ফিরিয়েও আনতে পারি না: নিজের ব্যাকআপ রাখা — Markdown এক্সপোর্ট বা ডিভাইসের এনক্রিপ্টেড ব্যাকআপ — আপনার দায়িত্ব। কেবল সেই কনটেন্টই সংরক্ষণ করুন যা সংরক্ষণের অধিকার আপনার আছে, আর যে সাইট থেকে সংরক্ষণ করছেন তার শর্তকে সম্মান করুন।"],
+    ["অ্যাপটি যেমন আছে তেমনই দেওয়া হয়", "SaveTag যেমন আছে তেমনই দেওয়া হয়, ত্রুটিহীন বা সব সময় সচল থাকার নিশ্চয়তা ছাড়াই। লিংক প্রিভিউ নির্ভর করে সংরক্ষিত সাইট ও আপনার নেটওয়ার্কের ওপর, তাই কিছু পাতার প্রিভিউ তৈরি হবে না। আইন যতটা অনুমতি দেয়, ডেভেলপার পরোক্ষ বা আনুষঙ্গিক ক্ষতির জন্য দায়ী নন, ডেটা বা সময়ের ক্ষতিসহ। যেসব ভোক্তা-অধিকার ত্যাগ করা যায় না, সেগুলো অক্ষুণ্ন থাকে।"],
+    ["পরিবর্তন ও সমাপ্তি", "SaveTag যত এগোবে, অ্যাপ ও এই শর্তাবলি বদলাতে পারে; কার্যকর সংস্করণ সব সময় এই পাতাতেই, ওপরের তারিখের নিচে থাকে। পরিবর্তনের পরও ব্যবহার চালিয়ে যাওয়ার অর্থ হালনাগাদ শর্ত মেনে নেওয়া। SaveTag মুছে ফেলে আপনি যেকোনো সময় এই চুক্তি শেষ করতে পারেন, আর শর্তের গুরুতর লঙ্ঘনে আপনার লাইসেন্স শেষ হয়ে যায়। অ্যাপ মুছে ফেলা নিজে থেকেই অর্থ ফেরত নয় — সেটি Apple-এর নীতিমালা মেনেই হয়।"],
+    ["প্রযোজ্য আইন ও যোগাযোগ", "এই শর্তাবলি তাইওয়ানের আইন দ্বারা পরিচালিত এবং বিরোধ নিষ্পত্তিতে তাইওয়ানের আদালত এখতিয়ারভুক্ত, এতে আপনার বসবাসের দেশে ভোক্তা সুরক্ষা কমে না। শর্ত নিয়ে প্রশ্ন যেকোনো ভাষায় hourstag.app@gmail.com ঠিকানায় পাঠান।"]
+   ],
+   "cT": "শর্তাবলি নিয়ে প্রশ্ন?",
+   "cL": "যেকোনো ভাষায় লিখুন। SaveTag-এর ডেভেলপার প্রতিটি বার্তা নিজে পড়েন ও উত্তর দেন, আর এই পাতার যেকোনো অংশ সহজ কথায় বুঝিয়ে দেবেন।",
+   "cB": "ডেভেলপারকে ইমেইল করুন"
+  }
+ }
+}

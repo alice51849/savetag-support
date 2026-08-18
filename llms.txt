@@ -25,4 +25,9 @@
 - Purchases and restores are handled entirely by Apple.
 - Home Screen widget and Siri shortcuts read on-device data through Apple's
   app group only.
+- Terms of use: a personal, non-transferable licence supplementing Apple's
+  standard Licensed Application EULA; Pro is a one-time, non-consumable
+  purchase at the price the App Store shows in each country, refunds follow
+  Apple's policy, saves are the user's own to back up, the app is provided as
+  it is, and Taiwanese law governs. Published at /terms.html in all 50 locales.
 - Contact: hourstag.app@gmail.com

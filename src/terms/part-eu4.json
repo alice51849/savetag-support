@@ -1,0 +1,46 @@
+{
+ "pt-BR": {
+  "nav": "Termos de uso",
+  "t": {
+   "title": "Termos de uso do SaveTag",
+   "eyebrow": "Termos",
+   "h1": "Termos de uso",
+   "lead": "O SaveTag é um app de compra única, feito por uma pessoa só. Estes termos explicam o que você pode fazer com o app, como funciona a compra e o que podemos e não podemos prometer. Em linguagem simples, sem pegadinha.",
+   "upd": "Última atualização",
+   "sec": [
+    ["Aceitação dos termos", "Ao baixar ou usar o SaveTag, você concorda com estes termos. Se não concordar, pare de usar o app e apague-o. Este acordo é entre você e o desenvolvedor do SaveTag; a Apple não é parte dele, embora os termos da App Store da Apple valham para o download e o pagamento."],
+    ["Alcance da licença", "Você recebe uma licença pessoal e não exclusiva para usar o SaveTag nos dispositivos Apple que possui ou controla, nas mesmas condições do Contrato de Licença de Usuário Final para Aplicativos Licenciados da Apple, que estes termos complementam. Não é permitido revender, alugar, sublicenciar ou redistribuir o app, nem copiá-lo, modificá-lo ou fazer engenharia reversa além do que a lei permitir expressamente."],
+    ["Compra e restauração", "O SaveTag Pro é uma compra dentro do app única e não consumível: nunca é uma assinatura e não gera cobrança recorrente. Vale o preço exibido pela App Store no seu país, e o pagamento é processado pela Apple. O Pro faz parte do Compartilhamento Familiar e pode ser restaurado sem custo em qualquer dispositivo conectado à mesma conta Apple. Reembolsos são tratados pela Apple conforme a política dela; não podemos emiti-los, mas conte o que aconteceu e ajudaremos no que der."],
+    ["Seu conteúdo salvo", "Seus links, notas, tags e ajustes são seus e ficam no armazenamento do dispositivo. Não temos servidor com cópia disso, o que também significa que não conseguimos recuperar nada para você: manter o próprio backup — a exportação em Markdown ou um backup criptografado do aparelho — é responsabilidade sua. Salve apenas conteúdo que você tem direito de salvar e respeite os termos dos sites de origem."],
+    ["O app é fornecido como está", "O SaveTag é fornecido como está, sem garantia de estar livre de falhas ou sempre disponível. As pré-visualizações de links dependem dos sites salvos e da sua rede, então algumas páginas não vão gerar prévia. Na medida permitida por lei, o desenvolvedor não responde por danos indiretos ou consequentes, incluindo perda de dados ou de tempo. Nada aqui retira direitos do consumidor que não podem ser afastados."],
+    ["Alterações e término", "O app e estes termos podem mudar conforme o SaveTag evolui; a versão vigente fica sempre nesta página, sob a data acima. Continuar usando o app depois de uma mudança significa aceitar os termos atualizados. Você pode encerrar este acordo quando quiser apagando o SaveTag, e uma violação grave encerra sua licença. Apagar o app não é um reembolso, que segue a política da Apple."],
+    ["Lei aplicável e contato", "Estes termos são regidos pelas leis de Taiwan, com foro nos tribunais de Taiwan, sem afastar a proteção do consumidor prevista onde você mora. Dúvidas sobre os termos são bem-vindas, em qualquer idioma, em hourstag.app@gmail.com."]
+   ],
+   "cT": "Dúvidas sobre estes termos?",
+   "cL": "Escreva no idioma que preferir. O desenvolvedor do SaveTag lê e responde cada mensagem pessoalmente, e explica qualquer trecho desta página em palavras simples.",
+   "cB": "Enviar e-mail ao desenvolvedor"
+  }
+ },
+ "pt-PT": {
+  "nav": "Termos de utilização",
+  "t": {
+   "title": "Termos de utilização do SaveTag",
+   "eyebrow": "Termos",
+   "h1": "Termos de utilização",
+   "lead": "O SaveTag é uma app de compra única, criada por uma só pessoa. Estes termos explicam o que pode fazer com a app, como funciona a compra e o que podemos e não podemos prometer. Em linguagem clara, sem letras miúdas.",
+   "upd": "Última atualização",
+   "sec": [
+    ["Aceitação dos termos", "Ao transferir ou utilizar o SaveTag, aceita estes termos. Se não concordar, deixe de utilizar a app e elimine-a. Este acordo é entre si e o programador do SaveTag; a Apple não é parte, embora os termos da App Store da Apple se apliquem à transferência e ao pagamento."],
+    ["Âmbito da licença", "Recebe uma licença pessoal e não exclusiva para utilizar o SaveTag nos dispositivos Apple que possui ou controla, nas mesmas condições do Contrato de Licença de Utilizador Final para Aplicações Licenciadas da Apple, que estes termos complementam. Não pode revender, alugar, sublicenciar nem redistribuir a app, nem copiá-la, alterá-la ou aplicar engenharia inversa para além do que a lei permita expressamente."],
+    ["Compra e restauro", "O SaveTag Pro é uma compra dentro da app única e não consumível: nunca é uma subscrição e não há cobranças periódicas. Aplica-se o preço apresentado pela App Store no seu país e o pagamento é tratado pela Apple. O Pro está incluído na Partilha com a Família e pode ser restaurado sem custo em qualquer dispositivo com a mesma conta Apple. Os reembolsos são tratados pela Apple segundo a política dela; não os podemos emitir, mas diga-nos o que correu mal e ajudaremos no possível."],
+    ["Os seus conteúdos guardados", "As suas ligações, notas, etiquetas e definições são suas e permanecem no armazenamento do dispositivo. Não temos qualquer servidor com uma cópia, pelo que também não conseguimos recuperar nada por si: manter a sua cópia de segurança — a exportação em Markdown ou uma cópia encriptada do dispositivo — é da sua responsabilidade. Guarde apenas conteúdos que tenha o direito de guardar e respeite os termos dos sites de origem."],
+    ["A app é fornecida tal como está", "O SaveTag é fornecido tal como está, sem garantia de ausência de falhas ou de disponibilidade permanente. As pré-visualizações dependem dos sites guardados e da sua rede, por isso algumas páginas não geram pré-visualização. Na medida permitida por lei, o programador não responde por danos indiretos ou consequentes, incluindo perda de dados ou de tempo. Nada aqui retira direitos do consumidor que não possam ser afastados."],
+    ["Alterações e cessação", "A app e estes termos podem mudar à medida que o SaveTag evolui; a versão em vigor está sempre nesta página, sob a data acima. Continuar a utilizar a app após uma alteração significa aceitá-la. Pode cessar este acordo a qualquer momento eliminando o SaveTag, e uma violação grave termina a sua licença. Eliminar a app não corresponde a um reembolso, que segue a política da Apple."],
+    ["Lei aplicável e contacto", "Estes termos regem-se pela lei de Taiwan, sendo competentes os tribunais de Taiwan, sem prejuízo da proteção do consumidor onde reside. Coloque as suas questões, em qualquer idioma, para hourstag.app@gmail.com."]
+   ],
+   "cT": "Questões sobre estes termos?",
+   "cL": "Escreva no idioma que preferir. O programador do SaveTag lê e responde a todas as mensagens e explica qualquer ponto desta página por palavras simples.",
+   "cB": "Enviar e-mail ao programador"
+  }
+ }
+}

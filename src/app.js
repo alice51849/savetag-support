@@ -3,9 +3,9 @@
   'use strict';
 
   var I18N = window.SAVETAG_I18N;
-  var PAGE = document.body.getAttribute('data-page');   // 's' = support, 'p' = privacy
+  var PAGE = document.body.getAttribute('data-page');   // 's' support, 'p' privacy, 't' terms
   var MAIL = 'hourstag.app@gmail.com';
-  var UPDATED = '2026-08-18';
+  var UPDATED = '2026-08-19';
   var RTL = { 'ar-SA': 1, 'he': 1, 'ur-PK': 1 };
   var STORE_KEY = 'savetag.lang';
 
@@ -88,7 +88,9 @@
     document.getElementById('brandSub').textContent = t.tag;
     var nav = document.getElementById('nav');
     clear(nav);
-    [['index.html', t.nav[0], 's'], ['privacy.html', t.nav[1], 'p']].forEach(function (item) {
+    [['index.html', t.nav[0], 's'],
+     ['privacy.html', t.nav[1], 'p'],
+     ['terms.html', t.nav[2], 't']].forEach(function (item) {
       var a = el('a', null, item[1]);
       a.href = item[0] + '?lang=' + encodeURIComponent(code);
       if (item[2] === PAGE) a.setAttribute('aria-current', 'page');
@@ -129,9 +131,11 @@
     } else {
       extra.appendChild(el('p', 'updated', page.upd + ' ' + UPDATED));
 
-      var vow = el('section', 'card vow');
-      vow.appendChild(el('strong', null, page.vow));
-      body.appendChild(vow);
+      if (page.vow) {
+        var vow = el('section', 'card vow');
+        vow.appendChild(el('strong', null, page.vow));
+        body.appendChild(vow);
+      }
 
       page.sec.forEach(function (sec) {
         var c = el('section', 'card policy');
