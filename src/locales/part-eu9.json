@@ -1,0 +1,155 @@
+{
+  "ro": {
+    "n": "Română",
+    "l": "ro",
+    "tag": "AI Social Bookmarks",
+    "nav": ["Asistență", "Confidențialitate"],
+    "lang": "Limbă",
+    "foot": "Ce salvezi rămâne pe acest dispozitiv. SaveTag citește previzualizarea linkului pe dispozitiv, direct de pe site-ul salvat. Fără cont, fără cloud, fără reclame și fără urmărire.",
+    "s": {
+      "title": "Asistență SaveTag — salvare, etichete și Pro",
+      "eyebrow": "Asistență",
+      "h1": "Ajutor pentru SaveTag",
+      "lead": "Salvează un link din orice aplicație, lasă SaveTag să îl așeze la subiectul potrivit și găsește-l cu adevărat mai târziu. Acestea sunt întrebările cele mai frecvente. Dacă a ta lipsește, scrie-ne — fiecare mesaj este citit de un om.",
+      "chips": ["Partajare din orice aplicație", "Salvare rapidă din clipboard", "Subiecte stabilite pe dispozitiv", "Căutare după înțeles", "Redescoperă ce n-ai citit", "Widget și scurtături Siri"],
+      "faqT": "Întrebări frecvente",
+      "faq": [
+        ["Cum salvez un link?", "Deschide fereastra de partajare în Threads, Instagram, X, YouTube, Safari sau orice altă aplicație și alege SaveTag. Poți doar să copiezi linkul: data următoare când deschizi SaveTag, aplicația îți propune să salvezi ce se află în clipboard, ca un link bun să nu se piardă într-o conversație."],
+        ["Cum funcționează etichetarea automată?", "SaveTag citește titlul și descrierea linkului pe dispozitivul tău și îl încadrează într-un subiect folosind framework-ul NaturalLanguage de la Apple și un clasificator bazat pe reguli. Nu intervine niciun serviciu în cloud și nicio inteligență artificială generativă, iar pentru etichetare nu se încarcă nimic nicăieri. Orice etichetă poate fi corectată manual, iar Pro adaugă etichete proprii."],
+        ["Ce face căutarea inteligentă?", "Căutarea ia în calcul titlurile, descrierile, etichetele și adresa și ordonează rezultatele după apropierea de înțeles, nu după scrierea exactă. Astfel, un cuvânt înrudit scoate la iveală exact salvarea la care te gândeai. Totul rulează pe dispozitivul tău."],
+        ["Ce este Rediscover?", "Rediscover este o scurtă recapitulare zilnică a lucrurilor pe care le-ai salvat, dar nu le-ai deschis încă. Aduce înapoi doar câteva o dată, ca ce ai lăsat pentru mai târziu să nu devină o arhivă la care nu te mai întorci niciodată."],
+        ["Ce este gratuit și ce aduce Pro?", "Versiunea gratuită are toate funcțiile și păstrează ultimele tale 5 salvări. Pro este o achiziție unică ce deblochează salvări nelimitate, etichete personalizate, export și copie de rezervă în Markdown și funcționează cu Partajarea în familie. SaveTag nu are niciun abonament."],
+        ["Am cumpărat Pro, dar pe un dispozitiv nou apare blocat.", "Deschide Configurări în SaveTag și atinge Restaurează achiziția, fiind autentificat cu contul Apple cu care ai cumpărat. SaveTag nu are cont propriu — evidența achiziției o ține Apple, iar restaurarea este gratuită și nelimitată."],
+        ["Unde sunt stocate salvările mele?", "Linkurile, titlurile, notițele, etichetele, subiectele și configurările rămân în spațiul de stocare al SaveTag de pe dispozitiv. Nu există cont, sincronizare în cloud sau vreun server al nostru care să le păstreze. Când salvezi un link, SaveTag cere pagina de pe dispozitivul tău, direct de la site-ul salvat, ca să îi citească titlul și datele de previzualizare."],
+        ["Cum export biblioteca sau o mut pe alt dispozitiv?", "Cu Pro exporți întreaga bibliotecă drept fișier Markdown prin fereastra de partajare iOS; acel fișier este în același timp o copie de rezervă pe care o poți păstra sau muta pe alt dispozitiv. Se creează pe dispozitivul tău și ajunge doar unde îl trimiți."],
+        ["Ce fac widgetul și scurtăturile Siri?", "Widgetul de pe ecranul principal arată ce ai salvat recent și ce te așteaptă în Rediscover. Cu scurtăturile Siri salvezi linkul din clipboard sau deschizi Rediscover prin voce, fără să cauți prin meniuri."]
+      ],
+      "cT": "Mai ai nevoie de ajutor?",
+      "cL": "Scrie în orice limbă. Răspunde persoana care dezvoltă SaveTag, iar fiecare mesaj este citit. Versiunea de iOS și ce ai atins ajută foarte mult.",
+      "cB": "Scrie asistenței"
+    },
+    "p": {
+      "title": "Politica de confidențialitate SaveTag",
+      "eyebrow": "Confidențialitate",
+      "h1": "Politica de confidențialitate",
+      "upd": "Ultima actualizare",
+      "vow": "Nu este necesar niciun cont. Nu colectăm date personale. Nu folosim publicitate de la terți. Nu folosim analiză de la terți. SaveTag nu conține SDK-uri de la terți, iar linkurile salvate rămân în spațiul de stocare al dispozitivului.",
+      "sec": [
+        ["Cui se aplică această politică", "Această politică se aplică aplicației SaveTag pentru iPhone și iPad, împreună cu extensia sa de partajare, widgetul de pe ecranul principal și scurtăturile Siri."],
+        ["Ce colectăm", "Nimic. Nu este necesar niciun cont și nu colectăm date personale. Nu folosim nici publicitate, nici analiză de la terți. SaveTag nu conține SDK-uri de la terți și nu operăm niciun server care să îți poată primi datele."],
+        ["Unde stau salvările tale", "Linkurile, titlurile, descrierile, notițele, etichetele, subiectele și configurările rămân în spațiul de stocare al SaveTag de pe dispozitiv și sunt împărțite acolo cu extensia de partajare și cu widgetul prin app group de la Apple. Datele introduse în aplicație rămân pe dispozitivul utilizatorului, cu excepția cazului în care aplicația oferă clar o funcție de export sau de partajare pornită de utilizator."],
+        ["Previzualizări de linkuri", "Când salvezi un link, SaveTag cere pagina de pe dispozitivul tău, direct de la site-ul salvat, ca să îi citească titlul și datele de previzualizare. Pentru acel site este o cerere obișnuită, similară unei vizite din browser, și se aplică politica lui de confidențialitate. Nu se atașează date, identificatori sau conturi SaveTag, iar cererea nu ajunge în altă parte."],
+        ["Etichetare și căutare pe dispozitiv", "Atribuirea subiectelor și ordonarea rezultatelor rulează local, cu framework-ul NaturalLanguage de la Apple și o analiză de text bazată pe reguli, aplicată textului care se află deja pe dispozitivul tău. SaveTag nu folosește servicii de inteligență artificială în cloud și niciun model generativ și nu încarcă text pentru procesare."],
+        ["Achiziții", "Pro este o achiziție unică procesată integral de Apple prin App Store și acceptă Partajarea în familie. Nu vedem și nu stocăm niciodată datele tale de plată; aplicația află de la Apple doar dacă achiziția există și notează deblocarea local, pe dispozitiv. Restaurarea întreabă Apple, nu pe noi."],
+        ["Export și partajare", "Fișierul Markdown de export și copie de rezervă se creează pe dispozitivul tău și ajunge unde îl trimiți prin fereastra de partajare iOS. După ce iese din SaveTag, fișierul este gestionat de aplicația sau serviciul ales de tine, conform politicii proprii a acestuia."],
+        ["Copii", "SaveTag nu colectează date personale de la nimeni, inclusiv de la copii, și nu afișează publicitate de la terți sau urmărire. Se salvează doar ceea ce alege persoana care folosește aplicația, iar conținutul rămâne pe dispozitiv."],
+        ["Controlul tău, ștergerea și modificările politicii", "Poți șterge oricând orice salvare sau poți elimina toate datele locale ștergând aplicația; pentru că noi nu păstrăm nimic, nu există nimic de șters de partea noastră. Orice modificare viitoare privind rețeaua sau prelucrarea datelor va fi publicată aici și în detaliile de confidențialitate din App Store înainte de lansare. Întrebările sunt binevenite la adresa de mai jos."]
+      ],
+      "cT": "Întrebări despre confidențialitate",
+      "cL": "Întreabă orice despre felul în care SaveTag îți tratează datele. Vei primi un răspuns direct de la dezvoltator.",
+      "cB": "Scrie dezvoltatorului"
+    }
+  },
+  "uk": {
+    "n": "Українська",
+    "l": "uk",
+    "tag": "AI Social Bookmarks",
+    "nav": ["Підтримка", "Приватність"],
+    "lang": "Мова",
+    "foot": "Збережене залишається на цьому пристрої. Попередній перегляд посилання SaveTag отримує на пристрої безпосередньо з того сайту, який ви зберегли. Без облікового запису, без хмари, без реклами й без стеження.",
+    "s": {
+      "title": "Підтримка SaveTag — збереження, теги та Pro",
+      "eyebrow": "Підтримка",
+      "h1": "Довідка SaveTag",
+      "lead": "Збережіть посилання з будь-якого застосунку, дозвольте SaveTag покласти його до потрібної теми — і справді знайдіть його згодом. Тут зібрані найчастіші запитання. Якщо вашого немає, напишіть нам: кожне повідомлення читає жива людина.",
+      "chips": ["Надсилання з будь-якого застосунку", "Швидке збереження з буфера обміну", "Теми визначаються на пристрої", "Пошук за змістом", "Повернення до непрочитаного", "Віджет і команди Siri"],
+      "faqT": "Поширені запитання",
+      "faq": [
+        ["Як зберегти посилання?", "Відкрийте меню надсилання у Threads, Instagram, X, YouTube, Safari чи будь-якому іншому застосунку й виберіть SaveTag. Можна просто скопіювати посилання: наступного разу SaveTag запропонує зберегти вміст буфера обміну, щоб гарне посилання не загубилося в листуванні."],
+        ["Як працює автоматичне призначення тегів?", "SaveTag читає заголовок і опис посилання на вашому пристрої та відносить його до теми за допомогою фреймворку Apple NaturalLanguage і класифікатора на правилах. Жодних хмарних сервісів чи генеративного ШІ, нічого не завантажується для розмітки. Будь-який тег можна виправити вручну, а Pro додає власні теги."],
+        ["Чому пошук такий влучний?", "Пошук враховує заголовки, описи, теги та адресу й упорядковує результати за близькістю змісту, а не за точним написанням, тож навіть споріднене слово підніме потрібний запис. Усе відбувається на вашому пристрої."],
+        ["Що таке Rediscover?", "Rediscover — короткий щоденний огляд того, що ви зберегли, але ще не відкрили. Він повертає по кілька записів за раз, щоб відкладене «на потім» не перетворилося на архів, до якого ви ніколи не заглядаєте."],
+        ["Що безкоштовно, а що додає Pro?", "Безкоштовна версія має всі функції та зберігає 5 останніх записів. Pro — це разова покупка, яка знімає обмеження на кількість збережень і відкриває власні теги, експорт і резервну копію у форматі Markdown; підтримується «Родинний доступ». У SaveTag немає жодної підписки."],
+        ["Я купив Pro, але на новому пристрої все заблоковано.", "Відкрийте налаштування SaveTag і торкніться «Відновити покупку», увійшовши тим самим обліковим записом Apple, яким купували. Власних облікових записів SaveTag не має — запис про покупку зберігає Apple, а відновлення безкоштовне й необмежене."],
+        ["Де зберігаються мої записи?", "Посилання, заголовки, нотатки, теги, теми та налаштування залишаються у сховищі SaveTag на пристрої. Немає ні облікового запису, ні хмарної синхронізації, ні нашого сервера, який міг би їх тримати. Під час збереження SaveTag запитує сторінку з вашого пристрою безпосередньо в збереженого сайту, щоб прочитати заголовок і дані попереднього перегляду."],
+        ["Як експортувати бібліотеку або перенести її?", "У Pro вся бібліотека експортується у файл Markdown через меню надсилання iOS; цей файл водночас є резервною копією, яку можна зберегти або перенести на інший пристрій. Файл створюється на вашому пристрої й потрапляє лише туди, куди ви його надішлете."],
+        ["Що роблять віджет і команди Siri?", "Віджет на екрані «Домівка» показує останні збереження та те, що чекає в Rediscover. Команди Siri дають змогу зберегти посилання з буфера обміну або відкрити Rediscover голосом, не шукаючи в меню."]
+      ],
+      "cT": "Залишилися питання?",
+      "cL": "Пишіть будь-якою мовою. Відповідає людина, яка розробляє SaveTag, і кожне повідомлення прочитане. Версія iOS і опис того, що ви натиснули, дуже допомагають.",
+      "cB": "Написати до підтримки"
+    },
+    "p": {
+      "title": "Політика приватності SaveTag",
+      "eyebrow": "Приватність",
+      "h1": "Політика приватності",
+      "upd": "Останнє оновлення",
+      "vow": "Обліковий запис не потрібен. Ми не збираємо персональні дані. Ми не використовуємо сторонню рекламу. Ми не використовуємо сторонню аналітику. SaveTag не містить сторонніх SDK, а збережені посилання залишаються у сховищі пристрою.",
+      "sec": [
+        ["На що поширюється політика", "Ця політика стосується застосунку SaveTag для iPhone та iPad, а також його розширення надсилання, віджета екрана «Домівка» і команд Siri."],
+        ["Які дані ми збираємо", "Жодних. Обліковий запис не потрібен, персональних даних ми не збираємо. Ми не використовуємо ні сторонньої реклами, ні сторонньої аналітики. SaveTag не містить сторонніх SDK, і ми не маємо сервера, який міг би отримати ваші дані."],
+        ["Де зберігаються ваші записи", "Посилання, заголовки, описи, нотатки, теги, теми та налаштування залишаються у сховищі SaveTag на пристрої й доступні розширенню надсилання та віджету через app group Apple у межах того самого пристрою. Дані, введені в застосунку, залишаються на пристрої користувача, якщо застосунок не пропонує чітку функцію експорту чи надсилання, яку запускає сам користувач."],
+        ["Попередній перегляд посилань", "Коли ви зберігаєте посилання, SaveTag запитує сторінку з вашого пристрою безпосередньо в збереженого сайту, щоб прочитати заголовок і дані попереднього перегляду. Для сайту це звичайний запит, схожий на відвідування з браузера, і діє його власна політика приватності. Жодних даних, ідентифікаторів чи облікових записів SaveTag не додається, і запит більше нікуди не йде."],
+        ["Теги та пошук на пристрої", "Визначення тем і впорядкування пошуку виконуються локально за допомогою фреймворку Apple NaturalLanguage і аналізу тексту за правилами, причому обробляється текст, який уже є на пристрої. SaveTag не використовує хмарних сервісів ШІ чи генеративних моделей і не надсилає текст на обробку."],
+        ["Покупки", "Pro — це разова покупка, яку повністю обробляє Apple через App Store, з підтримкою «Родинного доступу». Ми ніколи не бачимо й не зберігаємо ваші платіжні дані; застосунок дізнається від Apple лише про наявність покупки й записує розблокування локально на пристрої. Відновлення звертається до Apple, а не до нас."],
+        ["Експорт і надсилання", "Файл експорту та резервної копії у форматі Markdown створюється на вашому пристрої й потрапляє туди, куди ви його надішлете через меню надсилання iOS. Після того як файл залишив SaveTag, з ним працює вибраний вами застосунок або сервіс за власною політикою приватності."],
+        ["Діти", "SaveTag не збирає персональних даних ні в кого, зокрема в дітей, і не показує сторонньої реклами чи стеження. Зберігається лише те, що обирає сам користувач, і воно залишається на пристрої."],
+        ["Ваш контроль, видалення та зміни політики", "Будь-який запис можна видалити будь-коли, а видалення застосунку прибирає всі локальні дані; оскільки ми нічого не зберігаємо, на нашому боці видаляти нічого. Будь-які майбутні зміни в роботі з мережею чи даними буде опубліковано тут і в даних про приватність в App Store до випуску. Питання завжди можна надіслати на адресу нижче."]
+      ],
+      "cT": "Питання про приватність",
+      "cL": "Питайте про будь-що, пов'язане з обробкою ваших даних у SaveTag. Розробник відповість прямо й чесно.",
+      "cB": "Написати розробнику"
+    }
+  },
+  "el": {
+    "n": "Ελληνικά",
+    "l": "el",
+    "tag": "AI Social Bookmarks",
+    "nav": ["Υποστήριξη", "Απόρρητο"],
+    "lang": "Γλώσσα",
+    "foot": "Ό,τι αποθηκεύετε παραμένει σε αυτή τη συσκευή. Την προεπισκόπηση του συνδέσμου το SaveTag τη διαβάζει στη συσκευή, απευθείας από τον ιστότοπο που αποθηκεύσατε. Χωρίς λογαριασμό, χωρίς cloud, χωρίς διαφημίσεις και χωρίς παρακολούθηση.",
+    "s": {
+      "title": "Υποστήριξη SaveTag — αποθήκευση, ετικέτες και Pro",
+      "eyebrow": "Υποστήριξη",
+      "h1": "Βοήθεια για το SaveTag",
+      "lead": "Αποθηκεύστε έναν σύνδεσμο από οποιαδήποτε εφαρμογή, αφήστε το SaveTag να τον βάλει στο σωστό θέμα και βρείτε τον πραγματικά αργότερα. Αυτές είναι οι πιο συχνές ερωτήσεις. Αν λείπει η δική σας, γράψτε μας — κάθε μήνυμα το διαβάζει άνθρωπος.",
+      "chips": ["Κοινή χρήση από κάθε εφαρμογή", "Γρήγορη αποθήκευση από το πρόχειρο", "Θέματα που ορίζονται στη συσκευή", "Αναζήτηση με βάση το νόημα", "Ξαναανακαλύψτε όσα δεν διαβάσατε", "Widget και συντομεύσεις Siri"],
+      "faqT": "Συχνές ερωτήσεις",
+      "faq": [
+        ["Πώς αποθηκεύω έναν σύνδεσμο;", "Ανοίξτε το φύλλο κοινής χρήσης στο Threads, στο Instagram, στο X, στο YouTube, στο Safari ή σε οποιαδήποτε άλλη εφαρμογή και επιλέξτε SaveTag. Μπορείτε επίσης απλώς να αντιγράψετε τον σύνδεσμο: την επόμενη φορά που θα ανοίξετε το SaveTag, θα σας προτείνει να αποθηκεύσετε ό,τι βρίσκεται στο πρόχειρο, ώστε ένας καλός σύνδεσμος να μη χάνεται μέσα σε μια συνομιλία."],
+        ["Πώς λειτουργεί η αυτόματη προσθήκη ετικετών;", "Το SaveTag διαβάζει τον τίτλο και την περιγραφή του συνδέσμου στη συσκευή σας και τον κατατάσσει σε θέμα με το framework NaturalLanguage της Apple και έναν ταξινομητή βασισμένο σε κανόνες. Δεν εμπλέκεται καμία υπηρεσία cloud ούτε παραγωγική τεχνητή νοημοσύνη και δεν αποστέλλεται τίποτα για να μπει ετικέτα. Κάθε ετικέτα διορθώνεται με το χέρι και το Pro προσθέτει δικές σας ετικέτες."],
+        ["Τι κάνει έξυπνη την αναζήτηση;", "Η αναζήτηση εξετάζει τίτλους, περιγραφές, ετικέτες και τη διεύθυνση και κατατάσσει τα αποτελέσματα με βάση την εγγύτητα νοήματος και όχι την ακριβή ορθογραφία. Έτσι, ακόμη και μια συγγενική λέξη φέρνει στην επιφάνεια αυτό που είχατε στο μυαλό σας. Όλα εκτελούνται στη συσκευή σας."],
+        ["Τι είναι το Rediscover;", "Το Rediscover είναι μια σύντομη καθημερινή ανασκόπηση όσων αποθηκεύσατε αλλά δεν ανοίξατε ακόμη. Επαναφέρει λίγα κάθε φορά, ώστε όσα κρατήσατε για αργότερα να μη γίνουν ένα αρχείο στο οποίο δεν επιστρέφετε ποτέ."],
+        ["Τι είναι δωρεάν και τι προσθέτει το Pro;", "Η δωρεάν έκδοση έχει όλες τις δυνατότητες και διατηρεί τις 5 πιο πρόσφατες αποθηκεύσεις σας. Το Pro είναι μια εφάπαξ αγορά που ξεκλειδώνει απεριόριστες αποθηκεύσεις, προσαρμοσμένες ετικέτες, εξαγωγή και αντίγραφο ασφαλείας σε Markdown, και λειτουργεί με την Οικογενειακή κοινή χρήση. Το SaveTag δεν έχει καμία συνδρομή."],
+        ["Αγόρασα το Pro, αλλά σε νέα συσκευή εμφανίζεται κλειδωμένο.", "Ανοίξτε τις ρυθμίσεις στο SaveTag και πατήστε Επαναφορά αγοράς, ενώ έχετε συνδεθεί με τον λογαριασμό Apple με τον οποίο αγοράσατε. Το SaveTag δεν έχει δικό του λογαριασμό — την αγορά την κρατά η Apple και η επαναφορά είναι δωρεάν και απεριόριστη."],
+        ["Πού αποθηκεύονται τα δεδομένα μου;", "Σύνδεσμοι, τίτλοι, σημειώσεις, ετικέτες, θέματα και ρυθμίσεις παραμένουν στον αποθηκευτικό χώρο του SaveTag στη συσκευή. Δεν υπάρχει λογαριασμός, συγχρονισμός cloud ούτε δικός μας διακομιστής που θα μπορούσε να τα κρατήσει. Κατά την αποθήκευση, το SaveTag ζητά τη σελίδα από τη συσκευή σας, απευθείας από τον ιστότοπο που αποθηκεύσατε, για να διαβάσει τίτλο και στοιχεία προεπισκόπησης."],
+        ["Πώς εξάγω τη βιβλιοθήκη μου ή τη μεταφέρω;", "Με το Pro εξάγετε ολόκληρη τη βιβλιοθήκη ως αρχείο Markdown μέσω του φύλλου κοινής χρήσης του iOS. Το αρχείο λειτουργεί ταυτόχρονα ως αντίγραφο ασφαλείας που μπορείτε να κρατήσετε ή να μεταφέρετε σε άλλη συσκευή. Δημιουργείται στη συσκευή σας και πηγαίνει μόνο εκεί που το στέλνετε."],
+        ["Τι κάνουν το widget και οι συντομεύσεις Siri;", "Το widget της οθόνης Αφετηρίας δείχνει τις πιο πρόσφατες αποθηκεύσεις και όσα περιμένουν στο Rediscover. Με τις συντομεύσεις Siri αποθηκεύετε τον σύνδεσμο του προχείρου ή ανοίγετε το Rediscover με τη φωνή, χωρίς να ψάχνετε σε μενού."]
+      ],
+      "cT": "Χρειάζεστε κι άλλη βοήθεια;",
+      "cL": "Γράψτε σε όποια γλώσσα θέλετε. Απαντά το άτομο που φτιάχνει το SaveTag και κάθε μήνυμα διαβάζεται. Η έκδοση iOS και το τι πατήσατε βοηθούν πολύ.",
+      "cB": "Στείλτε email στην υποστήριξη"
+    },
+    "p": {
+      "title": "Πολιτική απορρήτου του SaveTag",
+      "eyebrow": "Απόρρητο",
+      "h1": "Πολιτική απορρήτου",
+      "upd": "Τελευταία ενημέρωση",
+      "vow": "Δεν απαιτείται λογαριασμός. Δεν συλλέγουμε προσωπικά δεδομένα. Δεν χρησιμοποιούμε διαφημίσεις τρίτων. Δεν χρησιμοποιούμε αναλυτικά εργαλεία τρίτων. Το SaveTag δεν περιέχει SDK τρίτων και οι αποθηκευμένοι σύνδεσμοι παραμένουν στον αποθηκευτικό χώρο της συσκευής.",
+      "sec": [
+        ["Ποιους αφορά η πολιτική", "Η πολιτική αφορά την εφαρμογή SaveTag για iPhone και iPad, μαζί με την επέκταση κοινής χρήσης, το widget της οθόνης Αφετηρίας και τις συντομεύσεις Siri."],
+        ["Τι συλλέγουμε", "Τίποτα. Δεν απαιτείται λογαριασμός και δεν συλλέγουμε προσωπικά δεδομένα. Δεν χρησιμοποιούμε ούτε διαφημίσεις ούτε αναλυτικά εργαλεία τρίτων. Το SaveTag δεν περιέχει SDK τρίτων και δεν λειτουργούμε διακομιστή που θα μπορούσε να λάβει τα δεδομένα σας."],
+        ["Πού βρίσκονται τα αποθηκευμένα σας", "Σύνδεσμοι, τίτλοι, περιγραφές, σημειώσεις, ετικέτες, θέματα και ρυθμίσεις παραμένουν στον αποθηκευτικό χώρο του SaveTag στη συσκευή και μοιράζονται εκεί με την επέκταση κοινής χρήσης και το widget μέσω του app group της Apple. Τα δεδομένα που εισάγονται στην εφαρμογή παραμένουν στη συσκευή του χρήστη, εκτός αν η εφαρμογή προσφέρει σαφώς λειτουργία εξαγωγής ή κοινής χρήσης που ξεκινά ο ίδιος ο χρήστης."],
+        ["Προεπισκοπήσεις συνδέσμων", "Όταν αποθηκεύετε έναν σύνδεσμο, το SaveTag ζητά τη σελίδα από τη συσκευή σας, απευθείας από τον ιστότοπο που αποθηκεύσατε, για να διαβάσει τίτλο και στοιχεία προεπισκόπησης. Για τον ιστότοπο πρόκειται για ένα συνηθισμένο αίτημα, σαν επίσκεψη από πρόγραμμα περιήγησης, και ισχύει η δική του πολιτική απορρήτου. Δεν επισυνάπτονται δεδομένα, αναγνωριστικά ή λογαριασμοί του SaveTag και το αίτημα δεν πηγαίνει πουθενά αλλού."],
+        ["Ετικέτες και αναζήτηση στη συσκευή", "Η ανάθεση θεμάτων και η κατάταξη της αναζήτησης εκτελούνται τοπικά, με το framework NaturalLanguage της Apple και ανάλυση κειμένου βάσει κανόνων, σε κείμενο που βρίσκεται ήδη στη συσκευή σας. Το SaveTag δεν χρησιμοποιεί υπηρεσία τεχνητής νοημοσύνης στο cloud ούτε παραγωγικό μοντέλο και δεν αποστέλλει κείμενο για επεξεργασία."],
+        ["Αγορές", "Το Pro είναι εφάπαξ αγορά που διεκπεραιώνεται εξ ολοκλήρου από την Apple μέσω του App Store και υποστηρίζει την Οικογενειακή κοινή χρήση. Δεν βλέπουμε ποτέ ούτε αποθηκεύουμε τα στοιχεία πληρωμής σας. Η εφαρμογή μαθαίνει από την Apple μόνο αν υπάρχει η αγορά και καταγράφει το ξεκλείδωμα τοπικά στη συσκευή. Η επαναφορά ρωτά την Apple, όχι εμάς."],
+        ["Εξαγωγή και κοινή χρήση", "Το αρχείο Markdown για εξαγωγή και αντίγραφο ασφαλείας δημιουργείται στη συσκευή σας και πηγαίνει όπου το στείλετε μέσω του φύλλου κοινής χρήσης του iOS. Μόλις το αρχείο φύγει από το SaveTag, το διαχειρίζεται η εφαρμογή ή η υπηρεσία που επιλέξατε, σύμφωνα με τη δική της πολιτική απορρήτου."],
+        ["Παιδιά", "Το SaveTag δεν συλλέγει προσωπικά δεδομένα από κανέναν, ούτε από παιδιά, και δεν εμφανίζει διαφημίσεις τρίτων ή παρακολούθηση. Αποθηκεύεται μόνο ό,τι επιλέγει το άτομο που χρησιμοποιεί την εφαρμογή και παραμένει στη συσκευή."],
+        ["Ο έλεγχός σας, η διαγραφή και οι αλλαγές της πολιτικής", "Μπορείτε να διαγράψετε οποιαδήποτε αποθήκευση ανά πάσα στιγμή ή να αφαιρέσετε όλα τα τοπικά δεδομένα διαγράφοντας την εφαρμογή. Επειδή εμείς δεν κρατάμε τίποτα, δεν υπάρχει τίποτα να διαγραφεί από την πλευρά μας. Κάθε μελλοντική αλλαγή στη χρήση δικτύου ή στη διαχείριση δεδομένων θα δημοσιεύεται εδώ και στα στοιχεία απορρήτου του App Store πριν από την κυκλοφορία. Ερωτήσεις είναι πάντα ευπρόσδεκτες στη διεύθυνση παρακάτω."]
+      ],
+      "cT": "Ερωτήσεις για το απόρρητο",
+      "cL": "Ρωτήστε ό,τι θέλετε για τον τρόπο με τον οποίο το SaveTag χειρίζεται τα δεδομένα σας. Θα λάβετε ξεκάθαρη απάντηση από τον προγραμματιστή.",
+      "cB": "Στείλτε email στον προγραμματιστή"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alice51849.github.io/savetag-support/sitemap.xml

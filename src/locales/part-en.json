@@ -1,0 +1,462 @@
+{
+  "en-US": {
+    "n": "English",
+    "l": "en-US",
+    "tag": "AI Social Bookmarks",
+    "nav": [
+      "Support",
+      "Privacy"
+    ],
+    "lang": "Language",
+    "foot": "Your saves stay on this device. SaveTag reads a link's preview on device, directly from the site you saved. No account, no cloud, no ads, no tracking.",
+    "s": {
+      "title": "SaveTag Support — Saving, Tagging and Pro",
+      "eyebrow": "Support",
+      "h1": "Help with SaveTag",
+      "lead": "Save a link from any app, let SaveTag file it under the right topic, and actually find it again later. These are the questions people ask most. If yours is not here, write to us — a real person reads every message.",
+      "chips": [
+        "Share sheet from any app",
+        "Clipboard quick save",
+        "On-device topic tagging",
+        "Search that follows meaning",
+        "Rediscover what you never read",
+        "Widget and Siri shortcuts"
+      ],
+      "faqT": "Frequently asked questions",
+      "faq": [
+        [
+          "How do I save a link?",
+          "Open the share sheet in Threads, Instagram, X, YouTube, Safari or any other app and choose SaveTag. You can also just copy a link: the next time you open SaveTag it offers to save whatever is on your clipboard, so a good link never gets buried in a chat thread again."
+        ],
+        [
+          "How does the automatic tagging work?",
+          "SaveTag reads the title and description of a link on your device and files it under a topic using Apple's NaturalLanguage framework together with a rule-based classifier. There is no cloud service and no generative AI involved, and nothing is uploaded to be tagged. Every tag can be corrected by hand, and Pro adds custom tags of your own."
+        ],
+        [
+          "What makes the search smart?",
+          "Search looks at titles, descriptions, tags and the address, then ranks results by how close they are in meaning rather than by exact spelling, so a related word still surfaces the save you had in mind. All of it runs on your device."
+        ],
+        [
+          "What is Rediscover?",
+          "Rediscover is a short daily review of the saves you have not opened yet. It brings back a handful at a time, so the things you saved to read later do not quietly turn into an archive you never revisit."
+        ],
+        [
+          "What is free, and what does Pro add?",
+          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind."
+        ],
+        [
+          "I bought Pro, but a new device shows it locked.",
+          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited."
+        ],
+        [
+          "Where are my saves stored?",
+          "Links, titles, notes, tags, topics and settings stay in SaveTag's on-device storage. There is no account, no cloud sync and no server of ours that could hold them. When you save a link, SaveTag requests that page on your device, directly from the site you saved, to read its title and preview details."
+        ],
+        [
+          "How do I export my library or move it to another device?",
+          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it."
+        ],
+        [
+          "What do the widget and the Siri shortcuts do?",
+          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus."
+        ]
+      ],
+      "cT": "Still need a hand?",
+      "cL": "Write in any language. Replies come from the person who builds SaveTag, and every message is read. Telling us your iOS version and what you tapped helps a lot.",
+      "cB": "Email support"
+    },
+    "p": {
+      "title": "SaveTag Privacy Policy",
+      "eyebrow": "Privacy",
+      "h1": "Privacy Policy",
+      "upd": "Last updated",
+      "vow": "No account is required. We do not collect personal data. We do not use third party advertising. We do not use third party analytics. SaveTag contains no third-party SDKs, and your saved links stay in on-device storage.",
+      "sec": [
+        [
+          "Who this policy covers",
+          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts."
+        ],
+        [
+          "What we collect",
+          "Nothing. No account is required. We do not collect personal data. We do not use third party advertising. We do not use third party analytics. SaveTag contains no third-party SDKs, and we operate no server that could receive your data."
+        ],
+        [
+          "Where your saves live",
+          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user."
+        ],
+        [
+          "Link previews",
+          "When you save a link, SaveTag requests that page on your device, directly from the site you saved, to read its title and preview details. That website sees an ordinary request, much as it would from a browser, and its own privacy policy applies to it. No SaveTag data, identifier or account is attached, and the request goes nowhere else."
+        ],
+        [
+          "On-device tagging and search",
+          "Topic tagging and search ranking run locally, using Apple's NaturalLanguage framework and rule-based analysis of text that is already on your device. SaveTag uses no cloud AI service and no generative model, and no text is uploaded for processing."
+        ],
+        [
+          "Purchases",
+          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
+        ],
+        [
+          "Export and sharing",
+          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy."
+        ],
+        [
+          "Children",
+          "SaveTag collects no personal data from anyone, including children, and shows no third party advertising and no tracking. Saved links are whatever the person using the app chooses to save, and they stay on the device."
+        ],
+        [
+          "Your control, deletion and changes to this policy",
+          "You can delete any save at any time, or remove all local data by deleting the app; because we hold nothing, there is nothing on our side to delete. Any future change to network or data handling will be published here and in the App Store privacy details before release. Questions are always welcome at the address below."
+        ]
+      ],
+      "cT": "Questions about privacy",
+      "cL": "Ask anything about how SaveTag handles your data. You will get a straight answer from the developer.",
+      "cB": "Email the developer"
+    }
+  },
+  "en-GB": {
+    "n": "English (UK)",
+    "l": "en-GB",
+    "tag": "AI Social Bookmarks",
+    "nav": [
+      "Support",
+      "Privacy"
+    ],
+    "lang": "Language",
+    "foot": "Your saves stay on this device. SaveTag reads a link's preview on device, straight from the site you saved. No account, no cloud, no ads, no tracking.",
+    "s": {
+      "title": "SaveTag Support — Saving, Tagging and Pro",
+      "eyebrow": "Support",
+      "h1": "Help with SaveTag",
+      "lead": "Save a link from any app, let SaveTag organise it under the right topic, and actually find it again later. These are the questions people ask most. If yours is not here, do write to us — a real person reads every message.",
+      "chips": [
+        "Share sheet from any app",
+        "Clipboard quick save",
+        "On-device topic tagging",
+        "Search that follows meaning",
+        "Rediscover what you never read",
+        "Widget and Siri shortcuts"
+      ],
+      "faqT": "Frequently asked questions",
+      "faq": [
+        [
+          "How do I save a link?",
+          "Open the share sheet in Threads, Instagram, X, YouTube, Safari or any other app and choose SaveTag. You can also simply copy a link: the next time you open SaveTag it offers to save whatever is on your clipboard, so a good link is never buried in a chat thread again."
+        ],
+        [
+          "How does the automatic tagging work?",
+          "SaveTag reads the title and description of a link on your device and organises it under a topic using Apple's NaturalLanguage framework together with a rule-based classifier. No cloud service and no generative AI is involved, and nothing is uploaded to be tagged. Every tag can be corrected by hand, and Pro adds custom tags of your own."
+        ],
+        [
+          "What makes the search smart?",
+          "Search looks at titles, descriptions, tags and the address, then ranks results by how close they are in meaning rather than by exact spelling, so a related word still surfaces the save you had in mind. All of it runs on your device."
+        ],
+        [
+          "What is Rediscover?",
+          "Rediscover is a short daily review of the saves you have not opened yet. It brings back a handful at a time, so the things you saved to read later do not quietly turn into an archive you never revisit."
+        ],
+        [
+          "What is free, and what does Pro add?",
+          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind."
+        ],
+        [
+          "I bought Pro, but a new device shows it locked.",
+          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited."
+        ],
+        [
+          "Where are my saves stored?",
+          "Links, titles, notes, tags, topics and settings stay in SaveTag's on-device storage. There is no account, no cloud sync and no server of ours that could hold them. When you save a link, SaveTag requests that page on your device, straight from the site you saved, to read its title and preview details."
+        ],
+        [
+          "How do I export my library or move it to another device?",
+          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it."
+        ],
+        [
+          "What do the widget and the Siri shortcuts do?",
+          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus."
+        ]
+      ],
+      "cT": "Still need a hand?",
+      "cL": "Write in any language. Replies come from the person who builds SaveTag, and every message is read. Telling us your iOS version and what you tapped helps enormously.",
+      "cB": "Email support"
+    },
+    "p": {
+      "title": "SaveTag Privacy Policy",
+      "eyebrow": "Privacy",
+      "h1": "Privacy Policy",
+      "upd": "Last updated",
+      "vow": "No account is required. We do not collect personal data. We do not use third party advertising. We do not use third party analytics. SaveTag contains no third-party SDKs, and your saved links stay in on-device storage.",
+      "sec": [
+        [
+          "Who this policy covers",
+          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts."
+        ],
+        [
+          "What we collect",
+          "Nothing. No account is required. We do not collect personal data. We do not use third party advertising. We do not use third party analytics. SaveTag contains no third-party SDKs, and we operate no server that could receive your data."
+        ],
+        [
+          "Where your saves live",
+          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user."
+        ],
+        [
+          "Link previews",
+          "When you save a link, SaveTag requests that page on your device, straight from the site you saved, to read its title and preview details. That website sees an ordinary request, much as it would from a browser, and its own privacy policy applies to it. No SaveTag data, identifier or account is attached, and the request goes nowhere else."
+        ],
+        [
+          "On-device tagging and search",
+          "Topic tagging and search ranking run locally, using Apple's NaturalLanguage framework and rule-based analysis of text that is already on your device. SaveTag uses no cloud AI service and no generative model, and no text is uploaded for processing."
+        ],
+        [
+          "Purchases",
+          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
+        ],
+        [
+          "Export and sharing",
+          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy."
+        ],
+        [
+          "Children",
+          "SaveTag collects no personal data from anyone, including children, and shows no third party advertising and no tracking. Saved links are whatever the person using the app chooses to save, and they stay on the device."
+        ],
+        [
+          "Your control, deletion and changes to this policy",
+          "You can delete any save at any time, or remove all local data by deleting the app; because we hold nothing, there is nothing on our side to delete. Any future change to network or data handling will be published here and in the App Store privacy details before release. Questions are always welcome at the address below."
+        ]
+      ],
+      "cT": "Questions about privacy",
+      "cL": "Ask anything about how SaveTag handles your data. You will get a straight answer from the developer.",
+      "cB": "Email the developer"
+    }
+  },
+  "en-AU": {
+    "n": "English (Australia)",
+    "l": "en-AU",
+    "tag": "AI Social Bookmarks",
+    "nav": [
+      "Support",
+      "Privacy"
+    ],
+    "lang": "Language",
+    "foot": "Your saves stay on this device. SaveTag reads a link's preview on device, straight from the site you saved. No account, no cloud, no ads, no tracking.",
+    "s": {
+      "title": "SaveTag Support — Saving, Tagging and Pro",
+      "eyebrow": "Support",
+      "h1": "Help with SaveTag",
+      "lead": "Save a link from any app, let SaveTag organise it under the right topic, and actually find it again later. These are the questions people ask most. If yours is not here, write to us — a real person reads every message.",
+      "chips": [
+        "Share sheet from any app",
+        "Clipboard quick save",
+        "On-device topic tagging",
+        "Search that follows meaning",
+        "Rediscover what you never read",
+        "Widget and Siri shortcuts"
+      ],
+      "faqT": "Frequently asked questions",
+      "faq": [
+        [
+          "How do I save a link?",
+          "Open the share sheet in Threads, Instagram, X, YouTube, Safari or any other app and choose SaveTag. You can also simply copy a link: the next time you open SaveTag it offers to save whatever is on your clipboard, so a good link is never buried in a chat thread again."
+        ],
+        [
+          "How does the automatic tagging work?",
+          "SaveTag reads the title and description of a link on your device and organises it under a topic using Apple's NaturalLanguage framework together with a rule-based classifier. No cloud service and no generative AI is involved, and nothing is uploaded to be tagged. Every tag can be corrected by hand, and Pro adds custom tags of your own."
+        ],
+        [
+          "What makes the search smart?",
+          "Search looks at titles, descriptions, tags and the address, then ranks results by how close they are in meaning rather than by exact spelling, so a related word still surfaces the save you had in mind. All of it runs on your device."
+        ],
+        [
+          "What is Rediscover?",
+          "Rediscover is a short daily review of the saves you have not opened yet. It brings back a handful at a time, so the things you saved to read later do not quietly turn into an archive you never revisit."
+        ],
+        [
+          "What is free, and what does Pro add?",
+          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind."
+        ],
+        [
+          "I bought Pro, but a new device shows it locked.",
+          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited."
+        ],
+        [
+          "Where are my saves stored?",
+          "Links, titles, notes, tags, topics and settings stay in SaveTag's on-device storage. There is no account, no cloud sync and no server of ours that could hold them. When you save a link, SaveTag requests that page on your device, straight from the site you saved, to read its title and preview details."
+        ],
+        [
+          "How do I export my library or move it to another device?",
+          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it."
+        ],
+        [
+          "What do the widget and the Siri shortcuts do?",
+          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus."
+        ]
+      ],
+      "cT": "Still need a hand?",
+      "cL": "Write in any language. Replies come from the person who builds SaveTag, and every message is read. Telling us your iOS version and what you tapped helps a lot.",
+      "cB": "Email support"
+    },
+    "p": {
+      "title": "SaveTag Privacy Policy",
+      "eyebrow": "Privacy",
+      "h1": "Privacy Policy",
+      "upd": "Last updated",
+      "vow": "No account is required. We do not collect personal data. We do not use third party advertising. We do not use third party analytics. SaveTag contains no third-party SDKs, and your saved links stay in on-device storage.",
+      "sec": [
+        [
+          "Who this policy covers",
+          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts."
+        ],
+        [
+          "What we collect",
+          "Nothing. No account is required. We do not collect personal data. We do not use third party advertising. We do not use third party analytics. SaveTag contains no third-party SDKs, and we operate no server that could receive your data."
+        ],
+        [
+          "Where your saves live",
+          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user."
+        ],
+        [
+          "Link previews",
+          "When you save a link, SaveTag requests that page on your device, straight from the site you saved, to read its title and preview details. That website sees an ordinary request, much as it would from a browser, and its own privacy policy applies to it. No SaveTag data, identifier or account is attached, and the request goes nowhere else."
+        ],
+        [
+          "On-device tagging and search",
+          "Topic tagging and search ranking run locally, using Apple's NaturalLanguage framework and rule-based analysis of text that is already on your device. SaveTag uses no cloud AI service and no generative model, and no text is uploaded for processing."
+        ],
+        [
+          "Purchases",
+          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
+        ],
+        [
+          "Export and sharing",
+          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy."
+        ],
+        [
+          "Children",
+          "SaveTag collects no personal data from anyone, including children, and shows no third party advertising and no tracking. Saved links are whatever the person using the app chooses to save, and they stay on the device."
+        ],
+        [
+          "Your control, deletion and changes to this policy",
+          "You can delete any save at any time, or remove all local data by deleting the app; because we hold nothing, there is nothing on our side to delete. Any future change to network or data handling will be published here and in the App Store privacy details before release. Questions are always welcome at the address below."
+        ]
+      ],
+      "cT": "Questions about privacy",
+      "cL": "Ask anything about how SaveTag handles your data. You will get a straight answer from the developer.",
+      "cB": "Email the developer"
+    }
+  },
+  "en-CA": {
+    "n": "English (Canada)",
+    "l": "en-CA",
+    "tag": "AI Social Bookmarks",
+    "nav": [
+      "Support",
+      "Privacy"
+    ],
+    "lang": "Language",
+    "foot": "Your saves stay on this device. SaveTag reads a link's preview on device, directly from the site you saved. No account, no cloud, no ads, no tracking.",
+    "s": {
+      "title": "SaveTag Support — Saving, Tagging and Pro",
+      "eyebrow": "Support",
+      "h1": "Help with SaveTag",
+      "lead": "Save a link from any app, let SaveTag organize it under the right topic, and actually find it again later. These are the questions people ask most. If yours is not here, write to us — a real person reads every message.",
+      "chips": [
+        "Share sheet from any app",
+        "Clipboard quick save",
+        "On-device topic tagging",
+        "Search that follows meaning",
+        "Rediscover what you never read",
+        "Widget and Siri shortcuts"
+      ],
+      "faqT": "Frequently asked questions",
+      "faq": [
+        [
+          "How do I save a link?",
+          "Open the share sheet in Threads, Instagram, X, YouTube, Safari or any other app and choose SaveTag. You can also just copy a link: the next time you open SaveTag it offers to save whatever is on your clipboard, so a good link never gets buried in a chat thread again."
+        ],
+        [
+          "How does the automatic tagging work?",
+          "SaveTag reads the title and description of a link on your device and organizes it under a topic using Apple's NaturalLanguage framework together with a rule-based classifier. There is no cloud service and no generative AI involved, and nothing is uploaded to be tagged. Every tag can be corrected by hand, and Pro adds custom tags of your own."
+        ],
+        [
+          "What makes the search smart?",
+          "Search looks at titles, descriptions, tags and the address, then ranks results by how close they are in meaning rather than by exact spelling, so a related word still surfaces the save you had in mind. All of it runs on your device."
+        ],
+        [
+          "What is Rediscover?",
+          "Rediscover is a short daily review of the saves you have not opened yet. It brings back a handful at a time, so the things you saved to read later do not quietly turn into an archive you never revisit."
+        ],
+        [
+          "What is free, and what does Pro add?",
+          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind."
+        ],
+        [
+          "I bought Pro, but a new device shows it locked.",
+          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited."
+        ],
+        [
+          "Where are my saves stored?",
+          "Links, titles, notes, tags, topics and settings stay in SaveTag's on-device storage. There is no account, no cloud sync and no server of ours that could hold them. When you save a link, SaveTag requests that page on your device, directly from the site you saved, to read its title and preview details."
+        ],
+        [
+          "How do I export my library or move it to another device?",
+          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it."
+        ],
+        [
+          "What do the widget and the Siri shortcuts do?",
+          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus."
+        ]
+      ],
+      "cT": "Still need a hand?",
+      "cL": "Write in any language. Replies come from the person who builds SaveTag, and every message is read. Telling us your iOS version and what you tapped helps a lot.",
+      "cB": "Email support"
+    },
+    "p": {
+      "title": "SaveTag Privacy Policy",
+      "eyebrow": "Privacy",
+      "h1": "Privacy Policy",
+      "upd": "Last updated",
+      "vow": "No account is required. We do not collect personal data. We do not use third party advertising. We do not use third party analytics. SaveTag contains no third-party SDKs, and your saved links stay in on-device storage.",
+      "sec": [
+        [
+          "Who this policy covers",
+          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts."
+        ],
+        [
+          "What we collect",
+          "Nothing. No account is required. We do not collect personal data. We do not use third party advertising. We do not use third party analytics. SaveTag contains no third-party SDKs, and we operate no server that could receive your data."
+        ],
+        [
+          "Where your saves live",
+          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user."
+        ],
+        [
+          "Link previews",
+          "When you save a link, SaveTag requests that page on your device, directly from the site you saved, to read its title and preview details. That website sees an ordinary request, much as it would from a browser, and its own privacy policy applies to it. No SaveTag data, identifier or account is attached, and the request goes nowhere else."
+        ],
+        [
+          "On-device tagging and search",
+          "Topic tagging and search ranking run locally, using Apple's NaturalLanguage framework and rule-based analysis of text that is already on your device. SaveTag uses no cloud AI service and no generative model, and no text is uploaded for processing."
+        ],
+        [
+          "Purchases",
+          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
+        ],
+        [
+          "Export and sharing",
+          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy."
+        ],
+        [
+          "Children",
+          "SaveTag collects no personal data from anyone, including children, and shows no third party advertising and no tracking. Saved links are whatever the person using the app chooses to save, and they stay on the device."
+        ],
+        [
+          "Your control, deletion and changes to this policy",
+          "You can delete any save at any time, or remove all local data by deleting the app; because we hold nothing, there is nothing on our side to delete. Any future change to network or data handling will be published here and in the App Store privacy details before release. Questions are always welcome at the address below."
+        ]
+      ],
+      "cT": "Questions about privacy",
+      "cL": "Ask anything about how SaveTag handles your data. You will get a straight answer from the developer.",
+      "cB": "Email the developer"
+    }
+  }
+}

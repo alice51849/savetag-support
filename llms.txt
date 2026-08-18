@@ -1,0 +1,28 @@
+# SaveTag: AI Social Bookmarks
+
+> An on-device bookmarking app for iPhone and iPad. Links saved from any app
+> through the share sheet or the clipboard are sorted into topics on the
+> device, found again by meaning rather than exact spelling, and brought back
+> for review in Rediscover. Saves stay in on-device storage; there is no
+> account and no cloud sync.
+
+## Facts
+- Saving: iOS share sheet from Threads, Instagram, X, YouTube, Safari or any
+  other app; clipboard quick-save when the app is opened.
+- Tagging: Apple's NaturalLanguage framework plus a rule-based classifier,
+  entirely on device. No cloud service and no generative AI. Tags are editable.
+- Search: ranks titles, descriptions, tags and addresses by closeness in
+  meaning, on device.
+- Rediscover: a short daily review of saves that have not been opened.
+- Free: every feature, with the latest 5 saves kept.
+- Pro: a one-time purchase, never a subscription. Unlimited saves, custom tags,
+  Markdown export and backup, Family Sharing.
+- Link previews: when a link is saved, the app requests that page on device,
+  directly from the saved site, to read its title and preview details. Nothing
+  from SaveTag is attached and the request goes nowhere else.
+- Privacy: no account, no cloud sync, no ads, no tracking, no analytics, no
+  third-party SDKs, no server operated by the developer.
+- Purchases and restores are handled entirely by Apple.
+- Home Screen widget and Siri shortcuts read on-device data through Apple's
+  app group only.
+- Contact: hourstag.app@gmail.com
