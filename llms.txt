@@ -31,3 +31,7 @@
   Apple's policy, saves are the user's own to back up, the app is provided as
   it is, and Taiwanese law governs. Published at /terms.html in all 50 locales.
 - Contact: hourstag.app@gmail.com
+
+## Support
+
+- [Help, FAQ and troubleshooting](https://alice51849.github.io/savetag-support/help.html)
