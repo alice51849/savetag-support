@@ -135,7 +135,11 @@ normalised from `source/support_surfaces.json`:
 ```bash
 python3 tools/support_surfaces.py build
 python3 tools/support_surfaces.py check
+python3 -m unittest -v tests/test_support_surfaces.py
 ```
 
-The source records the verified public catalogue and app/privacy authority
-digests used for the copy. Do not hand-edit generated locale pages.
+`source/support_promotions.json` owns the verified SaveTag App Store campaign
+links and the first-party family module, including native copy for all 50
+locales. The generator applies both modules to every physical surface and
+ships locale-aware link data for the four English logical routes that share
+the root files. Do not hand-edit generated locale pages.

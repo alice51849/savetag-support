@@ -1,0 +1,112 @@
+{
+  "schema": "support-promotion-source/v1",
+  "own_app": {
+    "app_id": "6802505528",
+    "provider_token": "118326163",
+    "campaign_prefix": "iag_data",
+    "english": {
+      "en-AU": {
+        "storefront": "au",
+        "label": "Get SaveTag: AI Social Bookmarks on the App Store"
+      },
+      "en-CA": {
+        "storefront": "ca",
+        "label": "Get SaveTag: AI Social Bookmarks on the App Store"
+      },
+      "en-GB": {
+        "storefront": "gb",
+        "label": "Get SaveTag: AI Social Bookmarks on the App Store"
+      },
+      "en-US": {
+        "storefront": "us",
+        "label": "Get SaveTag: AI Social Bookmarks on the App Store"
+      }
+    }
+  },
+  "family": {
+    "campaign": "sup_savetag",
+    "guide_url": "https://alice51849.github.io/ios-app-guide/?utm_source=support_site&utm_medium=family_module&utm_campaign=sup_savetag",
+    "cards": [
+      {
+        "app_id": "6785004775",
+        "name": "Mochi: Cute Checklist",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/60/67/b76067fe-738a-e88b-e974-69c1c113c361/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+        "url": "https://apps.apple.com/app/id6785004775?pt=118326163&ct=sup_savetag&mt=8",
+        "first_party": true
+      },
+      {
+        "app_id": "6794725568",
+        "name": "DailyMate Lite: Speak Today",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/4a/d1/ab4ad140-555a-d151-0376-15e7f0c6dd47/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+        "url": "https://apps.apple.com/app/id6794725568?pt=118326163&ct=sup_savetag&mt=8",
+        "first_party": true
+      },
+      {
+        "app_id": "6794039979",
+        "name": "HoursTag Lite",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/38/6a/a3386a5c-e84f-d842-9384-3d9e21d1b5d3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+        "url": "https://apps.apple.com/app/id6794039979?pt=118326163&ct=sup_savetag&mt=8",
+        "first_party": true
+      },
+      {
+        "app_id": "6780107485",
+        "name": "LockHour Pro",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/47/15/664715cd-93a2-5186-ce53-94dee68f3cef/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+        "url": "https://apps.apple.com/app/id6780107485?pt=118326163&ct=sup_savetag&mt=8",
+        "first_party": true
+      }
+    ],
+    "copy": {
+      "ar-SA": {"heading":"المزيد من تطبيقات المطوّر نفسه","note":"الروابط تفتح App Store.","cta":"عرض في App Store","iap":"عملية شراء واحدة لفتح كل الميزات، بدون اشتراك","guide":"المزيد من أدلة التطبيقات وشروحات الاستخدام"},
+      "bn-BD": {"heading":"একই ডেভেলপারের আরও অ্যাপ","note":"লিঙ্কগুলি App Store খোলে।","cta":"App Store-এ দেখুন","iap":"আনলক করতে একবারের কেনাকাটা, কোনো সাবস্ক্রিপশন নেই","guide":"আরও অ্যাপ গাইড ও টিউটোরিয়াল"},
+      "ca": {"heading":"Més apps del mateix desenvolupador","note":"Els enllaços obren l'App Store.","cta":"Veure a l'App Store","iap":"compra única per desbloquejar-ho tot, sense subscripció","guide":"Més guies i tutorials d'apps"},
+      "cs": {"heading":"Další aplikace od stejného vývojáře","note":"Odkazy otevřou App Store.","cta":"Zobrazit v App Storu","iap":"jednorázový nákup pro odemknutí, žádné předplatné","guide":"Další návody a tipy k aplikacím"},
+      "da": {"heading":"Flere apps fra samme udvikler","note":"Links åbner App Store.","cta":"Se i App Store","iap":"engangskøb låser alt op, intet abonnement","guide":"Flere app-guider og vejledninger"},
+      "de-DE": {"heading":"Weitere Apps desselben Entwicklers","note":"Die Links öffnen den App Store.","cta":"Im App Store ansehen","iap":"einmaliger Kauf zum Freischalten, kein Abo","guide":"Weitere App-Anleitungen und Tipps"},
+      "el": {"heading":"Περισσότερες εφαρμογές από τον ίδιο προγραμματιστή","note":"Οι σύνδεσμοι ανοίγουν το App Store.","cta":"Προβολή στο App Store","iap":"εφάπαξ αγορά για ξεκλείδωμα, χωρίς συνδρομή","guide":"Περισσότεροι οδηγοί και συμβουλές για εφαρμογές"},
+      "en-AU": {"heading":"More apps from the same developer","note":"Links open the App Store.","cta":"View on the App Store","iap":"one-time purchase to unlock, no subscription","guide":"More app guides & how-tos"},
+      "en-CA": {"heading":"More apps from the same developer","note":"Links open the App Store.","cta":"View on the App Store","iap":"one-time purchase to unlock, no subscription","guide":"More app guides & how-tos"},
+      "en-GB": {"heading":"More apps from the same developer","note":"Links open the App Store.","cta":"View on the App Store","iap":"one-time purchase to unlock, no subscription","guide":"More app guides & how-tos"},
+      "en-US": {"heading":"More apps from the same developer","note":"Links open the App Store.","cta":"View on the App Store","iap":"one-time purchase to unlock, no subscription","guide":"More app guides & how-tos"},
+      "es-ES": {"heading":"Más apps del mismo desarrollador","note":"Los enlaces abren el App Store.","cta":"Ver en el App Store","iap":"compra única para desbloquear, sin suscripción","guide":"Más guías y tutoriales de apps"},
+      "es-MX": {"heading":"Más apps del mismo desarrollador","note":"Los enlaces abren el App Store.","cta":"Ver en el App Store","iap":"compra única para desbloquear, sin suscripción","guide":"Más guías y tutoriales de apps"},
+      "fi": {"heading":"Lisää saman kehittäjän sovelluksia","note":"Linkit avaavat App Storen.","cta":"Katso App Storessa","iap":"kertaosto avaa kaiken, ei tilausta","guide":"Lisää sovellusoppaita ja ohjeita"},
+      "fr-CA": {"heading":"Autres apps du même développeur","note":"Les liens ouvrent l'App Store.","cta":"Voir sur l'App Store","iap":"achat unique pour tout débloquer, sans abonnement","guide":"Plus de guides et de tutoriels d'apps"},
+      "fr-FR": {"heading":"Autres apps du même développeur","note":"Les liens ouvrent l'App Store.","cta":"Voir sur l'App Store","iap":"achat unique pour tout débloquer, sans abonnement","guide":"Plus de guides et de tutoriels d'apps"},
+      "gu-IN": {"heading":"એ જ ડેવલપરની વધુ ઍપ","note":"લિંક App Store ખોલે છે.","cta":"App Store પર જુઓ","iap":"અનલૉક કરવા માટે એક વખતની ખરીદી, કોઈ સબ્સ્ક્રિપ્શન નહીં","guide":"વધુ ઍપ ગાઇડ અને ટ્યુટોરિયલ"},
+      "he": {"heading":"אפליקציות נוספות מאותו מפתח","note":"הקישורים פותחים את App Store.","cta":"הצג ב-App Store","iap":"רכישה חד-פעמית לפתיחת הכול, ללא מנוי","guide":"עוד מדריכים והסברים על אפליקציות"},
+      "hi": {"heading":"इसी डेवलपर के और ऐप","note":"लिंक App Store खोलते हैं।","cta":"App Store में देखें","iap":"अनलॉक करने के लिए एक बार की खरीदारी, कोई सदस्यता नहीं","guide":"और ऐप गाइड और ट्यूटोरियल"},
+      "hr": {"heading":"Više aplikacija istog razvojnog programera","note":"Poveznice otvaraju App Store.","cta":"Prikaži u App Storeu","iap":"jednokratna kupnja za otključavanje, bez pretplate","guide":"Više vodiča i uputa za aplikacije"},
+      "hu": {"heading":"További appok ugyanattól a fejlesztőtől","note":"A hivatkozások az App Store-t nyitják meg.","cta":"Megtekintés az App Store-ban","iap":"egyszeri vásárlás a feloldáshoz, előfizetés nélkül","guide":"További app-útmutatók és tippek"},
+      "id": {"heading":"Aplikasi lain dari pengembang yang sama","note":"Tautan membuka App Store.","cta":"Lihat di App Store","iap":"sekali beli untuk membuka semua, tanpa langganan","guide":"Panduan dan tutorial aplikasi lainnya"},
+      "it": {"heading":"Altre app dello stesso sviluppatore","note":"I link aprono l'App Store.","cta":"Vedi su App Store","iap":"acquisto una tantum per sbloccare, nessun abbonamento","guide":"Altre guide e tutorial sulle app"},
+      "ja": {"heading":"同じ開発者のその他のApp","note":"リンクはApp Storeを開きます。","cta":"App Storeで見る","iap":"買い切りでロック解除、サブスクリプションなし","guide":"アプリの使い方ガイドをもっと見る"},
+      "kn-IN": {"heading":"ಅದೇ ಡೆವಲಪರ್‌ನ ಇನ್ನಷ್ಟು ಆ್ಯಪ್‌ಗಳು","note":"ಲಿಂಕ್‌ಗಳು App Store ಅನ್ನು ತೆರೆಯುತ್ತವೆ.","cta":"App Store ನಲ್ಲಿ ನೋಡಿ","iap":"ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಒಂದು ಬಾರಿಯ ಖರೀದಿ, ಚಂದಾದಾರಿಕೆ ಇಲ್ಲ","guide":"ಇನ್ನಷ್ಟು ಆ್ಯಪ್ ಗೈಡ್‌ಗಳು ಮತ್ತು ಟ್ಯುಟೋರಿಯಲ್‌ಗಳು"},
+      "ko": {"heading":"같은 개발자의 다른 앱","note":"링크는 App Store를 엽니다.","cta":"App Store에서 보기","iap":"한 번 구입으로 잠금 해제, 구독 없음","guide":"더 많은 앱 가이드와 활용법"},
+      "ml-IN": {"heading":"അതേ ഡെവലപ്പറുടെ മറ്റ് ആപ്പുകൾ","note":"ലിങ്കുകൾ App Store തുറക്കുന്നു.","cta":"App Store-ൽ കാണുക","iap":"അൺലോക്ക് ചെയ്യാൻ ഒറ്റത്തവണ വാങ്ങൽ, സബ്‌സ്‌ക്രിപ്‌ഷൻ ഇല്ല","guide":"കൂടുതൽ ആപ്പ് ഗൈഡുകളും ട്യൂട്ടോറിയലുകളും"},
+      "mr-IN": {"heading":"याच डेव्हलपरची आणखी ॲप्स","note":"लिंक App Store उघडतात.","cta":"App Store वर पाहा","iap":"अनलॉक करण्यासाठी एकदाच खरेदी, सदस्यता नाही","guide":"आणखी ॲप मार्गदर्शक आणि ट्युटोरियल"},
+      "ms": {"heading":"Lagi app daripada pembangun yang sama","note":"Pautan membuka App Store.","cta":"Lihat di App Store","iap":"beli sekali untuk buka semua, tiada langganan","guide":"Lagi panduan dan tutorial app"},
+      "nl-NL": {"heading":"Meer apps van dezelfde ontwikkelaar","note":"Links openen de App Store.","cta":"Bekijk in de App Store","iap":"eenmalige aankoop om te ontgrendelen, geen abonnement","guide":"Meer app-gidsen en uitleg"},
+      "no": {"heading":"Flere apper fra samme utvikler","note":"Lenkene åpner App Store.","cta":"Vis i App Store","iap":"engangskjøp låser opp alt, ingen abonnement","guide":"Flere appguider og veiledninger"},
+      "or-IN": {"heading":"ସେହି ଡେଭଲପରଙ୍କ ଅଧିକ ଆପ୍","note":"ଲିଙ୍କଗୁଡ଼ିକ App Store ଖୋଲେ।","cta":"App Storeରେ ଦେଖନ୍ତୁ","iap":"ଅନଲକ୍ କରିବା ପାଇଁ ଥରେ କିଣନ୍ତୁ, କୌଣସି ସବସ୍କ୍ରିପସନ୍ ନାହିଁ","guide":"ଅଧିକ ଆପ୍ ଗାଇଡ୍ ଓ ଟ୍ୟୁଟୋରିଆଲ୍"},
+      "pa-IN": {"heading":"ਇਸੇ ਡਿਵੈਲਪਰ ਦੀਆਂ ਹੋਰ ਐਪਾਂ","note":"ਲਿੰਕ App Store ਖੋਲ੍ਹਦੇ ਹਨ।","cta":"App Store ਵਿੱਚ ਦੇਖੋ","iap":"ਅਨਲਾਕ ਕਰਨ ਲਈ ਇੱਕ ਵਾਰ ਖਰੀਦ, ਕੋਈ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਨਹੀਂ","guide":"ਹੋਰ ਐਪ ਗਾਈਡਾਂ ਅਤੇ ਟਿਊਟੋਰਿਅਲ"},
+      "pl": {"heading":"Więcej aplikacji tego samego dewelopera","note":"Linki otwierają App Store.","cta":"Zobacz w App Store","iap":"jednorazowy zakup odblokowuje wszystko, bez subskrypcji","guide":"Więcej poradników i instrukcji do aplikacji"},
+      "pt-BR": {"heading":"Mais apps do mesmo desenvolvedor","note":"Os links abrem a App Store.","cta":"Ver na App Store","iap":"compra única para desbloquear, sem assinatura","guide":"Mais guias e tutoriais de apps"},
+      "pt-PT": {"heading":"Mais apps do mesmo programador","note":"As ligações abrem a App Store.","cta":"Ver na App Store","iap":"compra única para desbloquear, sem subscrição","guide":"Mais guias e tutoriais de apps"},
+      "ro": {"heading":"Mai multe aplicații de la același dezvoltator","note":"Linkurile deschid App Store.","cta":"Vezi în App Store","iap":"achiziție unică pentru deblocare, fără abonament","guide":"Mai multe ghiduri și tutoriale pentru aplicații"},
+      "ru": {"heading":"Другие приложения того же разработчика","note":"Ссылки открывают App Store.","cta":"Открыть в App Store","iap":"разовая покупка для разблокировки, без подписки","guide":"Больше руководств и инструкций по приложениям"},
+      "sk": {"heading":"Ďalšie aplikácie od rovnakého vývojára","note":"Odkazy otvoria App Store.","cta":"Zobraziť v App Store","iap":"jednorazový nákup na odomknutie, žiadne predplatné","guide":"Ďalšie návody a tipy k aplikáciám"},
+      "sl-SI": {"heading":"Več aplikacij istega razvijalca","note":"Povezave odprejo App Store.","cta":"Ogled v App Storu","iap":"enkraten nakup za odklep, brez naročnine","guide":"Več vodnikov in navodil za aplikacije"},
+      "sv": {"heading":"Fler appar från samma utvecklare","note":"Länkarna öppnar App Store.","cta":"Visa i App Store","iap":"engångsköp låser upp allt, ingen prenumeration","guide":"Fler appguider och instruktioner"},
+      "ta-IN": {"heading":"இதே டெவலப்பரின் மேலும் ஆப்ஸ்","note":"இணைப்புகள் App Store-ஐத் திறக்கும்.","cta":"App Store-இல் பார்க்கவும்","iap":"அன்லாக் செய்ய ஒரு முறை கொள்முதல், சந்தா இல்லை","guide":"மேலும் ஆப்ஸ் வழிகாட்டிகளும் பயன்பாட்டுக் குறிப்புகளும்"},
+      "te-IN": {"heading":"అదే డెవలపర్ నుండి మరిన్ని యాప్‌లు","note":"లింక్‌లు App Storeని తెరుస్తాయి.","cta":"App Storeలో చూడండి","iap":"అన్‌లాక్ చేయడానికి ఒకసారి కొనుగోలు, సబ్‌స్క్రిప్షన్ లేదు","guide":"మరిన్ని యాప్ గైడ్‌లు మరియు ట్యుటోరియల్స్"},
+      "th": {"heading":"แอปอื่นจากผู้พัฒนารายเดียวกัน","note":"ลิงก์จะเปิด App Store","cta":"ดูใน App Store","iap":"ซื้อครั้งเดียวเพื่อปลดล็อก ไม่มีการสมัครสมาชิก","guide":"ดูคู่มือและวิธีใช้แอปเพิ่มเติม"},
+      "tr": {"heading":"Aynı geliştiricinin diğer uygulamaları","note":"Bağlantılar App Store'u açar.","cta":"App Store'da görüntüle","iap":"kilidi açmak için tek seferlik satın alma, abonelik yok","guide":"Daha fazla uygulama rehberi ve ipucu"},
+      "uk": {"heading":"Інші застосунки того самого розробника","note":"Посилання відкривають App Store.","cta":"Переглянути в App Store","iap":"разова покупка для розблокування, без підписки","guide":"Більше посібників та інструкцій до застосунків"},
+      "ur-PK": {"heading":"اسی ڈویلپر کی مزید ایپس","note":"لنکس App Store کھولتے ہیں۔","cta":"App Store پر دیکھیں","iap":"انلاک کرنے کے لیے ایک بار کی خریداری، کوئی سبسکرپشن نہیں","guide":"مزید ایپ گائیڈز اور استعمال کے طریقے"},
+      "vi": {"heading":"Ứng dụng khác của cùng nhà phát triển","note":"Liên kết sẽ mở App Store.","cta":"Xem trên App Store","iap":"mua một lần để mở khóa, không đăng ký thuê bao","guide":"Thêm hướng dẫn và mẹo dùng ứng dụng"},
+      "zh-Hans": {"heading":"同一开发者的更多 App","note":"链接会打开 App Store。","cta":"在 App Store 查看","iap":"一次性购买解锁,无订阅","guide":"更多 App 使用指南与教程"},
+      "zh-Hant": {"heading":"同開發者的更多 App","note":"連結會開啟 App Store。","cta":"在 App Store 檢視","iap":"一次購買解鎖,無訂閱","guide":"更多 App 使用指南與教學"}
+    }
+  }
+}

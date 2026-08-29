@@ -8,14 +8,23 @@ import hashlib
 import html
 import json
 import re
+import shutil
+import subprocess
 from pathlib import Path
-from urllib.parse import unquote, urlsplit
+from urllib.parse import parse_qs, unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "source" / "support_surfaces.json"
+PROMOTION_SOURCE = ROOT / "source" / "support_promotions.json"
 SURFACES = ("index", "support", "privacy")
 FILES = {"index": "index.html", "support": "support.html", "privacy": "privacy.html"}
 RTL = {"ar-SA", "he", "ur-PK"}
+ENGLISH_LOGICAL = {"en-AU", "en-CA", "en-GB", "en-US"}
+SAVE_TAG_APP_ID = "6802505528"
+PROVIDER_TOKEN = "118326163"
+OWN_CAMPAIGN_PREFIX = "iag_data"
+FAMILY_CAMPAIGN = "sup_savetag"
+FAMILY_APP_IDS = ("6785004775", "6794725568", "6794039979", "6780107485")
 OFFICIAL = [
     "ar-SA", "bn-BD", "ca", "zh-Hans", "zh-Hant", "hr", "cs", "da",
     "nl-NL", "en-AU", "en-CA", "en-GB", "en-US", "fi", "fr-CA",
@@ -54,6 +63,24 @@ SCHEMA_RE = re.compile(
     r".*?</script>",
     re.I | re.S,
 )
+APP_CTA_START = "<!-- ls-app-cta:start -->"
+APP_CTA_END = "<!-- ls-app-cta:end -->"
+APP_CTA_RE = re.compile(
+    re.escape(APP_CTA_START) + r".*?" + re.escape(APP_CTA_END), re.S,
+)
+FAMILY_START = "<!-- ls-family:start -->"
+FAMILY_END = "<!-- ls-family:end -->"
+FAMILY_RE = re.compile(
+    re.escape(FAMILY_START) + r".*?" + re.escape(FAMILY_END), re.S,
+)
+PROMOTION_RUNTIME_START = "<!-- ls-promotion-runtime:start -->"
+PROMOTION_RUNTIME_END = "<!-- ls-promotion-runtime:end -->"
+PROMOTION_RUNTIME_RE = re.compile(
+    re.escape(PROMOTION_RUNTIME_START)
+    + r".*?"
+    + re.escape(PROMOTION_RUNTIME_END),
+    re.S,
+)
 
 
 def load_source() -> dict:
@@ -68,6 +95,162 @@ def load_source() -> dict:
         if set(data["routes"][locale]) != set(SURFACES):
             raise SystemExit(f"{locale}: route surface set mismatch")
     return data
+
+
+def locale_campaign(locale: str) -> str:
+    return f"{OWN_CAMPAIGN_PREFIX}_{locale.lower().replace('-', '_')}"
+
+
+def direct_store_url(app_id: str, storefront: str, campaign: str) -> str:
+    return (
+        f"https://apps.apple.com/{storefront}/app/id{app_id}"
+        f"?pt={PROVIDER_TOKEN}&ct={campaign}&mt=8"
+    )
+
+
+def validate_campaign_url(
+    value: str,
+    *,
+    app_id: str,
+    campaign: str,
+    storefront: str | None,
+) -> str | None:
+    parts = urlsplit(value)
+    expected_path = (
+        f"/{storefront}/app/id{app_id}" if storefront else f"/app/id{app_id}"
+    )
+    if parts.scheme != "https" or parts.netloc != "apps.apple.com":
+        return "must be a direct https://apps.apple.com URL"
+    if parts.path != expected_path:
+        return f"path {parts.path!r} != {expected_path!r}"
+    if parse_qs(parts.query) != {
+        "pt": [PROVIDER_TOKEN],
+        "ct": [campaign],
+        "mt": ["8"],
+    }:
+        return "campaign query mismatch"
+    if parts.fragment:
+        return "fragments are not allowed"
+    return None
+
+
+def load_promotions(data: dict) -> dict:
+    promotions = json.loads(PROMOTION_SOURCE.read_text(encoding="utf-8"))
+    problems = []
+    if promotions.get("schema") != "support-promotion-source/v1":
+        problems.append("unsupported promotion source schema")
+
+    own = promotions.get("own_app") or {}
+    if str(own.get("app_id")) != SAVE_TAG_APP_ID:
+        problems.append(f"own App ID must be {SAVE_TAG_APP_ID}")
+    if str(own.get("provider_token")) != PROVIDER_TOKEN:
+        problems.append(f"provider token must be {PROVIDER_TOKEN}")
+    if own.get("campaign_prefix") != OWN_CAMPAIGN_PREFIX:
+        problems.append(f"own campaign prefix must be {OWN_CAMPAIGN_PREFIX}")
+    english = own.get("english") or {}
+    if set(english) != ENGLISH_LOGICAL:
+        problems.append("English promotion locale set mismatch")
+
+    index_targets = {
+        target["locale"]: target
+        for target in data.get("targets", [])
+        if target.get("surface") == "index"
+    }
+    own_locales = {}
+    for locale in OFFICIAL:
+        if locale in ENGLISH_LOGICAL:
+            entry = english.get(locale) or {}
+            storefront = str(entry.get("storefront") or "")
+            label = str(entry.get("label") or "")
+            url = direct_store_url(
+                SAVE_TAG_APP_ID, storefront, locale_campaign(locale)
+            )
+        else:
+            target = index_targets.get(locale) or {}
+            label = str(target.get("store_label") or "")
+            url = str(target.get("store_url") or "")
+            path_match = re.fullmatch(
+                rf"/([a-z]{{2}})/app/id{SAVE_TAG_APP_ID}",
+                urlsplit(url).path,
+            )
+            storefront = path_match.group(1) if path_match else ""
+        if not storefront:
+            problems.append(f"{locale}: missing App Store storefront")
+        if not label or "app stor" not in label.lower():
+            problems.append(f"{locale}: missing native App Store CTA label")
+        issue = validate_campaign_url(
+            url,
+            app_id=SAVE_TAG_APP_ID,
+            campaign=locale_campaign(locale),
+            storefront=storefront or None,
+        )
+        if issue:
+            problems.append(f"{locale}: own App URL {issue}")
+        own_locales[locale] = {
+            "url": url,
+            "label": label,
+            "storefront": storefront,
+        }
+
+    family = promotions.get("family") or {}
+    if family.get("campaign") != FAMILY_CAMPAIGN:
+        problems.append(f"family campaign must be {FAMILY_CAMPAIGN}")
+    cards = family.get("cards") or []
+    card_ids = tuple(str(card.get("app_id")) for card in cards)
+    if card_ids != FAMILY_APP_IDS:
+        problems.append("first-party family App ID set or order mismatch")
+    for card in cards:
+        app_id = str(card.get("app_id") or "")
+        if card.get("first_party") is not True:
+            problems.append(f"family App {app_id}: first_party must be true")
+        if not str(card.get("name") or "").strip():
+            problems.append(f"family App {app_id}: missing name")
+        issue = validate_campaign_url(
+            str(card.get("url") or ""),
+            app_id=app_id,
+            campaign=FAMILY_CAMPAIGN,
+            storefront=None,
+        )
+        if issue:
+            problems.append(f"family App {app_id}: URL {issue}")
+        icon = urlsplit(str(card.get("icon") or ""))
+        if icon.scheme != "https" or not (icon.hostname or "").endswith("mzstatic.com"):
+            problems.append(f"family App {app_id}: icon is not an Apple CDN URL")
+
+    guide = urlsplit(str(family.get("guide_url") or ""))
+    if (
+        guide.scheme != "https"
+        or guide.netloc != "alice51849.github.io"
+        or guide.path != "/ios-app-guide/"
+        or parse_qs(guide.query)
+        != {
+            "utm_source": ["support_site"],
+            "utm_medium": ["family_module"],
+            "utm_campaign": [FAMILY_CAMPAIGN],
+        }
+    ):
+        problems.append("family guide URL must be the first-party direct campaign URL")
+
+    copy = family.get("copy") or {}
+    if set(copy) != set(OFFICIAL):
+        problems.append("family copy locale set mismatch")
+    for locale in OFFICIAL:
+        row = copy.get(locale) or {}
+        if set(row) != {"heading", "note", "cta", "iap", "guide"}:
+            problems.append(f"{locale}: family copy key mismatch")
+            continue
+        joined = " ".join(str(row[key]).strip() for key in sorted(row))
+        if not joined or any(not str(row[key]).strip() for key in row):
+            problems.append(f"{locale}: family copy is incomplete")
+        if locale not in ENGLISH_LOGICAL:
+            pattern = SCRIPT_RANGES.get(locale)
+            if pattern and not re.search(pattern, joined):
+                problems.append(f"{locale}: family copy lacks the expected script")
+
+    if problems:
+        raise SystemExit("\n".join(problems[:100]))
+    promotions["_own_locales"] = own_locales
+    return promotions
 
 
 def path_url(base_url: str, relative: str) -> str:
@@ -98,6 +281,180 @@ def page_links(data: dict, surface: str) -> str:
 
 def esc(value: object) -> str:
     return html.escape(str(value), quote=True)
+
+
+def render_app_cta(promotions: dict, locale: str) -> str:
+    own = promotions["_own_locales"][locale]
+    return (
+        f'{APP_CTA_START}<a class="button btn ls-app-store" '
+        f'data-ls-app-store data-ls-locale="{esc(locale)}" '
+        f'data-ls-app-id="{SAVE_TAG_APP_ID}" href="{esc(own["url"])}" '
+        'rel="noopener" '
+        'style="display:inline-flex;align-items:center;min-height:44px;'
+        'padding:11px 20px;border-radius:14px;font-weight:720;'
+        'text-decoration:none;color:#fff;'
+        'background:linear-gradient(130deg,#FC67AA,#8980F7)">'
+        f'{esc(own["label"])}</a>{APP_CTA_END}'
+    )
+
+
+def render_family_module(promotions: dict, locale: str) -> str:
+    family = promotions["family"]
+    copy = family["copy"][locale]
+    rtl = locale in RTL
+    direction = ' dir="rtl"' if rtl else ""
+    align = "right" if rtl else "left"
+    cards = []
+    for card in family["cards"]:
+        cards.append(
+            f'<a href="{esc(card["url"])}" rel="noopener" '
+            f'data-ls-family-app="{esc(card["app_id"])}" '
+            'style="display:flex;align-items:center;gap:12px;padding:12px 14px;'
+            'background:rgba(127,127,127,.10);'
+            'background:color-mix(in srgb,currentColor 9%,transparent);'
+            'border:1px solid rgba(127,127,127,.22);'
+            'border-color:color-mix(in srgb,currentColor 20%,transparent);'
+            'border-radius:16px;text-decoration:none;color:inherit;min-width:0;'
+            f'text-align:{align}">'
+            f'<img src="{esc(card["icon"])}" alt="" width="46" height="46" '
+            'loading="lazy" style="border-radius:11px;flex:0 0 auto">'
+            '<span style="min-width:0">'
+            f'<strong style="display:block;font-size:14px;line-height:1.35">'
+            f'{esc(card["name"])}</strong>'
+            '<span data-ls-family-iap '
+            'style="display:block;font-size:12px;line-height:1.4;opacity:.72">'
+            f'{esc(copy["iap"])}</span>'
+            '<span data-ls-family-cta '
+            'style="display:block;font-size:12px;line-height:1.4;opacity:.72">'
+            f'{esc(copy["cta"])}</span></span></a>'
+        )
+    return (
+        f'{FAMILY_START}<section{direction} data-ls-family '
+        f'data-ls-locale="{esc(locale)}" aria-label="{esc(copy["heading"])}" '
+        'style="max-width:1060px;margin:34px auto 26px;padding:20px 22px;'
+        'background:rgba(127,127,127,.08);'
+        'background:color-mix(in srgb,currentColor 7%,transparent);'
+        'border:1px solid rgba(127,127,127,.18);'
+        'border-color:color-mix(in srgb,currentColor 16%,transparent);'
+        'border-radius:20px;font-family:inherit;color:inherit;'
+        f'text-align:{align}">'
+        '<h2 data-ls-family-heading '
+        'style="margin:0 0 14px;font-size:17px;color:inherit">'
+        f'{esc(copy["heading"])}</h2>'
+        '<div style="display:grid;grid-template-columns:repeat('
+        'auto-fit,minmax(240px,1fr));gap:10px">'
+        f'{"".join(cards)}</div>'
+        '<p data-ls-family-note style="margin:10px 0 0;font-size:12px;opacity:.66">'
+        f'{esc(copy["note"])}</p>'
+        '<p style="margin:6px 0 0;font-size:12px;opacity:.66">'
+        f'<a data-ls-family-guide href="{esc(family["guide_url"])}" rel="noopener" '
+        'style="color:inherit;text-decoration:underline">'
+        f'{esc(copy["guide"])}</a></p></section>{FAMILY_END}'
+    )
+
+
+def render_promotion_runtime(promotions: dict) -> str:
+    payload = {
+        locale: {
+            "url": promotions["_own_locales"][locale]["url"],
+            "label": promotions["_own_locales"][locale]["label"],
+            "family": promotions["family"]["copy"][locale],
+        }
+        for locale in OFFICIAL
+    }
+    encoded = json.dumps(
+        payload, ensure_ascii=False, separators=(",", ":")
+    ).replace("</", "<\\/")
+    return (
+        f'{PROMOTION_RUNTIME_START}<script id="ls-promotion-routes" '
+        f'type="application/json">{encoded}</script>\n'
+        """<script id="ls-promotion-router">
+(function () {
+  "use strict";
+  var node = document.getElementById("ls-promotion-routes");
+  if (!node) return;
+  var routes = JSON.parse(node.textContent);
+  var order = Object.keys(routes);
+  var englishOnly = !document.getElementById("lang");
+  function normalise(value) {
+    if (!value) return null;
+    var tag = String(value).replace("_", "-").toLowerCase();
+    for (var i = 0; i < order.length; i += 1) {
+      if (order[i].toLowerCase() === tag) return order[i];
+    }
+    var base = tag.split("-")[0];
+    if (base === "en") {
+      if (/^(en-)?au$/.test(tag)) return "en-AU";
+      if (/^(en-)?ca$/.test(tag)) return "en-CA";
+      if (/^(en-)?(gb|uk)$/.test(tag)) return "en-GB";
+      return "en-US";
+    }
+    for (var j = 0; j < order.length; j += 1) {
+      if (order[j].toLowerCase().split("-")[0] === base) return order[j];
+    }
+    return null;
+  }
+  function parameter() {
+    var match = /[?&]lang=([^&#]+)/.exec(location.search);
+    return match ? decodeURIComponent(match[1]) : null;
+  }
+  function stored() {
+    try { return localStorage.getItem("savetag.lang"); }
+    catch (error) { return null; }
+  }
+  function pick() {
+    var detected = navigator.languages || [navigator.language];
+    var values = [parameter(), stored()];
+    values = englishOnly
+      ? values.concat(detected, [document.documentElement.lang])
+      : values.concat([document.documentElement.lang], detected);
+    for (var i = 0; i < values.length; i += 1) {
+      var code = normalise(values[i]);
+      if (code && (!englishOnly || code.slice(0, 3) === "en-")) return code;
+    }
+    return "en-US";
+  }
+  function apply() {
+    var code = pick();
+    var row = routes[code] || routes["en-US"];
+    document.querySelectorAll("[data-ls-app-store]").forEach(function (link) {
+      link.href = row.url;
+      link.textContent = row.label;
+      link.setAttribute("data-ls-locale", code);
+    });
+    document.querySelectorAll("[data-ls-family]").forEach(function (section) {
+      section.dir = /^(ar-SA|he|ur-PK)$/.test(code) ? "rtl" : "ltr";
+      section.setAttribute("data-ls-locale", code);
+      section.setAttribute("aria-label", row.family.heading);
+    });
+    document.querySelectorAll("[data-ls-family-heading]").forEach(function (item) {
+      item.textContent = row.family.heading;
+    });
+    document.querySelectorAll("[data-ls-family-note]").forEach(function (item) {
+      item.textContent = row.family.note;
+    });
+    document.querySelectorAll("[data-ls-family-cta]").forEach(function (item) {
+      item.textContent = row.family.cta;
+    });
+    document.querySelectorAll("[data-ls-family-iap]").forEach(function (item) {
+      item.textContent = row.family.iap;
+    });
+    document.querySelectorAll("[data-ls-family-guide]").forEach(function (item) {
+      item.textContent = row.family.guide;
+    });
+  }
+  document.addEventListener("change", function (event) {
+    if (event.target && event.target.id === "lang") setTimeout(apply, 0);
+  }, true);
+  new MutationObserver(apply).observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["lang", "dir"]
+  });
+  apply();
+})();
+</script>"""
+        f"{PROMOTION_RUNTIME_END}"
+    )
 
 
 def render(data: dict, target: dict) -> str:
@@ -134,12 +491,6 @@ def render(data: dict, target: dict) -> str:
         f'<aside class="parent-note">{esc(target["parent_note"])}</aside>'
         if target.get("parent_note") else ""
     )
-    store = ""
-    if target.get("store_url"):
-        store = (
-            f'<a class="button" href="{esc(target["store_url"])}" '
-            f'rel="noopener">{esc(target["store_label"])}</a>'
-        )
     secondary = (
         f'<a class="quiet-button" href="{esc(route_url(data, locale, "support"))}">'
         f'{esc(target["support_label"])}</a>'
@@ -219,7 +570,7 @@ footer{{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margi
 <div class="shell">
 <header><a class="brand" href="{esc(route_url(data, locale, "index"))}">{icon}<span>{esc(target["app_name"])}</span></a><nav aria-label="{esc(target["nav_label"])}">{''.join(nav)}</nav><details class="language"><summary>{esc(target["language_label"])}</summary><div class="language-list">{language_links}</div></details></header>
 <main>
-<section class="hero"><p class="eyebrow">{esc(target["eyebrow"])}</p><h1>{esc(target["heading"])}</h1><p class="lead">{esc(target["lead"])}</p>{parent_note}<div class="actions">{store}{secondary}</div></section>
+<section class="hero"><p class="eyebrow">{esc(target["eyebrow"])}</p><h1>{esc(target["heading"])}</h1><p class="lead">{esc(target["lead"])}</p>{parent_note}<div class="actions">{secondary}</div></section>
 <div class="grid">{sections}{faqs}{contact}</div>
 </main>
 <footer><span>© 2026 {esc(target["app_name"])}</span><span>{esc(target["footer_note"])}</span></footer>
@@ -239,7 +590,101 @@ def set_html_identity(text: str, locale: str) -> str:
     return text[:match.start()] + replacement + text[match.end():]
 
 
-def normalize_page(data: dict, relative: str, locale: str, surface: str) -> None:
+def strip_standalone_block(text: str, pattern: re.Pattern[str]) -> str:
+    while match := pattern.search(text):
+        text = text[:match.start()].rstrip() + "\n" + text[match.end():].lstrip()
+    return text
+
+
+def route_locales(data: dict, relative: str, surface: str) -> list[str]:
+    return [
+        locale
+        for locale in OFFICIAL
+        if data["routes"][locale][surface] == relative
+    ]
+
+
+def inject_promotions(
+    text: str,
+    data: dict,
+    promotions: dict,
+    relative: str,
+    locale: str,
+    surface: str,
+) -> str:
+    text = APP_CTA_RE.sub("", text)
+    text = strip_standalone_block(text, FAMILY_RE)
+    text = strip_standalone_block(text, PROMOTION_RUNTIME_RE)
+    cta = render_app_cta(promotions, locale)
+
+    hero = re.search(
+        r'<section\b(?=[^>]*\bclass\s*=\s*["\'][^"\']*\bhero\b[^"\']*["\'])'
+        r"[^>]*>",
+        text,
+        re.I,
+    )
+    if not hero:
+        raise ValueError(f"{relative}: missing hero for App Store CTA")
+    hero_close = re.search(r"</section\s*>", text[hero.end():], re.I)
+    if not hero_close:
+        raise ValueError(f"{relative}: hero is not closed")
+    hero_end = hero.end() + hero_close.start()
+    actions = re.search(
+        r'<div\b(?=[^>]*\bclass\s*=\s*["\'][^"\']*\bactions\b[^"\']*["\'])'
+        r"[^>]*>",
+        text[hero.end():hero_end],
+        re.I,
+    )
+    if actions:
+        insertion = hero.end() + actions.end()
+        text = text[:insertion] + cta + text[insertion:]
+    else:
+        wrapper = (
+            '<div class="actions" '
+            'style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px">'
+            f"{cta}</div>"
+        )
+        text = text[:hero_end] + wrapper + text[hero_end:]
+
+    footer_matches = list(re.finditer(r"<footer\b", text, re.I))
+    if not footer_matches:
+        raise ValueError(f"{relative}: missing footer for family module")
+    footer = footer_matches[-1].start()
+    text = (
+        text[:footer].rstrip()
+        + "\n\n"
+        + render_family_module(promotions, locale)
+        + "\n"
+        + text[footer:].lstrip()
+    )
+
+    logical_locales = route_locales(data, relative, surface)
+    if len(logical_locales) > 1:
+        if set(logical_locales) != ENGLISH_LOGICAL:
+            raise ValueError(
+                f"{relative}: unsupported shared locale set {logical_locales!r}"
+            )
+        body_matches = list(re.finditer(r"</body\s*>", text, re.I))
+        if not body_matches:
+            raise ValueError(f"{relative}: missing body close for promotion runtime")
+        body_close = body_matches[-1].start()
+        text = (
+            text[:body_close].rstrip()
+            + "\n"
+            + render_promotion_runtime(promotions)
+            + "\n"
+            + text[body_close:].lstrip()
+        )
+    return text
+
+
+def normalize_page(
+    data: dict,
+    promotions: dict,
+    relative: str,
+    locale: str,
+    surface: str,
+) -> None:
     path = ROOT / relative
     text = path.read_text(encoding="utf-8")
     text = set_html_identity(text, locale)
@@ -264,6 +709,9 @@ def normalize_page(data: dict, relative: str, locale: str, surface: str) -> None
     if "</head>" not in text.lower():
         raise ValueError(f"{relative}: missing head close")
     text = re.sub(r"</head>", block + "</head>", text, count=1, flags=re.I)
+    text = inject_promotions(
+        text, data, promotions, relative, locale, surface
+    )
     path.write_text(text, encoding="utf-8")
 
 
@@ -295,7 +743,7 @@ def merge_sitemap(data: dict) -> None:
     )
 
 
-def build(data: dict) -> str:
+def build(data: dict, promotions: dict) -> str:
     for target in data.get("targets", []):
         destination = ROOT / target["path"]
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -304,7 +752,7 @@ def build(data: dict) -> str:
         path = ROOT / relative
         if not path.is_file():
             raise SystemExit(f"missing required output: {relative}")
-        normalize_page(data, relative, locale, surface)
+        normalize_page(data, promotions, relative, locale, surface)
     merge_sitemap(data)
     return content_digest(data)
 
@@ -353,7 +801,150 @@ def resolve_local(data: dict, current: str, href: str) -> Path | None:
     return candidate
 
 
-def check(data: dict) -> dict:
+def promotion_errors(
+    data: dict,
+    promotions: dict,
+    relative: str,
+    locale: str,
+    surface: str,
+    text: str,
+) -> list[str]:
+    errors = []
+    cta_blocks = APP_CTA_RE.findall(text)
+    if len(cta_blocks) != 1:
+        errors.append(f"{relative}: expected exactly one generated App Store CTA")
+    else:
+        block = cta_blocks[0]
+        hrefs = attr_values(block, "a", "href")
+        expected = promotions["_own_locales"][locale]
+        if hrefs != [expected["url"]]:
+            errors.append(f"{relative}: own App Store CTA URL mismatch")
+        if expected["label"] not in visible_text(block):
+            errors.append(f"{relative}: own App Store CTA label mismatch")
+        ids = attr_values(block, "a", "data-ls-app-id")
+        if ids != [SAVE_TAG_APP_ID]:
+            errors.append(f"{relative}: own App Store CTA ID mismatch")
+
+    family_blocks = FAMILY_RE.findall(text)
+    if len(family_blocks) != 1:
+        errors.append(f"{relative}: expected exactly one ls-family module")
+    else:
+        block = family_blocks[0]
+        family = promotions["family"]
+        copy = family["copy"][locale]
+        expected_hrefs = [card["url"] for card in family["cards"]]
+        expected_hrefs.append(family["guide_url"])
+        if attr_values(block, "a", "href") != expected_hrefs:
+            errors.append(f"{relative}: family direct-link set mismatch")
+        if attr_values(block, "a", "data-ls-family-app") != list(FAMILY_APP_IDS):
+            errors.append(f"{relative}: family first-party App set mismatch")
+        plain = visible_text(block)
+        for key in ("heading", "note", "cta", "iap", "guide"):
+            if copy[key] not in plain:
+                errors.append(f"{relative}: native family {key} copy mismatch")
+        if SAVE_TAG_APP_ID in block:
+            errors.append(f"{relative}: family module recommends SaveTag to itself")
+
+    logical_locales = route_locales(data, relative, surface)
+    runtime = re.search(
+        r'<script\b(?=[^>]*\bid=["\']ls-promotion-routes["\'])'
+        r'[^>]*>(.*?)</script>',
+        text,
+        re.I | re.S,
+    )
+    if len(logical_locales) > 1:
+        if set(logical_locales) != ENGLISH_LOGICAL:
+            errors.append(f"{relative}: invalid shared promotion locale set")
+        try:
+            if not runtime:
+                raise ValueError("missing")
+            payload = json.loads(runtime.group(1))
+        except (ValueError, json.JSONDecodeError):
+            errors.append(f"{relative}: invalid promotion runtime payload")
+        else:
+            if set(payload) != set(OFFICIAL):
+                errors.append(f"{relative}: promotion runtime locale set mismatch")
+            for code in OFFICIAL:
+                row = payload.get(code) or {}
+                expected = promotions["_own_locales"][code]
+                if row.get("url") != expected["url"]:
+                    errors.append(f"{relative}: runtime {code} URL mismatch")
+                    break
+                if row.get("label") != expected["label"]:
+                    errors.append(f"{relative}: runtime {code} CTA mismatch")
+                    break
+                if row.get("family") != promotions["family"]["copy"][code]:
+                    errors.append(f"{relative}: runtime {code} family copy mismatch")
+                    break
+    elif runtime or PROMOTION_RUNTIME_START in text or PROMOTION_RUNTIME_END in text:
+        errors.append(f"{relative}: unexpected promotion runtime payload")
+    return errors
+
+
+def javascript_errors(data: dict, route_set: dict[str, tuple[str, str]]) -> tuple[list[str], dict]:
+    errors = []
+    node = shutil.which("node")
+    if not node:
+        return ["JavaScript syntax gate: node is unavailable"], {
+            "inline_checked": 0,
+            "external_checked": 0,
+        }
+    scripts: dict[str, tuple[str, str]] = {}
+    inline = 0
+    external = 0
+    for relative in route_set:
+        text = (ROOT / relative).read_text(encoding="utf-8")
+        for match in re.finditer(r"<script\b([^>]*)>(.*?)</script>", text, re.I | re.S):
+            attrs, body = match.groups()
+            kind = re.search(r'\btype\s*=\s*["\']([^"\']+)["\']', attrs, re.I)
+            if kind and kind.group(1).lower() in {
+                "application/json",
+                "application/ld+json",
+            }:
+                continue
+            source = re.search(r'\bsrc\s*=\s*["\']([^"\']+)["\']', attrs, re.I)
+            if source:
+                path = resolve_local(data, relative, html.unescape(source.group(1)))
+                if path is None or not path.is_file():
+                    errors.append(f"{relative}: external or missing JavaScript source")
+                    continue
+                body = path.read_text(encoding="utf-8")
+                label = str(path.relative_to(ROOT))
+                external += 1
+            else:
+                if not body.strip():
+                    continue
+                label = relative
+                inline += 1
+            key = hashlib.sha256(body.encode()).hexdigest()
+            scripts.setdefault(key, (label, body))
+    for label, body in scripts.values():
+        try:
+            result = subprocess.run(
+                [node, "--check"],
+                input=body,
+                text=True,
+                capture_output=True,
+                timeout=20,
+                check=False,
+            )
+        except (OSError, subprocess.TimeoutExpired) as exc:
+            errors.append(f"{label}: JavaScript syntax gate failed ({exc})")
+            continue
+        if result.returncode:
+            detail = (result.stderr or result.stdout).strip().splitlines()
+            errors.append(
+                f"{label}: invalid JavaScript"
+                + (f" ({detail[-1]})" if detail else "")
+            )
+    return errors, {
+        "inline_checked": inline,
+        "external_checked": external,
+        "unique_checked": len(scripts),
+    }
+
+
+def check(data: dict, promotions: dict) -> dict:
     errors = []
     allowed_email = data["email"].lower()
     route_set = unique_routes(data)
@@ -432,6 +1023,20 @@ def check(data: dict) -> dict:
                 pattern = SCRIPT_RANGES.get(locale)
                 if pattern and not re.search(pattern, plain):
                     errors.append(f"{relative}: expected script is absent")
+        errors.extend(
+            promotion_errors(
+                data, promotions, relative, locale, surface, text
+            )
+        )
+    for surface in SURFACES:
+        expected = FILES[surface]
+        for locale in ENGLISH_LOGICAL:
+            if data["routes"][locale][surface] != expected:
+                errors.append(
+                    f"{locale}/{surface}: root English logical route mismatch"
+                )
+    js_errors, javascript = javascript_errors(data, route_set)
+    errors.extend(js_errors)
     if errors:
         raise SystemExit("\n".join(errors[:100]))
     return {
@@ -440,6 +1045,9 @@ def check(data: dict) -> dict:
         "unique_files": len(route_set),
         "targets": len(data.get("targets", [])),
         "digest": content_digest(data),
+        "english_logical_routes": len(ENGLISH_LOGICAL) * len(SURFACES),
+        "promotion_pages": len(route_set),
+        "javascript": javascript,
         "status": "PASS",
     }
 
@@ -459,10 +1067,14 @@ def main() -> None:
     parser.add_argument("command", choices=("build", "check", "digest"))
     args = parser.parse_args()
     data = load_source()
+    promotions = load_promotions(data)
     if args.command == "build":
-        print(json.dumps({"site": data["site"], "digest": build(data)}, sort_keys=True))
+        print(json.dumps(
+            {"site": data["site"], "digest": build(data, promotions)},
+            sort_keys=True,
+        ))
     elif args.command == "check":
-        print(json.dumps(check(data), sort_keys=True))
+        print(json.dumps(check(data, promotions), sort_keys=True))
     else:
         print(content_digest(data))
 
