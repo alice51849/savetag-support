@@ -126,3 +126,16 @@ review), and make sure the privacy URL inside the app points at the live page.
   supplements Apple's standard Licensed Application EULA, the app is offered as
   it is, and backups of a user's own saves are the user's responsibility because
   no server of ours holds a copy.
+
+## Exact-50 support surfaces
+
+The required `index`, `support`, and `privacy` routes are generated or
+normalised from `source/support_surfaces.json`:
+
+```bash
+python3 tools/support_surfaces.py build
+python3 tools/support_surfaces.py check
+```
+
+The source records the verified public catalogue and app/privacy authority
+digests used for the copy. Do not hand-edit generated locale pages.
