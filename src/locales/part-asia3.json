@@ -3,7 +3,10 @@
     "n": "Bahasa Melayu",
     "l": "ms",
     "tag": "AI Social Bookmarks",
-    "nav": ["Sokongan", "Privasi"],
+    "nav": [
+      "Sokongan",
+      "Privasi"
+    ],
     "lang": "Bahasa",
     "foot": "Apa yang anda simpan kekal pada peranti ini. SaveTag membaca pratonton pautan pada peranti, terus daripada laman yang anda simpan. Tiada akaun, tiada awan, tiada iklan dan tiada penjejakan.",
     "s": {
@@ -11,18 +14,52 @@
       "eyebrow": "Sokongan",
       "h1": "Bantuan SaveTag",
       "lead": "Simpan pautan daripada mana-mana apl, biar SaveTag meletakkannya di bawah topik yang betul, dan benar-benar jumpa semula kemudian. Ini soalan yang paling kerap ditanya. Jika soalan anda tiada di sini, e-mel kami — setiap mesej dibaca oleh manusia sebenar.",
-      "chips": ["Kongsi daripada mana-mana apl", "Simpan pantas dari papan keratan", "Topik ditentukan pada peranti", "Carian yang mengikut makna", "Temui semula yang belum dibaca", "Widget dan pintasan Siri"],
+      "chips": [
+        "Kongsi daripada mana-mana apl",
+        "Simpan pantas dari papan keratan",
+        "Topik ditentukan pada peranti",
+        "Carian yang mengikut makna",
+        "Temui semula yang belum dibaca",
+        "Widget dan pintasan Siri"
+      ],
       "faqT": "Soalan lazim",
       "faq": [
-        ["Bagaimana saya menyimpan pautan?", "Buka helaian kongsi dalam Threads, Instagram, X, YouTube, Safari atau mana-mana apl lain dan pilih SaveTag. Anda juga boleh sekadar menyalin pautan: kali berikutnya anda membuka SaveTag, apl itu menawarkan untuk menyimpan kandungan papan keratan, supaya pautan yang bagus tidak hilang dalam perbualan."],
-        ["Bagaimana penandaan automatik berfungsi?", "SaveTag membaca tajuk dan penerangan pautan pada peranti anda dan meletakkannya di bawah satu topik menggunakan rangka kerja NaturalLanguage Apple bersama pengelas berasaskan peraturan. Tiada perkhidmatan awan atau AI generatif terlibat, dan tiada apa-apa dimuat naik untuk ditandakan. Setiap tag boleh dibetulkan sendiri, dan Pro menambah tag ciptaan anda."],
-        ["Apa yang menjadikan carian pintar?", "Carian meneliti tajuk, penerangan, tag dan alamat, lalu menyusun keputusan mengikut kedekatan makna dan bukan ejaan yang tepat, jadi perkataan seakan pun tetap mengeluarkan simpanan yang anda maksudkan. Semuanya berjalan pada peranti anda."],
-        ["Apa itu Rediscover?", "Rediscover ialah imbasan harian ringkas terhadap simpanan yang belum anda buka. Ia membawa balik beberapa sahaja setiap kali, supaya apa yang anda tinggalkan untuk kemudian tidak diam-diam menjadi arkib yang tidak pernah anda lawati semula."],
-        ["Apa yang percuma dan apa yang Pro tambah?", "Versi percuma mempunyai semua ciri dan menyimpan 5 simpanan terbaharu anda. Pro ialah pembelian sekali sahaja yang membuka simpanan tanpa had, tag tersuai, serta eksport dan sandaran Markdown, dan ia berfungsi dengan Perkongsian Keluarga. SaveTag tiada sebarang langganan."],
-        ["Saya membeli Pro tetapi pada peranti baharu ia terkunci.", "Buka Tetapan dalam SaveTag dan ketik Pulihkan pembelian sambil log masuk dengan akaun Apple yang anda gunakan untuk membeli. SaveTag tiada akaun sendiri — rekod pembelian disimpan oleh Apple, dan pemulihan adalah percuma serta tanpa had."],
-        ["Di manakah simpanan saya disimpan?", "Pautan, tajuk, nota, tag, topik dan tetapan kekal dalam storan SaveTag pada peranti. Tiada akaun, tiada penyegerakan awan dan tiada pelayan kami yang boleh menyimpannya. Semasa menyimpan pautan, SaveTag meminta halaman itu daripada peranti anda, terus kepada laman yang disimpan, untuk membaca tajuk dan data pratontonnya."],
-        ["Bagaimana saya mengeksport pustaka atau memindahkannya?", "Dengan Pro anda mengeksport seluruh pustaka sebagai fail Markdown melalui helaian kongsi iOS; fail itu turut menjadi sandaran yang boleh disimpan atau dibawa ke peranti lain. Fail dicipta pada peranti anda dan hanya pergi ke tempat yang anda hantar."],
-        ["Apa yang dilakukan widget dan pintasan Siri?", "Widget Skrin Utama memaparkan simpanan terbaharu dan apa yang menanti dalam Rediscover. Pintasan Siri membolehkan anda menyimpan pautan dalam papan keratan atau membuka Rediscover dengan suara, tanpa menyelongkar menu."]
+        [
+          "Bagaimana saya menyimpan pautan?",
+          "Buka helaian kongsi dalam Threads, Instagram, X, YouTube, Safari atau mana-mana apl lain dan pilih SaveTag. Anda juga boleh sekadar menyalin pautan: kali berikutnya anda membuka SaveTag, apl itu menawarkan untuk menyimpan kandungan papan keratan, supaya pautan yang bagus tidak hilang dalam perbualan."
+        ],
+        [
+          "Bagaimana penandaan automatik berfungsi?",
+          "SaveTag membaca tajuk dan penerangan pautan pada peranti anda dan meletakkannya di bawah satu topik menggunakan rangka kerja NaturalLanguage Apple bersama pengelas berasaskan peraturan. Tiada perkhidmatan awan atau AI generatif terlibat, dan tiada apa-apa dimuat naik untuk ditandakan. Setiap tag boleh dibetulkan sendiri, dan Pro menambah tag ciptaan anda."
+        ],
+        [
+          "Apa yang menjadikan carian pintar?",
+          "Carian meneliti tajuk, penerangan, tag dan alamat, lalu menyusun keputusan mengikut kedekatan makna dan bukan ejaan yang tepat, jadi perkataan seakan pun tetap mengeluarkan simpanan yang anda maksudkan. Semuanya berjalan pada peranti anda."
+        ],
+        [
+          "Apa itu Rediscover?",
+          "Rediscover ialah imbasan harian ringkas terhadap simpanan yang belum anda buka. Ia membawa balik beberapa sahaja setiap kali, supaya apa yang anda tinggalkan untuk kemudian tidak diam-diam menjadi arkib yang tidak pernah anda lawati semula."
+        ],
+        [
+          "Apa yang percuma dan apa yang Pro tambah?",
+          "Versi percuma mempunyai semua ciri dan menyimpan 5 simpanan terbaharu anda. Pro ialah pembelian sekali sahaja yang membuka simpanan tanpa had, tag tersuai, serta eksport dan sandaran Markdown, dan ia berfungsi dengan Perkongsian Keluarga. SaveTag tiada sebarang langganan."
+        ],
+        [
+          "Saya membeli Pro tetapi pada peranti baharu ia terkunci.",
+          "Buka Tetapan dalam SaveTag dan ketik Pulihkan pembelian sambil log masuk dengan akaun Apple yang anda gunakan untuk membeli. SaveTag tiada akaun sendiri — rekod pembelian disimpan oleh Apple, dan pemulihan adalah percuma serta tanpa had."
+        ],
+        [
+          "Di manakah simpanan saya disimpan?",
+          "Pautan, tajuk, nota, tag, topik dan tetapan kekal dalam storan SaveTag pada peranti. Tiada akaun, tiada penyegerakan awan dan tiada pelayan kami yang boleh menyimpannya. Semasa menyimpan pautan, SaveTag meminta halaman itu daripada peranti anda, terus kepada laman yang disimpan, untuk membaca tajuk dan data pratontonnya."
+        ],
+        [
+          "Bagaimana saya mengeksport pustaka atau memindahkannya?",
+          "Dengan Pro anda mengeksport seluruh pustaka sebagai fail Markdown melalui helaian kongsi iOS; fail itu turut menjadi sandaran yang boleh disimpan atau dibawa ke peranti lain. Fail dicipta pada peranti anda dan hanya pergi ke tempat yang anda hantar."
+        ],
+        [
+          "Apa yang dilakukan widget dan pintasan Siri?",
+          "Widget Skrin Utama memaparkan simpanan terbaharu dan apa yang menanti dalam Rediscover. Pintasan Siri membolehkan anda menyimpan pautan dalam papan keratan atau membuka Rediscover dengan suara, tanpa menyelongkar menu."
+        ]
       ],
       "cT": "Masih perlukan bantuan?",
       "cL": "Tulis dalam bahasa apa sahaja. Balasan datang daripada orang yang membina SaveTag, dan setiap mesej dibaca. Memberitahu versi iOS dan apa yang anda ketik amat membantu.",
@@ -35,26 +72,57 @@
       "upd": "Kemas kini terakhir",
       "vow": "Tiada akaun diperlukan. Kami tidak mengumpul data peribadi. Kami tidak menggunakan pengiklanan pihak ketiga. Kami tidak menggunakan analitik pihak ketiga. SaveTag tidak mengandungi SDK pihak ketiga, dan pautan yang anda simpan kekal dalam storan peranti.",
       "sec": [
-        ["Siapa yang dilindungi dasar ini", "Dasar ini terpakai kepada apl SaveTag untuk iPhone dan iPad, bersama sambungan kongsinya, widget Skrin Utama dan pintasan Siri."],
-        ["Apa yang kami kumpul", "Tiada apa-apa. Tiada akaun diperlukan dan kami tidak mengumpul data peribadi. Kami tidak menggunakan pengiklanan mahupun analitik pihak ketiga. SaveTag tidak mengandungi SDK pihak ketiga dan kami tidak mengendalikan pelayan yang boleh menerima data anda."],
-        ["Di mana simpanan anda berada", "Pautan, tajuk, penerangan, nota, tag, topik dan tetapan kekal dalam storan SaveTag pada peranti dan dikongsi di situ dengan sambungan kongsi serta widget melalui app group Apple. Data yang dimasukkan dalam apl kekal pada peranti pengguna, melainkan apl jelas menyediakan ciri eksport atau perkongsian yang dimulakan sendiri oleh pengguna."],
-        ["Pratonton pautan", "Apabila anda menyimpan pautan, SaveTag meminta halaman itu daripada peranti anda, terus kepada laman yang disimpan, untuk membaca tajuk dan data pratontonnya. Bagi laman web itu ia permintaan biasa, seperti lawatan daripada pelayar, dan dasar privasi laman itu sendiri terpakai. Tiada data, pengecam atau akaun SaveTag disertakan, dan permintaan itu tidak pergi ke mana-mana tempat lain."],
-        ["Penandaan dan carian pada peranti", "Penetapan topik dan susunan carian berjalan secara setempat dengan rangka kerja NaturalLanguage Apple dan analisis teks berasaskan peraturan, ke atas teks yang memang sudah ada pada peranti anda. SaveTag tidak menggunakan perkhidmatan AI awan atau model generatif, dan tiada teks dimuat naik untuk diproses."],
-        ["Pembelian", "Pro ialah pembelian sekali sahaja yang dikendalikan sepenuhnya oleh Apple melalui App Store dan menyokong Perkongsian Keluarga. Kami tidak pernah melihat atau menyimpan butiran pembayaran anda; apl hanya mengetahui daripada Apple sama ada pembelian itu wujud dan merekodkan pembukaan ciri secara setempat pada peranti. Pemulihan pembelian bertanya kepada Apple, bukan kepada kami."],
-        ["Eksport dan perkongsian", "Fail Markdown untuk eksport dan sandaran dicipta pada peranti anda dan pergi ke tempat yang anda hantar melalui helaian kongsi iOS. Setelah fail meninggalkan SaveTag, ia dikendalikan oleh apl atau perkhidmatan yang anda pilih, mengikut dasar privasi penyedia tersebut."],
-        ["Kanak-kanak", "SaveTag tidak mengumpul data peribadi daripada sesiapa pun, termasuk kanak-kanak, dan tidak memaparkan pengiklanan pihak ketiga atau penjejakan. Yang disimpan hanyalah apa yang dipilih sendiri oleh pengguna, dan ia kekal pada peranti."],
-        ["Kawalan anda, pemadaman dan perubahan dasar", "Anda boleh memadam mana-mana simpanan pada bila-bila masa, atau membuang semua data setempat dengan memadam apl; kerana kami tidak menyimpan apa-apa, tiada apa untuk dipadam di pihak kami. Sebarang perubahan pada penggunaan rangkaian atau pengendalian data pada masa hadapan akan diterbitkan di sini dan dalam butiran privasi App Store sebelum dikeluarkan. Soalan sentiasa dialu-alukan di alamat di bawah."]
+        [
+          "Siapa yang dilindungi dasar ini",
+          "Dasar ini terpakai kepada apl SaveTag untuk iPhone dan iPad, bersama sambungan kongsinya, widget Skrin Utama dan pintasan Siri."
+        ],
+        [
+          "Apa yang kami kumpul",
+          "Tiada apa-apa. Tiada akaun diperlukan dan kami tidak mengumpul data peribadi. Kami tidak menggunakan pengiklanan mahupun analitik pihak ketiga. SaveTag tidak mengandungi SDK pihak ketiga dan kami tidak mengendalikan pelayan yang boleh menerima data anda."
+        ],
+        [
+          "Di mana simpanan anda berada",
+          "Pautan, tajuk, penerangan, nota, tag, topik dan tetapan kekal dalam storan SaveTag pada peranti dan dikongsi di situ dengan sambungan kongsi serta widget melalui app group Apple. Data yang dimasukkan dalam apl kekal pada peranti pengguna, melainkan apl jelas menyediakan ciri eksport atau perkongsian yang dimulakan sendiri oleh pengguna."
+        ],
+        [
+          "Pratonton pautan",
+          "Apabila anda menyimpan pautan, SaveTag meminta halaman itu daripada peranti anda, terus kepada laman yang disimpan, untuk membaca tajuk dan data pratontonnya. Bagi laman web itu ia permintaan biasa, seperti lawatan daripada pelayar, dan dasar privasi laman itu sendiri terpakai. Tiada data, pengecam atau akaun SaveTag disertakan, dan permintaan itu tidak pergi ke mana-mana tempat lain."
+        ],
+        [
+          "Penandaan dan carian pada peranti",
+          "Penetapan topik dan susunan carian berjalan secara setempat dengan rangka kerja NaturalLanguage Apple dan analisis teks berasaskan peraturan, ke atas teks yang memang sudah ada pada peranti anda. SaveTag tidak menggunakan perkhidmatan AI awan atau model generatif, dan tiada teks dimuat naik untuk diproses."
+        ],
+        [
+          "Pembelian",
+          "Pro ialah pembelian sekali sahaja yang dikendalikan sepenuhnya oleh Apple melalui App Store dan menyokong Perkongsian Keluarga. Kami tidak pernah melihat atau menyimpan butiran pembayaran anda; apl hanya mengetahui daripada Apple sama ada pembelian itu wujud dan merekodkan pembukaan ciri secara setempat pada peranti. Pemulihan pembelian bertanya kepada Apple, bukan kepada kami."
+        ],
+        [
+          "Eksport dan perkongsian",
+          "Fail Markdown untuk eksport dan sandaran dicipta pada peranti anda dan pergi ke tempat yang anda hantar melalui helaian kongsi iOS. Setelah fail meninggalkan SaveTag, ia dikendalikan oleh apl atau perkhidmatan yang anda pilih, mengikut dasar privasi penyedia tersebut."
+        ],
+        [
+          "Kanak-kanak",
+          "SaveTag tidak mengumpul data peribadi daripada sesiapa pun, termasuk kanak-kanak, dan tidak memaparkan pengiklanan pihak ketiga atau penjejakan. Yang disimpan hanyalah apa yang dipilih sendiri oleh pengguna, dan ia kekal pada peranti."
+        ],
+        [
+          "Kawalan anda, pemadaman dan perubahan dasar",
+          "Anda boleh memadam mana-mana simpanan pada bila-bila masa, atau membuang semua data setempat dengan memadam apl; kerana kami tidak menyimpan apa-apa, tiada apa untuk dipadam di pihak kami. Sebarang perubahan pada penggunaan rangkaian atau pengendalian data pada masa hadapan akan diterbitkan di sini dan dalam butiran privasi App Store sebelum dikeluarkan. Soalan sentiasa dialu-alukan di alamat di bawah."
+        ]
       ],
       "cT": "Soalan tentang privasi",
       "cL": "Tanya apa sahaja tentang cara SaveTag mengendalikan data anda. Anda akan menerima jawapan terus daripada pembangunnya.",
       "cB": "E-mel pembangun"
-    }
+    },
+    "store": "Lihat di App Store"
   },
   "ur-PK": {
     "n": "اردو",
     "l": "ur",
     "tag": "AI Social Bookmarks",
-    "nav": ["معاونت", "پرائیویسی"],
+    "nav": [
+      "معاونت",
+      "پرائیویسی"
+    ],
     "lang": "زبان",
     "foot": "آپ جو محفوظ کرتے ہیں وہ اسی ڈیوائس پر رہتا ہے۔ SaveTag لنک کا پیش منظر ڈیوائس ہی پر، محفوظ کردہ سائٹ سے براہِ راست پڑھتا ہے۔ کوئی اکاؤنٹ نہیں، کوئی کلاؤڈ نہیں، کوئی اشتہار نہیں اور کوئی ٹریکنگ نہیں۔",
     "s": {
@@ -62,18 +130,52 @@
       "eyebrow": "معاونت",
       "h1": "SaveTag میں مدد",
       "lead": "کسی بھی ایپ سے لنک محفوظ کریں، SaveTag اسے درست موضوع کے تحت رکھ دے گا، اور بعد میں وہ واقعی مل بھی جائے گا۔ یہ سب سے زیادہ پوچھے جانے والے سوالات ہیں۔ اگر آپ کا سوال یہاں نہ ہو تو ہمیں لکھیں — ہر پیغام ایک حقیقی انسان پڑھتا ہے۔",
-      "chips": ["کسی بھی ایپ سے شیئر کر کے محفوظ کریں", "کلپ بورڈ سے فوری محفوظ کریں", "موضوعات ڈیوائس پر طے ہوتے ہیں", "معنی کے مطابق تلاش", "اَن پڑھے محفوظات دوبارہ سامنے", "وجٹ اور Siri شارٹ کٹس"],
+      "chips": [
+        "کسی بھی ایپ سے شیئر کر کے محفوظ کریں",
+        "کلپ بورڈ سے فوری محفوظ کریں",
+        "موضوعات ڈیوائس پر طے ہوتے ہیں",
+        "معنی کے مطابق تلاش",
+        "اَن پڑھے محفوظات دوبارہ سامنے",
+        "وجٹ اور Siri شارٹ کٹس"
+      ],
       "faqT": "عمومی سوالات",
       "faq": [
-        ["لنک کیسے محفوظ کروں؟", "Threads، Instagram، X، YouTube، Safari یا کسی بھی دوسری ایپ میں شیئر شیٹ کھولیں اور SaveTag منتخب کریں۔ آپ صرف لنک کاپی بھی کر سکتے ہیں: اگلی بار SaveTag کھولنے پر وہ کلپ بورڈ کا مواد محفوظ کرنے کی پیشکش کرے گا، تاکہ کوئی اچھا لنک گفتگو میں دب کر نہ رہ جائے۔"],
-        ["خودکار ٹیگنگ کیسے کام کرتی ہے؟", "SaveTag آپ کی ڈیوائس ہی پر لنک کا عنوان اور تفصیل پڑھتا ہے اور Apple کے NaturalLanguage فریم ورک اور اصولوں پر مبنی درجہ بندی سے اسے کسی موضوع میں رکھتا ہے۔ اس میں کوئی کلاؤڈ سروس یا جنریٹو مصنوعی ذہانت شامل نہیں، اور ٹیگ کرنے کے لیے کچھ اپ لوڈ نہیں ہوتا۔ ہر ٹیگ آپ خود درست کر سکتے ہیں، اور Pro میں اپنے ٹیگز بھی بنتے ہیں۔"],
-        ["تلاش کو ذہین کیا بناتا ہے؟", "تلاش عنوانات، تفصیلات، ٹیگز اور ویب پتے کو ایک ساتھ دیکھتی ہے اور نتائج کو بالکل درست ہجے کے بجائے معنی کی قربت کے مطابق ترتیب دیتی ہے، اس لیے ملتا جلتا لفظ بھی وہی چیز سامنے لے آتا ہے جو آپ کے ذہن میں تھی۔ یہ سب آپ کی ڈیوائس پر چلتا ہے۔"],
-        ["Rediscover کیا ہے؟", "Rediscover ان محفوظات کا مختصر روزانہ جائزہ ہے جو آپ نے رکھی تو ہیں مگر ابھی کھولی نہیں۔ یہ ایک وقت میں چند ہی واپس لاتا ہے تاکہ 'بعد میں پڑھیں گے' والی فہرست خاموشی سے ایسا ذخیرہ نہ بن جائے جس کی طرف آپ کبھی نہ لوٹیں۔"],
-        ["مفت میں کیا ہے اور Pro کیا دیتا ہے؟", "مفت ورژن میں تمام خصوصیات موجود ہیں اور یہ آپ کی تازہ ترین 5 محفوظات رکھتا ہے۔ Pro ایک بار کی خریداری ہے جو لامحدود محفوظات، اپنی مرضی کے ٹیگز، اور Markdown برآمد و بیک اپ کھول دیتی ہے، اور یہ فیملی شیئرنگ کے ساتھ کام کرتی ہے۔ SaveTag میں کسی قسم کی سبسکرپشن نہیں ہے۔"],
-        ["میں نے Pro خریدا ہے مگر نئی ڈیوائس پر مقفل دکھ رہا ہے۔", "اسی Apple اکاؤنٹ سے سائن اِن رہتے ہوئے جس سے خریداری کی تھی، SaveTag کی ترتیبات کھولیں اور 'خریداری بحال کریں' پر ٹیپ کریں۔ SaveTag کا اپنا کوئی اکاؤنٹ نہیں — خریداری کا ریکارڈ Apple کے پاس ہے، اور بحالی مفت اور لامحدود ہے۔"],
-        ["میری محفوظات کہاں رکھی جاتی ہیں؟", "لنکس، عنوانات، نوٹس، ٹیگز، موضوعات اور ترتیبات SaveTag کے ڈیوائس اسٹوریج ہی میں رہتی ہیں۔ نہ کوئی اکاؤنٹ ہے، نہ کلاؤڈ سنک، اور نہ ہمارا کوئی سرور جو انہیں رکھ سکے۔ لنک محفوظ کرتے وقت SaveTag عنوان اور پیش منظر کی معلومات پڑھنے کے لیے وہ صفحہ آپ کی ڈیوائس سے، محفوظ کردہ سائٹ سے براہِ راست طلب کرتا ہے۔"],
-        ["اپنی لائبریری کیسے برآمد کروں یا منتقل کروں؟", "Pro کے ساتھ پوری لائبریری iOS شیئر شیٹ کے ذریعے Markdown فائل کے طور پر برآمد ہوتی ہے؛ یہی فائل بیک اپ کا کام بھی دیتی ہے جسے آپ رکھ سکتے ہیں یا کسی دوسری ڈیوائس پر لے جا سکتے ہیں۔ فائل آپ کی ڈیوائس پر بنتی ہے اور صرف وہیں جاتی ہے جہاں آپ بھیجتے ہیں۔"],
-        ["وجٹ اور Siri شارٹ کٹس کیا کرتے ہیں؟", "ہوم اسکرین وجٹ حال ہی میں محفوظ کی گئی چیزیں اور Rediscover میں منتظر مواد دکھاتا ہے۔ Siri شارٹ کٹس سے آپ کلپ بورڈ کا لنک محفوظ کر سکتے ہیں یا آواز سے Rediscover کھول سکتے ہیں، بغیر مینو کھنگالے۔"]
+        [
+          "لنک کیسے محفوظ کروں؟",
+          "Threads، Instagram، X، YouTube، Safari یا کسی بھی دوسری ایپ میں شیئر شیٹ کھولیں اور SaveTag منتخب کریں۔ آپ صرف لنک کاپی بھی کر سکتے ہیں: اگلی بار SaveTag کھولنے پر وہ کلپ بورڈ کا مواد محفوظ کرنے کی پیشکش کرے گا، تاکہ کوئی اچھا لنک گفتگو میں دب کر نہ رہ جائے۔"
+        ],
+        [
+          "خودکار ٹیگنگ کیسے کام کرتی ہے؟",
+          "SaveTag آپ کی ڈیوائس ہی پر لنک کا عنوان اور تفصیل پڑھتا ہے اور Apple کے NaturalLanguage فریم ورک اور اصولوں پر مبنی درجہ بندی سے اسے کسی موضوع میں رکھتا ہے۔ اس میں کوئی کلاؤڈ سروس یا جنریٹو مصنوعی ذہانت شامل نہیں، اور ٹیگ کرنے کے لیے کچھ اپ لوڈ نہیں ہوتا۔ ہر ٹیگ آپ خود درست کر سکتے ہیں، اور Pro میں اپنے ٹیگز بھی بنتے ہیں۔"
+        ],
+        [
+          "تلاش کو ذہین کیا بناتا ہے؟",
+          "تلاش عنوانات، تفصیلات، ٹیگز اور ویب پتے کو ایک ساتھ دیکھتی ہے اور نتائج کو بالکل درست ہجے کے بجائے معنی کی قربت کے مطابق ترتیب دیتی ہے، اس لیے ملتا جلتا لفظ بھی وہی چیز سامنے لے آتا ہے جو آپ کے ذہن میں تھی۔ یہ سب آپ کی ڈیوائس پر چلتا ہے۔"
+        ],
+        [
+          "Rediscover کیا ہے؟",
+          "Rediscover ان محفوظات کا مختصر روزانہ جائزہ ہے جو آپ نے رکھی تو ہیں مگر ابھی کھولی نہیں۔ یہ ایک وقت میں چند ہی واپس لاتا ہے تاکہ 'بعد میں پڑھیں گے' والی فہرست خاموشی سے ایسا ذخیرہ نہ بن جائے جس کی طرف آپ کبھی نہ لوٹیں۔"
+        ],
+        [
+          "مفت میں کیا ہے اور Pro کیا دیتا ہے؟",
+          "مفت ورژن میں تمام خصوصیات موجود ہیں اور یہ آپ کی تازہ ترین 5 محفوظات رکھتا ہے۔ Pro ایک بار کی خریداری ہے جو لامحدود محفوظات، اپنی مرضی کے ٹیگز، اور Markdown برآمد و بیک اپ کھول دیتی ہے، اور یہ فیملی شیئرنگ کے ساتھ کام کرتی ہے۔ SaveTag میں کسی قسم کی سبسکرپشن نہیں ہے۔"
+        ],
+        [
+          "میں نے Pro خریدا ہے مگر نئی ڈیوائس پر مقفل دکھ رہا ہے۔",
+          "اسی Apple اکاؤنٹ سے سائن اِن رہتے ہوئے جس سے خریداری کی تھی، SaveTag کی ترتیبات کھولیں اور 'خریداری بحال کریں' پر ٹیپ کریں۔ SaveTag کا اپنا کوئی اکاؤنٹ نہیں — خریداری کا ریکارڈ Apple کے پاس ہے، اور بحالی مفت اور لامحدود ہے۔"
+        ],
+        [
+          "میری محفوظات کہاں رکھی جاتی ہیں؟",
+          "لنکس، عنوانات، نوٹس، ٹیگز، موضوعات اور ترتیبات SaveTag کے ڈیوائس اسٹوریج ہی میں رہتی ہیں۔ نہ کوئی اکاؤنٹ ہے، نہ کلاؤڈ سنک، اور نہ ہمارا کوئی سرور جو انہیں رکھ سکے۔ لنک محفوظ کرتے وقت SaveTag عنوان اور پیش منظر کی معلومات پڑھنے کے لیے وہ صفحہ آپ کی ڈیوائس سے، محفوظ کردہ سائٹ سے براہِ راست طلب کرتا ہے۔"
+        ],
+        [
+          "اپنی لائبریری کیسے برآمد کروں یا منتقل کروں؟",
+          "Pro کے ساتھ پوری لائبریری iOS شیئر شیٹ کے ذریعے Markdown فائل کے طور پر برآمد ہوتی ہے؛ یہی فائل بیک اپ کا کام بھی دیتی ہے جسے آپ رکھ سکتے ہیں یا کسی دوسری ڈیوائس پر لے جا سکتے ہیں۔ فائل آپ کی ڈیوائس پر بنتی ہے اور صرف وہیں جاتی ہے جہاں آپ بھیجتے ہیں۔"
+        ],
+        [
+          "وجٹ اور Siri شارٹ کٹس کیا کرتے ہیں؟",
+          "ہوم اسکرین وجٹ حال ہی میں محفوظ کی گئی چیزیں اور Rediscover میں منتظر مواد دکھاتا ہے۔ Siri شارٹ کٹس سے آپ کلپ بورڈ کا لنک محفوظ کر سکتے ہیں یا آواز سے Rediscover کھول سکتے ہیں، بغیر مینو کھنگالے۔"
+        ]
       ],
       "cT": "اب بھی مدد درکار ہے؟",
       "cL": "کسی بھی زبان میں لکھیں۔ جواب وہی شخص دیتا ہے جو SaveTag بناتا ہے، اور ہر پیغام پڑھا جاتا ہے۔ اپنا iOS ورژن اور آپ نے کہاں ٹیپ کیا تھا، بتانا بہت مددگار ہوتا ہے۔",
@@ -86,26 +188,57 @@
       "upd": "آخری تازہ کاری",
       "vow": "کسی اکاؤنٹ کی ضرورت نہیں۔ ہم ذاتی ڈیٹا جمع نہیں کرتے۔ ہم فریقِ ثالث کے اشتہارات استعمال نہیں کرتے۔ ہم فریقِ ثالث کی اینالٹکس استعمال نہیں کرتے۔ SaveTag میں کوئی فریقِ ثالث SDK نہیں، اور آپ کے محفوظ کردہ لنکس ڈیوائس کے اسٹوریج ہی میں رہتے ہیں۔",
       "sec": [
-        ["یہ پالیسی کس پر لاگو ہے", "یہ پالیسی iPhone اور iPad کے لیے SaveTag ایپ پر، اور اس کی شیئر ایکسٹینشن، ہوم اسکرین وجٹ اور Siri شارٹ کٹس پر لاگو ہوتی ہے۔"],
-        ["ہم کیا جمع کرتے ہیں", "کچھ بھی نہیں۔ کسی اکاؤنٹ کی ضرورت نہیں اور ہم ذاتی ڈیٹا جمع نہیں کرتے۔ ہم فریقِ ثالث کے اشتہارات یا اینالٹکس استعمال نہیں کرتے۔ SaveTag میں کوئی فریقِ ثالث SDK نہیں، اور ہمارا کوئی سرور نہیں جو آپ کا ڈیٹا وصول کر سکے۔"],
-        ["آپ کی محفوظات کہاں رہتی ہیں", "لنکس، عنوانات، تفصیلات، نوٹس، ٹیگز، موضوعات اور ترتیبات SaveTag کے ڈیوائس اسٹوریج میں رہتی ہیں اور اسی ڈیوائس پر Apple کے app group کے ذریعے شیئر ایکسٹینشن اور وجٹ کے ساتھ مشترک ہوتی ہیں۔ ایپ میں درج کیا گیا ڈیٹا صارف کی ڈیوائس پر رہتا ہے، الا یہ کہ ایپ واضح طور پر ایسی برآمد یا اشتراک کی سہولت دے جو صارف خود شروع کرے۔"],
-        ["لنک کے پیش منظر", "جب آپ کوئی لنک محفوظ کرتے ہیں تو SaveTag عنوان اور پیش منظر کی معلومات پڑھنے کے لیے وہ صفحہ آپ کی ڈیوائس سے، محفوظ کردہ سائٹ سے براہِ راست طلب کرتا ہے۔ اُس ویب سائٹ کے لیے یہ ایک عام درخواست ہے، جیسے براؤزر سے آنے والا کوئی وزٹ، اور اس پر اُسی سائٹ کی پرائیویسی پالیسی لاگو ہوتی ہے۔ اس کے ساتھ SaveTag کا کوئی ڈیٹا، شناخت کنندہ یا اکاؤنٹ منسلک نہیں ہوتا، اور درخواست کہیں اور نہیں جاتی۔"],
-        ["ڈیوائس پر ٹیگنگ اور تلاش", "موضوعات کا تعین اور تلاش کی ترتیب Apple کے NaturalLanguage فریم ورک اور اصولوں پر مبنی متن کے تجزیے سے ڈیوائس ہی پر ہوتی ہے، اور وہ بھی اُس متن پر جو پہلے سے آپ کی ڈیوائس میں موجود ہے۔ SaveTag کوئی کلاؤڈ AI سروس یا جنریٹو ماڈل استعمال نہیں کرتا اور پروسیسنگ کے لیے کوئی متن اپ لوڈ نہیں کرتا۔"],
-        ["خریداریاں", "Pro ایک بار کی خریداری ہے جسے App Store کے ذریعے مکمل طور پر Apple سنبھالتا ہے، اور یہ فیملی شیئرنگ کو سپورٹ کرتی ہے۔ ہم آپ کی ادائیگی کی تفصیلات نہ کبھی دیکھتے ہیں نہ محفوظ کرتے ہیں؛ ایپ کو Apple سے صرف یہ معلوم ہوتا ہے کہ خریداری موجود ہے یا نہیں، اور وہ اَن لاک کو ڈیوائس پر مقامی طور پر درج کر لیتی ہے۔ خریداری کی بحالی Apple سے پوچھتی ہے، ہم سے نہیں۔"],
-        ["برآمد اور اشتراک", "Markdown برآمد اور بیک اپ فائل آپ کی ڈیوائس پر بنتی ہے اور iOS شیئر شیٹ کے ذریعے وہیں جاتی ہے جہاں آپ بھیجتے ہیں۔ SaveTag سے نکلنے کے بعد اس فائل کو آپ کی منتخب کردہ ایپ یا سروس اپنی پرائیویسی پالیسی کے تحت سنبھالتی ہے۔"],
-        ["بچے", "SaveTag کسی سے بھی ذاتی ڈیٹا جمع نہیں کرتا، بچوں سے بھی نہیں، اور نہ کوئی فریقِ ثالث اشتہار یا ٹریکنگ دکھاتا ہے۔ جو محفوظ ہوتا ہے وہ صرف وہی ہے جو ایپ استعمال کرنے والا خود منتخب کرتا ہے، اور وہ ڈیوائس ہی پر رہتا ہے۔"],
-        ["آپ کا اختیار، حذف کرنا اور پالیسی میں تبدیلیاں", "آپ کوئی بھی محفوظ چیز کسی بھی وقت حذف کر سکتے ہیں، یا ایپ ہٹا کر تمام مقامی ڈیٹا مٹا سکتے ہیں؛ چونکہ ہمارے پاس کچھ ہے ہی نہیں، اس لیے ہماری طرف مٹانے کو بھی کچھ نہیں۔ نیٹ ورک یا ڈیٹا کے استعمال میں مستقبل کی کوئی بھی تبدیلی ریلیز سے پہلے یہاں اور App Store کی پرائیویسی تفصیلات میں شائع کی جائے گی۔ سوالات کے لیے نیچے دیا گیا پتہ ہمیشہ کھلا ہے۔"]
+        [
+          "یہ پالیسی کس پر لاگو ہے",
+          "یہ پالیسی iPhone اور iPad کے لیے SaveTag ایپ پر، اور اس کی شیئر ایکسٹینشن، ہوم اسکرین وجٹ اور Siri شارٹ کٹس پر لاگو ہوتی ہے۔"
+        ],
+        [
+          "ہم کیا جمع کرتے ہیں",
+          "کچھ بھی نہیں۔ کسی اکاؤنٹ کی ضرورت نہیں اور ہم ذاتی ڈیٹا جمع نہیں کرتے۔ ہم فریقِ ثالث کے اشتہارات یا اینالٹکس استعمال نہیں کرتے۔ SaveTag میں کوئی فریقِ ثالث SDK نہیں، اور ہمارا کوئی سرور نہیں جو آپ کا ڈیٹا وصول کر سکے۔"
+        ],
+        [
+          "آپ کی محفوظات کہاں رہتی ہیں",
+          "لنکس، عنوانات، تفصیلات، نوٹس، ٹیگز، موضوعات اور ترتیبات SaveTag کے ڈیوائس اسٹوریج میں رہتی ہیں اور اسی ڈیوائس پر Apple کے app group کے ذریعے شیئر ایکسٹینشن اور وجٹ کے ساتھ مشترک ہوتی ہیں۔ ایپ میں درج کیا گیا ڈیٹا صارف کی ڈیوائس پر رہتا ہے، الا یہ کہ ایپ واضح طور پر ایسی برآمد یا اشتراک کی سہولت دے جو صارف خود شروع کرے۔"
+        ],
+        [
+          "لنک کے پیش منظر",
+          "جب آپ کوئی لنک محفوظ کرتے ہیں تو SaveTag عنوان اور پیش منظر کی معلومات پڑھنے کے لیے وہ صفحہ آپ کی ڈیوائس سے، محفوظ کردہ سائٹ سے براہِ راست طلب کرتا ہے۔ اُس ویب سائٹ کے لیے یہ ایک عام درخواست ہے، جیسے براؤزر سے آنے والا کوئی وزٹ، اور اس پر اُسی سائٹ کی پرائیویسی پالیسی لاگو ہوتی ہے۔ اس کے ساتھ SaveTag کا کوئی ڈیٹا، شناخت کنندہ یا اکاؤنٹ منسلک نہیں ہوتا، اور درخواست کہیں اور نہیں جاتی۔"
+        ],
+        [
+          "ڈیوائس پر ٹیگنگ اور تلاش",
+          "موضوعات کا تعین اور تلاش کی ترتیب Apple کے NaturalLanguage فریم ورک اور اصولوں پر مبنی متن کے تجزیے سے ڈیوائس ہی پر ہوتی ہے، اور وہ بھی اُس متن پر جو پہلے سے آپ کی ڈیوائس میں موجود ہے۔ SaveTag کوئی کلاؤڈ AI سروس یا جنریٹو ماڈل استعمال نہیں کرتا اور پروسیسنگ کے لیے کوئی متن اپ لوڈ نہیں کرتا۔"
+        ],
+        [
+          "خریداریاں",
+          "Pro ایک بار کی خریداری ہے جسے App Store کے ذریعے مکمل طور پر Apple سنبھالتا ہے، اور یہ فیملی شیئرنگ کو سپورٹ کرتی ہے۔ ہم آپ کی ادائیگی کی تفصیلات نہ کبھی دیکھتے ہیں نہ محفوظ کرتے ہیں؛ ایپ کو Apple سے صرف یہ معلوم ہوتا ہے کہ خریداری موجود ہے یا نہیں، اور وہ اَن لاک کو ڈیوائس پر مقامی طور پر درج کر لیتی ہے۔ خریداری کی بحالی Apple سے پوچھتی ہے، ہم سے نہیں۔"
+        ],
+        [
+          "برآمد اور اشتراک",
+          "Markdown برآمد اور بیک اپ فائل آپ کی ڈیوائس پر بنتی ہے اور iOS شیئر شیٹ کے ذریعے وہیں جاتی ہے جہاں آپ بھیجتے ہیں۔ SaveTag سے نکلنے کے بعد اس فائل کو آپ کی منتخب کردہ ایپ یا سروس اپنی پرائیویسی پالیسی کے تحت سنبھالتی ہے۔"
+        ],
+        [
+          "بچے",
+          "SaveTag کسی سے بھی ذاتی ڈیٹا جمع نہیں کرتا، بچوں سے بھی نہیں، اور نہ کوئی فریقِ ثالث اشتہار یا ٹریکنگ دکھاتا ہے۔ جو محفوظ ہوتا ہے وہ صرف وہی ہے جو ایپ استعمال کرنے والا خود منتخب کرتا ہے، اور وہ ڈیوائس ہی پر رہتا ہے۔"
+        ],
+        [
+          "آپ کا اختیار، حذف کرنا اور پالیسی میں تبدیلیاں",
+          "آپ کوئی بھی محفوظ چیز کسی بھی وقت حذف کر سکتے ہیں، یا ایپ ہٹا کر تمام مقامی ڈیٹا مٹا سکتے ہیں؛ چونکہ ہمارے پاس کچھ ہے ہی نہیں، اس لیے ہماری طرف مٹانے کو بھی کچھ نہیں۔ نیٹ ورک یا ڈیٹا کے استعمال میں مستقبل کی کوئی بھی تبدیلی ریلیز سے پہلے یہاں اور App Store کی پرائیویسی تفصیلات میں شائع کی جائے گی۔ سوالات کے لیے نیچے دیا گیا پتہ ہمیشہ کھلا ہے۔"
+        ]
       ],
       "cT": "پرائیویسی سے متعلق سوالات",
       "cL": "SaveTag آپ کے ڈیٹا کے ساتھ کیا کرتا ہے، اس بارے میں کچھ بھی پوچھیں۔ ڈویلپر کی طرف سے آپ کو سیدھا جواب ملے گا۔",
       "cB": "ڈویلپر کو ای میل کریں"
-    }
+    },
+    "store": "App Store پر دیکھیں"
   },
   "bn-BD": {
     "n": "বাংলা",
     "l": "bn",
     "tag": "AI Social Bookmarks",
-    "nav": ["সহায়তা", "গোপনীয়তা"],
+    "nav": [
+      "সহায়তা",
+      "গোপনীয়তা"
+    ],
     "lang": "ভাষা",
     "foot": "আপনি যা সংরক্ষণ করেন তা এই ডিভাইসেই থাকে। SaveTag লিংকের প্রিভিউ ডিভাইসেই পড়ে, সরাসরি আপনার সংরক্ষণ করা সাইট থেকে। কোনো অ্যাকাউন্ট নেই, ক্লাউড নেই, বিজ্ঞাপন নেই, ট্র্যাকিং নেই।",
     "s": {
@@ -113,18 +246,52 @@
       "eyebrow": "সহায়তা",
       "h1": "SaveTag সহায়িকা",
       "lead": "যেকোনো অ্যাপ থেকে লিংক সংরক্ষণ করুন, SaveTag সেটিকে সঠিক বিষয়ের নিচে রাখুক, আর পরে সত্যিই খুঁজে পান। এগুলোই সবচেয়ে বেশি জিজ্ঞাসিত প্রশ্ন। আপনারটি এখানে না থাকলে আমাদের লিখুন — প্রতিটি বার্তা একজন প্রকৃত মানুষ পড়েন।",
-      "chips": ["যেকোনো অ্যাপ থেকে শেয়ার করে সংরক্ষণ", "ক্লিপবোর্ড থেকে দ্রুত সংরক্ষণ", "বিষয় ঠিক হয় ডিভাইসেই", "অর্থ বুঝে খোঁজা", "না-পড়া সংরক্ষণ আবার সামনে", "উইজেট ও Siri শর্টকাট"],
+      "chips": [
+        "যেকোনো অ্যাপ থেকে শেয়ার করে সংরক্ষণ",
+        "ক্লিপবোর্ড থেকে দ্রুত সংরক্ষণ",
+        "বিষয় ঠিক হয় ডিভাইসেই",
+        "অর্থ বুঝে খোঁজা",
+        "না-পড়া সংরক্ষণ আবার সামনে",
+        "উইজেট ও Siri শর্টকাট"
+      ],
       "faqT": "সাধারণ প্রশ্ন",
       "faq": [
-        ["লিংক কীভাবে সংরক্ষণ করব?", "Threads, Instagram, X, YouTube, Safari বা অন্য যেকোনো অ্যাপে শেয়ার শিট খুলে SaveTag বেছে নিন। কেবল লিংক কপি করলেও চলবে: পরেরবার SaveTag খুললে অ্যাপটি ক্লিপবোর্ডে থাকা লিংকটি সংরক্ষণের প্রস্তাব দেবে, যাতে ভালো একটি লিংক আলাপের ভিড়ে হারিয়ে না যায়।"],
-        ["স্বয়ংক্রিয় ট্যাগ কীভাবে কাজ করে?", "SaveTag আপনার ডিভাইসেই লিংকের শিরোনাম ও বিবরণ পড়ে এবং Apple-এর NaturalLanguage ফ্রেমওয়ার্ক ও নিয়মভিত্তিক শ্রেণিবিন্যাস দিয়ে সেটিকে একটি বিষয়ে রাখে। এতে কোনো ক্লাউড সেবা বা জেনারেটিভ এআই যুক্ত নেই, আর ট্যাগ করার জন্য কিছুই আপলোড হয় না। প্রতিটি ট্যাগ হাতে বদলানো যায়, আর Pro-তে নিজের ট্যাগও বানানো যায়।"],
-        ["খোঁজাটা কেন বুদ্ধিমান?", "খোঁজা একসাথে শিরোনাম, বিবরণ, ট্যাগ ও ঠিকানা দেখে এবং ফলাফল সাজায় হুবহু বানানের বদলে অর্থের নৈকট্য অনুযায়ী, তাই কাছাকাছি একটি শব্দেও আপনার মনে থাকা জিনিসটি উঠে আসে। পুরোটাই আপনার ডিভাইসে চলে।"],
-        ["Rediscover কী?", "Rediscover হলো যা সংরক্ষণ করেছেন অথচ এখনো খোলেননি, তার সংক্ষিপ্ত দৈনিক পুনরালোচনা। এটি একবারে কয়েকটি করে ফিরিয়ে আনে, যাতে 'পরে পড়ব' বলে রাখা জিনিসগুলো নিঃশব্দে এমন সংগ্রহশালা না হয়ে যায় যেখানে আর কখনো ফেরা হয় না।"],
-        ["বিনামূল্যে কী আছে, Pro কী যোগ করে?", "বিনামূল্যের সংস্করণে সব সুবিধাই আছে এবং এটি আপনার সাম্প্রতিক 5টি সংরক্ষণ রাখে। Pro একবারের কেনাকাটা, যা সীমাহীন সংরক্ষণ, নিজের ট্যাগ, Markdown রপ্তানি ও ব্যাকআপ খুলে দেয় এবং ফ্যামিলি শেয়ারিংয়ে কাজ করে। SaveTag-এ কোনো সাবস্ক্রিপশন নেই।"],
-        ["Pro কিনেছি, কিন্তু নতুন ডিভাইসে তালাবদ্ধ দেখাচ্ছে।", "যে Apple অ্যাকাউন্ট দিয়ে কিনেছিলেন সেটি দিয়ে সাইন ইন থাকা অবস্থায় SaveTag-এর সেটিংস খুলে 'কেনাকাটা পুনরুদ্ধার' চাপুন। SaveTag-এর নিজস্ব কোনো অ্যাকাউন্ট নেই — কেনাকাটার নথি Apple রাখে, আর পুনরুদ্ধার বিনামূল্যে ও সীমাহীন।"],
-        ["আমার সংরক্ষণ কোথায় থাকে?", "লিংক, শিরোনাম, নোট, ট্যাগ, বিষয় ও সেটিংস SaveTag-এর ডিভাইস-স্টোরেজেই থাকে। কোনো অ্যাকাউন্ট নেই, ক্লাউড সিংক নেই, এবং সেগুলো রাখার মতো আমাদের কোনো সার্ভারও নেই। লিংক সংরক্ষণের সময় SaveTag শিরোনাম ও প্রিভিউ তথ্য পড়তে ওই পাতাটি আপনার ডিভাইস থেকে, সংরক্ষণ করা সাইটের কাছেই সরাসরি চায়।"],
-        ["লাইব্রেরি রপ্তানি বা অন্য ডিভাইসে নেব কীভাবে?", "Pro-তে পুরো লাইব্রেরি iOS শেয়ার শিট দিয়ে Markdown ফাইল হিসেবে রপ্তানি করা যায়; সেই ফাইলই ব্যাকআপের কাজ করে, যা রেখে দিতে বা অন্য ডিভাইসে নিতে পারেন। ফাইলটি আপনার ডিভাইসেই তৈরি হয় এবং কেবল সেখানেই যায় যেখানে আপনি পাঠান।"],
-        ["উইজেট ও Siri শর্টকাট কী করে?", "হোম স্ক্রিন উইজেট সাম্প্রতিক সংরক্ষণ এবং Rediscover-এ অপেক্ষমাণ জিনিস দেখায়। Siri শর্টকাট দিয়ে ক্লিপবোর্ডের লিংক সংরক্ষণ করা যায় বা কণ্ঠস্বরে Rediscover খোলা যায়, মেনু ঘাঁটাঘাঁটি ছাড়াই।"]
+        [
+          "লিংক কীভাবে সংরক্ষণ করব?",
+          "Threads, Instagram, X, YouTube, Safari বা অন্য যেকোনো অ্যাপে শেয়ার শিট খুলে SaveTag বেছে নিন। কেবল লিংক কপি করলেও চলবে: পরেরবার SaveTag খুললে অ্যাপটি ক্লিপবোর্ডে থাকা লিংকটি সংরক্ষণের প্রস্তাব দেবে, যাতে ভালো একটি লিংক আলাপের ভিড়ে হারিয়ে না যায়।"
+        ],
+        [
+          "স্বয়ংক্রিয় ট্যাগ কীভাবে কাজ করে?",
+          "SaveTag আপনার ডিভাইসেই লিংকের শিরোনাম ও বিবরণ পড়ে এবং Apple-এর NaturalLanguage ফ্রেমওয়ার্ক ও নিয়মভিত্তিক শ্রেণিবিন্যাস দিয়ে সেটিকে একটি বিষয়ে রাখে। এতে কোনো ক্লাউড সেবা বা জেনারেটিভ এআই যুক্ত নেই, আর ট্যাগ করার জন্য কিছুই আপলোড হয় না। প্রতিটি ট্যাগ হাতে বদলানো যায়, আর Pro-তে নিজের ট্যাগও বানানো যায়।"
+        ],
+        [
+          "খোঁজাটা কেন বুদ্ধিমান?",
+          "খোঁজা একসাথে শিরোনাম, বিবরণ, ট্যাগ ও ঠিকানা দেখে এবং ফলাফল সাজায় হুবহু বানানের বদলে অর্থের নৈকট্য অনুযায়ী, তাই কাছাকাছি একটি শব্দেও আপনার মনে থাকা জিনিসটি উঠে আসে। পুরোটাই আপনার ডিভাইসে চলে।"
+        ],
+        [
+          "Rediscover কী?",
+          "Rediscover হলো যা সংরক্ষণ করেছেন অথচ এখনো খোলেননি, তার সংক্ষিপ্ত দৈনিক পুনরালোচনা। এটি একবারে কয়েকটি করে ফিরিয়ে আনে, যাতে 'পরে পড়ব' বলে রাখা জিনিসগুলো নিঃশব্দে এমন সংগ্রহশালা না হয়ে যায় যেখানে আর কখনো ফেরা হয় না।"
+        ],
+        [
+          "বিনামূল্যে কী আছে, Pro কী যোগ করে?",
+          "বিনামূল্যের সংস্করণে সব সুবিধাই আছে এবং এটি আপনার সাম্প্রতিক 5টি সংরক্ষণ রাখে। Pro একবারের কেনাকাটা, যা সীমাহীন সংরক্ষণ, নিজের ট্যাগ, Markdown রপ্তানি ও ব্যাকআপ খুলে দেয় এবং ফ্যামিলি শেয়ারিংয়ে কাজ করে। SaveTag-এ কোনো সাবস্ক্রিপশন নেই।"
+        ],
+        [
+          "Pro কিনেছি, কিন্তু নতুন ডিভাইসে তালাবদ্ধ দেখাচ্ছে।",
+          "যে Apple অ্যাকাউন্ট দিয়ে কিনেছিলেন সেটি দিয়ে সাইন ইন থাকা অবস্থায় SaveTag-এর সেটিংস খুলে 'কেনাকাটা পুনরুদ্ধার' চাপুন। SaveTag-এর নিজস্ব কোনো অ্যাকাউন্ট নেই — কেনাকাটার নথি Apple রাখে, আর পুনরুদ্ধার বিনামূল্যে ও সীমাহীন।"
+        ],
+        [
+          "আমার সংরক্ষণ কোথায় থাকে?",
+          "লিংক, শিরোনাম, নোট, ট্যাগ, বিষয় ও সেটিংস SaveTag-এর ডিভাইস-স্টোরেজেই থাকে। কোনো অ্যাকাউন্ট নেই, ক্লাউড সিংক নেই, এবং সেগুলো রাখার মতো আমাদের কোনো সার্ভারও নেই। লিংক সংরক্ষণের সময় SaveTag শিরোনাম ও প্রিভিউ তথ্য পড়তে ওই পাতাটি আপনার ডিভাইস থেকে, সংরক্ষণ করা সাইটের কাছেই সরাসরি চায়।"
+        ],
+        [
+          "লাইব্রেরি রপ্তানি বা অন্য ডিভাইসে নেব কীভাবে?",
+          "Pro-তে পুরো লাইব্রেরি iOS শেয়ার শিট দিয়ে Markdown ফাইল হিসেবে রপ্তানি করা যায়; সেই ফাইলই ব্যাকআপের কাজ করে, যা রেখে দিতে বা অন্য ডিভাইসে নিতে পারেন। ফাইলটি আপনার ডিভাইসেই তৈরি হয় এবং কেবল সেখানেই যায় যেখানে আপনি পাঠান।"
+        ],
+        [
+          "উইজেট ও Siri শর্টকাট কী করে?",
+          "হোম স্ক্রিন উইজেট সাম্প্রতিক সংরক্ষণ এবং Rediscover-এ অপেক্ষমাণ জিনিস দেখায়। Siri শর্টকাট দিয়ে ক্লিপবোর্ডের লিংক সংরক্ষণ করা যায় বা কণ্ঠস্বরে Rediscover খোলা যায়, মেনু ঘাঁটাঘাঁটি ছাড়াই।"
+        ]
       ],
       "cT": "এখনো সাহায্য দরকার?",
       "cL": "যেকোনো ভাষায় লিখুন। উত্তর দেন সেই মানুষটিই যিনি SaveTag বানান, আর প্রতিটি বার্তা পড়া হয়। আপনার iOS সংস্করণ ও কোথায় ট্যাপ করেছিলেন তা জানালে অনেক সুবিধা হয়।",
@@ -137,19 +304,47 @@
       "upd": "সর্বশেষ হালনাগাদ",
       "vow": "কোনো অ্যাকাউন্ট লাগে না। আমরা ব্যক্তিগত তথ্য সংগ্রহ করি না। আমরা তৃতীয় পক্ষের বিজ্ঞাপন ব্যবহার করি না। আমরা তৃতীয় পক্ষের অ্যানালিটিকস ব্যবহার করি না। SaveTag-এ কোনো তৃতীয় পক্ষের SDK নেই, আর আপনার সংরক্ষিত লিংক ডিভাইসের স্টোরেজেই থাকে।",
       "sec": [
-        ["এই নীতি কাদের ক্ষেত্রে প্রযোজ্য", "এই নীতি iPhone ও iPad-এর SaveTag অ্যাপ, তার শেয়ার এক্সটেনশন, হোম স্ক্রিন উইজেট ও Siri শর্টকাটের ক্ষেত্রে প্রযোজ্য।"],
-        ["আমরা কী সংগ্রহ করি", "কিছুই না। কোনো অ্যাকাউন্ট লাগে না এবং আমরা ব্যক্তিগত তথ্য সংগ্রহ করি না। আমরা তৃতীয় পক্ষের বিজ্ঞাপন বা অ্যানালিটিকস ব্যবহার করি না। SaveTag-এ তৃতীয় পক্ষের SDK নেই, আর আপনার তথ্য নিতে পারে এমন কোনো সার্ভারও আমরা চালাই না।"],
-        ["আপনার সংরক্ষণ কোথায় থাকে", "লিংক, শিরোনাম, বিবরণ, নোট, ট্যাগ, বিষয় ও সেটিংস SaveTag-এর ডিভাইস-স্টোরেজে থাকে এবং একই ডিভাইসে Apple-এর app group-এর মাধ্যমে শেয়ার এক্সটেনশন ও উইজেটের সঙ্গে ভাগ করা হয়। অ্যাপে দেওয়া তথ্য ব্যবহারকারীর ডিভাইসেই থাকে, যদি না অ্যাপ স্পষ্টভাবে ব্যবহারকারীর শুরু করা রপ্তানি বা শেয়ার সুবিধা দেয়।"],
-        ["লিংক প্রিভিউ", "আপনি লিংক সংরক্ষণ করলে SaveTag শিরোনাম ও প্রিভিউ তথ্য পড়তে ওই পাতাটি আপনার ডিভাইস থেকে, সংরক্ষণ করা সাইটের কাছেই সরাসরি চায়। ওই ওয়েবসাইটের কাছে এটি ব্রাউজার থেকে আসা সাধারণ অনুরোধের মতোই, আর সেখানে সেই সাইটের নিজস্ব গোপনীয়তা নীতি প্রযোজ্য। এর সঙ্গে SaveTag-এর কোনো তথ্য, শনাক্তকারী বা অ্যাকাউন্ট যুক্ত হয় না, এবং অনুরোধটি অন্য কোথাও যায় না।"],
-        ["ডিভাইসে ট্যাগ ও খোঁজা", "বিষয় নির্ধারণ ও খোঁজার ক্রম Apple-এর NaturalLanguage ফ্রেমওয়ার্ক ও নিয়মভিত্তিক টেক্সট বিশ্লেষণ দিয়ে ডিভাইসেই চলে, আর তা এমন লেখার ওপর যা আগে থেকেই আপনার ডিভাইসে আছে। SaveTag কোনো ক্লাউড এআই সেবা বা জেনারেটিভ মডেল ব্যবহার করে না এবং প্রক্রিয়াকরণের জন্য কোনো লেখা আপলোড করে না।"],
-        ["কেনাকাটা", "Pro একবারের কেনাকাটা, যা App Store-এর মাধ্যমে সম্পূর্ণভাবে Apple সামলায় এবং ফ্যামিলি শেয়ারিং সমর্থন করে। আপনার পেমেন্ট তথ্য আমরা কখনো দেখি না বা রাখি না; অ্যাপ Apple-এর কাছ থেকে কেবল জানে কেনাকাটাটি আছে কি না, আর আনলকের কথা ডিভাইসেই লিখে রাখে। পুনরুদ্ধার Apple-কে জিজ্ঞাসা করে, আমাদের নয়।"],
-        ["রপ্তানি ও শেয়ার", "Markdown রপ্তানি ও ব্যাকআপ ফাইল আপনার ডিভাইসেই তৈরি হয় এবং iOS শেয়ার শিট দিয়ে আপনি যেখানে পাঠান সেখানেই যায়। ফাইলটি SaveTag ছাড়ার পর আপনার বেছে নেওয়া অ্যাপ বা সেবা তার নিজস্ব গোপনীয়তা নীতি অনুযায়ী সেটি সামলায়।"],
-        ["শিশু", "SaveTag শিশুসহ কারও কাছ থেকেই ব্যক্তিগত তথ্য সংগ্রহ করে না এবং তৃতীয় পক্ষের বিজ্ঞাপন বা ট্র্যাকিং দেখায় না। যা সংরক্ষিত হয় তা কেবল ব্যবহারকারীর নিজের বেছে নেওয়া, আর তা ডিভাইসেই থাকে।"],
-        ["আপনার নিয়ন্ত্রণ, মুছে ফেলা ও নীতির পরিবর্তন", "যেকোনো সংরক্ষণ যেকোনো সময় মুছে ফেলতে পারেন, কিংবা অ্যাপ মুছে দিয়ে সব স্থানীয় তথ্য সরাতে পারেন; আমাদের কাছে কিছুই নেই বলে আমাদের দিক থেকে মোছারও কিছু নেই। নেটওয়ার্ক বা তথ্য ব্যবস্থাপনায় ভবিষ্যতের যেকোনো পরিবর্তন প্রকাশের আগেই এখানে ও App Store-এর গোপনীয়তা বিবরণে জানানো হবে। প্রশ্ন থাকলে নিচের ঠিকানায় সবসময় স্বাগতম।"]
+        [
+          "এই নীতি কাদের ক্ষেত্রে প্রযোজ্য",
+          "এই নীতি iPhone ও iPad-এর SaveTag অ্যাপ, তার শেয়ার এক্সটেনশন, হোম স্ক্রিন উইজেট ও Siri শর্টকাটের ক্ষেত্রে প্রযোজ্য।"
+        ],
+        [
+          "আমরা কী সংগ্রহ করি",
+          "কিছুই না। কোনো অ্যাকাউন্ট লাগে না এবং আমরা ব্যক্তিগত তথ্য সংগ্রহ করি না। আমরা তৃতীয় পক্ষের বিজ্ঞাপন বা অ্যানালিটিকস ব্যবহার করি না। SaveTag-এ তৃতীয় পক্ষের SDK নেই, আর আপনার তথ্য নিতে পারে এমন কোনো সার্ভারও আমরা চালাই না।"
+        ],
+        [
+          "আপনার সংরক্ষণ কোথায় থাকে",
+          "লিংক, শিরোনাম, বিবরণ, নোট, ট্যাগ, বিষয় ও সেটিংস SaveTag-এর ডিভাইস-স্টোরেজে থাকে এবং একই ডিভাইসে Apple-এর app group-এর মাধ্যমে শেয়ার এক্সটেনশন ও উইজেটের সঙ্গে ভাগ করা হয়। অ্যাপে দেওয়া তথ্য ব্যবহারকারীর ডিভাইসেই থাকে, যদি না অ্যাপ স্পষ্টভাবে ব্যবহারকারীর শুরু করা রপ্তানি বা শেয়ার সুবিধা দেয়।"
+        ],
+        [
+          "লিংক প্রিভিউ",
+          "আপনি লিংক সংরক্ষণ করলে SaveTag শিরোনাম ও প্রিভিউ তথ্য পড়তে ওই পাতাটি আপনার ডিভাইস থেকে, সংরক্ষণ করা সাইটের কাছেই সরাসরি চায়। ওই ওয়েবসাইটের কাছে এটি ব্রাউজার থেকে আসা সাধারণ অনুরোধের মতোই, আর সেখানে সেই সাইটের নিজস্ব গোপনীয়তা নীতি প্রযোজ্য। এর সঙ্গে SaveTag-এর কোনো তথ্য, শনাক্তকারী বা অ্যাকাউন্ট যুক্ত হয় না, এবং অনুরোধটি অন্য কোথাও যায় না।"
+        ],
+        [
+          "ডিভাইসে ট্যাগ ও খোঁজা",
+          "বিষয় নির্ধারণ ও খোঁজার ক্রম Apple-এর NaturalLanguage ফ্রেমওয়ার্ক ও নিয়মভিত্তিক টেক্সট বিশ্লেষণ দিয়ে ডিভাইসেই চলে, আর তা এমন লেখার ওপর যা আগে থেকেই আপনার ডিভাইসে আছে। SaveTag কোনো ক্লাউড এআই সেবা বা জেনারেটিভ মডেল ব্যবহার করে না এবং প্রক্রিয়াকরণের জন্য কোনো লেখা আপলোড করে না।"
+        ],
+        [
+          "কেনাকাটা",
+          "Pro একবারের কেনাকাটা, যা App Store-এর মাধ্যমে সম্পূর্ণভাবে Apple সামলায় এবং ফ্যামিলি শেয়ারিং সমর্থন করে। আপনার পেমেন্ট তথ্য আমরা কখনো দেখি না বা রাখি না; অ্যাপ Apple-এর কাছ থেকে কেবল জানে কেনাকাটাটি আছে কি না, আর আনলকের কথা ডিভাইসেই লিখে রাখে। পুনরুদ্ধার Apple-কে জিজ্ঞাসা করে, আমাদের নয়।"
+        ],
+        [
+          "রপ্তানি ও শেয়ার",
+          "Markdown রপ্তানি ও ব্যাকআপ ফাইল আপনার ডিভাইসেই তৈরি হয় এবং iOS শেয়ার শিট দিয়ে আপনি যেখানে পাঠান সেখানেই যায়। ফাইলটি SaveTag ছাড়ার পর আপনার বেছে নেওয়া অ্যাপ বা সেবা তার নিজস্ব গোপনীয়তা নীতি অনুযায়ী সেটি সামলায়।"
+        ],
+        [
+          "শিশু",
+          "SaveTag শিশুসহ কারও কাছ থেকেই ব্যক্তিগত তথ্য সংগ্রহ করে না এবং তৃতীয় পক্ষের বিজ্ঞাপন বা ট্র্যাকিং দেখায় না। যা সংরক্ষিত হয় তা কেবল ব্যবহারকারীর নিজের বেছে নেওয়া, আর তা ডিভাইসেই থাকে।"
+        ],
+        [
+          "আপনার নিয়ন্ত্রণ, মুছে ফেলা ও নীতির পরিবর্তন",
+          "যেকোনো সংরক্ষণ যেকোনো সময় মুছে ফেলতে পারেন, কিংবা অ্যাপ মুছে দিয়ে সব স্থানীয় তথ্য সরাতে পারেন; আমাদের কাছে কিছুই নেই বলে আমাদের দিক থেকে মোছারও কিছু নেই। নেটওয়ার্ক বা তথ্য ব্যবস্থাপনায় ভবিষ্যতের যেকোনো পরিবর্তন প্রকাশের আগেই এখানে ও App Store-এর গোপনীয়তা বিবরণে জানানো হবে। প্রশ্ন থাকলে নিচের ঠিকানায় সবসময় স্বাগতম।"
+        ]
       ],
       "cT": "গোপনীয়তা নিয়ে প্রশ্ন",
       "cL": "SaveTag আপনার তথ্য কীভাবে সামলায়, তা নিয়ে যা খুশি জিজ্ঞাসা করুন। ডেভেলপারের কাছ থেকে সরাসরি উত্তর পাবেন।",
       "cB": "ডেভেলপারকে ইমেইল করুন"
-    }
+    },
+    "store": "App Store-এ দেখুন"
   }
 }

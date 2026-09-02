@@ -56,7 +56,7 @@ cannot drift between places.
 ## Build & validate
 
 ```bash
-cd ~/48_savetag-support
+cd ~/48_SaveTag/SupportSiteRepo
 ~/00_GrowthEngine/.venv/bin/python tools/build.py     # regenerate all three pages
 ~/00_GrowthEngine/.venv/bin/python tools/check.py     # must print PASS
 ```
@@ -83,7 +83,7 @@ The public repository is `alice51849/savetag-support`, with GitHub Pages
 publishing the `main` branch root.
 
 ```bash
-cd ~/48_savetag-support
+cd ~/48_SaveTag/SupportSiteRepo
 git push origin main
 gh api repos/alice51849/savetag-support/pages --jq '.status, .html_url'
 ```

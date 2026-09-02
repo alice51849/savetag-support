@@ -102,6 +102,8 @@
     document.getElementById('badge').textContent = page.eyebrow;
     document.getElementById('h1').textContent = page.h1;
     document.getElementById('lead').textContent = page.lead;
+    var storeCta = document.getElementById('storeCta');
+    if (storeCta && t.store) storeCta.textContent = t.store;
 
     var body = document.getElementById('body');
     var extra = document.getElementById('heroExtra');

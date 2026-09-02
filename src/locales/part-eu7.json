@@ -3,7 +3,10 @@
     "n": "Polski",
     "l": "pl",
     "tag": "AI Social Bookmarks",
-    "nav": ["Pomoc", "Prywatność"],
+    "nav": [
+      "Pomoc",
+      "Prywatność"
+    ],
     "lang": "Język",
     "foot": "To, co zapisujesz, zostaje na tym urządzeniu. Podgląd linku SaveTag pobiera na urządzeniu, bezpośrednio z zapisanej strony. Bez konta, bez chmury, bez reklam i bez śledzenia.",
     "s": {
@@ -11,18 +14,52 @@
       "eyebrow": "Pomoc",
       "h1": "Pomoc do SaveTag",
       "lead": "Zapisz link z dowolnej aplikacji, pozwól SaveTag przypisać go do właściwego tematu i naprawdę znajdź go później. Oto pytania, które pojawiają się najczęściej. Jeśli Twojego tu nie ma, napisz do nas — każdą wiadomość czyta człowiek.",
-      "chips": ["Udostępnianie z dowolnej aplikacji", "Szybki zapis ze schowka", "Tematy nadawane na urządzeniu", "Wyszukiwanie po znaczeniu", "Powrót do nieprzeczytanych", "Widżet i skróty Siri"],
+      "chips": [
+        "Udostępnianie z dowolnej aplikacji",
+        "Szybki zapis ze schowka",
+        "Tematy nadawane na urządzeniu",
+        "Wyszukiwanie po znaczeniu",
+        "Powrót do nieprzeczytanych",
+        "Widżet i skróty Siri"
+      ],
       "faqT": "Najczęstsze pytania",
       "faq": [
-        ["Jak zapisać link?", "Otwórz menu udostępniania w Threads, Instagramie, X, YouTube, Safari lub dowolnej innej aplikacji i wybierz SaveTag. Możesz też po prostu skopiować link: przy następnym uruchomieniu SaveTag zaproponuje zapisanie zawartości schowka, dzięki czemu dobry link nie zginie w rozmowie."],
-        ["Jak działa automatyczne tagowanie?", "SaveTag odczytuje tytuł i opis linku na Twoim urządzeniu i przypisuje go do tematu z użyciem frameworka Apple NaturalLanguage oraz klasyfikatora opartego na regułach. Nie bierze w tym udziału żadna usługa w chmurze ani generatywna AI, nic nie jest wysyłane do otagowania. Każdy tag można poprawić ręcznie, a Pro dodaje tagi własne."],
-        ["Dlaczego wyszukiwanie jest inteligentne?", "Wyszukiwarka analizuje tytuły, opisy, tagi i adres, a wyniki porządkuje według bliskości znaczenia, a nie dokładnej pisowni, więc pokrewne słowo także wydobędzie właściwy zapis. Wszystko dzieje się na Twoim urządzeniu."],
-        ["Czym jest Rediscover?", "Rediscover to krótki codzienny przegląd tego, co zapisałeś, ale jeszcze nie otworzyłeś. Przywraca po kilka pozycji naraz, aby to, co odłożyłeś na później, nie zamieniło się w archiwum, do którego nigdy nie wracasz."],
-        ["Co jest bezpłatne, a co daje Pro?", "Wersja bezpłatna ma wszystkie funkcje i przechowuje 5 najnowszych zapisów. Pro to jednorazowy zakup, który odblokowuje nielimitowane zapisy, własne tagi oraz eksport i kopię zapasową w Markdown, i działa z Chomikiem rodzinnym. SaveTag nie ma żadnej subskrypcji."],
-        ["Kupiłem Pro, ale na nowym urządzeniu jest zablokowane.", "Otwórz Ustawienia w SaveTag i dotknij Przywróć zakup, będąc zalogowanym na koncie Apple użytym przy zakupie. SaveTag nie ma własnego konta — zapis o zakupie przechowuje Apple, a przywracanie jest bezpłatne i bez ograniczeń."],
-        ["Gdzie przechowywane są moje zapisy?", "Linki, tytuły, notatki, tagi, tematy i ustawienia zostają w pamięci SaveTag na urządzeniu. Nie ma konta, synchronizacji w chmurze ani naszego serwera, który mógłby je przechowywać. Podczas zapisywania SaveTag pobiera stronę z Twojego urządzenia, bezpośrednio z zapisanej witryny, aby odczytać tytuł i dane podglądu."],
-        ["Jak wyeksportować bibliotekę lub przenieść ją?", "W Pro wyeksportujesz całą bibliotekę jako plik Markdown przez menu udostępniania iOS; ten plik jest jednocześnie kopią zapasową, którą możesz zachować lub przenieść na inne urządzenie. Powstaje na Twoim urządzeniu i trafia wyłącznie tam, gdzie go wyślesz."],
-        ["Co robią widżet i skróty Siri?", "Widżet na ekranie początkowym pokazuje ostatnio zapisane pozycje i to, co czeka w Rediscover. Skróty Siri pozwalają zapisać link ze schowka albo otworzyć Rediscover głosem, bez przeszukiwania menu."]
+        [
+          "Jak zapisać link?",
+          "Otwórz menu udostępniania w Threads, Instagramie, X, YouTube, Safari lub dowolnej innej aplikacji i wybierz SaveTag. Możesz też po prostu skopiować link: przy następnym uruchomieniu SaveTag zaproponuje zapisanie zawartości schowka, dzięki czemu dobry link nie zginie w rozmowie."
+        ],
+        [
+          "Jak działa automatyczne tagowanie?",
+          "SaveTag odczytuje tytuł i opis linku na Twoim urządzeniu i przypisuje go do tematu z użyciem frameworka Apple NaturalLanguage oraz klasyfikatora opartego na regułach. Nie bierze w tym udziału żadna usługa w chmurze ani generatywna AI, nic nie jest wysyłane do otagowania. Każdy tag można poprawić ręcznie, a Pro dodaje tagi własne."
+        ],
+        [
+          "Dlaczego wyszukiwanie jest inteligentne?",
+          "Wyszukiwarka analizuje tytuły, opisy, tagi i adres, a wyniki porządkuje według bliskości znaczenia, a nie dokładnej pisowni, więc pokrewne słowo także wydobędzie właściwy zapis. Wszystko dzieje się na Twoim urządzeniu."
+        ],
+        [
+          "Czym jest Rediscover?",
+          "Rediscover to krótki codzienny przegląd tego, co zapisałeś, ale jeszcze nie otworzyłeś. Przywraca po kilka pozycji naraz, aby to, co odłożyłeś na później, nie zamieniło się w archiwum, do którego nigdy nie wracasz."
+        ],
+        [
+          "Co jest bezpłatne, a co daje Pro?",
+          "Wersja bezpłatna ma wszystkie funkcje i przechowuje 5 najnowszych zapisów. Pro to jednorazowy zakup, który odblokowuje nielimitowane zapisy, własne tagi oraz eksport i kopię zapasową w Markdown, i działa z Chomikiem rodzinnym. SaveTag nie ma żadnej subskrypcji."
+        ],
+        [
+          "Kupiłem Pro, ale na nowym urządzeniu jest zablokowane.",
+          "Otwórz Ustawienia w SaveTag i dotknij Przywróć zakup, będąc zalogowanym na koncie Apple użytym przy zakupie. SaveTag nie ma własnego konta — zapis o zakupie przechowuje Apple, a przywracanie jest bezpłatne i bez ograniczeń."
+        ],
+        [
+          "Gdzie przechowywane są moje zapisy?",
+          "Linki, tytuły, notatki, tagi, tematy i ustawienia zostają w pamięci SaveTag na urządzeniu. Nie ma konta, synchronizacji w chmurze ani naszego serwera, który mógłby je przechowywać. Podczas zapisywania SaveTag pobiera stronę z Twojego urządzenia, bezpośrednio z zapisanej witryny, aby odczytać tytuł i dane podglądu."
+        ],
+        [
+          "Jak wyeksportować bibliotekę lub przenieść ją?",
+          "W Pro wyeksportujesz całą bibliotekę jako plik Markdown przez menu udostępniania iOS; ten plik jest jednocześnie kopią zapasową, którą możesz zachować lub przenieść na inne urządzenie. Powstaje na Twoim urządzeniu i trafia wyłącznie tam, gdzie go wyślesz."
+        ],
+        [
+          "Co robią widżet i skróty Siri?",
+          "Widżet na ekranie początkowym pokazuje ostatnio zapisane pozycje i to, co czeka w Rediscover. Skróty Siri pozwalają zapisać link ze schowka albo otworzyć Rediscover głosem, bez przeszukiwania menu."
+        ]
       ],
       "cT": "Potrzebujesz dalszej pomocy?",
       "cL": "Pisz w dowolnym języku. Odpowiada osoba, która tworzy SaveTag, i każda wiadomość jest czytana. Podanie wersji iOS i tego, co zostało dotknięte, bardzo pomaga.",
@@ -35,26 +72,57 @@
       "upd": "Ostatnia aktualizacja",
       "vow": "Konto nie jest wymagane. Nie zbieramy danych osobowych. Nie stosujemy reklam podmiotów trzecich. Nie stosujemy analityki podmiotów trzecich. SaveTag nie zawiera zewnętrznych SDK, a zapisane linki pozostają w pamięci urządzenia.",
       "sec": [
-        ["Kogo dotyczy ta polityka", "Polityka dotyczy aplikacji SaveTag na iPhone'a i iPada wraz z rozszerzeniem udostępniania, widżetem ekranu początkowego i skrótami Siri."],
-        ["Jakie dane zbieramy", "Żadnych. Konto nie jest wymagane, a danych osobowych nie zbieramy. Nie stosujemy reklam ani analityki podmiotów trzecich. SaveTag nie zawiera zewnętrznych SDK, a my nie prowadzimy serwera, który mógłby odebrać Twoje dane."],
-        ["Gdzie znajdują się Twoje zapisy", "Linki, tytuły, opisy, notatki, tagi, tematy i ustawienia pozostają w pamięci SaveTag na urządzeniu i są tam współdzielone z rozszerzeniem udostępniania oraz widżetem poprzez app group Apple. Dane wprowadzone w aplikacji pozostają na urządzeniu użytkownika, o ile aplikacja nie udostępnia wyraźnie funkcji eksportu lub udostępniania uruchamianej przez użytkownika."],
-        ["Podglądy linków", "Gdy zapisujesz link, SaveTag pobiera tę stronę z Twojego urządzenia, bezpośrednio z zapisanej witryny, aby odczytać tytuł i dane podglądu. Dla tej witryny jest to zwykłe żądanie, podobne do wizyty z przeglądarki, i obowiązuje jej własna polityka prywatności. Nie są dołączane żadne dane, identyfikatory ani konta SaveTag, a żądanie nie trafia nigdzie indziej."],
-        ["Tagowanie i wyszukiwanie na urządzeniu", "Przypisywanie tematów i porządkowanie wyników działa lokalnie, z użyciem frameworka Apple NaturalLanguage i analizy tekstu opartej na regułach, na tekście, który już znajduje się na Twoim urządzeniu. SaveTag nie korzysta z usług AI w chmurze ani z modeli generatywnych i nie wysyła tekstu do przetwarzania."],
-        ["Zakupy", "Pro to zakup jednorazowy obsługiwany w całości przez Apple w App Store, z obsługą Chomika rodzinnego. Nigdy nie widzimy ani nie przechowujemy Twoich danych płatniczych; aplikacja dowiaduje się od Apple wyłącznie tego, czy zakup istnieje, i zapisuje odblokowanie lokalnie na urządzeniu. Przywracanie zakupu pyta Apple, nie nas."],
-        ["Eksport i udostępnianie", "Plik Markdown z eksportem i kopią zapasową powstaje na Twoim urządzeniu i trafia tam, gdzie go wyślesz przez menu udostępniania iOS. Gdy plik opuści SaveTag, obsługuje go wybrana przez Ciebie aplikacja lub usługa, zgodnie z jej własną polityką prywatności."],
-        ["Dzieci", "SaveTag nie zbiera danych osobowych od nikogo, również od dzieci, i nie wyświetla reklam podmiotów trzecich ani śledzenia. Zapisywane są wyłącznie treści wybrane przez osobę korzystającą z aplikacji i pozostają one na urządzeniu."],
-        ["Twoja kontrola, usuwanie i zmiany polityki", "Każdy zapis możesz usunąć w dowolnej chwili, a usunięcie aplikacji kasuje wszystkie dane lokalne; ponieważ nic nie przechowujemy, po naszej stronie nie ma czego usuwać. Każda przyszła zmiana w obsłudze sieci lub danych zostanie opublikowana tutaj oraz w szczegółach prywatności w App Store przed wydaniem. Pytania są zawsze mile widziane pod adresem poniżej."]
+        [
+          "Kogo dotyczy ta polityka",
+          "Polityka dotyczy aplikacji SaveTag na iPhone'a i iPada wraz z rozszerzeniem udostępniania, widżetem ekranu początkowego i skrótami Siri."
+        ],
+        [
+          "Jakie dane zbieramy",
+          "Żadnych. Konto nie jest wymagane, a danych osobowych nie zbieramy. Nie stosujemy reklam ani analityki podmiotów trzecich. SaveTag nie zawiera zewnętrznych SDK, a my nie prowadzimy serwera, który mógłby odebrać Twoje dane."
+        ],
+        [
+          "Gdzie znajdują się Twoje zapisy",
+          "Linki, tytuły, opisy, notatki, tagi, tematy i ustawienia pozostają w pamięci SaveTag na urządzeniu i są tam współdzielone z rozszerzeniem udostępniania oraz widżetem poprzez app group Apple. Dane wprowadzone w aplikacji pozostają na urządzeniu użytkownika, o ile aplikacja nie udostępnia wyraźnie funkcji eksportu lub udostępniania uruchamianej przez użytkownika."
+        ],
+        [
+          "Podglądy linków",
+          "Gdy zapisujesz link, SaveTag pobiera tę stronę z Twojego urządzenia, bezpośrednio z zapisanej witryny, aby odczytać tytuł i dane podglądu. Dla tej witryny jest to zwykłe żądanie, podobne do wizyty z przeglądarki, i obowiązuje jej własna polityka prywatności. Nie są dołączane żadne dane, identyfikatory ani konta SaveTag, a żądanie nie trafia nigdzie indziej."
+        ],
+        [
+          "Tagowanie i wyszukiwanie na urządzeniu",
+          "Przypisywanie tematów i porządkowanie wyników działa lokalnie, z użyciem frameworka Apple NaturalLanguage i analizy tekstu opartej na regułach, na tekście, który już znajduje się na Twoim urządzeniu. SaveTag nie korzysta z usług AI w chmurze ani z modeli generatywnych i nie wysyła tekstu do przetwarzania."
+        ],
+        [
+          "Zakupy",
+          "Pro to zakup jednorazowy obsługiwany w całości przez Apple w App Store, z obsługą Chomika rodzinnego. Nigdy nie widzimy ani nie przechowujemy Twoich danych płatniczych; aplikacja dowiaduje się od Apple wyłącznie tego, czy zakup istnieje, i zapisuje odblokowanie lokalnie na urządzeniu. Przywracanie zakupu pyta Apple, nie nas."
+        ],
+        [
+          "Eksport i udostępnianie",
+          "Plik Markdown z eksportem i kopią zapasową powstaje na Twoim urządzeniu i trafia tam, gdzie go wyślesz przez menu udostępniania iOS. Gdy plik opuści SaveTag, obsługuje go wybrana przez Ciebie aplikacja lub usługa, zgodnie z jej własną polityką prywatności."
+        ],
+        [
+          "Dzieci",
+          "SaveTag nie zbiera danych osobowych od nikogo, również od dzieci, i nie wyświetla reklam podmiotów trzecich ani śledzenia. Zapisywane są wyłącznie treści wybrane przez osobę korzystającą z aplikacji i pozostają one na urządzeniu."
+        ],
+        [
+          "Twoja kontrola, usuwanie i zmiany polityki",
+          "Każdy zapis możesz usunąć w dowolnej chwili, a usunięcie aplikacji kasuje wszystkie dane lokalne; ponieważ nic nie przechowujemy, po naszej stronie nie ma czego usuwać. Każda przyszła zmiana w obsłudze sieci lub danych zostanie opublikowana tutaj oraz w szczegółach prywatności w App Store przed wydaniem. Pytania są zawsze mile widziane pod adresem poniżej."
+        ]
       ],
       "cT": "Pytania o prywatność",
       "cL": "Pytaj o wszystko, co dotyczy przetwarzania Twoich danych w SaveTag. Otrzymasz szczerą odpowiedź od twórcy aplikacji.",
       "cB": "Napisz do twórcy"
-    }
+    },
+    "store": "Zobacz w App Store"
   },
   "tr": {
     "n": "Türkçe",
     "l": "tr",
     "tag": "AI Social Bookmarks",
-    "nav": ["Destek", "Gizlilik"],
+    "nav": [
+      "Destek",
+      "Gizlilik"
+    ],
     "lang": "Dil",
     "foot": "Kaydettikleriniz bu cihazda kalır. SaveTag bağlantı önizlemesini cihazda, kaydettiğiniz siteden doğrudan okur. Hesap yok, bulut yok, reklam yok, takip yok.",
     "s": {
@@ -62,18 +130,52 @@
       "eyebrow": "Destek",
       "h1": "SaveTag yardımı",
       "lead": "Bağlantıyı hangi uygulamadan olursa olsun kaydedin, SaveTag doğru konunun altına yerleştirsin ve sonra gerçekten tekrar bulun. En sık gelen sorular burada. Sizinki yoksa yazın; her mesajı gerçek bir insan okuyor.",
-      "chips": ["Her uygulamadan paylaşarak kaydetme", "Panodan hızlı kaydetme", "Konular cihazda belirlenir", "Anlamı izleyen arama", "Okunmayanları yeniden keşfetme", "Widget ve Siri kısayolları"],
+      "chips": [
+        "Her uygulamadan paylaşarak kaydetme",
+        "Panodan hızlı kaydetme",
+        "Konular cihazda belirlenir",
+        "Anlamı izleyen arama",
+        "Okunmayanları yeniden keşfetme",
+        "Widget ve Siri kısayolları"
+      ],
       "faqT": "Sık sorulan sorular",
       "faq": [
-        ["Bir bağlantıyı nasıl kaydederim?", "Threads, Instagram, X, YouTube, Safari veya başka herhangi bir uygulamada paylaşım sayfasını açıp SaveTag'i seçin. Bağlantıyı yalnızca kopyalamanız da yeterli: SaveTag'i bir sonraki açışınızda panodakini kaydetmeyi önerir, böylece iyi bir bağlantı sohbetin içinde kaybolmaz."],
-        ["Otomatik etiketleme nasıl çalışıyor?", "SaveTag bağlantının başlığını ve açıklamasını cihazınızda okur ve Apple'ın NaturalLanguage çatısı ile kural tabanlı bir sınıflandırıcıyı kullanarak bir konuya yerleştirir. İşin içinde bulut hizmeti veya üretken yapay zekâ yoktur; etiketlemek için hiçbir şey yüklenmez. Her etiket elle düzeltilebilir, Pro ise kendi etiketlerinizi ekler."],
-        ["Aramayı akıllı yapan nedir?", "Arama; başlıkları, açıklamaları, etiketleri ve adresi birlikte değerlendirir ve sonuçları tam yazım yerine anlam yakınlığına göre sıralar. Böylece yakın bir kelime de aklınızdaki kaydı öne çıkarır. Tümü cihazınızda çalışır."],
-        ["Rediscover nedir?", "Rediscover, kaydedip henüz açmadıklarınız için kısa bir günlük hatırlatmadır. Her seferinde birkaç tanesini geri getirir; böylece sonraya bıraktıklarınız hiç dönmediğiniz bir arşive dönüşmez."],
-        ["Ücretsiz sürümde ne var, Pro ne katıyor?", "Ücretsiz sürümde tüm özellikler vardır ve en son 5 kaydınız saklanır. Pro tek seferlik bir satın almadır; sınırsız kayıt, özel etiketler, Markdown dışa aktarma ve yedekleme açılır ve Aile İçi Paylaşım ile çalışır. SaveTag'de hiçbir abonelik yoktur."],
-        ["Pro'yu satın aldım ama yeni cihazda kilitli görünüyor.", "Satın alırken kullandığınız Apple hesabıyla oturum açmışken SaveTag ayarlarını açıp Satın Alımı Geri Yükle'ye dokunun. SaveTag'in kendi hesabı yoktur; satın alma kaydını Apple tutar ve geri yükleme ücretsiz ve sınırsızdır."],
-        ["Kayıtlarım nerede saklanıyor?", "Bağlantılar, başlıklar, notlar, etiketler, konular ve ayarlar SaveTag'in cihazdaki deposunda kalır. Hesap, bulut eşitlemesi ya da bunları tutabilecek bir sunucumuz yoktur. Bir bağlantıyı kaydederken SaveTag, başlığı ve önizleme bilgisini okumak için o sayfayı cihazınızdan, kaydettiğiniz siteden doğrudan ister."],
-        ["Kitaplığımı nasıl dışa aktarır veya taşırım?", "Pro ile tüm kitaplığı iOS paylaşım sayfası üzerinden Markdown dosyası olarak dışa aktarırsınız; bu dosya aynı zamanda saklayabileceğiniz veya başka bir cihaza taşıyabileceğiniz bir yedektir. Dosya cihazınızda oluşturulur ve yalnızca gönderdiğiniz yere gider."],
-        ["Widget ve Siri kısayolları ne yapar?", "Ana Ekran widget'ı en son kaydettiklerinizi ve Rediscover'da sizi bekleyenleri gösterir. Siri kısayollarıyla panodaki bağlantıyı kaydedebilir veya menülerde dolaşmadan Rediscover'ı sesle açabilirsiniz."]
+        [
+          "Bir bağlantıyı nasıl kaydederim?",
+          "Threads, Instagram, X, YouTube, Safari veya başka herhangi bir uygulamada paylaşım sayfasını açıp SaveTag'i seçin. Bağlantıyı yalnızca kopyalamanız da yeterli: SaveTag'i bir sonraki açışınızda panodakini kaydetmeyi önerir, böylece iyi bir bağlantı sohbetin içinde kaybolmaz."
+        ],
+        [
+          "Otomatik etiketleme nasıl çalışıyor?",
+          "SaveTag bağlantının başlığını ve açıklamasını cihazınızda okur ve Apple'ın NaturalLanguage çatısı ile kural tabanlı bir sınıflandırıcıyı kullanarak bir konuya yerleştirir. İşin içinde bulut hizmeti veya üretken yapay zekâ yoktur; etiketlemek için hiçbir şey yüklenmez. Her etiket elle düzeltilebilir, Pro ise kendi etiketlerinizi ekler."
+        ],
+        [
+          "Aramayı akıllı yapan nedir?",
+          "Arama; başlıkları, açıklamaları, etiketleri ve adresi birlikte değerlendirir ve sonuçları tam yazım yerine anlam yakınlığına göre sıralar. Böylece yakın bir kelime de aklınızdaki kaydı öne çıkarır. Tümü cihazınızda çalışır."
+        ],
+        [
+          "Rediscover nedir?",
+          "Rediscover, kaydedip henüz açmadıklarınız için kısa bir günlük hatırlatmadır. Her seferinde birkaç tanesini geri getirir; böylece sonraya bıraktıklarınız hiç dönmediğiniz bir arşive dönüşmez."
+        ],
+        [
+          "Ücretsiz sürümde ne var, Pro ne katıyor?",
+          "Ücretsiz sürümde tüm özellikler vardır ve en son 5 kaydınız saklanır. Pro tek seferlik bir satın almadır; sınırsız kayıt, özel etiketler, Markdown dışa aktarma ve yedekleme açılır ve Aile İçi Paylaşım ile çalışır. SaveTag'de hiçbir abonelik yoktur."
+        ],
+        [
+          "Pro'yu satın aldım ama yeni cihazda kilitli görünüyor.",
+          "Satın alırken kullandığınız Apple hesabıyla oturum açmışken SaveTag ayarlarını açıp Satın Alımı Geri Yükle'ye dokunun. SaveTag'in kendi hesabı yoktur; satın alma kaydını Apple tutar ve geri yükleme ücretsiz ve sınırsızdır."
+        ],
+        [
+          "Kayıtlarım nerede saklanıyor?",
+          "Bağlantılar, başlıklar, notlar, etiketler, konular ve ayarlar SaveTag'in cihazdaki deposunda kalır. Hesap, bulut eşitlemesi ya da bunları tutabilecek bir sunucumuz yoktur. Bir bağlantıyı kaydederken SaveTag, başlığı ve önizleme bilgisini okumak için o sayfayı cihazınızdan, kaydettiğiniz siteden doğrudan ister."
+        ],
+        [
+          "Kitaplığımı nasıl dışa aktarır veya taşırım?",
+          "Pro ile tüm kitaplığı iOS paylaşım sayfası üzerinden Markdown dosyası olarak dışa aktarırsınız; bu dosya aynı zamanda saklayabileceğiniz veya başka bir cihaza taşıyabileceğiniz bir yedektir. Dosya cihazınızda oluşturulur ve yalnızca gönderdiğiniz yere gider."
+        ],
+        [
+          "Widget ve Siri kısayolları ne yapar?",
+          "Ana Ekran widget'ı en son kaydettiklerinizi ve Rediscover'da sizi bekleyenleri gösterir. Siri kısayollarıyla panodaki bağlantıyı kaydedebilir veya menülerde dolaşmadan Rediscover'ı sesle açabilirsiniz."
+        ]
       ],
       "cT": "Hâlâ yardım gerekiyor mu?",
       "cL": "İstediğiniz dilde yazabilirsiniz. Yanıtlar SaveTag'i geliştiren kişiden gelir ve her mesaj okunur. iOS sürümünüzü ve neye dokunduğunuzu belirtmeniz çok yardımcı olur.",
@@ -86,26 +188,57 @@
       "upd": "Son güncelleme",
       "vow": "Hesap gerekmez. Kişisel veri toplamıyoruz. Üçüncü taraf reklamı kullanmıyoruz. Üçüncü taraf analizi kullanmıyoruz. SaveTag üçüncü taraf SDK içermez ve kaydettiğiniz bağlantılar cihazdaki depoda kalır.",
       "sec": [
-        ["Bu politika neyi kapsar", "Bu politika iPhone ve iPad için SaveTag uygulamasını, paylaşım eklentisini, Ana Ekran widget'ını ve Siri kısayollarını kapsar."],
-        ["Neleri topluyoruz", "Hiçbir şeyi. Hesap gerekmez ve kişisel veri toplamıyoruz. Üçüncü taraf reklamı da analizi de kullanmıyoruz. SaveTag üçüncü taraf SDK içermez ve verilerinizi alabilecek bir sunucu işletmiyoruz."],
-        ["Kayıtlarınız nerede durur", "Bağlantılar, başlıklar, açıklamalar, notlar, etiketler, konular ve ayarlar SaveTag'in cihazdaki deposunda kalır ve aynı cihazda Apple'ın app group yapısı üzerinden paylaşım eklentisi ve widget ile paylaşılır. Uygulamaya girilen veriler, uygulama kullanıcı tarafından başlatılan bir dışa aktarma veya paylaşma özelliği açıkça sunmadıkça kullanıcının cihazında kalır."],
-        ["Bağlantı önizlemeleri", "Bir bağlantıyı kaydettiğinizde SaveTag, başlığı ve önizleme bilgisini okumak için o sayfayı cihazınızdan, kaydettiğiniz siteden doğrudan ister. O site için bu, tarayıcıdan yapılan bir ziyaret gibi sıradan bir istektir ve sitenin kendi gizlilik politikası geçerlidir. İsteğe hiçbir SaveTag verisi, tanımlayıcısı veya hesabı eklenmez ve istek başka hiçbir yere gitmez."],
-        ["Cihazda etiketleme ve arama", "Konu etiketleme ve arama sıralaması, Apple'ın NaturalLanguage çatısı ve kural tabanlı metin analiziyle yerel olarak, zaten cihazınızda bulunan metin üzerinde çalışır. SaveTag bulut tabanlı yapay zekâ hizmeti veya üretken model kullanmaz ve işlem için metin yüklemez."],
-        ["Satın alımlar", "Pro, App Store üzerinden tamamen Apple tarafından işlenen tek seferlik bir satın almadır ve Aile İçi Paylaşım'ı destekler. Ödeme bilgilerinizi hiçbir zaman görmez veya saklamayız; uygulama Apple'dan yalnızca satın almanın var olup olmadığını öğrenir ve kilidin açıldığını cihazınıza yerel olarak kaydeder. Geri yükleme bize değil, Apple'a sorar."],
-        ["Dışa aktarma ve paylaşma", "Markdown dışa aktarma ve yedek dosyası cihazınızda oluşturulur ve iOS paylaşım sayfasıyla gönderdiğiniz yere gider. Dosya SaveTag'den çıktıktan sonra seçtiğiniz uygulama veya hizmet tarafından, onun kendi gizlilik politikası uyarınca işlenir."],
-        ["Çocuklar", "SaveTag çocuklar dahil hiç kimseden kişisel veri toplamaz, üçüncü taraf reklamı ve takip göstermez. Kaydedilenler yalnızca uygulamayı kullanan kişinin seçtikleridir ve cihazda kalır."],
-        ["Denetiminiz, silme ve politika değişiklikleri", "Herhangi bir kaydı istediğiniz zaman silebilir veya uygulamayı silerek tüm yerel verileri kaldırabilirsiniz; bizde hiçbir şey bulunmadığı için bizim tarafımızda silinecek bir şey de yoktur. Ağ veya veri işleme konusundaki gelecekteki değişiklikler yayınlanmadan önce burada ve App Store gizlilik bilgilerinde belirtilir. Sorularınızı aşağıdaki adrese her zaman iletebilirsiniz."]
+        [
+          "Bu politika neyi kapsar",
+          "Bu politika iPhone ve iPad için SaveTag uygulamasını, paylaşım eklentisini, Ana Ekran widget'ını ve Siri kısayollarını kapsar."
+        ],
+        [
+          "Neleri topluyoruz",
+          "Hiçbir şeyi. Hesap gerekmez ve kişisel veri toplamıyoruz. Üçüncü taraf reklamı da analizi de kullanmıyoruz. SaveTag üçüncü taraf SDK içermez ve verilerinizi alabilecek bir sunucu işletmiyoruz."
+        ],
+        [
+          "Kayıtlarınız nerede durur",
+          "Bağlantılar, başlıklar, açıklamalar, notlar, etiketler, konular ve ayarlar SaveTag'in cihazdaki deposunda kalır ve aynı cihazda Apple'ın app group yapısı üzerinden paylaşım eklentisi ve widget ile paylaşılır. Uygulamaya girilen veriler, uygulama kullanıcı tarafından başlatılan bir dışa aktarma veya paylaşma özelliği açıkça sunmadıkça kullanıcının cihazında kalır."
+        ],
+        [
+          "Bağlantı önizlemeleri",
+          "Bir bağlantıyı kaydettiğinizde SaveTag, başlığı ve önizleme bilgisini okumak için o sayfayı cihazınızdan, kaydettiğiniz siteden doğrudan ister. O site için bu, tarayıcıdan yapılan bir ziyaret gibi sıradan bir istektir ve sitenin kendi gizlilik politikası geçerlidir. İsteğe hiçbir SaveTag verisi, tanımlayıcısı veya hesabı eklenmez ve istek başka hiçbir yere gitmez."
+        ],
+        [
+          "Cihazda etiketleme ve arama",
+          "Konu etiketleme ve arama sıralaması, Apple'ın NaturalLanguage çatısı ve kural tabanlı metin analiziyle yerel olarak, zaten cihazınızda bulunan metin üzerinde çalışır. SaveTag bulut tabanlı yapay zekâ hizmeti veya üretken model kullanmaz ve işlem için metin yüklemez."
+        ],
+        [
+          "Satın alımlar",
+          "Pro, App Store üzerinden tamamen Apple tarafından işlenen tek seferlik bir satın almadır ve Aile İçi Paylaşım'ı destekler. Ödeme bilgilerinizi hiçbir zaman görmez veya saklamayız; uygulama Apple'dan yalnızca satın almanın var olup olmadığını öğrenir ve kilidin açıldığını cihazınıza yerel olarak kaydeder. Geri yükleme bize değil, Apple'a sorar."
+        ],
+        [
+          "Dışa aktarma ve paylaşma",
+          "Markdown dışa aktarma ve yedek dosyası cihazınızda oluşturulur ve iOS paylaşım sayfasıyla gönderdiğiniz yere gider. Dosya SaveTag'den çıktıktan sonra seçtiğiniz uygulama veya hizmet tarafından, onun kendi gizlilik politikası uyarınca işlenir."
+        ],
+        [
+          "Çocuklar",
+          "SaveTag çocuklar dahil hiç kimseden kişisel veri toplamaz, üçüncü taraf reklamı ve takip göstermez. Kaydedilenler yalnızca uygulamayı kullanan kişinin seçtikleridir ve cihazda kalır."
+        ],
+        [
+          "Denetiminiz, silme ve politika değişiklikleri",
+          "Herhangi bir kaydı istediğiniz zaman silebilir veya uygulamayı silerek tüm yerel verileri kaldırabilirsiniz; bizde hiçbir şey bulunmadığı için bizim tarafımızda silinecek bir şey de yoktur. Ağ veya veri işleme konusundaki gelecekteki değişiklikler yayınlanmadan önce burada ve App Store gizlilik bilgilerinde belirtilir. Sorularınızı aşağıdaki adrese her zaman iletebilirsiniz."
+        ]
       ],
       "cT": "Gizlilikle ilgili sorular",
       "cL": "SaveTag'in verilerinizi nasıl işlediğine dair her şeyi sorabilirsiniz. Geliştiriciden açık bir yanıt alırsınız.",
       "cB": "Geliştiriciye e-posta gönder"
-    }
+    },
+    "store": "App Store'da görüntüle"
   },
   "cs": {
     "n": "Čeština",
     "l": "cs",
     "tag": "AI Social Bookmarks",
-    "nav": ["Podpora", "Soukromí"],
+    "nav": [
+      "Podpora",
+      "Soukromí"
+    ],
     "lang": "Jazyk",
     "foot": "To, co uložíte, zůstává v tomto zařízení. Náhled odkazu si SaveTag načte přímo v zařízení ze stránky, kterou jste uložili. Bez účtu, bez cloudu, bez reklam a bez sledování.",
     "s": {
@@ -113,18 +246,52 @@
       "eyebrow": "Podpora",
       "h1": "Nápověda k SaveTag",
       "lead": "Uložte odkaz z jakékoli aplikace, nechte SaveTag zařadit ho pod správné téma a později ho opravdu najděte. Tohle jsou nejčastější dotazy. Pokud tu ten váš není, napište nám — každou zprávu čte skutečný člověk.",
-      "chips": ["Sdílení z jakékoli aplikace", "Rychlé uložení ze schránky", "Témata se určují v zařízení", "Vyhledávání podle významu", "Návrat k nepřečteným", "Widget a zkratky Siri"],
+      "chips": [
+        "Sdílení z jakékoli aplikace",
+        "Rychlé uložení ze schránky",
+        "Témata se určují v zařízení",
+        "Vyhledávání podle významu",
+        "Návrat k nepřečteným",
+        "Widget a zkratky Siri"
+      ],
       "faqT": "Časté dotazy",
       "faq": [
-        ["Jak uložím odkaz?", "Otevřete nabídku sdílení v Threads, Instagramu, X, YouTube, Safari nebo jakékoli jiné aplikaci a zvolte SaveTag. Stačí odkaz i jen zkopírovat: při dalším spuštění vám SaveTag nabídne uložit obsah schránky, aby se dobrý odkaz neztratil v konverzaci."],
-        ["Jak funguje automatické štítkování?", "SaveTag přečte titulek a popis odkazu přímo ve vašem zařízení a zařadí ho pod téma pomocí frameworku Apple NaturalLanguage a klasifikátoru založeného na pravidlech. Nevstupuje do toho žádná cloudová služba ani generativní AI a nic se kvůli štítkování nikam neodesílá. Každý štítek lze ručně opravit a Pro přidává vlastní štítky."],
-        ["Čím je vyhledávání chytré?", "Vyhledávání bere v potaz titulky, popisy, štítky i adresu a řadí výsledky podle blízkosti významu, ne podle přesného zápisu. I příbuzné slovo tak vytáhne přesně to, co jste měli na mysli. Vše probíhá ve vašem zařízení."],
-        ["Co je Rediscover?", "Rediscover je krátké denní ohlédnutí za tím, co jste uložili, ale ještě neotevřeli. Vrací vždy jen několik položek, aby se z toho, co jste si nechali na později, nestal archiv, do kterého se už nikdy nepodíváte."],
-        ["Co je zdarma a co přidává Pro?", "Bezplatná verze má všechny funkce a uchová vašich 5 posledních uložení. Pro je jednorázový nákup, který odemkne neomezená uložení, vlastní štítky a export a zálohu v Markdownu, a funguje s Rodinným sdílením. SaveTag nemá žádné předplatné."],
-        ["Koupil jsem Pro, ale na novém zařízení je zamčené.", "Otevřete v SaveTag Nastavení a klepněte na Obnovit nákup, když jste přihlášeni účtem Apple, kterým jste nakupovali. SaveTag nemá vlastní účet — záznam o nákupu drží Apple a obnovení je zdarma a bez omezení."],
-        ["Kde jsou má uložení uložena?", "Odkazy, titulky, poznámky, štítky, témata a nastavení zůstávají v úložišti SaveTag v zařízení. Neexistuje účet, cloudová synchronizace ani náš server, který by je mohl uchovávat. Při ukládání si SaveTag vyžádá stránku z vašeho zařízení přímo od uloženého webu, aby přečetl titulek a údaje náhledu."],
-        ["Jak exportuji knihovnu nebo ji přenesu jinam?", "S Pro exportujete celou knihovnu jako soubor Markdown přes nabídku sdílení v iOS; ten soubor slouží zároveň jako záloha, kterou si můžete nechat nebo přenést na jiné zařízení. Vzniká ve vašem zařízení a putuje jen tam, kam ho pošlete."],
-        ["Co dělá widget a zkratky Siri?", "Widget na ploše ukazuje naposledy uložené položky a to, co čeká v Rediscover. Zkratky Siri umožní uložit odkaz ze schránky nebo otevřít Rediscover hlasem, bez hledání v nabídkách."]
+        [
+          "Jak uložím odkaz?",
+          "Otevřete nabídku sdílení v Threads, Instagramu, X, YouTube, Safari nebo jakékoli jiné aplikaci a zvolte SaveTag. Stačí odkaz i jen zkopírovat: při dalším spuštění vám SaveTag nabídne uložit obsah schránky, aby se dobrý odkaz neztratil v konverzaci."
+        ],
+        [
+          "Jak funguje automatické štítkování?",
+          "SaveTag přečte titulek a popis odkazu přímo ve vašem zařízení a zařadí ho pod téma pomocí frameworku Apple NaturalLanguage a klasifikátoru založeného na pravidlech. Nevstupuje do toho žádná cloudová služba ani generativní AI a nic se kvůli štítkování nikam neodesílá. Každý štítek lze ručně opravit a Pro přidává vlastní štítky."
+        ],
+        [
+          "Čím je vyhledávání chytré?",
+          "Vyhledávání bere v potaz titulky, popisy, štítky i adresu a řadí výsledky podle blízkosti významu, ne podle přesného zápisu. I příbuzné slovo tak vytáhne přesně to, co jste měli na mysli. Vše probíhá ve vašem zařízení."
+        ],
+        [
+          "Co je Rediscover?",
+          "Rediscover je krátké denní ohlédnutí za tím, co jste uložili, ale ještě neotevřeli. Vrací vždy jen několik položek, aby se z toho, co jste si nechali na později, nestal archiv, do kterého se už nikdy nepodíváte."
+        ],
+        [
+          "Co je zdarma a co přidává Pro?",
+          "Bezplatná verze má všechny funkce a uchová vašich 5 posledních uložení. Pro je jednorázový nákup, který odemkne neomezená uložení, vlastní štítky a export a zálohu v Markdownu, a funguje s Rodinným sdílením. SaveTag nemá žádné předplatné."
+        ],
+        [
+          "Koupil jsem Pro, ale na novém zařízení je zamčené.",
+          "Otevřete v SaveTag Nastavení a klepněte na Obnovit nákup, když jste přihlášeni účtem Apple, kterým jste nakupovali. SaveTag nemá vlastní účet — záznam o nákupu drží Apple a obnovení je zdarma a bez omezení."
+        ],
+        [
+          "Kde jsou má uložení uložena?",
+          "Odkazy, titulky, poznámky, štítky, témata a nastavení zůstávají v úložišti SaveTag v zařízení. Neexistuje účet, cloudová synchronizace ani náš server, který by je mohl uchovávat. Při ukládání si SaveTag vyžádá stránku z vašeho zařízení přímo od uloženého webu, aby přečetl titulek a údaje náhledu."
+        ],
+        [
+          "Jak exportuji knihovnu nebo ji přenesu jinam?",
+          "S Pro exportujete celou knihovnu jako soubor Markdown přes nabídku sdílení v iOS; ten soubor slouží zároveň jako záloha, kterou si můžete nechat nebo přenést na jiné zařízení. Vzniká ve vašem zařízení a putuje jen tam, kam ho pošlete."
+        ],
+        [
+          "Co dělá widget a zkratky Siri?",
+          "Widget na ploše ukazuje naposledy uložené položky a to, co čeká v Rediscover. Zkratky Siri umožní uložit odkaz ze schránky nebo otevřít Rediscover hlasem, bez hledání v nabídkách."
+        ]
       ],
       "cT": "Potřebujete ještě pomoct?",
       "cL": "Pište v jakémkoli jazyce. Odpovídá člověk, který SaveTag vyvíjí, a každá zpráva se čte. Verze iOS a popis toho, kam jste klepli, hodně pomůžou.",
@@ -137,19 +304,47 @@
       "upd": "Poslední aktualizace",
       "vow": "Účet není potřeba. Neshromažďujeme osobní údaje. Nepoužíváme reklamu třetích stran. Nepoužíváme analytiku třetích stran. SaveTag neobsahuje SDK třetích stran a uložené odkazy zůstávají v úložišti zařízení.",
       "sec": [
-        ["Koho se zásady týkají", "Tyto zásady platí pro aplikaci SaveTag pro iPhone a iPad spolu s jejím rozšířením pro sdílení, widgetem na ploše a zkratkami Siri."],
-        ["Jaké údaje shromažďujeme", "Žádné. Účet není potřeba a osobní údaje neshromažďujeme. Nepoužíváme reklamu ani analytiku třetích stran. SaveTag neobsahuje SDK třetích stran a neprovozujeme žádný server, který by mohl vaše data přijmout."],
-        ["Kde vaše uložení žijí", "Odkazy, titulky, popisy, poznámky, štítky, témata a nastavení zůstávají v úložišti SaveTag v zařízení a jsou tam sdílené s rozšířením pro sdílení a widgetem prostřednictvím app group od Apple. Údaje zadané v aplikaci zůstávají v zařízení uživatele, pokud aplikace jasně nenabízí funkci exportu nebo sdílení, kterou spustí sám uživatel."],
-        ["Náhledy odkazů", "Když uložíte odkaz, SaveTag si vyžádá stránku z vašeho zařízení přímo od uloženého webu, aby přečetl titulek a údaje náhledu. Pro daný web jde o běžný požadavek podobný návštěvě z prohlížeče a platí jeho vlastní zásady ochrany soukromí. Nepřipojují se žádná data, identifikátory ani účty SaveTag a požadavek nikam jinam nesměřuje."],
-        ["Štítkování a vyhledávání v zařízení", "Přiřazování témat i řazení výsledků běží lokálně s využitím frameworku Apple NaturalLanguage a textové analýzy podle pravidel nad textem, který už ve vašem zařízení je. SaveTag nepoužívá žádnou cloudovou službu AI ani generativní model a text nikam neodesílá ke zpracování."],
-        ["Nákupy", "Pro je jednorázový nákup, který kompletně zpracovává Apple přes App Store, a podporuje Rodinné sdílení. Vaše platební údaje nikdy nevidíme ani neukládáme; aplikace se od Applu dozví jen to, zda nákup existuje, a odemčení si poznamená lokálně v zařízení. Obnovení nákupu se ptá Applu, ne nás."],
-        ["Export a sdílení", "Soubor Markdown pro export a zálohu vzniká ve vašem zařízení a putuje tam, kam ho pošlete přes nabídku sdílení v iOS. Jakmile soubor opustí SaveTag, nakládá s ním vámi zvolená aplikace nebo služba podle vlastních zásad ochrany soukromí."],
-        ["Děti", "SaveTag neshromažďuje osobní údaje od nikoho, ani od dětí, a nezobrazuje reklamu třetích stran ani sledování. Ukládá se jen to, co si vybere sám uživatel, a zůstává to v zařízení."],
-        ["Vaše kontrola, mazání a změny zásad", "Kterékoli uložení můžete kdykoli smazat nebo odstranit všechna místní data smazáním aplikace; protože nic neuchováváme, na naší straně není co mazat. Každou budoucí změnu v práci se sítí nebo daty zveřejníme zde a v údajích o soukromí v App Store ještě před vydáním. S dotazy se kdykoli obraťte na adresu níže."]
+        [
+          "Koho se zásady týkají",
+          "Tyto zásady platí pro aplikaci SaveTag pro iPhone a iPad spolu s jejím rozšířením pro sdílení, widgetem na ploše a zkratkami Siri."
+        ],
+        [
+          "Jaké údaje shromažďujeme",
+          "Žádné. Účet není potřeba a osobní údaje neshromažďujeme. Nepoužíváme reklamu ani analytiku třetích stran. SaveTag neobsahuje SDK třetích stran a neprovozujeme žádný server, který by mohl vaše data přijmout."
+        ],
+        [
+          "Kde vaše uložení žijí",
+          "Odkazy, titulky, popisy, poznámky, štítky, témata a nastavení zůstávají v úložišti SaveTag v zařízení a jsou tam sdílené s rozšířením pro sdílení a widgetem prostřednictvím app group od Apple. Údaje zadané v aplikaci zůstávají v zařízení uživatele, pokud aplikace jasně nenabízí funkci exportu nebo sdílení, kterou spustí sám uživatel."
+        ],
+        [
+          "Náhledy odkazů",
+          "Když uložíte odkaz, SaveTag si vyžádá stránku z vašeho zařízení přímo od uloženého webu, aby přečetl titulek a údaje náhledu. Pro daný web jde o běžný požadavek podobný návštěvě z prohlížeče a platí jeho vlastní zásady ochrany soukromí. Nepřipojují se žádná data, identifikátory ani účty SaveTag a požadavek nikam jinam nesměřuje."
+        ],
+        [
+          "Štítkování a vyhledávání v zařízení",
+          "Přiřazování témat i řazení výsledků běží lokálně s využitím frameworku Apple NaturalLanguage a textové analýzy podle pravidel nad textem, který už ve vašem zařízení je. SaveTag nepoužívá žádnou cloudovou službu AI ani generativní model a text nikam neodesílá ke zpracování."
+        ],
+        [
+          "Nákupy",
+          "Pro je jednorázový nákup, který kompletně zpracovává Apple přes App Store, a podporuje Rodinné sdílení. Vaše platební údaje nikdy nevidíme ani neukládáme; aplikace se od Applu dozví jen to, zda nákup existuje, a odemčení si poznamená lokálně v zařízení. Obnovení nákupu se ptá Applu, ne nás."
+        ],
+        [
+          "Export a sdílení",
+          "Soubor Markdown pro export a zálohu vzniká ve vašem zařízení a putuje tam, kam ho pošlete přes nabídku sdílení v iOS. Jakmile soubor opustí SaveTag, nakládá s ním vámi zvolená aplikace nebo služba podle vlastních zásad ochrany soukromí."
+        ],
+        [
+          "Děti",
+          "SaveTag neshromažďuje osobní údaje od nikoho, ani od dětí, a nezobrazuje reklamu třetích stran ani sledování. Ukládá se jen to, co si vybere sám uživatel, a zůstává to v zařízení."
+        ],
+        [
+          "Vaše kontrola, mazání a změny zásad",
+          "Kterékoli uložení můžete kdykoli smazat nebo odstranit všechna místní data smazáním aplikace; protože nic neuchováváme, na naší straně není co mazat. Každou budoucí změnu v práci se sítí nebo daty zveřejníme zde a v údajích o soukromí v App Store ještě před vydáním. S dotazy se kdykoli obraťte na adresu níže."
+        ]
       ],
       "cT": "Dotazy k soukromí",
       "cL": "Ptejte se na cokoli ohledně toho, jak SaveTag nakládá s vašimi daty. Dostanete přímou odpověď od vývojáře.",
       "cB": "Napsat vývojáři"
-    }
+    },
+    "store": "Zobrazit v App Storu"
   }
 }

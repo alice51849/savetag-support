@@ -3,7 +3,10 @@
     "n": "Français (Canada)",
     "l": "fr-CA",
     "tag": "AI Social Bookmarks",
-    "nav": ["Soutien", "Confidentialité"],
+    "nav": [
+      "Soutien",
+      "Confidentialité"
+    ],
     "lang": "Langue",
     "foot": "Vos enregistrements demeurent sur cet appareil. SaveTag lit l'aperçu d'un lien sur l'appareil, directement auprès du site enregistré. Aucun compte, aucun nuage, aucune publicité, aucun suivi.",
     "s": {
@@ -11,18 +14,52 @@
       "eyebrow": "Soutien",
       "h1": "Aide de SaveTag",
       "lead": "Enregistrez un lien à partir de n'importe quelle application, laissez SaveTag le classer dans le bon thème et retrouvez-le vraiment plus tard. Voici les questions les plus fréquentes. Si la vôtre ne s'y trouve pas, écrivez-nous : chaque courriel est lu par une vraie personne.",
-      "chips": ["Partage depuis toute application", "Enregistrement du presse-papiers", "Thèmes attribués sur l'appareil", "Recherche qui suit le sens", "Redécouvrir ce qui reste à lire", "Widget et raccourcis Siri"],
+      "chips": [
+        "Partage depuis toute application",
+        "Enregistrement du presse-papiers",
+        "Thèmes attribués sur l'appareil",
+        "Recherche qui suit le sens",
+        "Redécouvrir ce qui reste à lire",
+        "Widget et raccourcis Siri"
+      ],
       "faqT": "Questions fréquentes",
       "faq": [
-        ["Comment enregistrer un lien?", "Ouvrez la fenêtre de partage dans Threads, Instagram, X, YouTube, Safari ou toute autre application, puis choisissez SaveTag. Vous pouvez aussi simplement copier un lien : à la prochaine ouverture, SaveTag vous propose d'enregistrer le contenu du presse-papiers, pour qu'un bon lien ne se perde plus dans une conversation."],
-        ["Comment fonctionne l'étiquetage automatique?", "SaveTag lit le titre et la description du lien sur votre appareil, puis lui attribue un thème à l'aide du cadre NaturalLanguage d'Apple et d'un classement fondé sur des règles. Aucun service infonuagique ni IA générative n'intervient et rien n'est téléversé pour être étiqueté. Chaque étiquette se corrige à la main, et Pro ajoute vos étiquettes personnalisées."],
-        ["Qu'est-ce qui rend la recherche intelligente?", "La recherche examine les titres, les descriptions, les étiquettes et l'adresse, puis classe les résultats selon la proximité de sens plutôt que l'orthographe exacte. Un mot voisin suffit donc à faire ressortir l'enregistrement voulu. Tout se déroule sur votre appareil."],
-        ["Qu'est-ce que Rediscover?", "Rediscover est un court retour quotidien sur les enregistrements que vous n'avez pas encore ouverts. Il en ramène quelques-uns à la fois, pour que ce que vous gardiez à lire plus tard ne devienne pas une archive oubliée."],
-        ["Que contient la version gratuite et qu'ajoute Pro?", "La version gratuite offre toutes les fonctions et conserve vos 5 derniers enregistrements. Pro est un achat unique qui débloque les enregistrements illimités, les étiquettes personnalisées, l'exportation Markdown et la sauvegarde, et il fonctionne avec le partage familial. SaveTag n'a aucun abonnement."],
-        ["J'ai acheté Pro, mais mon nouvel appareil l'affiche verrouillé.", "Ouvrez les réglages de SaveTag et touchez Restaurer les achats, en étant connecté avec le compte Apple utilisé lors de l'achat. SaveTag n'a pas de compte propre : Apple conserve la preuve d'achat, et la restauration est gratuite et illimitée."],
-        ["Où mes enregistrements sont-ils conservés?", "Liens, titres, notes, étiquettes, thèmes et réglages demeurent dans le stockage local de SaveTag. Il n'y a ni compte, ni synchronisation infonuagique, ni serveur de notre côté pour les héberger. Au moment de l'enregistrement, SaveTag demande la page depuis votre appareil, directement au site enregistré, afin d'en lire le titre et l'aperçu."],
-        ["Comment exporter ma bibliothèque ou la transférer?", "Avec Pro, exportez toute la bibliothèque en fichier Markdown au moyen de la fenêtre de partage iOS; ce fichier sert aussi de sauvegarde à conserver ou à transporter sur un autre appareil. Il est créé sur votre appareil et ne va que là où vous l'envoyez."],
-        ["À quoi servent le widget et les raccourcis Siri?", "Le widget de l'écran d'accueil affiche vos enregistrements les plus récents et ce qui attend dans Rediscover. Les raccourcis Siri permettent d'enregistrer le lien du presse-papiers ou d'ouvrir Rediscover à la voix, sans parcourir de menus."]
+        [
+          "Comment enregistrer un lien?",
+          "Ouvrez la fenêtre de partage dans Threads, Instagram, X, YouTube, Safari ou toute autre application, puis choisissez SaveTag. Vous pouvez aussi simplement copier un lien : à la prochaine ouverture, SaveTag vous propose d'enregistrer le contenu du presse-papiers, pour qu'un bon lien ne se perde plus dans une conversation."
+        ],
+        [
+          "Comment fonctionne l'étiquetage automatique?",
+          "SaveTag lit le titre et la description du lien sur votre appareil, puis lui attribue un thème à l'aide du cadre NaturalLanguage d'Apple et d'un classement fondé sur des règles. Aucun service infonuagique ni IA générative n'intervient et rien n'est téléversé pour être étiqueté. Chaque étiquette se corrige à la main, et Pro ajoute vos étiquettes personnalisées."
+        ],
+        [
+          "Qu'est-ce qui rend la recherche intelligente?",
+          "La recherche examine les titres, les descriptions, les étiquettes et l'adresse, puis classe les résultats selon la proximité de sens plutôt que l'orthographe exacte. Un mot voisin suffit donc à faire ressortir l'enregistrement voulu. Tout se déroule sur votre appareil."
+        ],
+        [
+          "Qu'est-ce que Rediscover?",
+          "Rediscover est un court retour quotidien sur les enregistrements que vous n'avez pas encore ouverts. Il en ramène quelques-uns à la fois, pour que ce que vous gardiez à lire plus tard ne devienne pas une archive oubliée."
+        ],
+        [
+          "Que contient la version gratuite et qu'ajoute Pro?",
+          "La version gratuite offre toutes les fonctions et conserve vos 5 derniers enregistrements. Pro est un achat unique qui débloque les enregistrements illimités, les étiquettes personnalisées, l'exportation Markdown et la sauvegarde, et il fonctionne avec le partage familial. SaveTag n'a aucun abonnement."
+        ],
+        [
+          "J'ai acheté Pro, mais mon nouvel appareil l'affiche verrouillé.",
+          "Ouvrez les réglages de SaveTag et touchez Restaurer les achats, en étant connecté avec le compte Apple utilisé lors de l'achat. SaveTag n'a pas de compte propre : Apple conserve la preuve d'achat, et la restauration est gratuite et illimitée."
+        ],
+        [
+          "Où mes enregistrements sont-ils conservés?",
+          "Liens, titres, notes, étiquettes, thèmes et réglages demeurent dans le stockage local de SaveTag. Il n'y a ni compte, ni synchronisation infonuagique, ni serveur de notre côté pour les héberger. Au moment de l'enregistrement, SaveTag demande la page depuis votre appareil, directement au site enregistré, afin d'en lire le titre et l'aperçu."
+        ],
+        [
+          "Comment exporter ma bibliothèque ou la transférer?",
+          "Avec Pro, exportez toute la bibliothèque en fichier Markdown au moyen de la fenêtre de partage iOS; ce fichier sert aussi de sauvegarde à conserver ou à transporter sur un autre appareil. Il est créé sur votre appareil et ne va que là où vous l'envoyez."
+        ],
+        [
+          "À quoi servent le widget et les raccourcis Siri?",
+          "Le widget de l'écran d'accueil affiche vos enregistrements les plus récents et ce qui attend dans Rediscover. Les raccourcis Siri permettent d'enregistrer le lien du presse-papiers ou d'ouvrir Rediscover à la voix, sans parcourir de menus."
+        ]
       ],
       "cT": "Encore une question?",
       "cL": "Écrivez dans la langue de votre choix. Les réponses viennent de la personne qui développe SaveTag et chaque courriel est lu. Indiquer votre version d'iOS et l'écran concerné aide beaucoup.",
@@ -35,26 +72,57 @@
       "upd": "Dernière mise à jour",
       "vow": "Aucun compte n'est requis. Nous ne recueillons pas de renseignements personnels. Nous n'utilisons pas de publicité de tiers. Nous n'utilisons pas d'analyse de tiers. SaveTag ne contient aucun SDK de tiers et vos liens enregistrés demeurent dans le stockage local.",
       "sec": [
-        ["Portée de la politique", "Cette politique vise l'application SaveTag pour iPhone et iPad, ainsi que son extension de partage, son widget d'écran d'accueil et ses raccourcis Siri."],
-        ["Ce que nous recueillons", "Rien. Aucun compte n'est requis et nous ne recueillons pas de renseignements personnels. Nous n'utilisons ni publicité ni analyse de tiers. SaveTag ne contient aucun SDK de tiers et nous n'exploitons aucun serveur pouvant recevoir vos données."],
-        ["Où résident vos enregistrements", "Liens, titres, descriptions, notes, étiquettes, thèmes et réglages demeurent dans le stockage local de SaveTag et sont partagés avec l'extension de partage et le widget au moyen de l'app group d'Apple, sur le même appareil. Les données saisies dans l'application restent sur l'appareil de l'utilisateur, sauf si l'application offre clairement une fonction d'exportation ou de partage lancée par l'utilisateur."],
-        ["Aperçus de liens", "Lorsque vous enregistrez un lien, SaveTag demande la page depuis votre appareil, directement au site enregistré, afin d'en lire le titre et l'aperçu. Ce site voit une requête ordinaire, comparable à une visite par navigateur, et sa propre politique de confidentialité s'applique. Aucune donnée, aucun identifiant ni compte SaveTag n'est joint, et la requête ne va nulle part ailleurs."],
-        ["Étiquetage et recherche sur l'appareil", "L'attribution des thèmes et le classement de la recherche s'exécutent localement, au moyen du cadre NaturalLanguage d'Apple et d'une analyse de texte fondée sur des règles, appliquée à du texte déjà présent sur votre appareil. SaveTag n'utilise aucun service d'IA infonuagique ni modèle génératif et ne téléverse aucun texte pour traitement."],
-        ["Achats", "Pro est un achat unique entièrement traité par Apple dans l'App Store, avec prise en charge du partage familial. Nous ne voyons ni ne conservons vos renseignements de paiement; l'application apprend seulement d'Apple si l'achat existe et inscrit le déverrouillage localement sur votre appareil. La restauration interroge Apple, pas nous."],
-        ["Exportation et partage", "Le fichier Markdown d'exportation et de sauvegarde est créé sur votre appareil et se rend là où vous l'envoyez au moyen de la fenêtre de partage iOS. Une fois sorti de SaveTag, il est traité par l'application ou le service que vous avez choisi, selon la politique de ce dernier."],
-        ["Enfants", "SaveTag ne recueille de renseignements personnels auprès de personne, y compris les enfants, et n'affiche ni publicité de tiers ni suivi. Les enregistrements sont uniquement ce que la personne qui utilise l'application choisit de conserver, et ils demeurent sur l'appareil."],
-        ["Votre contrôle, la suppression et les modifications", "Vous pouvez supprimer un enregistrement à tout moment ou effacer toutes les données locales en supprimant l'application; comme nous ne détenons rien, il n'y a rien à supprimer de notre côté. Toute modification future du réseau ou du traitement des données sera publiée ici et dans les renseignements de confidentialité de l'App Store avant sa diffusion. Vos questions sont bienvenues à l'adresse ci-dessous."]
+        [
+          "Portée de la politique",
+          "Cette politique vise l'application SaveTag pour iPhone et iPad, ainsi que son extension de partage, son widget d'écran d'accueil et ses raccourcis Siri."
+        ],
+        [
+          "Ce que nous recueillons",
+          "Rien. Aucun compte n'est requis et nous ne recueillons pas de renseignements personnels. Nous n'utilisons ni publicité ni analyse de tiers. SaveTag ne contient aucun SDK de tiers et nous n'exploitons aucun serveur pouvant recevoir vos données."
+        ],
+        [
+          "Où résident vos enregistrements",
+          "Liens, titres, descriptions, notes, étiquettes, thèmes et réglages demeurent dans le stockage local de SaveTag et sont partagés avec l'extension de partage et le widget au moyen de l'app group d'Apple, sur le même appareil. Les données saisies dans l'application restent sur l'appareil de l'utilisateur, sauf si l'application offre clairement une fonction d'exportation ou de partage lancée par l'utilisateur."
+        ],
+        [
+          "Aperçus de liens",
+          "Lorsque vous enregistrez un lien, SaveTag demande la page depuis votre appareil, directement au site enregistré, afin d'en lire le titre et l'aperçu. Ce site voit une requête ordinaire, comparable à une visite par navigateur, et sa propre politique de confidentialité s'applique. Aucune donnée, aucun identifiant ni compte SaveTag n'est joint, et la requête ne va nulle part ailleurs."
+        ],
+        [
+          "Étiquetage et recherche sur l'appareil",
+          "L'attribution des thèmes et le classement de la recherche s'exécutent localement, au moyen du cadre NaturalLanguage d'Apple et d'une analyse de texte fondée sur des règles, appliquée à du texte déjà présent sur votre appareil. SaveTag n'utilise aucun service d'IA infonuagique ni modèle génératif et ne téléverse aucun texte pour traitement."
+        ],
+        [
+          "Achats",
+          "Pro est un achat unique entièrement traité par Apple dans l'App Store, avec prise en charge du partage familial. Nous ne voyons ni ne conservons vos renseignements de paiement; l'application apprend seulement d'Apple si l'achat existe et inscrit le déverrouillage localement sur votre appareil. La restauration interroge Apple, pas nous."
+        ],
+        [
+          "Exportation et partage",
+          "Le fichier Markdown d'exportation et de sauvegarde est créé sur votre appareil et se rend là où vous l'envoyez au moyen de la fenêtre de partage iOS. Une fois sorti de SaveTag, il est traité par l'application ou le service que vous avez choisi, selon la politique de ce dernier."
+        ],
+        [
+          "Enfants",
+          "SaveTag ne recueille de renseignements personnels auprès de personne, y compris les enfants, et n'affiche ni publicité de tiers ni suivi. Les enregistrements sont uniquement ce que la personne qui utilise l'application choisit de conserver, et ils demeurent sur l'appareil."
+        ],
+        [
+          "Votre contrôle, la suppression et les modifications",
+          "Vous pouvez supprimer un enregistrement à tout moment ou effacer toutes les données locales en supprimant l'application; comme nous ne détenons rien, il n'y a rien à supprimer de notre côté. Toute modification future du réseau ou du traitement des données sera publiée ici et dans les renseignements de confidentialité de l'App Store avant sa diffusion. Vos questions sont bienvenues à l'adresse ci-dessous."
+        ]
       ],
       "cT": "Questions sur la confidentialité",
       "cL": "Posez toutes vos questions sur la façon dont SaveTag traite vos données. Le développeur vous répondra franchement.",
       "cB": "Écrire au développeur"
-    }
+    },
+    "store": "Voir sur l'App Store"
   },
   "es-ES": {
     "n": "Español (España)",
     "l": "es-ES",
     "tag": "AI Social Bookmarks",
-    "nav": ["Soporte", "Privacidad"],
+    "nav": [
+      "Soporte",
+      "Privacidad"
+    ],
     "lang": "Idioma",
     "foot": "Lo que guardas se queda en este dispositivo. SaveTag lee la vista previa del enlace en el dispositivo, directamente del sitio que guardaste. Sin cuenta, sin nube, sin anuncios y sin rastreo.",
     "s": {
@@ -62,18 +130,52 @@
       "eyebrow": "Soporte",
       "h1": "Ayuda con SaveTag",
       "lead": "Guarda un enlace desde cualquier app, deja que SaveTag lo coloque en el tema adecuado y encuéntralo de verdad más adelante. Estas son las preguntas más habituales. Si la tuya no está, escríbenos: una persona real lee todos los mensajes.",
-      "chips": ["Compartir desde cualquier app", "Guardado rápido del portapapeles", "Temas asignados en el dispositivo", "Búsqueda que entiende el sentido", "Redescubre lo que no leíste", "Widget y atajos de Siri"],
+      "chips": [
+        "Compartir desde cualquier app",
+        "Guardado rápido del portapapeles",
+        "Temas asignados en el dispositivo",
+        "Búsqueda que entiende el sentido",
+        "Redescubre lo que no leíste",
+        "Widget y atajos de Siri"
+      ],
       "faqT": "Preguntas frecuentes",
       "faq": [
-        ["¿Cómo guardo un enlace?", "Abre la hoja de compartir en Threads, Instagram, X, YouTube, Safari o cualquier otra app y elige SaveTag. También puedes copiar el enlace sin más: la próxima vez que abras SaveTag te ofrecerá guardar lo que haya en el portapapeles, para que un buen enlace no se pierda en una conversación."],
-        ["¿Cómo funciona el etiquetado automático?", "SaveTag lee el título y la descripción del enlace en tu dispositivo y lo clasifica en un tema con el framework NaturalLanguage de Apple y un clasificador basado en reglas. No interviene ningún servicio en la nube ni IA generativa, y no se sube nada para etiquetarlo. Puedes corregir cualquier etiqueta a mano, y Pro añade etiquetas propias."],
-        ["¿Qué hace que la búsqueda sea inteligente?", "La búsqueda mira títulos, descripciones, etiquetas y la dirección, y ordena los resultados por cercanía de significado en lugar de por coincidencia exacta, así que una palabra relacionada basta para sacar el enlace que tenías en mente. Todo ocurre en tu dispositivo."],
-        ["¿Qué es Rediscover?", "Rediscover es un repaso diario breve de lo que guardaste y aún no has abierto. Devuelve solo unos pocos cada vez, para que lo que dejaste para luego no acabe convertido en un archivo que nunca vuelves a mirar."],
-        ["¿Qué es gratis y qué añade Pro?", "La versión gratuita tiene todas las funciones y conserva tus últimos 5 elementos guardados. Pro es una compra única que desbloquea elementos ilimitados, etiquetas personalizadas y la exportación y copia de seguridad en Markdown, y funciona con Compartir en familia. SaveTag no tiene ninguna suscripción."],
-        ["Compré Pro, pero en un dispositivo nuevo aparece bloqueado.", "Abre los ajustes de SaveTag y toca Restaurar compra con la sesión iniciada en la cuenta de Apple con la que compraste. SaveTag no tiene cuenta propia: Apple guarda el registro de la compra y restaurarla es gratis e ilimitado."],
-        ["¿Dónde se guardan mis enlaces?", "Enlaces, títulos, notas, etiquetas, temas y ajustes se quedan en el almacenamiento local de SaveTag. No hay cuenta, ni sincronización en la nube, ni servidor nuestro que pueda guardarlos. Al guardar un enlace, SaveTag solicita esa página desde tu dispositivo, directamente al sitio guardado, para leer su título y su vista previa."],
-        ["¿Cómo exporto mi biblioteca o la llevo a otro dispositivo?", "Con Pro puedes exportar toda la biblioteca como archivo Markdown mediante la hoja de compartir de iOS; ese archivo sirve también como copia de seguridad que puedes conservar o llevar a otro dispositivo. Se crea en tu dispositivo y solo va adonde tú lo envíes."],
-        ["¿Qué hacen el widget y los atajos de Siri?", "El widget de la pantalla de inicio muestra lo último que guardaste y lo que espera en Rediscover. Con los atajos de Siri puedes guardar el enlace del portapapeles o abrir Rediscover con la voz, sin buscar por los menús."]
+        [
+          "¿Cómo guardo un enlace?",
+          "Abre la hoja de compartir en Threads, Instagram, X, YouTube, Safari o cualquier otra app y elige SaveTag. También puedes copiar el enlace sin más: la próxima vez que abras SaveTag te ofrecerá guardar lo que haya en el portapapeles, para que un buen enlace no se pierda en una conversación."
+        ],
+        [
+          "¿Cómo funciona el etiquetado automático?",
+          "SaveTag lee el título y la descripción del enlace en tu dispositivo y lo clasifica en un tema con el framework NaturalLanguage de Apple y un clasificador basado en reglas. No interviene ningún servicio en la nube ni IA generativa, y no se sube nada para etiquetarlo. Puedes corregir cualquier etiqueta a mano, y Pro añade etiquetas propias."
+        ],
+        [
+          "¿Qué hace que la búsqueda sea inteligente?",
+          "La búsqueda mira títulos, descripciones, etiquetas y la dirección, y ordena los resultados por cercanía de significado en lugar de por coincidencia exacta, así que una palabra relacionada basta para sacar el enlace que tenías en mente. Todo ocurre en tu dispositivo."
+        ],
+        [
+          "¿Qué es Rediscover?",
+          "Rediscover es un repaso diario breve de lo que guardaste y aún no has abierto. Devuelve solo unos pocos cada vez, para que lo que dejaste para luego no acabe convertido en un archivo que nunca vuelves a mirar."
+        ],
+        [
+          "¿Qué es gratis y qué añade Pro?",
+          "La versión gratuita tiene todas las funciones y conserva tus últimos 5 elementos guardados. Pro es una compra única que desbloquea elementos ilimitados, etiquetas personalizadas y la exportación y copia de seguridad en Markdown, y funciona con Compartir en familia. SaveTag no tiene ninguna suscripción."
+        ],
+        [
+          "Compré Pro, pero en un dispositivo nuevo aparece bloqueado.",
+          "Abre los ajustes de SaveTag y toca Restaurar compra con la sesión iniciada en la cuenta de Apple con la que compraste. SaveTag no tiene cuenta propia: Apple guarda el registro de la compra y restaurarla es gratis e ilimitado."
+        ],
+        [
+          "¿Dónde se guardan mis enlaces?",
+          "Enlaces, títulos, notas, etiquetas, temas y ajustes se quedan en el almacenamiento local de SaveTag. No hay cuenta, ni sincronización en la nube, ni servidor nuestro que pueda guardarlos. Al guardar un enlace, SaveTag solicita esa página desde tu dispositivo, directamente al sitio guardado, para leer su título y su vista previa."
+        ],
+        [
+          "¿Cómo exporto mi biblioteca o la llevo a otro dispositivo?",
+          "Con Pro puedes exportar toda la biblioteca como archivo Markdown mediante la hoja de compartir de iOS; ese archivo sirve también como copia de seguridad que puedes conservar o llevar a otro dispositivo. Se crea en tu dispositivo y solo va adonde tú lo envíes."
+        ],
+        [
+          "¿Qué hacen el widget y los atajos de Siri?",
+          "El widget de la pantalla de inicio muestra lo último que guardaste y lo que espera en Rediscover. Con los atajos de Siri puedes guardar el enlace del portapapeles o abrir Rediscover con la voz, sin buscar por los menús."
+        ]
       ],
       "cT": "¿Te seguimos echando una mano?",
       "cL": "Escribe en el idioma que prefieras. Responde la persona que desarrolla SaveTag y se lee cada mensaje. Contarnos tu versión de iOS y qué tocaste ayuda mucho.",
@@ -86,19 +188,47 @@
       "upd": "Última actualización",
       "vow": "No se necesita cuenta. No recopilamos datos personales. No usamos publicidad de terceros. No usamos analítica de terceros. SaveTag no contiene SDK de terceros y tus enlaces guardados se quedan en el almacenamiento del dispositivo.",
       "sec": [
-        ["A qué se aplica esta política", "Esta política se aplica a la app SaveTag para iPhone y iPad, junto con su extensión de compartir, su widget de pantalla de inicio y sus atajos de Siri."],
-        ["Qué recopilamos", "Nada. No se necesita cuenta y no recopilamos datos personales. No usamos publicidad ni analítica de terceros. SaveTag no contiene SDK de terceros y no operamos ningún servidor que pudiera recibir tus datos."],
-        ["Dónde viven tus enlaces guardados", "Enlaces, títulos, descripciones, notas, etiquetas, temas y ajustes se quedan en el almacenamiento local de SaveTag y se comparten con la extensión de compartir y el widget mediante el app group de Apple, en el mismo dispositivo. Los datos introducidos en la app permanecen en el dispositivo del usuario, salvo que la app ofrezca claramente una función de exportación o compartición iniciada por el usuario."],
-        ["Vistas previas de enlaces", "Al guardar un enlace, SaveTag solicita esa página desde tu dispositivo, directamente al sitio guardado, para leer su título y su vista previa. Ese sitio ve una petición corriente, parecida a una visita desde un navegador, y se aplica su propia política de privacidad. No se adjunta ningún dato, identificador ni cuenta de SaveTag, y la petición no va a ningún otro sitio."],
-        ["Etiquetado y búsqueda en el dispositivo", "El etiquetado por temas y la ordenación de la búsqueda se ejecutan en local con el framework NaturalLanguage de Apple y un análisis de texto basado en reglas, sobre texto que ya está en tu dispositivo. SaveTag no usa ningún servicio de IA en la nube ni modelo generativo, y no se sube texto para procesarlo."],
-        ["Compras", "Pro es una compra única que gestiona íntegramente Apple a través del App Store y admite Compartir en familia. Nunca vemos ni almacenamos tus datos de pago; la app solo sabe por Apple si la compra existe y registra el desbloqueo localmente en tu dispositivo. Restaurar la compra pregunta a Apple, no a nosotros."],
-        ["Exportación y compartición", "El archivo Markdown de exportación y copia de seguridad se crea en tu dispositivo y llega adonde lo envíes con la hoja de compartir de iOS. Cuando el archivo sale de SaveTag, lo maneja la app o el servicio que hayas elegido, bajo su propia política de privacidad."],
-        ["Menores", "SaveTag no recopila datos personales de nadie, tampoco de menores, y no muestra publicidad de terceros ni rastreo. Lo guardado es únicamente lo que decide guardar quien usa la app y permanece en el dispositivo."],
-        ["Tu control, la eliminación y los cambios en esta política", "Puedes borrar cualquier elemento cuando quieras o eliminar todos los datos locales borrando la app; como no guardamos nada, no hay nada que borrar por nuestra parte. Cualquier cambio futuro en la red o en el tratamiento de datos se publicará aquí y en los detalles de privacidad del App Store antes de su lanzamiento. Tus preguntas son bienvenidas en la dirección de abajo."]
+        [
+          "A qué se aplica esta política",
+          "Esta política se aplica a la app SaveTag para iPhone y iPad, junto con su extensión de compartir, su widget de pantalla de inicio y sus atajos de Siri."
+        ],
+        [
+          "Qué recopilamos",
+          "Nada. No se necesita cuenta y no recopilamos datos personales. No usamos publicidad ni analítica de terceros. SaveTag no contiene SDK de terceros y no operamos ningún servidor que pudiera recibir tus datos."
+        ],
+        [
+          "Dónde viven tus enlaces guardados",
+          "Enlaces, títulos, descripciones, notas, etiquetas, temas y ajustes se quedan en el almacenamiento local de SaveTag y se comparten con la extensión de compartir y el widget mediante el app group de Apple, en el mismo dispositivo. Los datos introducidos en la app permanecen en el dispositivo del usuario, salvo que la app ofrezca claramente una función de exportación o compartición iniciada por el usuario."
+        ],
+        [
+          "Vistas previas de enlaces",
+          "Al guardar un enlace, SaveTag solicita esa página desde tu dispositivo, directamente al sitio guardado, para leer su título y su vista previa. Ese sitio ve una petición corriente, parecida a una visita desde un navegador, y se aplica su propia política de privacidad. No se adjunta ningún dato, identificador ni cuenta de SaveTag, y la petición no va a ningún otro sitio."
+        ],
+        [
+          "Etiquetado y búsqueda en el dispositivo",
+          "El etiquetado por temas y la ordenación de la búsqueda se ejecutan en local con el framework NaturalLanguage de Apple y un análisis de texto basado en reglas, sobre texto que ya está en tu dispositivo. SaveTag no usa ningún servicio de IA en la nube ni modelo generativo, y no se sube texto para procesarlo."
+        ],
+        [
+          "Compras",
+          "Pro es una compra única que gestiona íntegramente Apple a través del App Store y admite Compartir en familia. Nunca vemos ni almacenamos tus datos de pago; la app solo sabe por Apple si la compra existe y registra el desbloqueo localmente en tu dispositivo. Restaurar la compra pregunta a Apple, no a nosotros."
+        ],
+        [
+          "Exportación y compartición",
+          "El archivo Markdown de exportación y copia de seguridad se crea en tu dispositivo y llega adonde lo envíes con la hoja de compartir de iOS. Cuando el archivo sale de SaveTag, lo maneja la app o el servicio que hayas elegido, bajo su propia política de privacidad."
+        ],
+        [
+          "Menores",
+          "SaveTag no recopila datos personales de nadie, tampoco de menores, y no muestra publicidad de terceros ni rastreo. Lo guardado es únicamente lo que decide guardar quien usa la app y permanece en el dispositivo."
+        ],
+        [
+          "Tu control, la eliminación y los cambios en esta política",
+          "Puedes borrar cualquier elemento cuando quieras o eliminar todos los datos locales borrando la app; como no guardamos nada, no hay nada que borrar por nuestra parte. Cualquier cambio futuro en la red o en el tratamiento de datos se publicará aquí y en los detalles de privacidad del App Store antes de su lanzamiento. Tus preguntas son bienvenidas en la dirección de abajo."
+        ]
       ],
       "cT": "Dudas sobre privacidad",
       "cL": "Pregunta lo que quieras sobre cómo trata SaveTag tus datos. Recibirás una respuesta clara del desarrollador.",
       "cB": "Escribir al desarrollador"
-    }
+    },
+    "store": "Ver en el App Store"
   }
 }
