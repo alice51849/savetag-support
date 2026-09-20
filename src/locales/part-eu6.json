@@ -42,11 +42,11 @@
         ],
         [
           "Mikä on ilmaista ja mitä Pro tuo?",
-          "Ilmaisversiossa on kaikki ominaisuudet ja se säilyttää 5 uusinta tallennusta. Pro on kertaosto, joka avaa rajattomat tallennukset, omat tunnisteet sekä Markdown-viennin ja varmuuskopion, ja se toimii perhejaon kanssa. SaveTagissa ei ole minkäänlaista tilausta."
+          "Ilmaisversiossa on kaikki ominaisuudet ja se säilyttää 5 uusinta tallennusta. Pro on kertaosto, joka avaa rajattomat tallennukset, omat tunnisteet sekä Markdown-viennin ja varmuuskopion, ja se toimii perhejaon kanssa. SaveTagissa ei ole minkäänlaista tilausta. Androidissa tämän oston käsittelee Google Play App Storen sijaan, emmekä saa tai tallenna maksutietoja silloinkaan."
         ],
         [
           "Ostin Pron, mutta uudessa laitteessa se näkyy lukittuna.",
-          "Avaa SaveTagin asetukset ja valitse Palauta ostos, kun olet kirjautuneena sillä Apple-tilillä, jolla teit oston. SaveTagilla ei ole omaa tiliä — Apple pitää kirjaa ostoksesta, ja palautus on ilmainen ja rajaton."
+          "Avaa SaveTagin asetukset ja valitse Palauta ostos, kun olet kirjautuneena sillä Apple-tilillä, jolla teit oston. SaveTagilla ei ole omaa tiliä — Apple pitää kirjaa ostoksesta, ja palautus on ilmainen ja rajaton. Androidissa tämän oston käsittelee Google Play App Storen sijaan, emmekä saa tai tallenna maksutietoja silloinkaan."
         ],
         [
           "Missä tallennukseni säilytetään?",
@@ -54,11 +54,11 @@
         ],
         [
           "Miten vien kirjastoni tai siirrän sen toiseen laitteeseen?",
-          "Prolla viet koko kirjaston Markdown-tiedostona iOS:n jakotoiminnolla. Tiedosto toimii samalla varmuuskopiona, jonka voit säilyttää tai siirtää toiseen laitteeseen. Se luodaan laitteellasi ja menee vain sinne, minne sen lähetät."
+          "Prolla viet koko kirjaston Markdown-tiedostona iOS:n jakotoiminnolla. Tiedosto toimii samalla varmuuskopiona, jonka voit säilyttää tai siirtää toiseen laitteeseen. Se luodaan laitteellasi ja menee vain sinne, minne sen lähetät. Androidissa nämä tiedot pysyvät samalla tavalla vain laitteellasi."
         ],
         [
           "Mitä widget ja Siri-oikotiet tekevät?",
-          "Koti-valikon widget näyttää viimeksi tallennetut ja sen, mitä Rediscoverissa odottaa. Siri-oikoteillä tallennat leikepöydän linkin tai avaat Rediscoverin äänellä ilman valikoiden selaamista."
+          "Koti-valikon widget näyttää viimeksi tallennetut ja sen, mitä Rediscoverissa odottaa. Siri-oikoteillä tallennat leikepöydän linkin tai avaat Rediscoverin äänellä ilman valikoiden selaamista. Androidissa nämä tiedot pysyvät samalla tavalla vain laitteellasi."
         ]
       ],
       "cT": "Tarvitsetko vielä apua?",
@@ -74,7 +74,7 @@
       "sec": [
         [
           "Ketä käytäntö koskee",
-          "Tämä käytäntö koskee iPhonen ja iPadin SaveTag-sovellusta sekä sen jakolaajennusta, Koti-valikon widgetiä ja Siri-oikoteitä."
+          "Tämä käytäntö koskee iPhonen ja iPadin SaveTag-sovellusta sekä sen jakolaajennusta, Koti-valikon widgetiä ja Siri-oikoteitä. Androidissa nämä tiedot pysyvät samalla tavalla vain laitteellasi."
         ],
         [
           "Mitä keräämme",
@@ -82,7 +82,7 @@
         ],
         [
           "Missä tallennuksesi ovat",
-          "Linkit, otsikot, kuvaukset, muistiinpanot, tunnisteet, aiheet ja asetukset pysyvät SaveTagin laitteella olevassa tallennustilassa ja jaetaan siellä jakolaajennuksen ja widgetin kanssa Applen app groupin kautta. Sovellukseen syötetyt tiedot pysyvät käyttäjän laitteella, ellei sovellus selvästi tarjoa käyttäjän itse käynnistämää vienti- tai jakotoimintoa."
+          "Linkit, otsikot, kuvaukset, muistiinpanot, tunnisteet, aiheet ja asetukset pysyvät SaveTagin laitteella olevassa tallennustilassa ja jaetaan siellä jakolaajennuksen ja widgetin kanssa Applen app groupin kautta. Sovellukseen syötetyt tiedot pysyvät käyttäjän laitteella, ellei sovellus selvästi tarjoa käyttäjän itse käynnistämää vienti- tai jakotoimintoa. Androidissa nämä tiedot pysyvät samalla tavalla vain laitteellasi."
         ],
         [
           "Linkkien esikatselut",
@@ -94,11 +94,11 @@
         ],
         [
           "Ostot",
-          "Pro on kertaosto, jonka Apple käsittelee kokonaan App Storessa, ja se tukee perhejakoa. Emme näe emmekä tallenna maksutietojasi; sovellus saa Applelta tiedon vain siitä, onko osto olemassa, ja merkitsee avauksen laitteellesi. Palautus kysyy Applelta, ei meiltä."
+          "Pro on kertaosto, jonka Apple käsittelee kokonaan App Storessa, ja se tukee perhejakoa. Emme näe emmekä tallenna maksutietojasi; sovellus saa Applelta tiedon vain siitä, onko osto olemassa, ja merkitsee avauksen laitteellesi. Palautus kysyy Applelta, ei meiltä. Androidissa tämän oston käsittelee Google Play App Storen sijaan, emmekä saa tai tallenna maksutietoja silloinkaan."
         ],
         [
           "Vienti ja jakaminen",
-          "Markdown-vienti- ja varmuuskopiotiedosto luodaan laitteellasi ja menee sinne, minne lähetät sen iOS:n jakotoiminnolla. Kun tiedosto on lähtenyt SaveTagista, sitä käsittelee valitsemasi sovellus tai palvelu oman tietosuojakäytäntönsä mukaisesti."
+          "Markdown-vienti- ja varmuuskopiotiedosto luodaan laitteellasi ja menee sinne, minne lähetät sen iOS:n jakotoiminnolla. Kun tiedosto on lähtenyt SaveTagista, sitä käsittelee valitsemasi sovellus tai palvelu oman tietosuojakäytäntönsä mukaisesti. Androidissa nämä tiedot pysyvät samalla tavalla vain laitteellasi."
         ],
         [
           "Lapset",
@@ -158,11 +158,11 @@
         ],
         [
           "Hva er gratis, og hva gir Pro?",
-          "Gratisversjonen har alle funksjoner og beholder de 5 siste lagringene dine. Pro er et engangskjøp som låser opp ubegrenset antall lagringer, egne tagger samt Markdown-eksport og sikkerhetskopi, og det virker med Familiedeling. SaveTag har ingen abonnementsordning."
+          "Gratisversjonen har alle funksjoner og beholder de 5 siste lagringene dine. Pro er et engangskjøp som låser opp ubegrenset antall lagringer, egne tagger samt Markdown-eksport og sikkerhetskopi, og det virker med Familiedeling. SaveTag har ingen abonnementsordning. På Android behandles dette kjøpet av Google Play i stedet for App Store, og heller ikke der mottar eller lagrer vi betalingsopplysninger."
         ],
         [
           "Jeg kjøpte Pro, men på en ny enhet er det låst.",
-          "Åpne Innstillinger i SaveTag og trykk på Gjenopprett kjøp mens du er logget på med Apple-kontoen du kjøpte med. SaveTag har ingen egen konto — Apple holder styr på kjøpet, og gjenoppretting er gratis og ubegrenset."
+          "Åpne Innstillinger i SaveTag og trykk på Gjenopprett kjøp mens du er logget på med Apple-kontoen du kjøpte med. SaveTag har ingen egen konto — Apple holder styr på kjøpet, og gjenoppretting er gratis og ubegrenset. På Android behandles dette kjøpet av Google Play i stedet for App Store, og heller ikke der mottar eller lagrer vi betalingsopplysninger."
         ],
         [
           "Hvor lagres tingene mine?",
@@ -170,11 +170,11 @@
         ],
         [
           "Hvordan eksporterer jeg biblioteket eller flytter det?",
-          "Med Pro eksporterer du hele biblioteket som en Markdown-fil via delingsmenyen i iOS. Filen fungerer samtidig som sikkerhetskopi du kan ta vare på eller ta med til en annen enhet. Den lages på enheten din og går bare dit du sender den."
+          "Med Pro eksporterer du hele biblioteket som en Markdown-fil via delingsmenyen i iOS. Filen fungerer samtidig som sikkerhetskopi du kan ta vare på eller ta med til en annen enhet. Den lages på enheten din og går bare dit du sender den. På Android forblir disse dataene på samme måte bare på enheten din."
         ],
         [
           "Hva gjør widgeten og Siri-snarveiene?",
-          "Widgeten på Hjem-skjermen viser det du lagret sist og hva som venter i Rediscover. Med Siri-snarveiene lagrer du lenken på utklippstavlen eller åpner Rediscover med stemmen, uten å lete i menyer."
+          "Widgeten på Hjem-skjermen viser det du lagret sist og hva som venter i Rediscover. Med Siri-snarveiene lagrer du lenken på utklippstavlen eller åpner Rediscover med stemmen, uten å lete i menyer. På Android forblir disse dataene på samme måte bare på enheten din."
         ]
       ],
       "cT": "Trenger du fortsatt hjelp?",
@@ -190,7 +190,7 @@
       "sec": [
         [
           "Hvem erklæringen gjelder for",
-          "Denne erklæringen gjelder SaveTag-appen for iPhone og iPad, sammen med delingsutvidelsen, widgeten på Hjem-skjermen og Siri-snarveiene."
+          "Denne erklæringen gjelder SaveTag-appen for iPhone og iPad, sammen med delingsutvidelsen, widgeten på Hjem-skjermen og Siri-snarveiene. På Android forblir disse dataene på samme måte bare på enheten din."
         ],
         [
           "Hva vi samler inn",
@@ -198,7 +198,7 @@
         ],
         [
           "Hvor lagringene dine ligger",
-          "Lenker, titler, beskrivelser, notater, tagger, temaer og innstillinger blir i SaveTags lagring på enheten og deles der med delingsutvidelsen og widgeten via Apples app group. Data som legges inn i appen blir på brukerens enhet, med mindre appen tydelig tilbyr en eksport- eller delingsfunksjon som brukeren selv starter."
+          "Lenker, titler, beskrivelser, notater, tagger, temaer og innstillinger blir i SaveTags lagring på enheten og deles der med delingsutvidelsen og widgeten via Apples app group. Data som legges inn i appen blir på brukerens enhet, med mindre appen tydelig tilbyr en eksport- eller delingsfunksjon som brukeren selv starter. På Android forblir disse dataene på samme måte bare på enheten din."
         ],
         [
           "Forhåndsvisning av lenker",
@@ -210,11 +210,11 @@
         ],
         [
           "Kjøp",
-          "Pro er et engangskjøp som håndteres i sin helhet av Apple via App Store, og det støtter Familiedeling. Vi ser eller lagrer aldri betalingsopplysningene dine; appen får bare vite av Apple om kjøpet finnes, og noterer opplåsingen lokalt på enheten. Gjenoppretting spør Apple, ikke oss."
+          "Pro er et engangskjøp som håndteres i sin helhet av Apple via App Store, og det støtter Familiedeling. Vi ser eller lagrer aldri betalingsopplysningene dine; appen får bare vite av Apple om kjøpet finnes, og noterer opplåsingen lokalt på enheten. Gjenoppretting spør Apple, ikke oss. På Android behandles dette kjøpet av Google Play i stedet for App Store, og heller ikke der mottar eller lagrer vi betalingsopplysninger."
         ],
         [
           "Eksport og deling",
-          "Markdown-filen for eksport og sikkerhetskopi lages på enheten din og går dit du sender den via delingsmenyen i iOS. Når filen har forlatt SaveTag, håndteres den av appen eller tjenesten du valgte, etter denne leverandørens egen personvernerklæring."
+          "Markdown-filen for eksport og sikkerhetskopi lages på enheten din og går dit du sender den via delingsmenyen i iOS. Når filen har forlatt SaveTag, håndteres den av appen eller tjenesten du valgte, etter denne leverandørens egen personvernerklæring. På Android forblir disse dataene på samme måte bare på enheten din."
         ],
         [
           "Barn",
@@ -274,11 +274,11 @@
         ],
         [
           "Что бесплатно и что даёт Pro?",
-          "В бесплатной версии доступны все функции, и она хранит 5 последних сохранений. Pro — разовая покупка, которая снимает ограничение на количество сохранений и открывает собственные теги, экспорт и резервную копию в Markdown; поддерживается «Семейный доступ». Никакой подписки в SaveTag нет."
+          "В бесплатной версии доступны все функции, и она хранит 5 последних сохранений. Pro — разовая покупка, которая снимает ограничение на количество сохранений и открывает собственные теги, экспорт и резервную копию в Markdown; поддерживается «Семейный доступ». Никакой подписки в SaveTag нет. На Android эта покупка обрабатывается через Google Play вместо App Store, и мы точно так же не получаем и не храним данные об оплате."
         ],
         [
           "Я купил Pro, но на новом устройстве всё заблокировано.",
-          "Откройте настройки SaveTag и нажмите «Восстановить покупку», войдя с той же учётной записью Apple, с которой была покупка. Собственных аккаунтов у SaveTag нет — запись о покупке хранит Apple, а восстановление бесплатно и не ограничено."
+          "Откройте настройки SaveTag и нажмите «Восстановить покупку», войдя с той же учётной записью Apple, с которой была покупка. Собственных аккаунтов у SaveTag нет — запись о покупке хранит Apple, а восстановление бесплатно и не ограничено. На Android эта покупка обрабатывается через Google Play вместо App Store, и мы точно так же не получаем и не храним данные об оплате."
         ],
         [
           "Где хранятся мои сохранения?",
@@ -286,11 +286,11 @@
         ],
         [
           "Как выгрузить библиотеку или перенести её?",
-          "В Pro вся библиотека выгружается в файл Markdown через меню «Поделиться» в iOS; этот же файл служит резервной копией, которую можно сохранить или перенести на другое устройство. Файл создаётся на вашем устройстве и уходит только туда, куда вы его отправите."
+          "В Pro вся библиотека выгружается в файл Markdown через меню «Поделиться» в iOS; этот же файл служит резервной копией, которую можно сохранить или перенести на другое устройство. Файл создаётся на вашем устройстве и уходит только туда, куда вы его отправите. На Android эти данные точно так же остаются только на вашем устройстве."
         ],
         [
           "Что делают виджет и команды Siri?",
-          "Виджет на экране «Домой» показывает последние сохранения и то, что ждёт в Rediscover. Команды Siri позволяют сохранить ссылку из буфера обмена или открыть Rediscover голосом, не перебирая меню."
+          "Виджет на экране «Домой» показывает последние сохранения и то, что ждёт в Rediscover. Команды Siri позволяют сохранить ссылку из буфера обмена или открыть Rediscover голосом, не перебирая меню. На Android эти данные точно так же остаются только на вашем устройстве."
         ]
       ],
       "cT": "Остались вопросы?",
@@ -306,7 +306,7 @@
       "sec": [
         [
           "На что распространяется политика",
-          "Политика распространяется на приложение SaveTag для iPhone и iPad, а также на его расширение «Поделиться», виджет экрана «Домой» и команды Siri."
+          "Политика распространяется на приложение SaveTag для iPhone и iPad, а также на его расширение «Поделиться», виджет экрана «Домой» и команды Siri. На Android эти данные точно так же остаются только на вашем устройстве."
         ],
         [
           "Какие данные мы собираем",
@@ -314,7 +314,7 @@
         ],
         [
           "Где хранятся сохранения",
-          "Ссылки, заголовки, описания, заметки, теги, темы и настройки остаются в хранилище SaveTag на устройстве и доступны расширению «Поделиться» и виджету через app group Apple в пределах того же устройства. Данные, введённые в приложении, остаются на устройстве пользователя, если только приложение не предоставляет явную функцию экспорта или отправки, запускаемую самим пользователем."
+          "Ссылки, заголовки, описания, заметки, теги, темы и настройки остаются в хранилище SaveTag на устройстве и доступны расширению «Поделиться» и виджету через app group Apple в пределах того же устройства. Данные, введённые в приложении, остаются на устройстве пользователя, если только приложение не предоставляет явную функцию экспорта или отправки, запускаемую самим пользователем. На Android эти данные точно так же остаются только на вашем устройстве."
         ],
         [
           "Превью ссылок",
@@ -326,11 +326,11 @@
         ],
         [
           "Покупки",
-          "Pro — разовая покупка, которую полностью обрабатывает Apple через App Store, с поддержкой «Семейного доступа». Мы никогда не видим и не храним ваши платёжные данные; приложение узнаёт от Apple только факт наличия покупки и записывает разблокировку локально на устройстве. Восстановление обращается к Apple, а не к нам."
+          "Pro — разовая покупка, которую полностью обрабатывает Apple через App Store, с поддержкой «Семейного доступа». Мы никогда не видим и не храним ваши платёжные данные; приложение узнаёт от Apple только факт наличия покупки и записывает разблокировку локально на устройстве. Восстановление обращается к Apple, а не к нам. На Android эта покупка обрабатывается через Google Play вместо App Store, и мы точно так же не получаем и не храним данные об оплате."
         ],
         [
           "Экспорт и отправка",
-          "Файл экспорта и резервной копии в Markdown создаётся на вашем устройстве и уходит туда, куда вы его отправите через меню «Поделиться» в iOS. После того как файл покинул SaveTag, с ним работает выбранное вами приложение или сервис по своей собственной политике конфиденциальности."
+          "Файл экспорта и резервной копии в Markdown создаётся на вашем устройстве и уходит туда, куда вы его отправите через меню «Поделиться» в iOS. После того как файл покинул SaveTag, с ним работает выбранное вами приложение или сервис по своей собственной политике конфиденциальности. На Android эти данные точно так же остаются только на вашем устройстве."
         ],
         [
           "Дети",

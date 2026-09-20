@@ -42,11 +42,11 @@
         ],
         [
           "Apa yang percuma dan apa yang Pro tambah?",
-          "Versi percuma mempunyai semua ciri dan menyimpan 5 simpanan terbaharu anda. Pro ialah pembelian sekali sahaja yang membuka simpanan tanpa had, tag tersuai, serta eksport dan sandaran Markdown, dan ia berfungsi dengan Perkongsian Keluarga. SaveTag tiada sebarang langganan."
+          "Versi percuma mempunyai semua ciri dan menyimpan 5 simpanan terbaharu anda. Pro ialah pembelian sekali sahaja yang membuka simpanan tanpa had, tag tersuai, serta eksport dan sandaran Markdown, dan ia berfungsi dengan Perkongsian Keluarga. SaveTag tiada sebarang langganan. Di Android, pembelian ini diproses oleh Google Play dan bukannya App Store, dan kami tetap tidak menerima atau menyimpan butiran pembayaran."
         ],
         [
           "Saya membeli Pro tetapi pada peranti baharu ia terkunci.",
-          "Buka Tetapan dalam SaveTag dan ketik Pulihkan pembelian sambil log masuk dengan akaun Apple yang anda gunakan untuk membeli. SaveTag tiada akaun sendiri — rekod pembelian disimpan oleh Apple, dan pemulihan adalah percuma serta tanpa had."
+          "Buka Tetapan dalam SaveTag dan ketik Pulihkan pembelian sambil log masuk dengan akaun Apple yang anda gunakan untuk membeli. SaveTag tiada akaun sendiri — rekod pembelian disimpan oleh Apple, dan pemulihan adalah percuma serta tanpa had. Di Android, pembelian ini diproses oleh Google Play dan bukannya App Store, dan kami tetap tidak menerima atau menyimpan butiran pembayaran."
         ],
         [
           "Di manakah simpanan saya disimpan?",
@@ -54,11 +54,11 @@
         ],
         [
           "Bagaimana saya mengeksport pustaka atau memindahkannya?",
-          "Dengan Pro anda mengeksport seluruh pustaka sebagai fail Markdown melalui helaian kongsi iOS; fail itu turut menjadi sandaran yang boleh disimpan atau dibawa ke peranti lain. Fail dicipta pada peranti anda dan hanya pergi ke tempat yang anda hantar."
+          "Dengan Pro anda mengeksport seluruh pustaka sebagai fail Markdown melalui helaian kongsi iOS; fail itu turut menjadi sandaran yang boleh disimpan atau dibawa ke peranti lain. Fail dicipta pada peranti anda dan hanya pergi ke tempat yang anda hantar. Di Android, data ini kekal tersimpan hanya pada peranti anda dengan cara yang sama."
         ],
         [
           "Apa yang dilakukan widget dan pintasan Siri?",
-          "Widget Skrin Utama memaparkan simpanan terbaharu dan apa yang menanti dalam Rediscover. Pintasan Siri membolehkan anda menyimpan pautan dalam papan keratan atau membuka Rediscover dengan suara, tanpa menyelongkar menu."
+          "Widget Skrin Utama memaparkan simpanan terbaharu dan apa yang menanti dalam Rediscover. Pintasan Siri membolehkan anda menyimpan pautan dalam papan keratan atau membuka Rediscover dengan suara, tanpa menyelongkar menu. Di Android, data ini kekal tersimpan hanya pada peranti anda dengan cara yang sama."
         ]
       ],
       "cT": "Masih perlukan bantuan?",
@@ -74,7 +74,7 @@
       "sec": [
         [
           "Siapa yang dilindungi dasar ini",
-          "Dasar ini terpakai kepada apl SaveTag untuk iPhone dan iPad, bersama sambungan kongsinya, widget Skrin Utama dan pintasan Siri."
+          "Dasar ini terpakai kepada apl SaveTag untuk iPhone dan iPad, bersama sambungan kongsinya, widget Skrin Utama dan pintasan Siri. Di Android, data ini kekal tersimpan hanya pada peranti anda dengan cara yang sama."
         ],
         [
           "Apa yang kami kumpul",
@@ -82,7 +82,7 @@
         ],
         [
           "Di mana simpanan anda berada",
-          "Pautan, tajuk, penerangan, nota, tag, topik dan tetapan kekal dalam storan SaveTag pada peranti dan dikongsi di situ dengan sambungan kongsi serta widget melalui app group Apple. Data yang dimasukkan dalam apl kekal pada peranti pengguna, melainkan apl jelas menyediakan ciri eksport atau perkongsian yang dimulakan sendiri oleh pengguna."
+          "Pautan, tajuk, penerangan, nota, tag, topik dan tetapan kekal dalam storan SaveTag pada peranti dan dikongsi di situ dengan sambungan kongsi serta widget melalui app group Apple. Data yang dimasukkan dalam apl kekal pada peranti pengguna, melainkan apl jelas menyediakan ciri eksport atau perkongsian yang dimulakan sendiri oleh pengguna. Di Android, data ini kekal tersimpan hanya pada peranti anda dengan cara yang sama."
         ],
         [
           "Pratonton pautan",
@@ -94,11 +94,11 @@
         ],
         [
           "Pembelian",
-          "Pro ialah pembelian sekali sahaja yang dikendalikan sepenuhnya oleh Apple melalui App Store dan menyokong Perkongsian Keluarga. Kami tidak pernah melihat atau menyimpan butiran pembayaran anda; apl hanya mengetahui daripada Apple sama ada pembelian itu wujud dan merekodkan pembukaan ciri secara setempat pada peranti. Pemulihan pembelian bertanya kepada Apple, bukan kepada kami."
+          "Pro ialah pembelian sekali sahaja yang dikendalikan sepenuhnya oleh Apple melalui App Store dan menyokong Perkongsian Keluarga. Kami tidak pernah melihat atau menyimpan butiran pembayaran anda; apl hanya mengetahui daripada Apple sama ada pembelian itu wujud dan merekodkan pembukaan ciri secara setempat pada peranti. Pemulihan pembelian bertanya kepada Apple, bukan kepada kami. Di Android, pembelian ini diproses oleh Google Play dan bukannya App Store, dan kami tetap tidak menerima atau menyimpan butiran pembayaran."
         ],
         [
           "Eksport dan perkongsian",
-          "Fail Markdown untuk eksport dan sandaran dicipta pada peranti anda dan pergi ke tempat yang anda hantar melalui helaian kongsi iOS. Setelah fail meninggalkan SaveTag, ia dikendalikan oleh apl atau perkhidmatan yang anda pilih, mengikut dasar privasi penyedia tersebut."
+          "Fail Markdown untuk eksport dan sandaran dicipta pada peranti anda dan pergi ke tempat yang anda hantar melalui helaian kongsi iOS. Setelah fail meninggalkan SaveTag, ia dikendalikan oleh apl atau perkhidmatan yang anda pilih, mengikut dasar privasi penyedia tersebut. Di Android, data ini kekal tersimpan hanya pada peranti anda dengan cara yang sama."
         ],
         [
           "Kanak-kanak",
@@ -158,11 +158,11 @@
         ],
         [
           "مفت میں کیا ہے اور Pro کیا دیتا ہے؟",
-          "مفت ورژن میں تمام خصوصیات موجود ہیں اور یہ آپ کی تازہ ترین 5 محفوظات رکھتا ہے۔ Pro ایک بار کی خریداری ہے جو لامحدود محفوظات، اپنی مرضی کے ٹیگز، اور Markdown برآمد و بیک اپ کھول دیتی ہے، اور یہ فیملی شیئرنگ کے ساتھ کام کرتی ہے۔ SaveTag میں کسی قسم کی سبسکرپشن نہیں ہے۔"
+          "مفت ورژن میں تمام خصوصیات موجود ہیں اور یہ آپ کی تازہ ترین 5 محفوظات رکھتا ہے۔ Pro ایک بار کی خریداری ہے جو لامحدود محفوظات، اپنی مرضی کے ٹیگز، اور Markdown برآمد و بیک اپ کھول دیتی ہے، اور یہ فیملی شیئرنگ کے ساتھ کام کرتی ہے۔ SaveTag میں کسی قسم کی سبسکرپشن نہیں ہے۔ Android پر، یہ خریداری App Store کے بجائے Google Play کے ذریعے پراسیس ہوتی ہے، اور وہاں بھی ہم ادائیگی کی معلومات وصول یا محفوظ نہیں کرتے۔"
         ],
         [
           "میں نے Pro خریدا ہے مگر نئی ڈیوائس پر مقفل دکھ رہا ہے۔",
-          "اسی Apple اکاؤنٹ سے سائن اِن رہتے ہوئے جس سے خریداری کی تھی، SaveTag کی ترتیبات کھولیں اور 'خریداری بحال کریں' پر ٹیپ کریں۔ SaveTag کا اپنا کوئی اکاؤنٹ نہیں — خریداری کا ریکارڈ Apple کے پاس ہے، اور بحالی مفت اور لامحدود ہے۔"
+          "اسی Apple اکاؤنٹ سے سائن اِن رہتے ہوئے جس سے خریداری کی تھی، SaveTag کی ترتیبات کھولیں اور 'خریداری بحال کریں' پر ٹیپ کریں۔ SaveTag کا اپنا کوئی اکاؤنٹ نہیں — خریداری کا ریکارڈ Apple کے پاس ہے، اور بحالی مفت اور لامحدود ہے۔ Android پر، یہ خریداری App Store کے بجائے Google Play کے ذریعے پراسیس ہوتی ہے، اور وہاں بھی ہم ادائیگی کی معلومات وصول یا محفوظ نہیں کرتے۔"
         ],
         [
           "میری محفوظات کہاں رکھی جاتی ہیں؟",
@@ -170,11 +170,11 @@
         ],
         [
           "اپنی لائبریری کیسے برآمد کروں یا منتقل کروں؟",
-          "Pro کے ساتھ پوری لائبریری iOS شیئر شیٹ کے ذریعے Markdown فائل کے طور پر برآمد ہوتی ہے؛ یہی فائل بیک اپ کا کام بھی دیتی ہے جسے آپ رکھ سکتے ہیں یا کسی دوسری ڈیوائس پر لے جا سکتے ہیں۔ فائل آپ کی ڈیوائس پر بنتی ہے اور صرف وہیں جاتی ہے جہاں آپ بھیجتے ہیں۔"
+          "Pro کے ساتھ پوری لائبریری iOS شیئر شیٹ کے ذریعے Markdown فائل کے طور پر برآمد ہوتی ہے؛ یہی فائل بیک اپ کا کام بھی دیتی ہے جسے آپ رکھ سکتے ہیں یا کسی دوسری ڈیوائس پر لے جا سکتے ہیں۔ فائل آپ کی ڈیوائس پر بنتی ہے اور صرف وہیں جاتی ہے جہاں آپ بھیجتے ہیں۔ Android پر بھی یہ ڈیٹا اسی طرح صرف آپ کے ڈیوائس پر رہتا ہے۔"
         ],
         [
           "وجٹ اور Siri شارٹ کٹس کیا کرتے ہیں؟",
-          "ہوم اسکرین وجٹ حال ہی میں محفوظ کی گئی چیزیں اور Rediscover میں منتظر مواد دکھاتا ہے۔ Siri شارٹ کٹس سے آپ کلپ بورڈ کا لنک محفوظ کر سکتے ہیں یا آواز سے Rediscover کھول سکتے ہیں، بغیر مینو کھنگالے۔"
+          "ہوم اسکرین وجٹ حال ہی میں محفوظ کی گئی چیزیں اور Rediscover میں منتظر مواد دکھاتا ہے۔ Siri شارٹ کٹس سے آپ کلپ بورڈ کا لنک محفوظ کر سکتے ہیں یا آواز سے Rediscover کھول سکتے ہیں، بغیر مینو کھنگالے۔ Android پر بھی یہ ڈیٹا اسی طرح صرف آپ کے ڈیوائس پر رہتا ہے۔"
         ]
       ],
       "cT": "اب بھی مدد درکار ہے؟",
@@ -190,7 +190,7 @@
       "sec": [
         [
           "یہ پالیسی کس پر لاگو ہے",
-          "یہ پالیسی iPhone اور iPad کے لیے SaveTag ایپ پر، اور اس کی شیئر ایکسٹینشن، ہوم اسکرین وجٹ اور Siri شارٹ کٹس پر لاگو ہوتی ہے۔"
+          "یہ پالیسی iPhone اور iPad کے لیے SaveTag ایپ پر، اور اس کی شیئر ایکسٹینشن، ہوم اسکرین وجٹ اور Siri شارٹ کٹس پر لاگو ہوتی ہے۔ Android پر بھی یہ ڈیٹا اسی طرح صرف آپ کے ڈیوائس پر رہتا ہے۔"
         ],
         [
           "ہم کیا جمع کرتے ہیں",
@@ -198,7 +198,7 @@
         ],
         [
           "آپ کی محفوظات کہاں رہتی ہیں",
-          "لنکس، عنوانات، تفصیلات، نوٹس، ٹیگز، موضوعات اور ترتیبات SaveTag کے ڈیوائس اسٹوریج میں رہتی ہیں اور اسی ڈیوائس پر Apple کے app group کے ذریعے شیئر ایکسٹینشن اور وجٹ کے ساتھ مشترک ہوتی ہیں۔ ایپ میں درج کیا گیا ڈیٹا صارف کی ڈیوائس پر رہتا ہے، الا یہ کہ ایپ واضح طور پر ایسی برآمد یا اشتراک کی سہولت دے جو صارف خود شروع کرے۔"
+          "لنکس، عنوانات، تفصیلات، نوٹس، ٹیگز، موضوعات اور ترتیبات SaveTag کے ڈیوائس اسٹوریج میں رہتی ہیں اور اسی ڈیوائس پر Apple کے app group کے ذریعے شیئر ایکسٹینشن اور وجٹ کے ساتھ مشترک ہوتی ہیں۔ ایپ میں درج کیا گیا ڈیٹا صارف کی ڈیوائس پر رہتا ہے، الا یہ کہ ایپ واضح طور پر ایسی برآمد یا اشتراک کی سہولت دے جو صارف خود شروع کرے۔ Android پر بھی یہ ڈیٹا اسی طرح صرف آپ کے ڈیوائس پر رہتا ہے۔"
         ],
         [
           "لنک کے پیش منظر",
@@ -210,11 +210,11 @@
         ],
         [
           "خریداریاں",
-          "Pro ایک بار کی خریداری ہے جسے App Store کے ذریعے مکمل طور پر Apple سنبھالتا ہے، اور یہ فیملی شیئرنگ کو سپورٹ کرتی ہے۔ ہم آپ کی ادائیگی کی تفصیلات نہ کبھی دیکھتے ہیں نہ محفوظ کرتے ہیں؛ ایپ کو Apple سے صرف یہ معلوم ہوتا ہے کہ خریداری موجود ہے یا نہیں، اور وہ اَن لاک کو ڈیوائس پر مقامی طور پر درج کر لیتی ہے۔ خریداری کی بحالی Apple سے پوچھتی ہے، ہم سے نہیں۔"
+          "Pro ایک بار کی خریداری ہے جسے App Store کے ذریعے مکمل طور پر Apple سنبھالتا ہے، اور یہ فیملی شیئرنگ کو سپورٹ کرتی ہے۔ ہم آپ کی ادائیگی کی تفصیلات نہ کبھی دیکھتے ہیں نہ محفوظ کرتے ہیں؛ ایپ کو Apple سے صرف یہ معلوم ہوتا ہے کہ خریداری موجود ہے یا نہیں، اور وہ اَن لاک کو ڈیوائس پر مقامی طور پر درج کر لیتی ہے۔ خریداری کی بحالی Apple سے پوچھتی ہے، ہم سے نہیں۔ Android پر، یہ خریداری App Store کے بجائے Google Play کے ذریعے پراسیس ہوتی ہے، اور وہاں بھی ہم ادائیگی کی معلومات وصول یا محفوظ نہیں کرتے۔"
         ],
         [
           "برآمد اور اشتراک",
-          "Markdown برآمد اور بیک اپ فائل آپ کی ڈیوائس پر بنتی ہے اور iOS شیئر شیٹ کے ذریعے وہیں جاتی ہے جہاں آپ بھیجتے ہیں۔ SaveTag سے نکلنے کے بعد اس فائل کو آپ کی منتخب کردہ ایپ یا سروس اپنی پرائیویسی پالیسی کے تحت سنبھالتی ہے۔"
+          "Markdown برآمد اور بیک اپ فائل آپ کی ڈیوائس پر بنتی ہے اور iOS شیئر شیٹ کے ذریعے وہیں جاتی ہے جہاں آپ بھیجتے ہیں۔ SaveTag سے نکلنے کے بعد اس فائل کو آپ کی منتخب کردہ ایپ یا سروس اپنی پرائیویسی پالیسی کے تحت سنبھالتی ہے۔ Android پر بھی یہ ڈیٹا اسی طرح صرف آپ کے ڈیوائس پر رہتا ہے۔"
         ],
         [
           "بچے",
@@ -274,11 +274,11 @@
         ],
         [
           "বিনামূল্যে কী আছে, Pro কী যোগ করে?",
-          "বিনামূল্যের সংস্করণে সব সুবিধাই আছে এবং এটি আপনার সাম্প্রতিক 5টি সংরক্ষণ রাখে। Pro একবারের কেনাকাটা, যা সীমাহীন সংরক্ষণ, নিজের ট্যাগ, Markdown রপ্তানি ও ব্যাকআপ খুলে দেয় এবং ফ্যামিলি শেয়ারিংয়ে কাজ করে। SaveTag-এ কোনো সাবস্ক্রিপশন নেই।"
+          "বিনামূল্যের সংস্করণে সব সুবিধাই আছে এবং এটি আপনার সাম্প্রতিক 5টি সংরক্ষণ রাখে। Pro একবারের কেনাকাটা, যা সীমাহীন সংরক্ষণ, নিজের ট্যাগ, Markdown রপ্তানি ও ব্যাকআপ খুলে দেয় এবং ফ্যামিলি শেয়ারিংয়ে কাজ করে। SaveTag-এ কোনো সাবস্ক্রিপশন নেই। অ্যান্ড্রয়েডে, এই ক্রয়টি App Store-এর পরিবর্তে Google Play দ্বারা প্রক্রিয়া করা হয়, এবং সেখানেও আমরা পেমেন্টের তথ্য গ্রহণ বা সংরক্ষণ করি না।"
         ],
         [
           "Pro কিনেছি, কিন্তু নতুন ডিভাইসে তালাবদ্ধ দেখাচ্ছে।",
-          "যে Apple অ্যাকাউন্ট দিয়ে কিনেছিলেন সেটি দিয়ে সাইন ইন থাকা অবস্থায় SaveTag-এর সেটিংস খুলে 'কেনাকাটা পুনরুদ্ধার' চাপুন। SaveTag-এর নিজস্ব কোনো অ্যাকাউন্ট নেই — কেনাকাটার নথি Apple রাখে, আর পুনরুদ্ধার বিনামূল্যে ও সীমাহীন।"
+          "যে Apple অ্যাকাউন্ট দিয়ে কিনেছিলেন সেটি দিয়ে সাইন ইন থাকা অবস্থায় SaveTag-এর সেটিংস খুলে 'কেনাকাটা পুনরুদ্ধার' চাপুন। SaveTag-এর নিজস্ব কোনো অ্যাকাউন্ট নেই — কেনাকাটার নথি Apple রাখে, আর পুনরুদ্ধার বিনামূল্যে ও সীমাহীন। অ্যান্ড্রয়েডে, এই ক্রয়টি App Store-এর পরিবর্তে Google Play দ্বারা প্রক্রিয়া করা হয়, এবং সেখানেও আমরা পেমেন্টের তথ্য গ্রহণ বা সংরক্ষণ করি না।"
         ],
         [
           "আমার সংরক্ষণ কোথায় থাকে?",
@@ -286,11 +286,11 @@
         ],
         [
           "লাইব্রেরি রপ্তানি বা অন্য ডিভাইসে নেব কীভাবে?",
-          "Pro-তে পুরো লাইব্রেরি iOS শেয়ার শিট দিয়ে Markdown ফাইল হিসেবে রপ্তানি করা যায়; সেই ফাইলই ব্যাকআপের কাজ করে, যা রেখে দিতে বা অন্য ডিভাইসে নিতে পারেন। ফাইলটি আপনার ডিভাইসেই তৈরি হয় এবং কেবল সেখানেই যায় যেখানে আপনি পাঠান।"
+          "Pro-তে পুরো লাইব্রেরি iOS শেয়ার শিট দিয়ে Markdown ফাইল হিসেবে রপ্তানি করা যায়; সেই ফাইলই ব্যাকআপের কাজ করে, যা রেখে দিতে বা অন্য ডিভাইসে নিতে পারেন। ফাইলটি আপনার ডিভাইসেই তৈরি হয় এবং কেবল সেখানেই যায় যেখানে আপনি পাঠান। অ্যান্ড্রয়েডেও এই ডেটা একইভাবে শুধু আপনার ডিভাইসে থাকে।"
         ],
         [
           "উইজেট ও Siri শর্টকাট কী করে?",
-          "হোম স্ক্রিন উইজেট সাম্প্রতিক সংরক্ষণ এবং Rediscover-এ অপেক্ষমাণ জিনিস দেখায়। Siri শর্টকাট দিয়ে ক্লিপবোর্ডের লিংক সংরক্ষণ করা যায় বা কণ্ঠস্বরে Rediscover খোলা যায়, মেনু ঘাঁটাঘাঁটি ছাড়াই।"
+          "হোম স্ক্রিন উইজেট সাম্প্রতিক সংরক্ষণ এবং Rediscover-এ অপেক্ষমাণ জিনিস দেখায়। Siri শর্টকাট দিয়ে ক্লিপবোর্ডের লিংক সংরক্ষণ করা যায় বা কণ্ঠস্বরে Rediscover খোলা যায়, মেনু ঘাঁটাঘাঁটি ছাড়াই। অ্যান্ড্রয়েডেও এই ডেটা একইভাবে শুধু আপনার ডিভাইসে থাকে।"
         ]
       ],
       "cT": "এখনো সাহায্য দরকার?",
@@ -306,7 +306,7 @@
       "sec": [
         [
           "এই নীতি কাদের ক্ষেত্রে প্রযোজ্য",
-          "এই নীতি iPhone ও iPad-এর SaveTag অ্যাপ, তার শেয়ার এক্সটেনশন, হোম স্ক্রিন উইজেট ও Siri শর্টকাটের ক্ষেত্রে প্রযোজ্য।"
+          "এই নীতি iPhone ও iPad-এর SaveTag অ্যাপ, তার শেয়ার এক্সটেনশন, হোম স্ক্রিন উইজেট ও Siri শর্টকাটের ক্ষেত্রে প্রযোজ্য। অ্যান্ড্রয়েডেও এই ডেটা একইভাবে শুধু আপনার ডিভাইসে থাকে।"
         ],
         [
           "আমরা কী সংগ্রহ করি",
@@ -314,7 +314,7 @@
         ],
         [
           "আপনার সংরক্ষণ কোথায় থাকে",
-          "লিংক, শিরোনাম, বিবরণ, নোট, ট্যাগ, বিষয় ও সেটিংস SaveTag-এর ডিভাইস-স্টোরেজে থাকে এবং একই ডিভাইসে Apple-এর app group-এর মাধ্যমে শেয়ার এক্সটেনশন ও উইজেটের সঙ্গে ভাগ করা হয়। অ্যাপে দেওয়া তথ্য ব্যবহারকারীর ডিভাইসেই থাকে, যদি না অ্যাপ স্পষ্টভাবে ব্যবহারকারীর শুরু করা রপ্তানি বা শেয়ার সুবিধা দেয়।"
+          "লিংক, শিরোনাম, বিবরণ, নোট, ট্যাগ, বিষয় ও সেটিংস SaveTag-এর ডিভাইস-স্টোরেজে থাকে এবং একই ডিভাইসে Apple-এর app group-এর মাধ্যমে শেয়ার এক্সটেনশন ও উইজেটের সঙ্গে ভাগ করা হয়। অ্যাপে দেওয়া তথ্য ব্যবহারকারীর ডিভাইসেই থাকে, যদি না অ্যাপ স্পষ্টভাবে ব্যবহারকারীর শুরু করা রপ্তানি বা শেয়ার সুবিধা দেয়। অ্যান্ড্রয়েডেও এই ডেটা একইভাবে শুধু আপনার ডিভাইসে থাকে।"
         ],
         [
           "লিংক প্রিভিউ",
@@ -326,11 +326,11 @@
         ],
         [
           "কেনাকাটা",
-          "Pro একবারের কেনাকাটা, যা App Store-এর মাধ্যমে সম্পূর্ণভাবে Apple সামলায় এবং ফ্যামিলি শেয়ারিং সমর্থন করে। আপনার পেমেন্ট তথ্য আমরা কখনো দেখি না বা রাখি না; অ্যাপ Apple-এর কাছ থেকে কেবল জানে কেনাকাটাটি আছে কি না, আর আনলকের কথা ডিভাইসেই লিখে রাখে। পুনরুদ্ধার Apple-কে জিজ্ঞাসা করে, আমাদের নয়।"
+          "Pro একবারের কেনাকাটা, যা App Store-এর মাধ্যমে সম্পূর্ণভাবে Apple সামলায় এবং ফ্যামিলি শেয়ারিং সমর্থন করে। আপনার পেমেন্ট তথ্য আমরা কখনো দেখি না বা রাখি না; অ্যাপ Apple-এর কাছ থেকে কেবল জানে কেনাকাটাটি আছে কি না, আর আনলকের কথা ডিভাইসেই লিখে রাখে। পুনরুদ্ধার Apple-কে জিজ্ঞাসা করে, আমাদের নয়। অ্যান্ড্রয়েডে, এই ক্রয়টি App Store-এর পরিবর্তে Google Play দ্বারা প্রক্রিয়া করা হয়, এবং সেখানেও আমরা পেমেন্টের তথ্য গ্রহণ বা সংরক্ষণ করি না।"
         ],
         [
           "রপ্তানি ও শেয়ার",
-          "Markdown রপ্তানি ও ব্যাকআপ ফাইল আপনার ডিভাইসেই তৈরি হয় এবং iOS শেয়ার শিট দিয়ে আপনি যেখানে পাঠান সেখানেই যায়। ফাইলটি SaveTag ছাড়ার পর আপনার বেছে নেওয়া অ্যাপ বা সেবা তার নিজস্ব গোপনীয়তা নীতি অনুযায়ী সেটি সামলায়।"
+          "Markdown রপ্তানি ও ব্যাকআপ ফাইল আপনার ডিভাইসেই তৈরি হয় এবং iOS শেয়ার শিট দিয়ে আপনি যেখানে পাঠান সেখানেই যায়। ফাইলটি SaveTag ছাড়ার পর আপনার বেছে নেওয়া অ্যাপ বা সেবা তার নিজস্ব গোপনীয়তা নীতি অনুযায়ী সেটি সামলায়। অ্যান্ড্রয়েডেও এই ডেটা একইভাবে শুধু আপনার ডিভাইসে থাকে।"
         ],
         [
           "শিশু",

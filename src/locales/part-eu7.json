@@ -42,11 +42,11 @@
         ],
         [
           "Co jest bezpłatne, a co daje Pro?",
-          "Wersja bezpłatna ma wszystkie funkcje i przechowuje 5 najnowszych zapisów. Pro to jednorazowy zakup, który odblokowuje nielimitowane zapisy, własne tagi oraz eksport i kopię zapasową w Markdown, i działa z Chomikiem rodzinnym. SaveTag nie ma żadnej subskrypcji."
+          "Wersja bezpłatna ma wszystkie funkcje i przechowuje 5 najnowszych zapisów. Pro to jednorazowy zakup, który odblokowuje nielimitowane zapisy, własne tagi oraz eksport i kopię zapasową w Markdown, i działa z Chomikiem rodzinnym. SaveTag nie ma żadnej subskrypcji. Na Androidzie ten zakup jest obsługiwany przez Google Play zamiast App Store, i tam również nie otrzymujemy ani nie przechowujemy danych płatności."
         ],
         [
           "Kupiłem Pro, ale na nowym urządzeniu jest zablokowane.",
-          "Otwórz Ustawienia w SaveTag i dotknij Przywróć zakup, będąc zalogowanym na koncie Apple użytym przy zakupie. SaveTag nie ma własnego konta — zapis o zakupie przechowuje Apple, a przywracanie jest bezpłatne i bez ograniczeń."
+          "Otwórz Ustawienia w SaveTag i dotknij Przywróć zakup, będąc zalogowanym na koncie Apple użytym przy zakupie. SaveTag nie ma własnego konta — zapis o zakupie przechowuje Apple, a przywracanie jest bezpłatne i bez ograniczeń. Na Androidzie ten zakup jest obsługiwany przez Google Play zamiast App Store, i tam również nie otrzymujemy ani nie przechowujemy danych płatności."
         ],
         [
           "Gdzie przechowywane są moje zapisy?",
@@ -54,11 +54,11 @@
         ],
         [
           "Jak wyeksportować bibliotekę lub przenieść ją?",
-          "W Pro wyeksportujesz całą bibliotekę jako plik Markdown przez menu udostępniania iOS; ten plik jest jednocześnie kopią zapasową, którą możesz zachować lub przenieść na inne urządzenie. Powstaje na Twoim urządzeniu i trafia wyłącznie tam, gdzie go wyślesz."
+          "W Pro wyeksportujesz całą bibliotekę jako plik Markdown przez menu udostępniania iOS; ten plik jest jednocześnie kopią zapasową, którą możesz zachować lub przenieść na inne urządzenie. Powstaje na Twoim urządzeniu i trafia wyłącznie tam, gdzie go wyślesz. Na Androidzie te dane również pozostają wyłącznie na Twoim urządzeniu."
         ],
         [
           "Co robią widżet i skróty Siri?",
-          "Widżet na ekranie początkowym pokazuje ostatnio zapisane pozycje i to, co czeka w Rediscover. Skróty Siri pozwalają zapisać link ze schowka albo otworzyć Rediscover głosem, bez przeszukiwania menu."
+          "Widżet na ekranie początkowym pokazuje ostatnio zapisane pozycje i to, co czeka w Rediscover. Skróty Siri pozwalają zapisać link ze schowka albo otworzyć Rediscover głosem, bez przeszukiwania menu. Na Androidzie te dane również pozostają wyłącznie na Twoim urządzeniu."
         ]
       ],
       "cT": "Potrzebujesz dalszej pomocy?",
@@ -74,7 +74,7 @@
       "sec": [
         [
           "Kogo dotyczy ta polityka",
-          "Polityka dotyczy aplikacji SaveTag na iPhone'a i iPada wraz z rozszerzeniem udostępniania, widżetem ekranu początkowego i skrótami Siri."
+          "Polityka dotyczy aplikacji SaveTag na iPhone'a i iPada wraz z rozszerzeniem udostępniania, widżetem ekranu początkowego i skrótami Siri. Na Androidzie te dane również pozostają wyłącznie na Twoim urządzeniu."
         ],
         [
           "Jakie dane zbieramy",
@@ -82,7 +82,7 @@
         ],
         [
           "Gdzie znajdują się Twoje zapisy",
-          "Linki, tytuły, opisy, notatki, tagi, tematy i ustawienia pozostają w pamięci SaveTag na urządzeniu i są tam współdzielone z rozszerzeniem udostępniania oraz widżetem poprzez app group Apple. Dane wprowadzone w aplikacji pozostają na urządzeniu użytkownika, o ile aplikacja nie udostępnia wyraźnie funkcji eksportu lub udostępniania uruchamianej przez użytkownika."
+          "Linki, tytuły, opisy, notatki, tagi, tematy i ustawienia pozostają w pamięci SaveTag na urządzeniu i są tam współdzielone z rozszerzeniem udostępniania oraz widżetem poprzez app group Apple. Dane wprowadzone w aplikacji pozostają na urządzeniu użytkownika, o ile aplikacja nie udostępnia wyraźnie funkcji eksportu lub udostępniania uruchamianej przez użytkownika. Na Androidzie te dane również pozostają wyłącznie na Twoim urządzeniu."
         ],
         [
           "Podglądy linków",
@@ -94,11 +94,11 @@
         ],
         [
           "Zakupy",
-          "Pro to zakup jednorazowy obsługiwany w całości przez Apple w App Store, z obsługą Chomika rodzinnego. Nigdy nie widzimy ani nie przechowujemy Twoich danych płatniczych; aplikacja dowiaduje się od Apple wyłącznie tego, czy zakup istnieje, i zapisuje odblokowanie lokalnie na urządzeniu. Przywracanie zakupu pyta Apple, nie nas."
+          "Pro to zakup jednorazowy obsługiwany w całości przez Apple w App Store, z obsługą Chomika rodzinnego. Nigdy nie widzimy ani nie przechowujemy Twoich danych płatniczych; aplikacja dowiaduje się od Apple wyłącznie tego, czy zakup istnieje, i zapisuje odblokowanie lokalnie na urządzeniu. Przywracanie zakupu pyta Apple, nie nas. Na Androidzie ten zakup jest obsługiwany przez Google Play zamiast App Store, i tam również nie otrzymujemy ani nie przechowujemy danych płatności."
         ],
         [
           "Eksport i udostępnianie",
-          "Plik Markdown z eksportem i kopią zapasową powstaje na Twoim urządzeniu i trafia tam, gdzie go wyślesz przez menu udostępniania iOS. Gdy plik opuści SaveTag, obsługuje go wybrana przez Ciebie aplikacja lub usługa, zgodnie z jej własną polityką prywatności."
+          "Plik Markdown z eksportem i kopią zapasową powstaje na Twoim urządzeniu i trafia tam, gdzie go wyślesz przez menu udostępniania iOS. Gdy plik opuści SaveTag, obsługuje go wybrana przez Ciebie aplikacja lub usługa, zgodnie z jej własną polityką prywatności. Na Androidzie te dane również pozostają wyłącznie na Twoim urządzeniu."
         ],
         [
           "Dzieci",
@@ -158,11 +158,11 @@
         ],
         [
           "Ücretsiz sürümde ne var, Pro ne katıyor?",
-          "Ücretsiz sürümde tüm özellikler vardır ve en son 5 kaydınız saklanır. Pro tek seferlik bir satın almadır; sınırsız kayıt, özel etiketler, Markdown dışa aktarma ve yedekleme açılır ve Aile İçi Paylaşım ile çalışır. SaveTag'de hiçbir abonelik yoktur."
+          "Ücretsiz sürümde tüm özellikler vardır ve en son 5 kaydınız saklanır. Pro tek seferlik bir satın almadır; sınırsız kayıt, özel etiketler, Markdown dışa aktarma ve yedekleme açılır ve Aile İçi Paylaşım ile çalışır. SaveTag'de hiçbir abonelik yoktur. Android'de bu satın alma işlemi App Store yerine Google Play tarafından işlenir ve ödeme bilgilerinizi orada da almayız ya da saklamayız."
         ],
         [
           "Pro'yu satın aldım ama yeni cihazda kilitli görünüyor.",
-          "Satın alırken kullandığınız Apple hesabıyla oturum açmışken SaveTag ayarlarını açıp Satın Alımı Geri Yükle'ye dokunun. SaveTag'in kendi hesabı yoktur; satın alma kaydını Apple tutar ve geri yükleme ücretsiz ve sınırsızdır."
+          "Satın alırken kullandığınız Apple hesabıyla oturum açmışken SaveTag ayarlarını açıp Satın Alımı Geri Yükle'ye dokunun. SaveTag'in kendi hesabı yoktur; satın alma kaydını Apple tutar ve geri yükleme ücretsiz ve sınırsızdır. Android'de bu satın alma işlemi App Store yerine Google Play tarafından işlenir ve ödeme bilgilerinizi orada da almayız ya da saklamayız."
         ],
         [
           "Kayıtlarım nerede saklanıyor?",
@@ -170,11 +170,11 @@
         ],
         [
           "Kitaplığımı nasıl dışa aktarır veya taşırım?",
-          "Pro ile tüm kitaplığı iOS paylaşım sayfası üzerinden Markdown dosyası olarak dışa aktarırsınız; bu dosya aynı zamanda saklayabileceğiniz veya başka bir cihaza taşıyabileceğiniz bir yedektir. Dosya cihazınızda oluşturulur ve yalnızca gönderdiğiniz yere gider."
+          "Pro ile tüm kitaplığı iOS paylaşım sayfası üzerinden Markdown dosyası olarak dışa aktarırsınız; bu dosya aynı zamanda saklayabileceğiniz veya başka bir cihaza taşıyabileceğiniz bir yedektir. Dosya cihazınızda oluşturulur ve yalnızca gönderdiğiniz yere gider. Android'de de bu veriler aynı şekilde yalnızca cihazınızda kalır."
         ],
         [
           "Widget ve Siri kısayolları ne yapar?",
-          "Ana Ekran widget'ı en son kaydettiklerinizi ve Rediscover'da sizi bekleyenleri gösterir. Siri kısayollarıyla panodaki bağlantıyı kaydedebilir veya menülerde dolaşmadan Rediscover'ı sesle açabilirsiniz."
+          "Ana Ekran widget'ı en son kaydettiklerinizi ve Rediscover'da sizi bekleyenleri gösterir. Siri kısayollarıyla panodaki bağlantıyı kaydedebilir veya menülerde dolaşmadan Rediscover'ı sesle açabilirsiniz. Android'de de bu veriler aynı şekilde yalnızca cihazınızda kalır."
         ]
       ],
       "cT": "Hâlâ yardım gerekiyor mu?",
@@ -190,7 +190,7 @@
       "sec": [
         [
           "Bu politika neyi kapsar",
-          "Bu politika iPhone ve iPad için SaveTag uygulamasını, paylaşım eklentisini, Ana Ekran widget'ını ve Siri kısayollarını kapsar."
+          "Bu politika iPhone ve iPad için SaveTag uygulamasını, paylaşım eklentisini, Ana Ekran widget'ını ve Siri kısayollarını kapsar. Android'de de bu veriler aynı şekilde yalnızca cihazınızda kalır."
         ],
         [
           "Neleri topluyoruz",
@@ -198,7 +198,7 @@
         ],
         [
           "Kayıtlarınız nerede durur",
-          "Bağlantılar, başlıklar, açıklamalar, notlar, etiketler, konular ve ayarlar SaveTag'in cihazdaki deposunda kalır ve aynı cihazda Apple'ın app group yapısı üzerinden paylaşım eklentisi ve widget ile paylaşılır. Uygulamaya girilen veriler, uygulama kullanıcı tarafından başlatılan bir dışa aktarma veya paylaşma özelliği açıkça sunmadıkça kullanıcının cihazında kalır."
+          "Bağlantılar, başlıklar, açıklamalar, notlar, etiketler, konular ve ayarlar SaveTag'in cihazdaki deposunda kalır ve aynı cihazda Apple'ın app group yapısı üzerinden paylaşım eklentisi ve widget ile paylaşılır. Uygulamaya girilen veriler, uygulama kullanıcı tarafından başlatılan bir dışa aktarma veya paylaşma özelliği açıkça sunmadıkça kullanıcının cihazında kalır. Android'de de bu veriler aynı şekilde yalnızca cihazınızda kalır."
         ],
         [
           "Bağlantı önizlemeleri",
@@ -210,11 +210,11 @@
         ],
         [
           "Satın alımlar",
-          "Pro, App Store üzerinden tamamen Apple tarafından işlenen tek seferlik bir satın almadır ve Aile İçi Paylaşım'ı destekler. Ödeme bilgilerinizi hiçbir zaman görmez veya saklamayız; uygulama Apple'dan yalnızca satın almanın var olup olmadığını öğrenir ve kilidin açıldığını cihazınıza yerel olarak kaydeder. Geri yükleme bize değil, Apple'a sorar."
+          "Pro, App Store üzerinden tamamen Apple tarafından işlenen tek seferlik bir satın almadır ve Aile İçi Paylaşım'ı destekler. Ödeme bilgilerinizi hiçbir zaman görmez veya saklamayız; uygulama Apple'dan yalnızca satın almanın var olup olmadığını öğrenir ve kilidin açıldığını cihazınıza yerel olarak kaydeder. Geri yükleme bize değil, Apple'a sorar. Android'de bu satın alma işlemi App Store yerine Google Play tarafından işlenir ve ödeme bilgilerinizi orada da almayız ya da saklamayız."
         ],
         [
           "Dışa aktarma ve paylaşma",
-          "Markdown dışa aktarma ve yedek dosyası cihazınızda oluşturulur ve iOS paylaşım sayfasıyla gönderdiğiniz yere gider. Dosya SaveTag'den çıktıktan sonra seçtiğiniz uygulama veya hizmet tarafından, onun kendi gizlilik politikası uyarınca işlenir."
+          "Markdown dışa aktarma ve yedek dosyası cihazınızda oluşturulur ve iOS paylaşım sayfasıyla gönderdiğiniz yere gider. Dosya SaveTag'den çıktıktan sonra seçtiğiniz uygulama veya hizmet tarafından, onun kendi gizlilik politikası uyarınca işlenir. Android'de de bu veriler aynı şekilde yalnızca cihazınızda kalır."
         ],
         [
           "Çocuklar",
@@ -274,11 +274,11 @@
         ],
         [
           "Co je zdarma a co přidává Pro?",
-          "Bezplatná verze má všechny funkce a uchová vašich 5 posledních uložení. Pro je jednorázový nákup, který odemkne neomezená uložení, vlastní štítky a export a zálohu v Markdownu, a funguje s Rodinným sdílením. SaveTag nemá žádné předplatné."
+          "Bezplatná verze má všechny funkce a uchová vašich 5 posledních uložení. Pro je jednorázový nákup, který odemkne neomezená uložení, vlastní štítky a export a zálohu v Markdownu, a funguje s Rodinným sdílením. SaveTag nemá žádné předplatné. V systému Android tento nákup zpracovává Google Play místo App Store, a ani tam neuchováváme žádné platební údaje."
         ],
         [
           "Koupil jsem Pro, ale na novém zařízení je zamčené.",
-          "Otevřete v SaveTag Nastavení a klepněte na Obnovit nákup, když jste přihlášeni účtem Apple, kterým jste nakupovali. SaveTag nemá vlastní účet — záznam o nákupu drží Apple a obnovení je zdarma a bez omezení."
+          "Otevřete v SaveTag Nastavení a klepněte na Obnovit nákup, když jste přihlášeni účtem Apple, kterým jste nakupovali. SaveTag nemá vlastní účet — záznam o nákupu drží Apple a obnovení je zdarma a bez omezení. V systému Android tento nákup zpracovává Google Play místo App Store, a ani tam neuchováváme žádné platební údaje."
         ],
         [
           "Kde jsou má uložení uložena?",
@@ -286,11 +286,11 @@
         ],
         [
           "Jak exportuji knihovnu nebo ji přenesu jinam?",
-          "S Pro exportujete celou knihovnu jako soubor Markdown přes nabídku sdílení v iOS; ten soubor slouží zároveň jako záloha, kterou si můžete nechat nebo přenést na jiné zařízení. Vzniká ve vašem zařízení a putuje jen tam, kam ho pošlete."
+          "S Pro exportujete celou knihovnu jako soubor Markdown přes nabídku sdílení v iOS; ten soubor slouží zároveň jako záloha, kterou si můžete nechat nebo přenést na jiné zařízení. Vzniká ve vašem zařízení a putuje jen tam, kam ho pošlete. V systému Android zůstávají tato data stejným způsobem pouze ve vašem zařízení."
         ],
         [
           "Co dělá widget a zkratky Siri?",
-          "Widget na ploše ukazuje naposledy uložené položky a to, co čeká v Rediscover. Zkratky Siri umožní uložit odkaz ze schránky nebo otevřít Rediscover hlasem, bez hledání v nabídkách."
+          "Widget na ploše ukazuje naposledy uložené položky a to, co čeká v Rediscover. Zkratky Siri umožní uložit odkaz ze schránky nebo otevřít Rediscover hlasem, bez hledání v nabídkách. V systému Android zůstávají tato data stejným způsobem pouze ve vašem zařízení."
         ]
       ],
       "cT": "Potřebujete ještě pomoct?",
@@ -306,7 +306,7 @@
       "sec": [
         [
           "Koho se zásady týkají",
-          "Tyto zásady platí pro aplikaci SaveTag pro iPhone a iPad spolu s jejím rozšířením pro sdílení, widgetem na ploše a zkratkami Siri."
+          "Tyto zásady platí pro aplikaci SaveTag pro iPhone a iPad spolu s jejím rozšířením pro sdílení, widgetem na ploše a zkratkami Siri. V systému Android zůstávají tato data stejným způsobem pouze ve vašem zařízení."
         ],
         [
           "Jaké údaje shromažďujeme",
@@ -314,7 +314,7 @@
         ],
         [
           "Kde vaše uložení žijí",
-          "Odkazy, titulky, popisy, poznámky, štítky, témata a nastavení zůstávají v úložišti SaveTag v zařízení a jsou tam sdílené s rozšířením pro sdílení a widgetem prostřednictvím app group od Apple. Údaje zadané v aplikaci zůstávají v zařízení uživatele, pokud aplikace jasně nenabízí funkci exportu nebo sdílení, kterou spustí sám uživatel."
+          "Odkazy, titulky, popisy, poznámky, štítky, témata a nastavení zůstávají v úložišti SaveTag v zařízení a jsou tam sdílené s rozšířením pro sdílení a widgetem prostřednictvím app group od Apple. Údaje zadané v aplikaci zůstávají v zařízení uživatele, pokud aplikace jasně nenabízí funkci exportu nebo sdílení, kterou spustí sám uživatel. V systému Android zůstávají tato data stejným způsobem pouze ve vašem zařízení."
         ],
         [
           "Náhledy odkazů",
@@ -326,11 +326,11 @@
         ],
         [
           "Nákupy",
-          "Pro je jednorázový nákup, který kompletně zpracovává Apple přes App Store, a podporuje Rodinné sdílení. Vaše platební údaje nikdy nevidíme ani neukládáme; aplikace se od Applu dozví jen to, zda nákup existuje, a odemčení si poznamená lokálně v zařízení. Obnovení nákupu se ptá Applu, ne nás."
+          "Pro je jednorázový nákup, který kompletně zpracovává Apple přes App Store, a podporuje Rodinné sdílení. Vaše platební údaje nikdy nevidíme ani neukládáme; aplikace se od Applu dozví jen to, zda nákup existuje, a odemčení si poznamená lokálně v zařízení. Obnovení nákupu se ptá Applu, ne nás. V systému Android tento nákup zpracovává Google Play místo App Store, a ani tam neuchováváme žádné platební údaje."
         ],
         [
           "Export a sdílení",
-          "Soubor Markdown pro export a zálohu vzniká ve vašem zařízení a putuje tam, kam ho pošlete přes nabídku sdílení v iOS. Jakmile soubor opustí SaveTag, nakládá s ním vámi zvolená aplikace nebo služba podle vlastních zásad ochrany soukromí."
+          "Soubor Markdown pro export a zálohu vzniká ve vašem zařízení a putuje tam, kam ho pošlete přes nabídku sdílení v iOS. Jakmile soubor opustí SaveTag, nakládá s ním vámi zvolená aplikace nebo služba podle vlastních zásad ochrany soukromí. V systému Android zůstávají tato data stejným způsobem pouze ve vašem zařízení."
         ],
         [
           "Děti",

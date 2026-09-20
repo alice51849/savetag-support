@@ -42,11 +42,11 @@
         ],
         [
           "Que contient la version gratuite et qu'ajoute Pro?",
-          "La version gratuite offre toutes les fonctions et conserve vos 5 derniers enregistrements. Pro est un achat unique qui débloque les enregistrements illimités, les étiquettes personnalisées, l'exportation Markdown et la sauvegarde, et il fonctionne avec le partage familial. SaveTag n'a aucun abonnement."
+          "La version gratuite offre toutes les fonctions et conserve vos 5 derniers enregistrements. Pro est un achat unique qui débloque les enregistrements illimités, les étiquettes personnalisées, l'exportation Markdown et la sauvegarde, et il fonctionne avec le partage familial. SaveTag n'a aucun abonnement. Sur Android, cet achat est traité par Google Play au lieu de l'App Store, et nous ne recevons ni ne conservons jamais vos informations de paiement."
         ],
         [
           "J'ai acheté Pro, mais mon nouvel appareil l'affiche verrouillé.",
-          "Ouvrez les réglages de SaveTag et touchez Restaurer les achats, en étant connecté avec le compte Apple utilisé lors de l'achat. SaveTag n'a pas de compte propre : Apple conserve la preuve d'achat, et la restauration est gratuite et illimitée."
+          "Ouvrez les réglages de SaveTag et touchez Restaurer les achats, en étant connecté avec le compte Apple utilisé lors de l'achat. SaveTag n'a pas de compte propre : Apple conserve la preuve d'achat, et la restauration est gratuite et illimitée. Sur Android, cet achat est traité par Google Play au lieu de l'App Store, et nous ne recevons ni ne conservons jamais vos informations de paiement."
         ],
         [
           "Où mes enregistrements sont-ils conservés?",
@@ -54,11 +54,11 @@
         ],
         [
           "Comment exporter ma bibliothèque ou la transférer?",
-          "Avec Pro, exportez toute la bibliothèque en fichier Markdown au moyen de la fenêtre de partage iOS; ce fichier sert aussi de sauvegarde à conserver ou à transporter sur un autre appareil. Il est créé sur votre appareil et ne va que là où vous l'envoyez."
+          "Avec Pro, exportez toute la bibliothèque en fichier Markdown au moyen de la fenêtre de partage iOS; ce fichier sert aussi de sauvegarde à conserver ou à transporter sur un autre appareil. Il est créé sur votre appareil et ne va que là où vous l'envoyez. Sur Android, ces données restent de la même façon sur votre appareil."
         ],
         [
           "À quoi servent le widget et les raccourcis Siri?",
-          "Le widget de l'écran d'accueil affiche vos enregistrements les plus récents et ce qui attend dans Rediscover. Les raccourcis Siri permettent d'enregistrer le lien du presse-papiers ou d'ouvrir Rediscover à la voix, sans parcourir de menus."
+          "Le widget de l'écran d'accueil affiche vos enregistrements les plus récents et ce qui attend dans Rediscover. Les raccourcis Siri permettent d'enregistrer le lien du presse-papiers ou d'ouvrir Rediscover à la voix, sans parcourir de menus. Sur Android, ces données restent de la même façon sur votre appareil."
         ]
       ],
       "cT": "Encore une question?",
@@ -74,7 +74,7 @@
       "sec": [
         [
           "Portée de la politique",
-          "Cette politique vise l'application SaveTag pour iPhone et iPad, ainsi que son extension de partage, son widget d'écran d'accueil et ses raccourcis Siri."
+          "Cette politique vise l'application SaveTag pour iPhone et iPad, ainsi que son extension de partage, son widget d'écran d'accueil et ses raccourcis Siri. Sur Android, ces données restent de la même façon sur votre appareil."
         ],
         [
           "Ce que nous recueillons",
@@ -82,7 +82,7 @@
         ],
         [
           "Où résident vos enregistrements",
-          "Liens, titres, descriptions, notes, étiquettes, thèmes et réglages demeurent dans le stockage local de SaveTag et sont partagés avec l'extension de partage et le widget au moyen de l'app group d'Apple, sur le même appareil. Les données saisies dans l'application restent sur l'appareil de l'utilisateur, sauf si l'application offre clairement une fonction d'exportation ou de partage lancée par l'utilisateur."
+          "Liens, titres, descriptions, notes, étiquettes, thèmes et réglages demeurent dans le stockage local de SaveTag et sont partagés avec l'extension de partage et le widget au moyen de l'app group d'Apple, sur le même appareil. Les données saisies dans l'application restent sur l'appareil de l'utilisateur, sauf si l'application offre clairement une fonction d'exportation ou de partage lancée par l'utilisateur. Sur Android, ces données restent de la même façon sur votre appareil."
         ],
         [
           "Aperçus de liens",
@@ -94,11 +94,11 @@
         ],
         [
           "Achats",
-          "Pro est un achat unique entièrement traité par Apple dans l'App Store, avec prise en charge du partage familial. Nous ne voyons ni ne conservons vos renseignements de paiement; l'application apprend seulement d'Apple si l'achat existe et inscrit le déverrouillage localement sur votre appareil. La restauration interroge Apple, pas nous."
+          "Pro est un achat unique entièrement traité par Apple dans l'App Store, avec prise en charge du partage familial. Nous ne voyons ni ne conservons vos renseignements de paiement; l'application apprend seulement d'Apple si l'achat existe et inscrit le déverrouillage localement sur votre appareil. La restauration interroge Apple, pas nous. Sur Android, cet achat est traité par Google Play au lieu de l'App Store, et nous ne recevons ni ne conservons jamais vos informations de paiement."
         ],
         [
           "Exportation et partage",
-          "Le fichier Markdown d'exportation et de sauvegarde est créé sur votre appareil et se rend là où vous l'envoyez au moyen de la fenêtre de partage iOS. Une fois sorti de SaveTag, il est traité par l'application ou le service que vous avez choisi, selon la politique de ce dernier."
+          "Le fichier Markdown d'exportation et de sauvegarde est créé sur votre appareil et se rend là où vous l'envoyez au moyen de la fenêtre de partage iOS. Une fois sorti de SaveTag, il est traité par l'application ou le service que vous avez choisi, selon la politique de ce dernier. Sur Android, ces données restent de la même façon sur votre appareil."
         ],
         [
           "Enfants",
@@ -158,11 +158,11 @@
         ],
         [
           "¿Qué es gratis y qué añade Pro?",
-          "La versión gratuita tiene todas las funciones y conserva tus últimos 5 elementos guardados. Pro es una compra única que desbloquea elementos ilimitados, etiquetas personalizadas y la exportación y copia de seguridad en Markdown, y funciona con Compartir en familia. SaveTag no tiene ninguna suscripción."
+          "La versión gratuita tiene todas las funciones y conserva tus últimos 5 elementos guardados. Pro es una compra única que desbloquea elementos ilimitados, etiquetas personalizadas y la exportación y copia de seguridad en Markdown, y funciona con Compartir en familia. SaveTag no tiene ninguna suscripción. En Android, esta compra la procesa Google Play en lugar de la App Store, y tampoco recibimos ni almacenamos los datos de pago."
         ],
         [
           "Compré Pro, pero en un dispositivo nuevo aparece bloqueado.",
-          "Abre los ajustes de SaveTag y toca Restaurar compra con la sesión iniciada en la cuenta de Apple con la que compraste. SaveTag no tiene cuenta propia: Apple guarda el registro de la compra y restaurarla es gratis e ilimitado."
+          "Abre los ajustes de SaveTag y toca Restaurar compra con la sesión iniciada en la cuenta de Apple con la que compraste. SaveTag no tiene cuenta propia: Apple guarda el registro de la compra y restaurarla es gratis e ilimitado. En Android, esta compra la procesa Google Play en lugar de la App Store, y tampoco recibimos ni almacenamos los datos de pago."
         ],
         [
           "¿Dónde se guardan mis enlaces?",
@@ -170,11 +170,11 @@
         ],
         [
           "¿Cómo exporto mi biblioteca o la llevo a otro dispositivo?",
-          "Con Pro puedes exportar toda la biblioteca como archivo Markdown mediante la hoja de compartir de iOS; ese archivo sirve también como copia de seguridad que puedes conservar o llevar a otro dispositivo. Se crea en tu dispositivo y solo va adonde tú lo envíes."
+          "Con Pro puedes exportar toda la biblioteca como archivo Markdown mediante la hoja de compartir de iOS; ese archivo sirve también como copia de seguridad que puedes conservar o llevar a otro dispositivo. Se crea en tu dispositivo y solo va adonde tú lo envíes. En Android, estos datos permanecen igualmente en tu dispositivo."
         ],
         [
           "¿Qué hacen el widget y los atajos de Siri?",
-          "El widget de la pantalla de inicio muestra lo último que guardaste y lo que espera en Rediscover. Con los atajos de Siri puedes guardar el enlace del portapapeles o abrir Rediscover con la voz, sin buscar por los menús."
+          "El widget de la pantalla de inicio muestra lo último que guardaste y lo que espera en Rediscover. Con los atajos de Siri puedes guardar el enlace del portapapeles o abrir Rediscover con la voz, sin buscar por los menús. En Android, estos datos permanecen igualmente en tu dispositivo."
         ]
       ],
       "cT": "¿Te seguimos echando una mano?",
@@ -190,7 +190,7 @@
       "sec": [
         [
           "A qué se aplica esta política",
-          "Esta política se aplica a la app SaveTag para iPhone y iPad, junto con su extensión de compartir, su widget de pantalla de inicio y sus atajos de Siri."
+          "Esta política se aplica a la app SaveTag para iPhone y iPad, junto con su extensión de compartir, su widget de pantalla de inicio y sus atajos de Siri. En Android, estos datos permanecen igualmente en tu dispositivo."
         ],
         [
           "Qué recopilamos",
@@ -198,7 +198,7 @@
         ],
         [
           "Dónde viven tus enlaces guardados",
-          "Enlaces, títulos, descripciones, notas, etiquetas, temas y ajustes se quedan en el almacenamiento local de SaveTag y se comparten con la extensión de compartir y el widget mediante el app group de Apple, en el mismo dispositivo. Los datos introducidos en la app permanecen en el dispositivo del usuario, salvo que la app ofrezca claramente una función de exportación o compartición iniciada por el usuario."
+          "Enlaces, títulos, descripciones, notas, etiquetas, temas y ajustes se quedan en el almacenamiento local de SaveTag y se comparten con la extensión de compartir y el widget mediante el app group de Apple, en el mismo dispositivo. Los datos introducidos en la app permanecen en el dispositivo del usuario, salvo que la app ofrezca claramente una función de exportación o compartición iniciada por el usuario. En Android, estos datos permanecen igualmente en tu dispositivo."
         ],
         [
           "Vistas previas de enlaces",
@@ -210,11 +210,11 @@
         ],
         [
           "Compras",
-          "Pro es una compra única que gestiona íntegramente Apple a través del App Store y admite Compartir en familia. Nunca vemos ni almacenamos tus datos de pago; la app solo sabe por Apple si la compra existe y registra el desbloqueo localmente en tu dispositivo. Restaurar la compra pregunta a Apple, no a nosotros."
+          "Pro es una compra única que gestiona íntegramente Apple a través del App Store y admite Compartir en familia. Nunca vemos ni almacenamos tus datos de pago; la app solo sabe por Apple si la compra existe y registra el desbloqueo localmente en tu dispositivo. Restaurar la compra pregunta a Apple, no a nosotros. En Android, esta compra la procesa Google Play en lugar de la App Store, y tampoco recibimos ni almacenamos los datos de pago."
         ],
         [
           "Exportación y compartición",
-          "El archivo Markdown de exportación y copia de seguridad se crea en tu dispositivo y llega adonde lo envíes con la hoja de compartir de iOS. Cuando el archivo sale de SaveTag, lo maneja la app o el servicio que hayas elegido, bajo su propia política de privacidad."
+          "El archivo Markdown de exportación y copia de seguridad se crea en tu dispositivo y llega adonde lo envíes con la hoja de compartir de iOS. Cuando el archivo sale de SaveTag, lo maneja la app o el servicio que hayas elegido, bajo su propia política de privacidad. En Android, estos datos permanecen igualmente en tu dispositivo."
         ],
         [
           "Menores",

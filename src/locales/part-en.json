@@ -42,11 +42,11 @@
         ],
         [
           "What is free, and what does Pro add?",
-          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind."
+          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "I bought Pro, but a new device shows it locked.",
-          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited."
+          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "Where are my saves stored?",
@@ -54,11 +54,11 @@
         ],
         [
           "How do I export my library or move it to another device?",
-          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it."
+          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it. On Android, this data stays on your device in the same way."
         ],
         [
           "What do the widget and the Siri shortcuts do?",
-          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus."
+          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus. On Android, this data stays on your device in the same way."
         ]
       ],
       "cT": "Still need a hand?",
@@ -74,7 +74,7 @@
       "sec": [
         [
           "Who this policy covers",
-          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts."
+          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts. On Android, this data stays on your device in the same way."
         ],
         [
           "What we collect",
@@ -82,7 +82,7 @@
         ],
         [
           "Where your saves live",
-          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user."
+          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user. On Android, this data stays on your device in the same way."
         ],
         [
           "Link previews",
@@ -94,11 +94,11 @@
         ],
         [
           "Purchases",
-          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
+          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "Export and sharing",
-          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy."
+          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy. On Android, this data stays on your device in the same way."
         ],
         [
           "Children",
@@ -158,11 +158,11 @@
         ],
         [
           "What is free, and what does Pro add?",
-          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind."
+          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "I bought Pro, but a new device shows it locked.",
-          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited."
+          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "Where are my saves stored?",
@@ -170,11 +170,11 @@
         ],
         [
           "How do I export my library or move it to another device?",
-          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it."
+          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it. On Android, this data stays on your device in the same way."
         ],
         [
           "What do the widget and the Siri shortcuts do?",
-          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus."
+          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus. On Android, this data stays on your device in the same way."
         ]
       ],
       "cT": "Still need a hand?",
@@ -190,7 +190,7 @@
       "sec": [
         [
           "Who this policy covers",
-          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts."
+          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts. On Android, this data stays on your device in the same way."
         ],
         [
           "What we collect",
@@ -198,7 +198,7 @@
         ],
         [
           "Where your saves live",
-          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user."
+          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user. On Android, this data stays on your device in the same way."
         ],
         [
           "Link previews",
@@ -210,11 +210,11 @@
         ],
         [
           "Purchases",
-          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
+          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "Export and sharing",
-          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy."
+          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy. On Android, this data stays on your device in the same way."
         ],
         [
           "Children",
@@ -274,11 +274,11 @@
         ],
         [
           "What is free, and what does Pro add?",
-          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind."
+          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "I bought Pro, but a new device shows it locked.",
-          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited."
+          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "Where are my saves stored?",
@@ -286,11 +286,11 @@
         ],
         [
           "How do I export my library or move it to another device?",
-          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it."
+          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it. On Android, this data stays on your device in the same way."
         ],
         [
           "What do the widget and the Siri shortcuts do?",
-          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus."
+          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus. On Android, this data stays on your device in the same way."
         ]
       ],
       "cT": "Still need a hand?",
@@ -306,7 +306,7 @@
       "sec": [
         [
           "Who this policy covers",
-          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts."
+          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts. On Android, this data stays on your device in the same way."
         ],
         [
           "What we collect",
@@ -314,7 +314,7 @@
         ],
         [
           "Where your saves live",
-          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user."
+          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user. On Android, this data stays on your device in the same way."
         ],
         [
           "Link previews",
@@ -326,11 +326,11 @@
         ],
         [
           "Purchases",
-          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
+          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "Export and sharing",
-          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy."
+          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy. On Android, this data stays on your device in the same way."
         ],
         [
           "Children",
@@ -390,11 +390,11 @@
         ],
         [
           "What is free, and what does Pro add?",
-          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind."
+          "The free version has every feature and keeps your latest 5 saves. Pro is a one-time purchase that unlocks unlimited saves, custom tags, and Markdown export and backup, and it is included in Family Sharing. SaveTag has no subscription of any kind. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "I bought Pro, but a new device shows it locked.",
-          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited."
+          "Open Settings in SaveTag and tap Restore purchase while signed in with the Apple Account you bought it with. SaveTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "Where are my saves stored?",
@@ -402,11 +402,11 @@
         ],
         [
           "How do I export my library or move it to another device?",
-          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it."
+          "Pro exports the whole library as a Markdown file through the iOS share sheet, which doubles as a backup you can keep or carry to another device. The file is created on your device and goes only where you send it. On Android, this data stays on your device in the same way."
         ],
         [
           "What do the widget and the Siri shortcuts do?",
-          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus."
+          "The Home Screen widget shows what you saved most recently and what is waiting in Rediscover. The Siri shortcuts let you save the link on your clipboard or open Rediscover hands-free, without hunting through menus. On Android, this data stays on your device in the same way."
         ]
       ],
       "cT": "Still need a hand?",
@@ -422,7 +422,7 @@
       "sec": [
         [
           "Who this policy covers",
-          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts."
+          "This policy applies to the SaveTag app for iPhone and iPad, together with its share extension, its Home Screen widget and its Siri shortcuts. On Android, this data stays on your device in the same way."
         ],
         [
           "What we collect",
@@ -430,7 +430,7 @@
         ],
         [
           "Where your saves live",
-          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user."
+          "Links, titles, descriptions, notes, tags, topics and settings stay in SaveTag's on-device storage, shared with the share extension and the widget through Apple's app group on the same device. Data entered in the app stays on the user's device unless the app clearly provides an export or sharing feature initiated by the user. On Android, this data stays on your device in the same way."
         ],
         [
           "Link previews",
@@ -442,11 +442,11 @@
         ],
         [
           "Purchases",
-          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
+          "Pro is a one-time purchase handled entirely by Apple through the App Store, and it is included in Family Sharing. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us. On Android, this purchase is processed by Google Play instead of the App Store, and we still never receive or store payment details."
         ],
         [
           "Export and sharing",
-          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy."
+          "The Markdown export and backup file is created on your device and goes wherever you send it through the iOS share sheet. Once a file leaves SaveTag it is handled by whichever app or service you chose, under that provider's own privacy policy. On Android, this data stays on your device in the same way."
         ],
         [
           "Children",

@@ -42,11 +42,11 @@
         ],
         [
           "Ce este gratuit și ce aduce Pro?",
-          "Versiunea gratuită are toate funcțiile și păstrează ultimele tale 5 salvări. Pro este o achiziție unică ce deblochează salvări nelimitate, etichete personalizate, export și copie de rezervă în Markdown și funcționează cu Partajarea în familie. SaveTag nu are niciun abonament."
+          "Versiunea gratuită are toate funcțiile și păstrează ultimele tale 5 salvări. Pro este o achiziție unică ce deblochează salvări nelimitate, etichete personalizate, export și copie de rezervă în Markdown și funcționează cu Partajarea în familie. SaveTag nu are niciun abonament. Pe Android, această achiziție este procesată de Google Play în loc de App Store, și nici acolo nu primim sau stocăm date de plată."
         ],
         [
           "Am cumpărat Pro, dar pe un dispozitiv nou apare blocat.",
-          "Deschide Configurări în SaveTag și atinge Restaurează achiziția, fiind autentificat cu contul Apple cu care ai cumpărat. SaveTag nu are cont propriu — evidența achiziției o ține Apple, iar restaurarea este gratuită și nelimitată."
+          "Deschide Configurări în SaveTag și atinge Restaurează achiziția, fiind autentificat cu contul Apple cu care ai cumpărat. SaveTag nu are cont propriu — evidența achiziției o ține Apple, iar restaurarea este gratuită și nelimitată. Pe Android, această achiziție este procesată de Google Play în loc de App Store, și nici acolo nu primim sau stocăm date de plată."
         ],
         [
           "Unde sunt stocate salvările mele?",
@@ -54,11 +54,11 @@
         ],
         [
           "Cum export biblioteca sau o mut pe alt dispozitiv?",
-          "Cu Pro exporți întreaga bibliotecă drept fișier Markdown prin fereastra de partajare iOS; acel fișier este în același timp o copie de rezervă pe care o poți păstra sau muta pe alt dispozitiv. Se creează pe dispozitivul tău și ajunge doar unde îl trimiți."
+          "Cu Pro exporți întreaga bibliotecă drept fișier Markdown prin fereastra de partajare iOS; acel fișier este în același timp o copie de rezervă pe care o poți păstra sau muta pe alt dispozitiv. Se creează pe dispozitivul tău și ajunge doar unde îl trimiți. Pe Android, aceste date rămân în același mod doar pe dispozitivul tău."
         ],
         [
           "Ce fac widgetul și scurtăturile Siri?",
-          "Widgetul de pe ecranul principal arată ce ai salvat recent și ce te așteaptă în Rediscover. Cu scurtăturile Siri salvezi linkul din clipboard sau deschizi Rediscover prin voce, fără să cauți prin meniuri."
+          "Widgetul de pe ecranul principal arată ce ai salvat recent și ce te așteaptă în Rediscover. Cu scurtăturile Siri salvezi linkul din clipboard sau deschizi Rediscover prin voce, fără să cauți prin meniuri. Pe Android, aceste date rămân în același mod doar pe dispozitivul tău."
         ]
       ],
       "cT": "Mai ai nevoie de ajutor?",
@@ -74,7 +74,7 @@
       "sec": [
         [
           "Cui se aplică această politică",
-          "Această politică se aplică aplicației SaveTag pentru iPhone și iPad, împreună cu extensia sa de partajare, widgetul de pe ecranul principal și scurtăturile Siri."
+          "Această politică se aplică aplicației SaveTag pentru iPhone și iPad, împreună cu extensia sa de partajare, widgetul de pe ecranul principal și scurtăturile Siri. Pe Android, aceste date rămân în același mod doar pe dispozitivul tău."
         ],
         [
           "Ce colectăm",
@@ -82,7 +82,7 @@
         ],
         [
           "Unde stau salvările tale",
-          "Linkurile, titlurile, descrierile, notițele, etichetele, subiectele și configurările rămân în spațiul de stocare al SaveTag de pe dispozitiv și sunt împărțite acolo cu extensia de partajare și cu widgetul prin app group de la Apple. Datele introduse în aplicație rămân pe dispozitivul utilizatorului, cu excepția cazului în care aplicația oferă clar o funcție de export sau de partajare pornită de utilizator."
+          "Linkurile, titlurile, descrierile, notițele, etichetele, subiectele și configurările rămân în spațiul de stocare al SaveTag de pe dispozitiv și sunt împărțite acolo cu extensia de partajare și cu widgetul prin app group de la Apple. Datele introduse în aplicație rămân pe dispozitivul utilizatorului, cu excepția cazului în care aplicația oferă clar o funcție de export sau de partajare pornită de utilizator. Pe Android, aceste date rămân în același mod doar pe dispozitivul tău."
         ],
         [
           "Previzualizări de linkuri",
@@ -94,11 +94,11 @@
         ],
         [
           "Achiziții",
-          "Pro este o achiziție unică procesată integral de Apple prin App Store și acceptă Partajarea în familie. Nu vedem și nu stocăm niciodată datele tale de plată; aplicația află de la Apple doar dacă achiziția există și notează deblocarea local, pe dispozitiv. Restaurarea întreabă Apple, nu pe noi."
+          "Pro este o achiziție unică procesată integral de Apple prin App Store și acceptă Partajarea în familie. Nu vedem și nu stocăm niciodată datele tale de plată; aplicația află de la Apple doar dacă achiziția există și notează deblocarea local, pe dispozitiv. Restaurarea întreabă Apple, nu pe noi. Pe Android, această achiziție este procesată de Google Play în loc de App Store, și nici acolo nu primim sau stocăm date de plată."
         ],
         [
           "Export și partajare",
-          "Fișierul Markdown de export și copie de rezervă se creează pe dispozitivul tău și ajunge unde îl trimiți prin fereastra de partajare iOS. După ce iese din SaveTag, fișierul este gestionat de aplicația sau serviciul ales de tine, conform politicii proprii a acestuia."
+          "Fișierul Markdown de export și copie de rezervă se creează pe dispozitivul tău și ajunge unde îl trimiți prin fereastra de partajare iOS. După ce iese din SaveTag, fișierul este gestionat de aplicația sau serviciul ales de tine, conform politicii proprii a acestuia. Pe Android, aceste date rămân în același mod doar pe dispozitivul tău."
         ],
         [
           "Copii",
@@ -158,11 +158,11 @@
         ],
         [
           "Що безкоштовно, а що додає Pro?",
-          "Безкоштовна версія має всі функції та зберігає 5 останніх записів. Pro — це разова покупка, яка знімає обмеження на кількість збережень і відкриває власні теги, експорт і резервну копію у форматі Markdown; підтримується «Родинний доступ». У SaveTag немає жодної підписки."
+          "Безкоштовна версія має всі функції та зберігає 5 останніх записів. Pro — це разова покупка, яка знімає обмеження на кількість збережень і відкриває власні теги, експорт і резервну копію у форматі Markdown; підтримується «Родинний доступ». У SaveTag немає жодної підписки. На Android цю покупку обробляє Google Play замість App Store, і там ми так само не отримуємо й не зберігаємо дані про оплату."
         ],
         [
           "Я купив Pro, але на новому пристрої все заблоковано.",
-          "Відкрийте налаштування SaveTag і торкніться «Відновити покупку», увійшовши тим самим обліковим записом Apple, яким купували. Власних облікових записів SaveTag не має — запис про покупку зберігає Apple, а відновлення безкоштовне й необмежене."
+          "Відкрийте налаштування SaveTag і торкніться «Відновити покупку», увійшовши тим самим обліковим записом Apple, яким купували. Власних облікових записів SaveTag не має — запис про покупку зберігає Apple, а відновлення безкоштовне й необмежене. На Android цю покупку обробляє Google Play замість App Store, і там ми так само не отримуємо й не зберігаємо дані про оплату."
         ],
         [
           "Де зберігаються мої записи?",
@@ -170,11 +170,11 @@
         ],
         [
           "Як експортувати бібліотеку або перенести її?",
-          "У Pro вся бібліотека експортується у файл Markdown через меню надсилання iOS; цей файл водночас є резервною копією, яку можна зберегти або перенести на інший пристрій. Файл створюється на вашому пристрої й потрапляє лише туди, куди ви його надішлете."
+          "У Pro вся бібліотека експортується у файл Markdown через меню надсилання iOS; цей файл водночас є резервною копією, яку можна зберегти або перенести на інший пристрій. Файл створюється на вашому пристрої й потрапляє лише туди, куди ви його надішлете. На Android ці дані так само залишаються лише на вашому пристрої."
         ],
         [
           "Що роблять віджет і команди Siri?",
-          "Віджет на екрані «Домівка» показує останні збереження та те, що чекає в Rediscover. Команди Siri дають змогу зберегти посилання з буфера обміну або відкрити Rediscover голосом, не шукаючи в меню."
+          "Віджет на екрані «Домівка» показує останні збереження та те, що чекає в Rediscover. Команди Siri дають змогу зберегти посилання з буфера обміну або відкрити Rediscover голосом, не шукаючи в меню. На Android ці дані так само залишаються лише на вашому пристрої."
         ]
       ],
       "cT": "Залишилися питання?",
@@ -190,7 +190,7 @@
       "sec": [
         [
           "На що поширюється політика",
-          "Ця політика стосується застосунку SaveTag для iPhone та iPad, а також його розширення надсилання, віджета екрана «Домівка» і команд Siri."
+          "Ця політика стосується застосунку SaveTag для iPhone та iPad, а також його розширення надсилання, віджета екрана «Домівка» і команд Siri. На Android ці дані так само залишаються лише на вашому пристрої."
         ],
         [
           "Які дані ми збираємо",
@@ -198,7 +198,7 @@
         ],
         [
           "Де зберігаються ваші записи",
-          "Посилання, заголовки, описи, нотатки, теги, теми та налаштування залишаються у сховищі SaveTag на пристрої й доступні розширенню надсилання та віджету через app group Apple у межах того самого пристрою. Дані, введені в застосунку, залишаються на пристрої користувача, якщо застосунок не пропонує чітку функцію експорту чи надсилання, яку запускає сам користувач."
+          "Посилання, заголовки, описи, нотатки, теги, теми та налаштування залишаються у сховищі SaveTag на пристрої й доступні розширенню надсилання та віджету через app group Apple у межах того самого пристрою. Дані, введені в застосунку, залишаються на пристрої користувача, якщо застосунок не пропонує чітку функцію експорту чи надсилання, яку запускає сам користувач. На Android ці дані так само залишаються лише на вашому пристрої."
         ],
         [
           "Попередній перегляд посилань",
@@ -210,11 +210,11 @@
         ],
         [
           "Покупки",
-          "Pro — це разова покупка, яку повністю обробляє Apple через App Store, з підтримкою «Родинного доступу». Ми ніколи не бачимо й не зберігаємо ваші платіжні дані; застосунок дізнається від Apple лише про наявність покупки й записує розблокування локально на пристрої. Відновлення звертається до Apple, а не до нас."
+          "Pro — це разова покупка, яку повністю обробляє Apple через App Store, з підтримкою «Родинного доступу». Ми ніколи не бачимо й не зберігаємо ваші платіжні дані; застосунок дізнається від Apple лише про наявність покупки й записує розблокування локально на пристрої. Відновлення звертається до Apple, а не до нас. На Android цю покупку обробляє Google Play замість App Store, і там ми так само не отримуємо й не зберігаємо дані про оплату."
         ],
         [
           "Експорт і надсилання",
-          "Файл експорту та резервної копії у форматі Markdown створюється на вашому пристрої й потрапляє туди, куди ви його надішлете через меню надсилання iOS. Після того як файл залишив SaveTag, з ним працює вибраний вами застосунок або сервіс за власною політикою приватності."
+          "Файл експорту та резервної копії у форматі Markdown створюється на вашому пристрої й потрапляє туди, куди ви його надішлете через меню надсилання iOS. Після того як файл залишив SaveTag, з ним працює вибраний вами застосунок або сервіс за власною політикою приватності. На Android ці дані так само залишаються лише на вашому пристрої."
         ],
         [
           "Діти",
@@ -274,11 +274,11 @@
         ],
         [
           "Τι είναι δωρεάν και τι προσθέτει το Pro;",
-          "Η δωρεάν έκδοση έχει όλες τις δυνατότητες και διατηρεί τις 5 πιο πρόσφατες αποθηκεύσεις σας. Το Pro είναι μια εφάπαξ αγορά που ξεκλειδώνει απεριόριστες αποθηκεύσεις, προσαρμοσμένες ετικέτες, εξαγωγή και αντίγραφο ασφαλείας σε Markdown, και λειτουργεί με την Οικογενειακή κοινή χρήση. Το SaveTag δεν έχει καμία συνδρομή."
+          "Η δωρεάν έκδοση έχει όλες τις δυνατότητες και διατηρεί τις 5 πιο πρόσφατες αποθηκεύσεις σας. Το Pro είναι μια εφάπαξ αγορά που ξεκλειδώνει απεριόριστες αποθηκεύσεις, προσαρμοσμένες ετικέτες, εξαγωγή και αντίγραφο ασφαλείας σε Markdown, και λειτουργεί με την Οικογενειακή κοινή χρήση. Το SaveTag δεν έχει καμία συνδρομή. Στο Android, αυτή η αγορά επεξεργάζεται από το Google Play αντί για το App Store, και ούτε εκεί λαμβάνουμε ή αποθηκεύουμε στοιχεία πληρωμής."
         ],
         [
           "Αγόρασα το Pro, αλλά σε νέα συσκευή εμφανίζεται κλειδωμένο.",
-          "Ανοίξτε τις ρυθμίσεις στο SaveTag και πατήστε Επαναφορά αγοράς, ενώ έχετε συνδεθεί με τον λογαριασμό Apple με τον οποίο αγοράσατε. Το SaveTag δεν έχει δικό του λογαριασμό — την αγορά την κρατά η Apple και η επαναφορά είναι δωρεάν και απεριόριστη."
+          "Ανοίξτε τις ρυθμίσεις στο SaveTag και πατήστε Επαναφορά αγοράς, ενώ έχετε συνδεθεί με τον λογαριασμό Apple με τον οποίο αγοράσατε. Το SaveTag δεν έχει δικό του λογαριασμό — την αγορά την κρατά η Apple και η επαναφορά είναι δωρεάν και απεριόριστη. Στο Android, αυτή η αγορά επεξεργάζεται από το Google Play αντί για το App Store, και ούτε εκεί λαμβάνουμε ή αποθηκεύουμε στοιχεία πληρωμής."
         ],
         [
           "Πού αποθηκεύονται τα δεδομένα μου;",
@@ -286,11 +286,11 @@
         ],
         [
           "Πώς εξάγω τη βιβλιοθήκη μου ή τη μεταφέρω;",
-          "Με το Pro εξάγετε ολόκληρη τη βιβλιοθήκη ως αρχείο Markdown μέσω του φύλλου κοινής χρήσης του iOS. Το αρχείο λειτουργεί ταυτόχρονα ως αντίγραφο ασφαλείας που μπορείτε να κρατήσετε ή να μεταφέρετε σε άλλη συσκευή. Δημιουργείται στη συσκευή σας και πηγαίνει μόνο εκεί που το στέλνετε."
+          "Με το Pro εξάγετε ολόκληρη τη βιβλιοθήκη ως αρχείο Markdown μέσω του φύλλου κοινής χρήσης του iOS. Το αρχείο λειτουργεί ταυτόχρονα ως αντίγραφο ασφαλείας που μπορείτε να κρατήσετε ή να μεταφέρετε σε άλλη συσκευή. Δημιουργείται στη συσκευή σας και πηγαίνει μόνο εκεί που το στέλνετε. Στο Android, αυτά τα δεδομένα παραμένουν με τον ίδιο τρόπο μόνο στη συσκευή σας."
         ],
         [
           "Τι κάνουν το widget και οι συντομεύσεις Siri;",
-          "Το widget της οθόνης Αφετηρίας δείχνει τις πιο πρόσφατες αποθηκεύσεις και όσα περιμένουν στο Rediscover. Με τις συντομεύσεις Siri αποθηκεύετε τον σύνδεσμο του προχείρου ή ανοίγετε το Rediscover με τη φωνή, χωρίς να ψάχνετε σε μενού."
+          "Το widget της οθόνης Αφετηρίας δείχνει τις πιο πρόσφατες αποθηκεύσεις και όσα περιμένουν στο Rediscover. Με τις συντομεύσεις Siri αποθηκεύετε τον σύνδεσμο του προχείρου ή ανοίγετε το Rediscover με τη φωνή, χωρίς να ψάχνετε σε μενού. Στο Android, αυτά τα δεδομένα παραμένουν με τον ίδιο τρόπο μόνο στη συσκευή σας."
         ]
       ],
       "cT": "Χρειάζεστε κι άλλη βοήθεια;",
@@ -306,7 +306,7 @@
       "sec": [
         [
           "Ποιους αφορά η πολιτική",
-          "Η πολιτική αφορά την εφαρμογή SaveTag για iPhone και iPad, μαζί με την επέκταση κοινής χρήσης, το widget της οθόνης Αφετηρίας και τις συντομεύσεις Siri."
+          "Η πολιτική αφορά την εφαρμογή SaveTag για iPhone και iPad, μαζί με την επέκταση κοινής χρήσης, το widget της οθόνης Αφετηρίας και τις συντομεύσεις Siri. Στο Android, αυτά τα δεδομένα παραμένουν με τον ίδιο τρόπο μόνο στη συσκευή σας."
         ],
         [
           "Τι συλλέγουμε",
@@ -314,7 +314,7 @@
         ],
         [
           "Πού βρίσκονται τα αποθηκευμένα σας",
-          "Σύνδεσμοι, τίτλοι, περιγραφές, σημειώσεις, ετικέτες, θέματα και ρυθμίσεις παραμένουν στον αποθηκευτικό χώρο του SaveTag στη συσκευή και μοιράζονται εκεί με την επέκταση κοινής χρήσης και το widget μέσω του app group της Apple. Τα δεδομένα που εισάγονται στην εφαρμογή παραμένουν στη συσκευή του χρήστη, εκτός αν η εφαρμογή προσφέρει σαφώς λειτουργία εξαγωγής ή κοινής χρήσης που ξεκινά ο ίδιος ο χρήστης."
+          "Σύνδεσμοι, τίτλοι, περιγραφές, σημειώσεις, ετικέτες, θέματα και ρυθμίσεις παραμένουν στον αποθηκευτικό χώρο του SaveTag στη συσκευή και μοιράζονται εκεί με την επέκταση κοινής χρήσης και το widget μέσω του app group της Apple. Τα δεδομένα που εισάγονται στην εφαρμογή παραμένουν στη συσκευή του χρήστη, εκτός αν η εφαρμογή προσφέρει σαφώς λειτουργία εξαγωγής ή κοινής χρήσης που ξεκινά ο ίδιος ο χρήστης. Στο Android, αυτά τα δεδομένα παραμένουν με τον ίδιο τρόπο μόνο στη συσκευή σας."
         ],
         [
           "Προεπισκοπήσεις συνδέσμων",
@@ -326,11 +326,11 @@
         ],
         [
           "Αγορές",
-          "Το Pro είναι εφάπαξ αγορά που διεκπεραιώνεται εξ ολοκλήρου από την Apple μέσω του App Store και υποστηρίζει την Οικογενειακή κοινή χρήση. Δεν βλέπουμε ποτέ ούτε αποθηκεύουμε τα στοιχεία πληρωμής σας. Η εφαρμογή μαθαίνει από την Apple μόνο αν υπάρχει η αγορά και καταγράφει το ξεκλείδωμα τοπικά στη συσκευή. Η επαναφορά ρωτά την Apple, όχι εμάς."
+          "Το Pro είναι εφάπαξ αγορά που διεκπεραιώνεται εξ ολοκλήρου από την Apple μέσω του App Store και υποστηρίζει την Οικογενειακή κοινή χρήση. Δεν βλέπουμε ποτέ ούτε αποθηκεύουμε τα στοιχεία πληρωμής σας. Η εφαρμογή μαθαίνει από την Apple μόνο αν υπάρχει η αγορά και καταγράφει το ξεκλείδωμα τοπικά στη συσκευή. Η επαναφορά ρωτά την Apple, όχι εμάς. Στο Android, αυτή η αγορά επεξεργάζεται από το Google Play αντί για το App Store, και ούτε εκεί λαμβάνουμε ή αποθηκεύουμε στοιχεία πληρωμής."
         ],
         [
           "Εξαγωγή και κοινή χρήση",
-          "Το αρχείο Markdown για εξαγωγή και αντίγραφο ασφαλείας δημιουργείται στη συσκευή σας και πηγαίνει όπου το στείλετε μέσω του φύλλου κοινής χρήσης του iOS. Μόλις το αρχείο φύγει από το SaveTag, το διαχειρίζεται η εφαρμογή ή η υπηρεσία που επιλέξατε, σύμφωνα με τη δική της πολιτική απορρήτου."
+          "Το αρχείο Markdown για εξαγωγή και αντίγραφο ασφαλείας δημιουργείται στη συσκευή σας και πηγαίνει όπου το στείλετε μέσω του φύλλου κοινής χρήσης του iOS. Μόλις το αρχείο φύγει από το SaveTag, το διαχειρίζεται η εφαρμογή ή η υπηρεσία που επιλέξατε, σύμφωνα με τη δική της πολιτική απορρήτου. Στο Android, αυτά τα δεδομένα παραμένουν με τον ίδιο τρόπο μόνο στη συσκευή σας."
         ],
         [
           "Παιδιά",

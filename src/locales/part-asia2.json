@@ -42,11 +42,11 @@
         ],
         [
           "อะไรฟรี และ Pro เพิ่มอะไร",
-          "รุ่นฟรีมีครบทุกฟีเจอร์และเก็บรายการล่าสุด 5 รายการ ส่วน Pro เป็นการซื้อครั้งเดียวที่ปลดล็อกการบันทึกไม่จำกัด แท็กที่กำหนดเอง รวมถึงการส่งออกและสำรองข้อมูลแบบ Markdown และใช้กับการแชร์กันในครอบครัวได้ SaveTag ไม่มีการสมัครสมาชิกรายเดือนใด ๆ"
+          "รุ่นฟรีมีครบทุกฟีเจอร์และเก็บรายการล่าสุด 5 รายการ ส่วน Pro เป็นการซื้อครั้งเดียวที่ปลดล็อกการบันทึกไม่จำกัด แท็กที่กำหนดเอง รวมถึงการส่งออกและสำรองข้อมูลแบบ Markdown และใช้กับการแชร์กันในครอบครัวได้ SaveTag ไม่มีการสมัครสมาชิกรายเดือนใด ๆ บน Android การซื้อนี้จะประมวลผลโดย Google Play แทนที่จะเป็น App Store และเราก็จะไม่ได้รับหรือจัดเก็บข้อมูลการชำระเงินเช่นกัน"
         ],
         [
           "ซื้อ Pro แล้ว แต่เครื่องใหม่ยังล็อกอยู่",
-          "ลงชื่อเข้าใช้ด้วยบัญชี Apple เดิมที่ใช้ซื้อ แล้วเปิดการตั้งค่าใน SaveTag แตะ กู้คืนการซื้อ SaveTag ไม่มีบัญชีของตัวเอง บันทึกการซื้ออยู่กับ Apple และการกู้คืนฟรีและทำได้ไม่จำกัด"
+          "ลงชื่อเข้าใช้ด้วยบัญชี Apple เดิมที่ใช้ซื้อ แล้วเปิดการตั้งค่าใน SaveTag แตะ กู้คืนการซื้อ SaveTag ไม่มีบัญชีของตัวเอง บันทึกการซื้ออยู่กับ Apple และการกู้คืนฟรีและทำได้ไม่จำกัด บน Android การซื้อนี้จะประมวลผลโดย Google Play แทนที่จะเป็น App Store และเราก็จะไม่ได้รับหรือจัดเก็บข้อมูลการชำระเงินเช่นกัน"
         ],
         [
           "ข้อมูลที่บันทึกเก็บอยู่ที่ไหน",
@@ -54,11 +54,11 @@
         ],
         [
           "ส่งออกคลังของฉันหรือย้ายไปเครื่องอื่นอย่างไร",
-          "ด้วย Pro คุณส่งออกคลังทั้งหมดเป็นไฟล์ Markdown ผ่านแผงแชร์ของ iOS ไฟล์นี้ใช้เป็นข้อมูลสำรองได้ในตัว จะเก็บไว้หรือย้ายไปเครื่องอื่นก็ได้ ไฟล์ถูกสร้างบนเครื่องของคุณและไปเฉพาะที่ที่คุณส่งเท่านั้น"
+          "ด้วย Pro คุณส่งออกคลังทั้งหมดเป็นไฟล์ Markdown ผ่านแผงแชร์ของ iOS ไฟล์นี้ใช้เป็นข้อมูลสำรองได้ในตัว จะเก็บไว้หรือย้ายไปเครื่องอื่นก็ได้ ไฟล์ถูกสร้างบนเครื่องของคุณและไปเฉพาะที่ที่คุณส่งเท่านั้น บน Android ข้อมูลนี้จะยังคงอยู่บนอุปกรณ์ของคุณในลักษณะเดียวกัน"
         ],
         [
           "วิดเจ็ตและทางลัด Siri ทำอะไรได้บ้าง",
-          "วิดเจ็ตบนหน้าจอโฮมแสดงรายการที่บันทึกล่าสุดและสิ่งที่รออยู่ใน Rediscover ส่วนทางลัด Siri ให้คุณบันทึกลิงก์ในคลิปบอร์ดหรือเปิด Rediscover ด้วยเสียง โดยไม่ต้องไล่หาเมนู"
+          "วิดเจ็ตบนหน้าจอโฮมแสดงรายการที่บันทึกล่าสุดและสิ่งที่รออยู่ใน Rediscover ส่วนทางลัด Siri ให้คุณบันทึกลิงก์ในคลิปบอร์ดหรือเปิด Rediscover ด้วยเสียง โดยไม่ต้องไล่หาเมนู บน Android ข้อมูลนี้จะยังคงอยู่บนอุปกรณ์ของคุณในลักษณะเดียวกัน"
         ]
       ],
       "cT": "ยังต้องการความช่วยเหลืออยู่ไหม",
@@ -74,7 +74,7 @@
       "sec": [
         [
           "นโยบายนี้ครอบคลุมอะไร",
-          "นโยบายนี้ใช้กับแอป SaveTag สำหรับ iPhone และ iPad รวมถึงส่วนขยายการแชร์ วิดเจ็ตหน้าจอโฮม และทางลัด Siri"
+          "นโยบายนี้ใช้กับแอป SaveTag สำหรับ iPhone และ iPad รวมถึงส่วนขยายการแชร์ วิดเจ็ตหน้าจอโฮม และทางลัด Siri บน Android ข้อมูลนี้จะยังคงอยู่บนอุปกรณ์ของคุณในลักษณะเดียวกัน"
         ],
         [
           "เราเก็บข้อมูลอะไรบ้าง",
@@ -82,7 +82,7 @@
         ],
         [
           "ข้อมูลที่บันทึกอยู่ที่ไหน",
-          "ลิงก์ ชื่อเรื่อง คำอธิบาย โน้ต แท็ก หัวข้อ และการตั้งค่าอยู่ในที่เก็บข้อมูลของ SaveTag บนเครื่อง และแชร์กับส่วนขยายการแชร์และวิดเจ็ตผ่าน app group ของ Apple ภายในเครื่องเดียวกัน ข้อมูลที่ป้อนในแอปจะอยู่บนเครื่องของผู้ใช้ เว้นแต่แอปจะมีฟีเจอร์ส่งออกหรือแชร์ที่ผู้ใช้เป็นผู้เริ่มเองอย่างชัดเจน"
+          "ลิงก์ ชื่อเรื่อง คำอธิบาย โน้ต แท็ก หัวข้อ และการตั้งค่าอยู่ในที่เก็บข้อมูลของ SaveTag บนเครื่อง และแชร์กับส่วนขยายการแชร์และวิดเจ็ตผ่าน app group ของ Apple ภายในเครื่องเดียวกัน ข้อมูลที่ป้อนในแอปจะอยู่บนเครื่องของผู้ใช้ เว้นแต่แอปจะมีฟีเจอร์ส่งออกหรือแชร์ที่ผู้ใช้เป็นผู้เริ่มเองอย่างชัดเจน บน Android ข้อมูลนี้จะยังคงอยู่บนอุปกรณ์ของคุณในลักษณะเดียวกัน"
         ],
         [
           "ตัวอย่างของลิงก์",
@@ -94,11 +94,11 @@
         ],
         [
           "การซื้อ",
-          "Pro เป็นการซื้อครั้งเดียวที่ Apple ดำเนินการทั้งหมดผ่าน App Store และรองรับการแชร์กันในครอบครัว เราไม่เห็นและไม่เก็บข้อมูลการชำระเงินของคุณ แอปรู้จาก Apple เพียงว่ามีการซื้ออยู่หรือไม่ แล้วบันทึกสถานะปลดล็อกไว้บนเครื่อง การกู้คืนการซื้อเป็นการถาม Apple ไม่ใช่ถามเรา"
+          "Pro เป็นการซื้อครั้งเดียวที่ Apple ดำเนินการทั้งหมดผ่าน App Store และรองรับการแชร์กันในครอบครัว เราไม่เห็นและไม่เก็บข้อมูลการชำระเงินของคุณ แอปรู้จาก Apple เพียงว่ามีการซื้ออยู่หรือไม่ แล้วบันทึกสถานะปลดล็อกไว้บนเครื่อง การกู้คืนการซื้อเป็นการถาม Apple ไม่ใช่ถามเรา บน Android การซื้อนี้จะประมวลผลโดย Google Play แทนที่จะเป็น App Store และเราก็จะไม่ได้รับหรือจัดเก็บข้อมูลการชำระเงินเช่นกัน"
         ],
         [
           "การส่งออกและการแชร์",
-          "ไฟล์ Markdown สำหรับส่งออกและสำรองข้อมูลถูกสร้างบนเครื่องของคุณ และไปยังที่ที่คุณส่งผ่านแผงแชร์ของ iOS เมื่อไฟล์ออกจาก SaveTag แล้ว แอปหรือบริการที่คุณเลือกจะเป็นผู้จัดการไฟล์นั้นตามนโยบายความเป็นส่วนตัวของผู้ให้บริการรายนั้น"
+          "ไฟล์ Markdown สำหรับส่งออกและสำรองข้อมูลถูกสร้างบนเครื่องของคุณ และไปยังที่ที่คุณส่งผ่านแผงแชร์ของ iOS เมื่อไฟล์ออกจาก SaveTag แล้ว แอปหรือบริการที่คุณเลือกจะเป็นผู้จัดการไฟล์นั้นตามนโยบายความเป็นส่วนตัวของผู้ให้บริการรายนั้น บน Android ข้อมูลนี้จะยังคงอยู่บนอุปกรณ์ของคุณในลักษณะเดียวกัน"
         ],
         [
           "เด็ก",
@@ -158,11 +158,11 @@
         ],
         [
           "Bản miễn phí có gì và Pro thêm gì?",
-          "Bản miễn phí có đủ mọi tính năng và giữ 5 mục lưu gần nhất của bạn. Pro là khoản mua một lần, mở khóa lưu không giới hạn, thẻ tùy chỉnh, xuất và sao lưu Markdown, đồng thời hoạt động với Chia sẻ trong gia đình. SaveTag không có bất kỳ gói thuê bao nào."
+          "Bản miễn phí có đủ mọi tính năng và giữ 5 mục lưu gần nhất của bạn. Pro là khoản mua một lần, mở khóa lưu không giới hạn, thẻ tùy chỉnh, xuất và sao lưu Markdown, đồng thời hoạt động với Chia sẻ trong gia đình. SaveTag không có bất kỳ gói thuê bao nào. Trên Android, giao dịch mua này do Google Play xử lý thay vì App Store, và chúng tôi cũng không bao giờ nhận hay lưu trữ thông tin thanh toán."
         ],
         [
           "Tôi đã mua Pro nhưng máy mới vẫn khóa.",
-          "Mở phần Cài đặt trong SaveTag và chạm Khôi phục giao dịch mua khi đang đăng nhập bằng tài khoản Apple đã dùng để mua. SaveTag không có tài khoản riêng — Apple giữ hồ sơ giao dịch, còn việc khôi phục là miễn phí và không giới hạn."
+          "Mở phần Cài đặt trong SaveTag và chạm Khôi phục giao dịch mua khi đang đăng nhập bằng tài khoản Apple đã dùng để mua. SaveTag không có tài khoản riêng — Apple giữ hồ sơ giao dịch, còn việc khôi phục là miễn phí và không giới hạn. Trên Android, giao dịch mua này do Google Play xử lý thay vì App Store, và chúng tôi cũng không bao giờ nhận hay lưu trữ thông tin thanh toán."
         ],
         [
           "Dữ liệu tôi lưu nằm ở đâu?",
@@ -170,11 +170,11 @@
         ],
         [
           "Làm sao xuất thư viện hoặc chuyển sang máy khác?",
-          "Với Pro, bạn xuất toàn bộ thư viện thành tệp Markdown qua bảng chia sẻ của iOS; tệp đó cũng chính là bản sao lưu để giữ lại hoặc mang sang máy khác. Tệp được tạo trên máy bạn và chỉ đi tới nơi bạn gửi."
+          "Với Pro, bạn xuất toàn bộ thư viện thành tệp Markdown qua bảng chia sẻ của iOS; tệp đó cũng chính là bản sao lưu để giữ lại hoặc mang sang máy khác. Tệp được tạo trên máy bạn và chỉ đi tới nơi bạn gửi. Trên Android, dữ liệu này cũng chỉ được lưu trên thiết bị của bạn theo cách tương tự."
         ],
         [
           "Widget và phím tắt Siri làm được gì?",
-          "Widget màn hình chính hiển thị những mục bạn lưu gần đây và những gì đang đợi trong Rediscover. Phím tắt Siri cho phép lưu liên kết trong bảng nhớ tạm hoặc mở Rediscover bằng giọng nói, không cần lần mò trong menu."
+          "Widget màn hình chính hiển thị những mục bạn lưu gần đây và những gì đang đợi trong Rediscover. Phím tắt Siri cho phép lưu liên kết trong bảng nhớ tạm hoặc mở Rediscover bằng giọng nói, không cần lần mò trong menu. Trên Android, dữ liệu này cũng chỉ được lưu trên thiết bị của bạn theo cách tương tự."
         ]
       ],
       "cT": "Vẫn cần trợ giúp?",
@@ -190,7 +190,7 @@
       "sec": [
         [
           "Chính sách này áp dụng cho ai",
-          "Chính sách này áp dụng cho ứng dụng SaveTag trên iPhone và iPad, cùng với tiện ích chia sẻ, widget màn hình chính và các phím tắt Siri."
+          "Chính sách này áp dụng cho ứng dụng SaveTag trên iPhone và iPad, cùng với tiện ích chia sẻ, widget màn hình chính và các phím tắt Siri. Trên Android, dữ liệu này cũng chỉ được lưu trên thiết bị của bạn theo cách tương tự."
         ],
         [
           "Chúng tôi thu thập gì",
@@ -198,7 +198,7 @@
         ],
         [
           "Nơi lưu trữ dữ liệu của bạn",
-          "Liên kết, tiêu đề, mô tả, ghi chú, thẻ, chủ đề và cài đặt nằm trong bộ nhớ của SaveTag trên máy, và được chia sẻ với tiện ích chia sẻ cùng widget thông qua app group của Apple ngay trên thiết bị đó. Dữ liệu nhập trong ứng dụng vẫn ở trên thiết bị của người dùng, trừ khi ứng dụng cung cấp rõ ràng tính năng xuất hoặc chia sẻ do chính người dùng khởi động."
+          "Liên kết, tiêu đề, mô tả, ghi chú, thẻ, chủ đề và cài đặt nằm trong bộ nhớ của SaveTag trên máy, và được chia sẻ với tiện ích chia sẻ cùng widget thông qua app group của Apple ngay trên thiết bị đó. Dữ liệu nhập trong ứng dụng vẫn ở trên thiết bị của người dùng, trừ khi ứng dụng cung cấp rõ ràng tính năng xuất hoặc chia sẻ do chính người dùng khởi động. Trên Android, dữ liệu này cũng chỉ được lưu trên thiết bị của bạn theo cách tương tự."
         ],
         [
           "Bản xem trước liên kết",
@@ -210,11 +210,11 @@
         ],
         [
           "Giao dịch mua",
-          "Pro là khoản mua một lần do Apple xử lý hoàn toàn qua App Store và hỗ trợ Chia sẻ trong gia đình. Chúng tôi không bao giờ thấy hay lưu thông tin thanh toán của bạn; ứng dụng chỉ biết từ Apple rằng giao dịch có tồn tại hay không, rồi ghi trạng thái mở khóa ngay trên máy. Việc khôi phục là hỏi Apple, không phải hỏi chúng tôi."
+          "Pro là khoản mua một lần do Apple xử lý hoàn toàn qua App Store và hỗ trợ Chia sẻ trong gia đình. Chúng tôi không bao giờ thấy hay lưu thông tin thanh toán của bạn; ứng dụng chỉ biết từ Apple rằng giao dịch có tồn tại hay không, rồi ghi trạng thái mở khóa ngay trên máy. Việc khôi phục là hỏi Apple, không phải hỏi chúng tôi. Trên Android, giao dịch mua này do Google Play xử lý thay vì App Store, và chúng tôi cũng không bao giờ nhận hay lưu trữ thông tin thanh toán."
         ],
         [
           "Xuất và chia sẻ",
-          "Tệp Markdown dùng để xuất và sao lưu được tạo trên thiết bị của bạn và đi tới nơi bạn gửi qua bảng chia sẻ của iOS. Khi tệp đã rời SaveTag, nó do ứng dụng hoặc dịch vụ bạn chọn xử lý, theo chính sách quyền riêng tư của bên đó."
+          "Tệp Markdown dùng để xuất và sao lưu được tạo trên thiết bị của bạn và đi tới nơi bạn gửi qua bảng chia sẻ của iOS. Khi tệp đã rời SaveTag, nó do ứng dụng hoặc dịch vụ bạn chọn xử lý, theo chính sách quyền riêng tư của bên đó. Trên Android, dữ liệu này cũng chỉ được lưu trên thiết bị của bạn theo cách tương tự."
         ],
         [
           "Trẻ em",
@@ -274,11 +274,11 @@
         ],
         [
           "Apa yang gratis dan apa yang ditambahkan Pro?",
-          "Versi gratis punya semua fitur dan menyimpan 5 simpanan terbaru Anda. Pro adalah pembelian satu kali yang membuka simpanan tanpa batas, tag kustom, serta ekspor dan cadangan Markdown, dan mendukung Berbagi Keluarga. SaveTag tidak memiliki langganan apa pun."
+          "Versi gratis punya semua fitur dan menyimpan 5 simpanan terbaru Anda. Pro adalah pembelian satu kali yang membuka simpanan tanpa batas, tag kustom, serta ekspor dan cadangan Markdown, dan mendukung Berbagi Keluarga. SaveTag tidak memiliki langganan apa pun. Di Android, pembelian ini diproses oleh Google Play, bukan App Store, dan kami tetap tidak pernah menerima atau menyimpan data pembayaran."
         ],
         [
           "Saya sudah membeli Pro, tetapi di perangkat baru terkunci.",
-          "Buka Pengaturan di SaveTag dan ketuk Pulihkan pembelian sambil masuk dengan akun Apple yang dipakai membeli. SaveTag tidak punya akun sendiri — catatan pembelian ada di Apple, dan pemulihan gratis serta tanpa batas."
+          "Buka Pengaturan di SaveTag dan ketuk Pulihkan pembelian sambil masuk dengan akun Apple yang dipakai membeli. SaveTag tidak punya akun sendiri — catatan pembelian ada di Apple, dan pemulihan gratis serta tanpa batas. Di Android, pembelian ini diproses oleh Google Play, bukan App Store, dan kami tetap tidak pernah menerima atau menyimpan data pembayaran."
         ],
         [
           "Di mana simpanan saya disimpan?",
@@ -286,11 +286,11 @@
         ],
         [
           "Bagaimana mengekspor pustaka atau memindahkannya?",
-          "Dengan Pro, seluruh pustaka diekspor sebagai berkas Markdown lewat lembar berbagi iOS; berkas itu sekaligus menjadi cadangan yang bisa Anda simpan atau bawa ke perangkat lain. Berkas dibuat di perangkat Anda dan hanya menuju tempat yang Anda kirimi."
+          "Dengan Pro, seluruh pustaka diekspor sebagai berkas Markdown lewat lembar berbagi iOS; berkas itu sekaligus menjadi cadangan yang bisa Anda simpan atau bawa ke perangkat lain. Berkas dibuat di perangkat Anda dan hanya menuju tempat yang Anda kirimi. Di Android, data ini tetap tersimpan hanya di perangkat Anda dengan cara yang sama."
         ],
         [
           "Apa fungsi widget dan pintasan Siri?",
-          "Widget Layar Utama menampilkan simpanan terbaru dan apa yang menunggu di Rediscover. Pintasan Siri memungkinkan Anda menyimpan tautan di papan klip atau membuka Rediscover dengan suara, tanpa menelusuri menu."
+          "Widget Layar Utama menampilkan simpanan terbaru dan apa yang menunggu di Rediscover. Pintasan Siri memungkinkan Anda menyimpan tautan di papan klip atau membuka Rediscover dengan suara, tanpa menelusuri menu. Di Android, data ini tetap tersimpan hanya di perangkat Anda dengan cara yang sama."
         ]
       ],
       "cT": "Masih perlu bantuan?",
@@ -306,7 +306,7 @@
       "sec": [
         [
           "Cakupan kebijakan ini",
-          "Kebijakan ini berlaku untuk aplikasi SaveTag di iPhone dan iPad, beserta ekstensi berbaginya, widget Layar Utama, dan pintasan Siri."
+          "Kebijakan ini berlaku untuk aplikasi SaveTag di iPhone dan iPad, beserta ekstensi berbaginya, widget Layar Utama, dan pintasan Siri. Di Android, data ini tetap tersimpan hanya di perangkat Anda dengan cara yang sama."
         ],
         [
           "Apa yang kami kumpulkan",
@@ -314,7 +314,7 @@
         ],
         [
           "Tempat simpanan Anda berada",
-          "Tautan, judul, deskripsi, catatan, tag, topik, dan pengaturan tetap di penyimpanan SaveTag pada perangkat dan dibagikan di sana dengan ekstensi berbagi serta widget melalui app group Apple. Data yang dimasukkan di aplikasi tetap di perangkat pengguna, kecuali aplikasi jelas menyediakan fitur ekspor atau berbagi yang dijalankan sendiri oleh pengguna."
+          "Tautan, judul, deskripsi, catatan, tag, topik, dan pengaturan tetap di penyimpanan SaveTag pada perangkat dan dibagikan di sana dengan ekstensi berbagi serta widget melalui app group Apple. Data yang dimasukkan di aplikasi tetap di perangkat pengguna, kecuali aplikasi jelas menyediakan fitur ekspor atau berbagi yang dijalankan sendiri oleh pengguna. Di Android, data ini tetap tersimpan hanya di perangkat Anda dengan cara yang sama."
         ],
         [
           "Pratinjau tautan",
@@ -326,11 +326,11 @@
         ],
         [
           "Pembelian",
-          "Pro adalah pembelian satu kali yang sepenuhnya ditangani Apple melalui App Store dan mendukung Berbagi Keluarga. Kami tidak pernah melihat atau menyimpan detail pembayaran Anda; aplikasi hanya mengetahui dari Apple apakah pembelian ada, lalu mencatat pembukaan fitur secara lokal di perangkat. Pemulihan pembelian bertanya kepada Apple, bukan kepada kami."
+          "Pro adalah pembelian satu kali yang sepenuhnya ditangani Apple melalui App Store dan mendukung Berbagi Keluarga. Kami tidak pernah melihat atau menyimpan detail pembayaran Anda; aplikasi hanya mengetahui dari Apple apakah pembelian ada, lalu mencatat pembukaan fitur secara lokal di perangkat. Pemulihan pembelian bertanya kepada Apple, bukan kepada kami. Di Android, pembelian ini diproses oleh Google Play, bukan App Store, dan kami tetap tidak pernah menerima atau menyimpan data pembayaran."
         ],
         [
           "Ekspor dan berbagi",
-          "Berkas Markdown untuk ekspor dan cadangan dibuat di perangkat Anda dan menuju tempat yang Anda kirimi lewat lembar berbagi iOS. Setelah berkas meninggalkan SaveTag, penanganannya mengikuti aplikasi atau layanan yang Anda pilih, sesuai kebijakan privasi penyedia tersebut."
+          "Berkas Markdown untuk ekspor dan cadangan dibuat di perangkat Anda dan menuju tempat yang Anda kirimi lewat lembar berbagi iOS. Setelah berkas meninggalkan SaveTag, penanganannya mengikuti aplikasi atau layanan yang Anda pilih, sesuai kebijakan privasi penyedia tersebut. Di Android, data ini tetap tersimpan hanya di perangkat Anda dengan cara yang sama."
         ],
         [
           "Anak-anak",

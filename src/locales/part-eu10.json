@@ -42,11 +42,11 @@
         ],
         [
           "Què és gratuït i què hi afegeix Pro?",
-          "La versió gratuïta té totes les funcions i conserva els teus 5 elements desats més recents. Pro és una compra única que desbloqueja elements il·limitats, etiquetes personalitzades i l'exportació i còpia de seguretat en Markdown, i funciona amb Compartir en família. SaveTag no té cap subscripció."
+          "La versió gratuïta té totes les funcions i conserva els teus 5 elements desats més recents. Pro és una compra única que desbloqueja elements il·limitats, etiquetes personalitzades i l'exportació i còpia de seguretat en Markdown, i funciona amb Compartir en família. SaveTag no té cap subscripció. A Android, aquesta compra la processa Google Play en lloc de l'App Store, i tampoc rebem ni emmagatzemem les dades de pagament."
         ],
         [
           "He comprat Pro, però en un dispositiu nou surt bloquejat.",
-          "Obre la configuració de SaveTag i toca Restaura la compra amb la sessió iniciada amb el compte d'Apple amb què vas comprar. SaveTag no té compte propi: Apple guarda el registre de la compra i restaurar-la és gratuït i il·limitat."
+          "Obre la configuració de SaveTag i toca Restaura la compra amb la sessió iniciada amb el compte d'Apple amb què vas comprar. SaveTag no té compte propi: Apple guarda el registre de la compra i restaurar-la és gratuït i il·limitat. A Android, aquesta compra la processa Google Play en lloc de l'App Store, i tampoc rebem ni emmagatzemem les dades de pagament."
         ],
         [
           "On es desen els meus elements?",
@@ -54,11 +54,11 @@
         ],
         [
           "Com exporto la biblioteca o la trasllado?",
-          "Amb Pro exportes tota la biblioteca com a fitxer Markdown mitjançant el full de compartir d'iOS; aquest fitxer també fa de còpia de seguretat que pots conservar o endur-te a un altre dispositiu. Es crea al teu dispositiu i només va allà on l'enviïs."
+          "Amb Pro exportes tota la biblioteca com a fitxer Markdown mitjançant el full de compartir d'iOS; aquest fitxer també fa de còpia de seguretat que pots conservar o endur-te a un altre dispositiu. Es crea al teu dispositiu i només va allà on l'enviïs. A Android, aquestes dades es queden igualment només al teu dispositiu."
         ],
         [
           "Què fan el widget i les dreceres de Siri?",
-          "El widget de la pantalla d'inici mostra el que has desat més recentment i el que espera a Rediscover. Amb les dreceres de Siri pots desar l'enllaç del porta-retalls o obrir Rediscover amb la veu, sense buscar pels menús."
+          "El widget de la pantalla d'inici mostra el que has desat més recentment i el que espera a Rediscover. Amb les dreceres de Siri pots desar l'enllaç del porta-retalls o obrir Rediscover amb la veu, sense buscar pels menús. A Android, aquestes dades es queden igualment només al teu dispositiu."
         ]
       ],
       "cT": "Encara necessites ajuda?",
@@ -74,7 +74,7 @@
       "sec": [
         [
           "A qui s'aplica aquesta política",
-          "Aquesta política s'aplica a l'app SaveTag per a iPhone i iPad, juntament amb la seva extensió de compartir, el widget de la pantalla d'inici i les dreceres de Siri."
+          "Aquesta política s'aplica a l'app SaveTag per a iPhone i iPad, juntament amb la seva extensió de compartir, el widget de la pantalla d'inici i les dreceres de Siri. A Android, aquestes dades es queden igualment només al teu dispositiu."
         ],
         [
           "Què recollim",
@@ -82,7 +82,7 @@
         ],
         [
           "On viuen els teus elements desats",
-          "Enllaços, títols, descripcions, notes, etiquetes, temes i configuració es queden a l'emmagatzematge local de SaveTag i es comparteixen allà amb l'extensió de compartir i el widget mitjançant l'app group d'Apple. Les dades introduïdes a l'app romanen al dispositiu de l'usuari, llevat que l'app ofereixi clarament una funció d'exportació o de compartició iniciada per l'usuari."
+          "Enllaços, títols, descripcions, notes, etiquetes, temes i configuració es queden a l'emmagatzematge local de SaveTag i es comparteixen allà amb l'extensió de compartir i el widget mitjançant l'app group d'Apple. Les dades introduïdes a l'app romanen al dispositiu de l'usuari, llevat que l'app ofereixi clarament una funció d'exportació o de compartició iniciada per l'usuari. A Android, aquestes dades es queden igualment només al teu dispositiu."
         ],
         [
           "Previsualitzacions d'enllaços",
@@ -94,11 +94,11 @@
         ],
         [
           "Compres",
-          "Pro és una compra única gestionada íntegrament per Apple a l'App Store i compatible amb Compartir en família. Mai no veiem ni desem les teves dades de pagament; l'app només sap per Apple si la compra existeix i registra el desbloqueig localment al dispositiu. Restaurar la compra ho pregunta a Apple, no a nosaltres."
+          "Pro és una compra única gestionada íntegrament per Apple a l'App Store i compatible amb Compartir en família. Mai no veiem ni desem les teves dades de pagament; l'app només sap per Apple si la compra existeix i registra el desbloqueig localment al dispositiu. Restaurar la compra ho pregunta a Apple, no a nosaltres. A Android, aquesta compra la processa Google Play en lloc de l'App Store, i tampoc rebem ni emmagatzemem les dades de pagament."
         ],
         [
           "Exportació i compartició",
-          "El fitxer Markdown d'exportació i còpia de seguretat es crea al teu dispositiu i va allà on l'enviïs amb el full de compartir d'iOS. Un cop el fitxer surt de SaveTag, el gestiona l'app o el servei que hagis triat, segons la seva pròpia política de privadesa."
+          "El fitxer Markdown d'exportació i còpia de seguretat es crea al teu dispositiu i va allà on l'enviïs amb el full de compartir d'iOS. Un cop el fitxer surt de SaveTag, el gestiona l'app o el servei que hagis triat, segons la seva pròpia política de privadesa. A Android, aquestes dades es queden igualment només al teu dispositiu."
         ],
         [
           "Infants",
@@ -158,11 +158,11 @@
         ],
         [
           "Kaj je brezplačno in kaj prinese Pro?",
-          "Brezplačna različica ima vse funkcije in ohrani vaših 5 najnovejših shranjenih povezav. Pro je enkraten nakup, ki odklene neomejeno shranjevanje, lastne oznake ter izvoz in varnostno kopijo v obliki Markdown, in deluje z Družinskim deljenjem. SaveTag nima nikakršne naročnine."
+          "Brezplačna različica ima vse funkcije in ohrani vaših 5 najnovejših shranjenih povezav. Pro je enkraten nakup, ki odklene neomejeno shranjevanje, lastne oznake ter izvoz in varnostno kopijo v obliki Markdown, in deluje z Družinskim deljenjem. SaveTag nima nikakršne naročnine. V Androidu ta nakup namesto App Store obdela Google Play, in tudi tam ne prejemamo ali shranjujemo podatkov o plačilu."
         ],
         [
           "Kupil sem Pro, a je na novi napravi zaklenjen.",
-          "Odprite Nastavitve v SaveTagu in se dotaknite Obnovi nakup, ko ste prijavljeni z Applovim računom, s katerim ste kupili. SaveTag nima lastnega računa — zapis o nakupu hrani Apple, obnovitev pa je brezplačna in neomejena."
+          "Odprite Nastavitve v SaveTagu in se dotaknite Obnovi nakup, ko ste prijavljeni z Applovim računom, s katerim ste kupili. SaveTag nima lastnega računa — zapis o nakupu hrani Apple, obnovitev pa je brezplačna in neomejena. V Androidu ta nakup namesto App Store obdela Google Play, in tudi tam ne prejemamo ali shranjujemo podatkov o plačilu."
         ],
         [
           "Kje so shranjeni moji zapisi?",
@@ -170,11 +170,11 @@
         ],
         [
           "Kako izvozim knjižnico ali jo prenesem?",
-          "S Pro izvozite celotno knjižnico kot datoteko Markdown prek menija za deljenje v iOS; ta datoteka je hkrati varnostna kopija, ki jo lahko obdržite ali prenesete v drugo napravo. Nastane v vaši napravi in gre le tja, kamor jo pošljete."
+          "S Pro izvozite celotno knjižnico kot datoteko Markdown prek menija za deljenje v iOS; ta datoteka je hkrati varnostna kopija, ki jo lahko obdržite ali prenesete v drugo napravo. Nastane v vaši napravi in gre le tja, kamor jo pošljete. V Androidu ti podatki na enak način ostanejo samo v vaši napravi."
         ],
         [
           "Kaj počneta pripomoček in bližnjice Siri?",
-          "Pripomoček na začetnem zaslonu prikaže nazadnje shranjeno in to, kar čaka v Rediscoverju. Z bližnjicami Siri shranite povezavo iz odložišča ali odprete Rediscover z glasom, brez brskanja po menijih."
+          "Pripomoček na začetnem zaslonu prikaže nazadnje shranjeno in to, kar čaka v Rediscoverju. Z bližnjicami Siri shranite povezavo iz odložišča ali odprete Rediscover z glasom, brez brskanja po menijih. V Androidu ti podatki na enak način ostanejo samo v vaši napravi."
         ]
       ],
       "cT": "Potrebujete še pomoč?",
@@ -190,7 +190,7 @@
       "sec": [
         [
           "Za koga velja ta politika",
-          "Ta politika velja za aplikacijo SaveTag za iPhone in iPad ter za njeno razširitev za deljenje, pripomoček na začetnem zaslonu in bližnjice Siri."
+          "Ta politika velja za aplikacijo SaveTag za iPhone in iPad ter za njeno razširitev za deljenje, pripomoček na začetnem zaslonu in bližnjice Siri. V Androidu ti podatki na enak način ostanejo samo v vaši napravi."
         ],
         [
           "Katere podatke zbiramo",
@@ -198,7 +198,7 @@
         ],
         [
           "Kje živijo vaši zapisi",
-          "Povezave, naslovi, opisi, zapiski, oznake, teme in nastavitve ostanejo v shrambi SaveTaga v napravi in se tam prek Applove app group delijo z razširitvijo za deljenje in pripomočkom. Podatki, vneseni v aplikacijo, ostanejo v napravi uporabnika, razen če aplikacija jasno ponuja izvoz ali deljenje, ki ga sproži uporabnik sam."
+          "Povezave, naslovi, opisi, zapiski, oznake, teme in nastavitve ostanejo v shrambi SaveTaga v napravi in se tam prek Applove app group delijo z razširitvijo za deljenje in pripomočkom. Podatki, vneseni v aplikacijo, ostanejo v napravi uporabnika, razen če aplikacija jasno ponuja izvoz ali deljenje, ki ga sproži uporabnik sam. V Androidu ti podatki na enak način ostanejo samo v vaši napravi."
         ],
         [
           "Predogledi povezav",
@@ -210,11 +210,11 @@
         ],
         [
           "Nakupi",
-          "Pro je enkraten nakup, ki ga v celoti obdela Apple prek trgovine App Store in podpira Družinsko deljenje. Vaših plačilnih podatkov nikoli ne vidimo in ne shranjujemo; aplikacija od Appla izve le, ali nakup obstaja, in odklep zabeleži lokalno v napravi. Obnovitev nakupa vpraša Apple, ne nas."
+          "Pro je enkraten nakup, ki ga v celoti obdela Apple prek trgovine App Store in podpira Družinsko deljenje. Vaših plačilnih podatkov nikoli ne vidimo in ne shranjujemo; aplikacija od Appla izve le, ali nakup obstaja, in odklep zabeleži lokalno v napravi. Obnovitev nakupa vpraša Apple, ne nas. V Androidu ta nakup namesto App Store obdela Google Play, in tudi tam ne prejemamo ali shranjujemo podatkov o plačilu."
         ],
         [
           "Izvoz in deljenje",
-          "Datoteka Markdown za izvoz in varnostno kopijo nastane v vaši napravi in gre tja, kamor jo pošljete prek menija za deljenje v iOS. Ko datoteka zapusti SaveTag, z njo ravna aplikacija ali storitev, ki ste jo izbrali, po svoji lastni politiki zasebnosti."
+          "Datoteka Markdown za izvoz in varnostno kopijo nastane v vaši napravi in gre tja, kamor jo pošljete prek menija za deljenje v iOS. Ko datoteka zapusti SaveTag, z njo ravna aplikacija ali storitev, ki ste jo izbrali, po svoji lastni politiki zasebnosti. V Androidu ti podatki na enak način ostanejo samo v vaši napravi."
         ],
         [
           "Otroci",
