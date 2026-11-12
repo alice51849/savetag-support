@@ -35,3 +35,9 @@
 ## Support
 
 - [Help, FAQ and troubleshooting](https://open.cait518.cc/savetag-support/help.html)
+
+## Questions before you download
+
+<!-- sqe-blitz:start -->
+- [บุ๊กมาร์ก เก็บลิงก์: คำถามก่อนดาวน์โหลด (ไทย)](https://open.cait518.cc/savetag-support/bukmak-kep-link-qa.th.html)
+<!-- sqe-blitz:end -->
