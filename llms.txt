@@ -40,4 +40,5 @@
 
 <!-- sqe-blitz:start -->
 - [บุ๊กมาร์ก เก็บลิงก์: คำถามก่อนดาวน์โหลด (ไทย)](https://open.cait518.cc/savetag-support/bukmak-kep-link-qa.th.html)
+- [What is SaveTag? Who it is for, how it is sold and how it differs (English)](https://open.cait518.cc/savetag-support/what-is-savetag.html)
 <!-- sqe-blitz:end -->
